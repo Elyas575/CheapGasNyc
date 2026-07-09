@@ -33,21 +33,19 @@ function renderStations(stations) {
 
   sorted.forEach((station) => {
     const addressStr = `${station.address.street}, ${station.address.city}, ${station.address.state}`;
-    const row = document.createElement('div');
-    row.className = 'price-row grid grid-cols-[100px_1fr_100px] items-center gap-4 px-4 py-3 transition-colors';
+    const row = document.createElement('a');
+    row.href = `station.html?id=${encodeURIComponent(station.url)}`;
+    row.className = 'price-row grid grid-cols-[100px_1fr] items-center gap-4 px-4 py-3 transition-colors cursor-pointer block no-underline';
     row.innerHTML = `
       <div class="font-price-display-mobile text-primary">${station.price}</div>
       <div class="flex flex-col">
-        <span class="font-station-name text-body-md font-bold">${station.name}</span>
+        <span class="font-station-name text-body-md font-bold text-primary">${station.name}</span>
         <span class="font-metadata-sm text-metadata-sm text-outline truncate">${addressStr}</span>
         <span class="font-metadata-sm text-metadata-sm text-outline/60 flex items-center gap-1 mt-0.5">
           <span class="material-symbols-outlined text-[10px]">schedule</span>
           ${station.reported_ago}
         </span>
       </div>
-              <div class="flex justify-end">
-                <a href="station.html?id=${encodeURIComponent(station.url)}" class="bg-secondary px-3 py-1 rounded text-white font-label-caps text-[10px] hover:bg-on-secondary-container transition-all inline-block">VIEW</a>
-              </div>
     `;
     container.appendChild(row);
   });

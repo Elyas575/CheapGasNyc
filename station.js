@@ -49,8 +49,9 @@ async function loadStationData() {
 
 function displayStation(station) {
   // Update breadcrumb
-  document.getElementById('breadcrumb-borough').textContent = 
-    station.borough ? station.borough.charAt(0).toUpperCase() + station.borough.slice(1) : 'Unknown';
+  const boroughName = station.borough ? station.borough.charAt(0).toUpperCase() + station.borough.slice(1) : 'Unknown';
+  document.getElementById('breadcrumb-borough').textContent = boroughName;
+  document.getElementById('breadcrumb-borough').href = `gas-prices/${station.borough || 'brooklyn'}/index.html`;
   document.getElementById('breadcrumb-station').textContent = station.name;
 
   // Update header
