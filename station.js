@@ -30,7 +30,7 @@ async function loadStationData() {
     // Otherwise, search through all boroughs
     const BOROUGHS = ['bronx', 'brooklyn', 'manhattan', 'queens', 'staten-island'];
     for (const borough of BOROUGHS) {
-      const response = await fetch(`../gas-prices/${borough}/gas-prices.json`);
+      const response = await fetch(`gas-prices/${borough}/gas-prices.json`);
       const stations = await response.json();
       const station = stations.find(s => s.url.includes(stationId) || s.name === stationId);
       if (station) {
