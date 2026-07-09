@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>GasFast | Brooklyn Gas Prices</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Geist:wght@400;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-background": "#191c20",
+                    "on-tertiary": "#ffffff",
+                    "tertiary": "#000000",
+                    "surface-container-low": "#f2f3f9",
+                    "primary-fixed": "#dae2fd",
+                    "on-tertiary-fixed": "#002109",
+                    "primary": "#000000",
+                    "surface-container-lowest": "#ffffff",
+                    "surface": "#f8f9ff",
+                    "surface-bright": "#f8f9ff",
+                    "on-secondary-fixed": "#2a1700",
+                    "inverse-on-surface": "#eff0f6",
+                    "background": "#f8f9ff",
+                    "primary-container": "#131b2e",
+                    "error": "#ba1a1a",
+                    "on-primary": "#ffffff",
+                    "on-secondary-fixed-variant": "#653e00",
+                    "inverse-surface": "#2e3135",
+                    "on-tertiary-fixed-variant": "#005321",
+                    "outline": "#76777d",
+                    "tertiary-fixed-dim": "#4ae176",
+                    "on-error": "#ffffff",
+                    "on-surface-variant": "#45464d",
+                    "surface-container-high": "#e6e8ed",
+                    "surface-dim": "#d8dadf",
+                    "tertiary-fixed": "#6bff8f",
+                    "secondary": "#855300",
+                    "on-secondary-container": "#684000",
+                    "on-secondary": "#ffffff",
+                    "inverse-primary": "#bec6e0",
+                    "on-error-container": "#93000a",
+                    "primary-fixed-dim": "#bec6e0",
+                    "on-primary-container": "#7c839b",
+                    "surface-container": "#eceef3",
+                    "on-primary-fixed-variant": "#3f465c",
+                    "surface-container-highest": "#e1e2e8",
+                    "on-tertiary-container": "#009844",
+                    "outline-variant": "#c6c6cd",
+                    "on-surface": "#191c20",
+                    "secondary-fixed": "#ffddb8",
+                    "surface-variant": "#e1e2e8",
+                    "error-container": "#ffdad6",
+                    "tertiary-container": "#002109",
+                    "secondary-fixed-dim": "#ffb95f",
+                    "secondary-container": "#fea619",
+                    "surface-tint": "#565e74",
+                    "on-primary-fixed": "#131b2e"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "row-padding-x": "1rem",
+                    "container-max": "800px",
+                    "section-gap": "1.5rem",
+                    "row-padding-y": "0.75rem",
+                    "stack-gap": "0.25rem"
+            },
+            "fontFamily": {
+                    "price-display-mobile": ["Geist"],
+                    "metadata-sm": ["Inter"],
+                    "body-md": ["Inter"],
+                    "label-caps": ["Geist"],
+                    "station-name": ["Geist"],
+                    "price-display": ["Geist"]
+            },
+            "fontSize": {
+                    "price-display-mobile": ["28px", {"lineHeight": "32px", "letterSpacing": "-0.04em", "fontWeight": "800"}],
+                    "metadata-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "500"}],
+                    "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "label-caps": ["10px", {"lineHeight": "12px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                    "station-name": ["18px", {"lineHeight": "24px", "fontWeight": "700"}],
+                    "price-display": ["36px", {"lineHeight": "40px", "letterSpacing": "-0.04em", "fontWeight": "800"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8f9ff; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #c6c6cd; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface">
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-surface border-b border-outline-variant">
+<div class="flex justify-between items-center px-row-padding-x py-row-padding-y max-w-container-max mx-auto">
+<div class="flex items-center gap-4">
+<span class="font-station-name text-station-name font-bold text-primary">GasFast</span>
+<div class="hidden md:flex bg-surface-container-low px-3 py-1.5 rounded-full items-center gap-2 border border-outline-variant">
+<span class="material-symbols-outlined text-outline text-[18px]">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-body-md w-48" placeholder="Search Brooklyn..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="bg-secondary text-on-secondary px-4 py-1.5 rounded-lg font-label-caps text-label-caps active:scale-95 duration-100 transition-colors hover:bg-on-secondary-container">
+                    Report Price
+                </button>
+</div>
+</div>
+</header>
+<!-- SideNavBar (Brooklyn Active) -->
+<aside class="fixed left-0 top-0 h-full z-40 hidden md:flex flex-col w-64 bg-surface-container-lowest border-r border-outline-variant pt-20">
+<div class="px-6 py-4">
+<h2 class="font-station-name text-body-md font-bold text-primary">Boroughs</h2>
+<p class="font-metadata-sm text-metadata-sm text-on-surface-variant">Quick access</p>
+</div>
+<nav class="flex-1 px-3 space-y-1">
+<a class="flex items-center gap-3 px-3 py-3 text-on-surface-variant hover:bg-surface-container-high transition-all duration-200" href="#">
+<span class="material-symbols-outlined">location_city</span>
+<span class="font-body-md text-body-md">Manhattan</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-3 text-secondary font-bold border-l-4 border-secondary bg-surface-container-low transition-all duration-200" href="#">
+<span class="material-symbols-outlined">home_work</span>
+<span class="font-body-md text-body-md">Brooklyn</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-3 text-on-surface-variant hover:bg-surface-container-high transition-all duration-200" href="#">
+<span class="material-symbols-outlined">apartment</span>
+<span class="font-body-md text-body-md">Queens</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-3 text-on-surface-variant hover:bg-surface-container-high transition-all duration-200" href="#">
+<span class="material-symbols-outlined">corporate_fare</span>
+<span class="font-body-md text-body-md">Bronx</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-3 text-on-surface-variant hover:bg-surface-container-high transition-all duration-200" href="#">
+<span class="material-symbols-outlined">location_on</span>
+<span class="font-body-md text-body-md">Staten Island</span>
+</a>
+</nav>
+</aside>
+<!-- Main Content Area -->
+<main class="md:ml-64 pt-20 pb-12 min-h-screen">
+<div class="max-w-container-max mx-auto px-4 md:px-row-padding-x flex flex-col md:flex-row gap-6">
+<!-- Filters Sidebar (Comparison Speed Focus) -->
+<aside class="w-full md:w-48 shrink-0">
+<div class="sticky top-24 space-y-6">
+<div class="bg-surface-container-lowest border border-outline-variant p-4">
+<p class="font-label-caps text-label-caps text-outline mb-3 uppercase">Fuel Type</p>
+<div class="space-y-2">
+<button class="w-full text-left px-3 py-2 bg-primary text-on-primary font-bold text-body-md transition-colors">Regular</button>
+<button class="w-full text-left px-3 py-2 text-on-surface-variant hover:bg-surface-container border border-outline-variant text-body-md transition-colors">Midgrade</button>
+<button class="w-full text-left px-3 py-2 text-on-surface-variant hover:bg-surface-container border border-outline-variant text-body-md transition-colors">Premium</button>
+<button class="w-full text-left px-3 py-2 text-on-surface-variant hover:bg-surface-container border border-outline-variant text-body-md transition-colors">Diesel</button>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-4">
+<p class="font-label-caps text-label-caps text-outline mb-3 uppercase">View Mode</p>
+<div class="flex border border-outline-variant rounded-sm overflow-hidden">
+<button class="flex-1 py-1.5 bg-surface-container-high text-primary font-bold text-metadata-sm border-r border-outline-variant">List</button>
+<button class="flex-1 py-1.5 text-on-surface-variant text-metadata-sm">Map</button>
+</div>
+</div>
+</div>
+</aside>
+<!-- Stations List -->
+<section class="flex-1">
+<header class="mb-6 flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<h1 class="font-station-name text-station-name text-3xl font-extrabold tracking-tight">642 Gas Prices in Brooklyn</h1>
+<p class="font-metadata-sm text-metadata-sm text-on-surface-variant mt-1">Updated 4 minutes ago • Showing cheapest regular gas nearby</p>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-caps text-label-caps text-outline">SORT BY</span>
+<select class="bg-transparent border-none text-body-md font-bold focus:ring-0 p-0 cursor-pointer">
+<option>Price (Low to High)</option>
+<option>Distance</option>
+<option>Recent</option>
+</select>
+</div>
+</header>
+<div class="bg-surface-container-lowest border border-outline-variant overflow-hidden">
+<!-- #1 Cheapest Station - Featured -->
+<div class="group relative flex items-center p-row-padding-x py-4 border-b-2 border-secondary bg-surface-container-low">
+<div class="absolute -top-3 left-4 bg-secondary text-on-secondary px-2 py-0.5 font-label-caps text-[9px] uppercase tracking-widest z-10">Best Value</div>
+<div class="flex flex-col items-start min-w-[120px]">
+<span class="font-price-display text-price-display text-primary leading-none">3.14</span>
+<span class="font-label-caps text-label-caps text-outline -mt-1">USD/GAL</span>
+</div>
+<div class="flex-1 ml-6">
+<h3 class="font-station-name text-station-name text-primary">Costco Gas</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">976 3rd Ave, Brooklyn, NY</p>
+</div>
+<div class="flex flex-col items-end gap-2">
+<span class="font-label-caps text-label-caps text-on-tertiary-container bg-tertiary-fixed border border-on-tertiary-fixed-variant px-2 py-0.5">MEMBER PRICE</span>
+<button class="text-secondary font-bold text-metadata-sm hover:underline">Details</button>
+</div>
+</div>
+<!-- Repeated Rows for Scanning -->
+<!-- Row 2 -->
+<div class="group flex items-center p-row-padding-x py-row-padding-y border-b border-outline-variant hover:bg-surface-container transition-colors">
+<div class="flex flex-col items-start min-w-[120px]">
+<span class="font-price-display text-price-display text-primary leading-none">3.21</span>
+</div>
+<div class="flex-1 ml-6">
+<h3 class="font-station-name text-station-name text-primary">BP</h3>
+<p class="font-body-md text-body-md text-on-surface-variant truncate max-w-[200px]">4th Ave &amp; 23rd St</p>
+</div>
+<div class="hidden md:block font-metadata-sm text-metadata-sm text-outline px-4">0.4 mi</div>
+<div class="flex flex-col items-end gap-1">
+<span class="font-label-caps text-label-caps text-outline">12M AGO</span>
+<button class="border border-secondary text-secondary font-bold text-metadata-sm px-3 py-1 hover:bg-secondary hover:text-on-secondary transition-colors">REPORT</button>
+</div>
+</div>
+<!-- Row 3 -->
+<div class="group flex items-center p-row-padding-x py-row-padding-y border-b border-outline-variant hover:bg-surface-container transition-colors">
+<div class="flex flex-col items-start min-w-[120px]">
+<span class="font-price-display text-price-display text-primary leading-none">3.25</span>
+</div>
+<div class="flex-1 ml-6">
+<h3 class="font-station-name text-station-name text-primary">Shell</h3>
+<p class="font-body-md text-body-md text-on-surface-variant truncate max-w-[200px]">1567 Atlantic Ave</p>
+</div>
+<div class="hidden md:block font-metadata-sm text-metadata-sm text-outline px-4">1.2 mi</div>
+<div class="flex flex-col items-end gap-1">
+<span class="font-label-caps text-label-caps text-outline">2H AGO</span>
+<button class="border border-secondary text-secondary font-bold text-metadata-sm px-3 py-1 hover:bg-secondary hover:text-on-secondary transition-colors">REPORT</button>
+</div>
+</div>
+<!-- Dynamic Generation for Massiveness (Mocking the list) -->
+<div id="dynamic-stations-placeholder"></div>
+<script>
+                        const stations = [
+                            { price: "3.27", brand: "Exxon", addr: "802nd St & Caton Ave", dist: "1.4 mi", time: "1H AGO" },
+                            { price: "3.28", brand: "Sunoco", addr: "550 Flatbush Ave", dist: "1.8 mi", time: "34M AGO" },
+                            { price: "3.29", brand: "Mobil", addr: "1002 Ditmas Ave", dist: "2.1 mi", time: "5H AGO" },
+                            { price: "3.31", brand: "Gulf", addr: "345 Rogers Ave", dist: "2.5 mi", time: "1D AGO" },
+                            { price: "3.32", brand: "Speedway", addr: "601 Empire Blvd", dist: "2.7 mi", time: "3H AGO" },
+                            { price: "3.32", brand: "Citgo", addr: "220 Metropolitan Ave", dist: "3.0 mi", time: "44M AGO" },
+                            { price: "3.34", brand: "Shell", addr: "88 Bushwick Ave", dist: "3.1 mi", time: "2H AGO" },
+                            { price: "3.35", brand: "BP", addr: "1402 Myrtle Ave", dist: "3.3 mi", time: "1H AGO" },
+                            { price: "3.37", brand: "Liberty", addr: "700 Flushing Ave", dist: "3.5 mi", time: "10M AGO" },
+                            { price: "3.38", brand: "Valero", addr: "123 Bedford Ave", dist: "3.8 mi", time: "6H AGO" },
+                            { price: "3.40", brand: "Conoco", addr: "99 Kent Ave", dist: "4.0 mi", time: "2H AGO" },
+                            { price: "3.41", brand: "Mobil", addr: "300 Meeker Ave", dist: "4.2 mi", time: "4H AGO" },
+                            { price: "3.42", brand: "Exxon", addr: "210 Union Ave", dist: "4.5 mi", time: "1H AGO" },
+                            { price: "3.45", brand: "Sunoco", addr: "800 Broadway", dist: "4.8 mi", time: "9M AGO" },
+                            { price: "3.46", brand: "Shell", addr: "1100 Fulton St", dist: "5.0 mi", time: "3H AGO" },
+                            { price: "3.48", brand: "Gulf", addr: "400 Gates Ave", dist: "5.2 mi", time: "12H AGO" },
+                            { price: "3.49", brand: "BP", addr: "560 Greene Ave", dist: "5.5 mi", time: "5M AGO" }
+                        ];
+
+                        const container = document.getElementById('dynamic-stations-placeholder');
+                        stations.forEach(s => {
+                            const row = document.createElement('div');
+                            row.className = 'group flex items-center p-row-padding-x py-row-padding-y border-b border-outline-variant hover:bg-surface-container transition-colors';
+                            row.innerHTML = `
+                                <div class="flex flex-col items-start min-w-[120px]">
+                                    <span class="font-price-display text-price-display text-primary leading-none">${s.price}</span>
+                                </div>
+                                <div class="flex-1 ml-6">
+                                    <h3 class="font-station-name text-station-name text-primary">${s.brand}</h3>
+                                    <p class="font-body-md text-body-md text-on-surface-variant truncate max-w-[200px]">${s.addr}</p>
+                                </div>
+                                <div class="hidden md:block font-metadata-sm text-metadata-sm text-outline px-4">${s.dist}</div>
+                                <div class="flex flex-col items-end gap-1">
+                                    <span class="font-label-caps text-label-caps text-outline uppercase">${s.time}</span>
+                                    <button class="border border-outline text-on-surface-variant font-bold text-metadata-sm px-3 py-1 hover:bg-surface-container-high transition-colors">REPORT</button>
+                                </div>
+                            `;
+                            container.appendChild(row);
+                        });
+                    </script>
+</div>
+<div class="mt-8 flex justify-center">
+<button class="bg-primary text-on-primary px-8 py-3 font-label-caps text-label-caps hover:bg-primary-container transition-all active:scale-95">Load More Brooklyn Stations</button>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant py-8 mt-12">
+<div class="max-w-container-max mx-auto flex flex-col items-center gap-4">
+<span class="font-label-caps text-label-caps uppercase text-outline">GASFAST DATA</span>
+<div class="flex gap-6">
+<a class="font-metadata-sm text-metadata-sm text-on-surface-variant hover:text-secondary transition-opacity" href="#">Privacy</a>
+<a class="font-metadata-sm text-metadata-sm text-on-surface-variant hover:text-secondary transition-opacity" href="#">Terms</a>
+<a class="font-metadata-sm text-metadata-sm text-on-surface-variant hover:text-secondary transition-opacity" href="#">API</a>
+<a class="font-metadata-sm text-metadata-sm text-on-surface-variant hover:text-secondary transition-opacity" href="#">Contact</a>
+</div>
+<p class="font-metadata-sm text-metadata-sm text-on-surface-variant opacity-60">© 2024 GasFast Data. Prices are crowdsourced and may vary by location.</p>
+</div>
+</footer>
+<!-- Micro-interaction Script -->
+<script>
+        // Simple hover effect for "comparison" speed feeling
+        document.querySelectorAll('.group').forEach(row => {
+            row.addEventListener('mouseenter', () => {
+                row.querySelector('.font-price-display').classList.add('text-secondary');
+            });
+            row.addEventListener('mouseleave', () => {
+                row.querySelector('.font-price-display').classList.remove('text-secondary');
+            });
+        });
+    </script>
+</body></html>

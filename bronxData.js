@@ -1,0 +1,252 @@
+[
+  {
+    "name": "B&G Services",
+    "url": "https://www.gasbuddy.com/station/85984",
+    "address": {
+      "street": "1243 East Tremont Ave",
+      "city": "Bronx",
+      "state": "NY",
+      "zip": "10460",
+      "country": "US"
+    },
+    "geo": {
+      "lat": 40.839946374745,
+      "lng": -73.87133538723
+    },
+    "rating": {
+      "value": 3.2,
+      "count": 80
+    },
+    "latest_review": "Debit price same as credit..\n",
+    "price": "$3.73",
+    "price_type": "Cash",
+    "reported_by": "DataFeed",
+    "reported_ago": "1 Day Ago",
+    "scraped_at": "2026-07-09T06:22:09.713177"
+  },
+  {
+    "name": "Amoco",
+    "url": "https://www.gasbuddy.com/station/86023",
+    "address": {
+      "street": "3305 E Tremont Ave",
+      "city": "Bronx",
+      "state": "NY",
+      "zip": "10461",
+      "country": "US"
+    },
+    "geo": {
+      "lat": 40.835176,
+      "lng": -73.830935
+    },
+    "rating": {
+      "value": 4.1,
+      "count": 59
+    },
+    "latest_review": "Be careful with pricing for premium is 91 and ultra is 93 and not listed on this app as such.  They start their prices with regular being 87, midgrade 89, premium 91 and ultra 93.  Always check which grade they're using as premium.  When compared with others, you're getting less for your money.  Others start at 89 grade and premium 93",
+    "price": "$3.79",
+    "price_type": "Credit",
+    "reported_by": "discodiva",
+    "reported_ago": "15 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713199"
+  },
+  {
+    "name": "Shell",
+    "url": "https://www.gasbuddy.com/station/56199",
+    "address": {
+      "street": "1845 Webster Ave",
+      "city": "Bronx",
+      "state": "NY",
+      "zip": "10457",
+      "country": "US"
+    },
+    "geo": {
+      "lat": 40.846746878112,
+      "lng": -73.901762366295
+    },
+    "rating": {
+      "value": 2.3,
+      "count": 108
+    },
+    "latest_review": "Slow service. ",
+    "price": "$3.79",
+    "price_type": "Cash",
+    "reported_by": "TheCannaBully",
+    "reported_ago": "7 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713207"
+  },
+  {
+    "name": "GASOLINA",
+    "url": "https://www.gasbuddy.com/station/56200",
+    "address": {
+      "street": "2525 Third Ave",
+      "city": "Bronx",
+      "state": "NY",
+      "zip": "10451",
+      "country": "US"
+    },
+    "geo": {
+      "lat": 40.810828113744,
+      "lng": -73.927893787622
+    },
+    "rating": {
+      "value": 3.1,
+      "count": 159
+    },
+    "latest_review": "When you try to use your fuel rewards card the cashier will tell you the machine is broke. It has been broke for the past 5 months I find that strange, I've contacted corporate about this issue still waiting for a response.",
+    "price": "$3.79",
+    "price_type": "Cash",
+    "reported_by": "magalisj2006",
+    "reported_ago": "14 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713213"
+  },
+  {
+    "name": "76",
+    "url": "https://www.gasbuddy.com/station/85946",
+    "address": {
+      "street": "2007 Williamsbridge Rd",
+      "city": "Bronx",
+      "state": "NY",
+      "zip": "10461-1606",
+      "country": "US"
+    },
+    "geo": {
+      "lat": 40.854312896728,
+      "lng": -73.854759216308
+    },
+    "rating": {
+      "value": 4.5,
+      "count": 273
+    },
+    "latest_review": "Very nice gas Station prices are always the lowest around ",
+    "price": "$3.79",
+    "price_type": "Cash",
+    "reported_by": "EDIESHEILA",
+    "reported_ago": "16 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713219"
+  },
+  {
+    "name": "Mobil",
+    "url": "https://www.gasbuddy.com/station/143371",
+    "address": {
+      "street": "1719 Cross Bronx Expy N",
+      "city": "Bronx",
+      "state": "NY",
+      "zip": "10460",
+      "country": "US"
+    },
+    "geo": {
+      "lat": 40.836554,
+      "lng": -73.870631
+    },
+    "rating": {
+      "value": 3,
+      "count": 42
+    },
+    "latest_review": "They don't sell gas",
+    "price": "$3.85",
+    "price_type": "Credit",
+    "reported_by": "kaitlyn1712",
+    "reported_ago": "14 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713225"
+  },
+  {
+    "name": "Amoco",
+    "url": "https://www.gasbuddy.com/station/56196",
+    "address": {
+      "street": "164 WILLIS AVE",
+      "city": "Bronx",
+      "state": "NY",
+      "zip": "10454",
+      "country": "US"
+    },
+    "geo": {
+      "lat": 40.807307,
+      "lng": -73.924215
+    },
+    "rating": {
+      "value": 3.7,
+      "count": 44
+    },
+    "latest_review": "UPDATE: THIS STATION ACCEPTS GAS BUDDY\ud83d\udc4d",
+    "price": "$3.89",
+    "price_type": "Credit",
+    "reported_by": "DataFeed",
+    "reported_ago": "13 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713230"
+  },
+  {
+    "name": "Shell",
+    "url": "https://www.gasbuddy.com/station/56198",
+    "address": {
+      "street": "2100 Williamsbridge Rd",
+      "city": "Bronx",
+      "state": "NY",
+      "zip": "10461",
+      "country": "US"
+    },
+    "geo": {
+      "lat": 40.855716935693,
+      "lng": -73.855186477304
+    },
+    "rating": {
+      "value": 3.6,
+      "count": 45
+    },
+    "latest_review": "Great all around",
+    "price": "$3.89",
+    "price_type": "Cash",
+    "reported_by": "DataFeed",
+    "reported_ago": "22 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713238"
+  },
+  {
+    "name": "Mobil",
+    "url": "https://www.gasbuddy.com/station/56191",
+    "address": {
+      "street": "126 Bruckner Blvd",
+      "city": "Bronx",
+      "state": "NY",
+      "zip": "10454-4620",
+      "country": "US"
+    },
+    "geo": {
+      "lat": 40.803930532286,
+      "lng": -73.921142667532
+    },
+    "rating": {
+      "value": 3.8,
+      "count": 60
+    },
+    "latest_review": "This is a big station with good prices, very well and clean, with air pump, vacuum cleaner and eve an Amazon locker, where",
+    "price": "$3.85",
+    "price_type": "Cash",
+    "reported_by": "DataFeed",
+    "reported_ago": "22 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713245"
+  },
+  {
+    "name": "Conoco",
+    "url": "https://www.gasbuddy.com/station/85950",
+    "address": {
+      "street": "3210 Webster Ave",
+      "city": "Bronx",
+      "state": "NY",
+      "zip": "10467",
+      "country": "US"
+    },
+    "geo": {
+      "lat": 40.874012,
+      "lng": -73.87383
+    },
+    "rating": {
+      "value": 3.9,
+      "count": 36
+    },
+    "latest_review": "Easy in. Easy out. Friendly workers",
+    "price": "$3.87",
+    "price_type": "Cash",
+    "reported_by": "gassingmeup",
+    "reported_ago": "1 Day Ago",
+    "scraped_at": "2026-07-09T06:22:09.713250"
+  }
+]
