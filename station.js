@@ -100,35 +100,27 @@ function initStationMap(station) {
   const mapDiv = document.getElementById('station-map');
   if (!mapDiv) return;
 
-  // Check if Google Maps API is loaded
-  if (typeof google === 'undefined' || !google.maps) {
-    mapDiv.innerHTML = '<div class="flex items-center justify-center h-full bg-surface-container-low rounded-lg text-outline text-sm p-4">Map unavailable - API key required</div>';
+  // Check if Leaflet is loaded
+  if (typeof L === 'undefined') {
+    mapDiv.innerHTML = '<div class="flex items-center justify-center h-full bg-surface-container-low rounded-lg text-outline text-sm p-4">Map unavailable</div>';
     return;
   }
 
-  const location = { lat: parseFloat(station.geo.lat), lng: parseFloat(station.geo.lng) };
+  const location = [parseFloat(station.geo.lat), parseFloat(station.geo.lng)];
 
   try {
-    stationMap = new google.maps.Map(mapDiv, {
-      zoom: 15,
-      center: location,
-      mapTypeId: 'roadmap'
-    });
+    // Initialize Leaflet map
+    stationMap = L.map(mapDiv).setView(location, 15);
+
+    // Add OpenStreetMap tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(stationMap);
 
     // Add marker
-    new google.maps.Marker({
-      position: location,
-      map: stationMap,
-      title: station.name,
-      icon: {
-        path: google.maps.SymbolPath.CIRCLE,
-        scale: 10,
-        fillColor: '#855300',
-        fillOpacity: 1,
-        strokeColor: '#ffffff',
-        strokeWeight: 2
-      }
-    });
+    L.marker(location, {
+      title: station.name
+    }).addTo(stationMap);
   } catch (error) {
     console.error('Failed to initialize map:', error);
     mapDiv.innerHTML = '<div class="flex items-center justify-center h-full bg-surface-container-low rounded-lg text-outline text-sm p-4">Map loading failed</div>';
