@@ -20,7 +20,7 @@ async function loadAllStations() {
 
   try {
     const promises = BOROUGHS.map(async (borough) => {
-      const response = await fetch(`${borough}/gas-prices.json`);
+      const response = await fetch(`gas-prices/${borough}/gas-prices.json`);
       const stations = await response.json();
       return stations.map(s => ({ ...s, borough }));
     });

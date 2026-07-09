@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const boroughs = ['bronx', 'brooklyn', 'manhattan', 'queens', 'staten-island'];
     try {
       const promises = boroughs.map(async (b) => {
-        const res = await fetch(`../${b}/gas-prices.json`);
+        const res = await fetch(`../gas-prices/${b}/gas-prices.json`);
         const data = await res.json();
         return data.map(s => ({ ...s, borough: b }));
       });

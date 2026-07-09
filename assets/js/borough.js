@@ -1,6 +1,12 @@
 // GasFast NYC - Borough Page
 // Shared script for all borough pages
 
+function getBoroughName() {
+  const path = window.location.pathname.replace(/\/$/, '');
+  const parts = path.split('/');
+  return parts[parts.length - 1];
+}
+
 async function loadBoroughStations() {
   const container = document.getElementById('station-list');
   if (!container) return;
