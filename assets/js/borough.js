@@ -45,9 +45,9 @@ function renderStations(stations) {
           ${station.reported_ago}
         </span>
       </div>
-      <div class="flex justify-end">
-        <a href="${station.url}" target="_blank" class="bg-secondary px-3 py-1 rounded text-white font-label-caps text-[10px] hover:bg-on-secondary-container transition-all inline-block">REPORT</a>
-      </div>
+              <div class="flex justify-end">
+                <a href="station.html?id=${encodeURIComponent(station.url)}" class="bg-secondary px-3 py-1 rounded text-white font-label-caps text-[10px] hover:bg-on-secondary-container transition-all inline-block">VIEW</a>
+              </div>
     `;
     container.appendChild(row);
   });
