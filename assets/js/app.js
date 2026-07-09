@@ -63,4 +63,45 @@ function renderStations(stations) {
   });
 }
 
-document.addEventListener('DOMContentLoaded', loadAllStations);
+// Mobile menu functionality
+function openMobileNav() {
+  const nav = document.getElementById('mobile-nav');
+  const panel = document.getElementById('mobile-nav-panel');
+  nav.classList.remove('hidden');
+  setTimeout(() => panel.classList.remove('-translate-x-full'), 10);
+}
+
+function closeMobileNav() {
+  const nav = document.getElementById('mobile-nav');
+  const panel = document.getElementById('mobile-nav-panel');
+  panel.classList.add('-translate-x-full');
+  setTimeout(() => nav.classList.add('hidden'), 300);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const menuBtn = document.getElementById('mobile-menu-btn');
+  if (menuBtn) menuBtn.addEventListener('click', openMobileNav);
+
+  const mobileNav = document.getElementById('mobile-nav');
+  if (mobileNav) mobileNav.addEventListener('click', (e) => { if (e.target === mobileNav) closeMobileNav(); });
+
+  loadAllStations();
+
+  const searchInput = document.getElementById('homepage-search');
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase().trim();
+      if (!query) {
+        renderStations(allStations);
+        return;
+      }
+      const filtered = allStations.filter(s =>
+        s.name.toLowerCase().includes(query) ||
+        s.address.street.toLowerCase().includes(query) ||
+        s.address.city.toLowerCase().includes(query) ||
+        s.address.zip.includes(query)
+      );
+      renderStations(filtered);
+    });
+  }
+});
