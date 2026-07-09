@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Manhattan Gas Corp",
+    "url": "https://www.gasbuddy.com/station/300001",
+    "address": { "street": "200 W 24th St", "city": "New York", "state": "NY", "zip": "10011", "country": "US" },
+    "geo": { "lat": 40.745, "lng": -73.995 },
+    "rating": { "value": 4.2, "count": 200 },
+    "price": "$3.85",
+    "price_type": "Cash",
+    "reported_by": "manhattan_driver",
+    "reported_ago": "3 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713177"
+  },
+  {
+    "name": "Shell",
+    "url": "https://www.gasbuddy.com/station/300002",
+    "address": { "street": "500 8th Ave", "city": "New York", "state": "NY", "zip": "10018", "country": "US" },
+    "geo": { "lat": 40.753, "lng": -73.993 },
+    "rating": { "value": 3.7, "count": 150 },
+    "price": "$3.89",
+    "price_type": "Credit",
+    "reported_by": "DataFeed",
+    "reported_ago": "6 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713199"
+  },
+  {
+    "name": "Mobil",
+    "url": "https://www.gasbuddy.com/station/300003",
+    "address": { "street": "1251 6th Ave", "city": "New York", "state": "NY", "zip": "10020", "country": "US" },
+    "geo": { "lat": 40.760, "lng": -73.980 },
+    "rating": { "value": 3.9, "count": 88 },
+    "price": "$3.92",
+    "price_type": "Cash",
+    "reported_by": "city_fuel",
+    "reported_ago": "8 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713207"
+  },
+  {
+    "name": "Exxon",
+    "url": "https://www.gasbuddy.com/station/300004",
+    "address": { "street": "100 Broadway", "city": "New York", "state": "NY", "zip": "10005", "country": "US" },
+    "geo": { "lat": 40.708, "lng": -74.008 },
+    "rating": { "value": 4.0, "count": 130 },
+    "price": "$3.95",
+    "price_type": "Credit",
+    "reported_by": "DataFeed",
+    "reported_ago": "10 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713213"
+  },
+  {
+    "name": "BP",
+    "url": "https://www.gasbuddy.com/station/300005",
+    "address": { "street": "750 1st Ave", "city": "New York", "state": "NY", "zip": "10017", "country": "US" },
+    "geo": { "lat": 40.763, "lng": -73.973 },
+    "rating": { "value": 4.3, "count": 175 },
+    "price": "$3.97",
+    "price_type": "Cash",
+    "reported_by": "fuel_hunter",
+    "reported_ago": "1 Day Ago",
+    "scraped_at": "2026-07-09T06:22:09.713219"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Queens Fuel Center",
+    "url": "https://www.gasbuddy.com/station/200001",
+    "address": { "street": "75-20 Queens Blvd", "city": "Queens", "state": "NY", "zip": "11373", "country": "US" },
+    "geo": { "lat": 40.730, "lng": -73.890 },
+    "rating": { "value": 4.1, "count": 95 },
+    "price": "$3.67",
+    "price_type": "Cash",
+    "reported_by": "queens_driver",
+    "reported_ago": "1 Hour Ago",
+    "scraped_at": "2026-07-09T06:22:09.713177"
+  },
+  {
+    "name": "Shell",
+    "url": "https://www.gasbuddy.com/station/200002",
+    "address": { "street": "30-01 Northern Blvd", "city": "Queens", "state": "NY", "zip": "11101", "country": "US" },
+    "geo": { "lat": 40.750, "lng": -73.920 },
+    "rating": { "value": 3.9, "count": 140 },
+    "price": "$3.71",
+    "price_type": "Credit",
+    "reported_by": "DataFeed",
+    "reported_ago": "4 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713199"
+  },
+  {
+    "name": "Mobil",
+    "url": "https://www.gasbuddy.com/station/200003",
+    "address": { "street": "95-10 Astoria Blvd", "city": "Queens", "state": "NY", "zip": "11369", "country": "US" },
+    "geo": { "lat": 40.760, "lng": -73.870 },
+    "rating": { "value": 4.3, "count": 180 },
+    "price": "$3.75",
+    "price_type": "Cash",
+    "reported_by": "gas_queen",
+    "reported_ago": "6 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713207"
+  },
+  {
+    "name": "Exxon",
+    "url": "https://www.gasbuddy.com/station/200004",
+    "address": { "street": "161-10 Jamaica Ave", "city": "Queens", "state": "NY", "zip": "11432", "country": "US" },
+    "geo": { "lat": 40.700, "lng": -73.800 },
+    "rating": { "value": 3.6, "count": 72 },
+    "price": "$3.79",
+    "price_type": "Cash",
+    "reported_by": "DataFeed",
+    "reported_ago": "9 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713213"
+  },
+  {
+    "name": "BP",
+    "url": "https://www.gasbuddy.com/station/200005",
+    "address": { "street": "50-01 Vernon Blvd", "city": "Queens", "state": "NY", "zip": "11101", "country": "US" },
+    "geo": { "lat": 40.740, "lng": -73.950 },
+    "rating": { "value": 4.0, "count": 110 },
+    "price": "$3.82",
+    "price_type": "Credit",
+    "reported_by": "fuel_king",
+    "reported_ago": "11 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713219"
+  }
+]

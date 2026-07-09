@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Staten Island Fuel",
+    "url": "https://www.gasbuddy.com/station/400001",
+    "address": { "street": "2650 Hylan Blvd", "city": "Staten Island", "state": "NY", "zip": "10306", "country": "US" },
+    "geo": { "lat": 40.570, "lng": -74.110 },
+    "rating": { "value": 4.0, "count": 85 },
+    "price": "$3.71",
+    "price_type": "Cash",
+    "reported_by": "si_driver",
+    "reported_ago": "2 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713177"
+  },
+  {
+    "name": "Shell",
+    "url": "https://www.gasbuddy.com/station/400002",
+    "address": { "street": "1200 Richmond Ave", "city": "Staten Island", "state": "NY", "zip": "10314", "country": "US" },
+    "geo": { "lat": 40.620, "lng": -74.150 },
+    "rating": { "value": 3.8, "count": 65 },
+    "price": "$3.75",
+    "price_type": "Credit",
+    "reported_by": "DataFeed",
+    "reported_ago": "5 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713199"
+  },
+  {
+    "name": "Mobil",
+    "url": "https://www.gasbuddy.com/station/400003",
+    "address": { "street": "3000 Victory Blvd", "city": "Staten Island", "state": "NY", "zip": "10314", "country": "US" },
+    "geo": { "lat": 40.610, "lng": -74.160 },
+    "rating": { "value": 4.1, "count": 95 },
+    "price": "$3.79",
+    "price_type": "Cash",
+    "reported_by": "island_gas",
+    "reported_ago": "7 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713207"
+  },
+  {
+    "name": "Exxon",
+    "url": "https://www.gasbuddy.com/station/400004",
+    "address": { "street": "1800 Forest Ave", "city": "Staten Island", "state": "NY", "zip": "10303", "country": "US" },
+    "geo": { "lat": 40.625, "lng": -74.140 },
+    "rating": { "value": 3.5, "count": 40 },
+    "price": "$3.82",
+    "price_type": "Credit",
+    "reported_by": "DataFeed",
+    "reported_ago": "10 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713213"
+  },
+  {
+    "name": "BP",
+    "url": "https://www.gasbuddy.com/station/400005",
+    "address": { "street": "900 Bay St", "city": "Staten Island", "state": "NY", "zip": "10305", "country": "US" },
+    "geo": { "lat": 40.615, "lng": -74.075 },
+    "rating": { "value": 4.2, "count": 110 },
+    "price": "$3.85",
+    "price_type": "Cash",
+    "reported_by": "fuel_finder_si",
+    "reported_ago": "1 Day Ago",
+    "scraped_at": "2026-07-09T06:22:09.713219"
+  }
+]

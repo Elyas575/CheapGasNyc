@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Brooklyn Gas & Go",
+    "url": "https://www.gasbuddy.com/station/100001",
+    "address": { "street": "150 Atlantic Ave", "city": "Brooklyn", "state": "NY", "zip": "11201", "country": "US" },
+    "geo": { "lat": 40.685, "lng": -73.976 },
+    "rating": { "value": 4.0, "count": 120 },
+    "price": "$3.69",
+    "price_type": "Cash",
+    "reported_by": "brooklyn_driver",
+    "reported_ago": "2 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713177"
+  },
+  {
+    "name": "Shell",
+    "url": "https://www.gasbuddy.com/station/100002",
+    "address": { "street": "500 Broadway", "city": "Brooklyn", "state": "NY", "zip": "11211", "country": "US" },
+    "geo": { "lat": 40.705, "lng": -73.950 },
+    "rating": { "value": 3.8, "count": 89 },
+    "price": "$3.75",
+    "price_type": "Credit",
+    "reported_by": "DataFeed",
+    "reported_ago": "5 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713199"
+  },
+  {
+    "name": "Mobil",
+    "url": "https://www.gasbuddy.com/station/100003",
+    "address": { "street": "800 Flatbush Ave", "city": "Brooklyn", "state": "NY", "zip": "11226", "country": "US" },
+    "geo": { "lat": 40.650, "lng": -73.960 },
+    "rating": { "value": 4.2, "count": 210 },
+    "price": "$3.79",
+    "price_type": "Cash",
+    "reported_by": "gas_hunter",
+    "reported_ago": "3 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713207"
+  },
+  {
+    "name": "Exxon",
+    "url": "https://www.gasbuddy.com/station/100004",
+    "address": { "street": "1234 Fulton St", "city": "Brooklyn", "state": "NY", "zip": "11216", "country": "US" },
+    "geo": { "lat": 40.680, "lng": -73.940 },
+    "rating": { "value": 3.5, "count": 55 },
+    "price": "$3.81",
+    "price_type": "Cash",
+    "reported_by": "DataFeed",
+    "reported_ago": "8 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713213"
+  },
+  {
+    "name": "BP",
+    "url": "https://www.gasbuddy.com/station/100005",
+    "address": { "street": "2001 Utica Ave", "city": "Brooklyn", "state": "NY", "zip": "11234", "country": "US" },
+    "geo": { "lat": 40.620, "lng": -73.930 },
+    "rating": { "value": 4.4, "count": 165 },
+    "price": "$3.83",
+    "price_type": "Credit",
+    "reported_by": "fuel_finder",
+    "reported_ago": "12 Hours Ago",
+    "scraped_at": "2026-07-09T06:22:09.713219"
+  }
+]
