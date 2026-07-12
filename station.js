@@ -32,7 +32,7 @@ async function loadStationData() {
     // Search through all boroughs
     const BOROUGHS = ['bronx', 'brooklyn', 'manhattan', 'queens', 'staten-island'];
     for (const borough of BOROUGHS) {
-      const response = await fetch(`gas-prices/${borough}/gas-prices.json`);
+      const response = await fetch(`/gas-prices/${borough}/gas-prices.json`);
       const data = await response.json();
       
       const foundStation = findStationInData(data, searchId);
@@ -94,7 +94,7 @@ function displayStation(station) {
   // Update breadcrumb
   const boroughName = station.borough ? station.borough.charAt(0).toUpperCase() + station.borough.slice(1) : 'Unknown';
   document.getElementById('breadcrumb-borough').textContent = boroughName;
-  document.getElementById('breadcrumb-borough').href = `gas-prices/${station.borough || 'brooklyn'}/index.html`;
+  document.getElementById('breadcrumb-borough').href = `/gas-prices/${station.borough || 'brooklyn'}/index.html`;
   document.getElementById('breadcrumb-station').textContent = station.name;
 
   // Update header
@@ -103,9 +103,12 @@ function displayStation(station) {
   document.getElementById('station-address').textContent = addressStr;
 
   // Update prices for all fuel types
-  const regularPrice = station.fuel_types?.['Regular Fuel Prices']?.price || station.price || '$0.00';
-  const midgradePrice = station.fuel_types?.['Mid-Grade Fuel Prices']?.price || '$0.00';
-  const premiumPrice = station.fuel_types?.['Premium Fuel Prices']?.price || '$0.00';
+  function getDisplayPrice(price) {
+    return (price && price !== '- - -') ? price : '--';
+  }
+  const regularPrice = getDisplayPrice(station.fuel_types?.['Regular Fuel Prices']?.price || station.price);
+  const midgradePrice = getDisplayPrice(station.fuel_types?.['Mid-Grade Fuel Prices']?.price);
+  const premiumPrice = getDisplayPrice(station.fuel_types?.['Premium Fuel Prices']?.price);
   const dieselPrice = station.fuel_types?.['Diesel Fuel Prices']?.price || null;
   const e85Price = station.fuel_types?.['E85 Fuel Prices']?.price || null;
 

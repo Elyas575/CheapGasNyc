@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="../assets/css/main.css"/>
+<link rel="stylesheet" href="/assets/css/main.css"/>
 <script>
 tailwind.config = {
   darkMode: "class",
@@ -43,15 +43,17 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 .price-row:hover { background-color: #f2f3f9; }
 #station-map { height: 400px; width: 100%; border-radius: 0.5rem; }
 .star-rating { color: #ffb95f; }
-/* Responsive price display - smaller on mobile */
+.price-card { min-height: 140px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.price-card .price-value { white-space: nowrap; overflow: visible; word-break: keep-all; }
+/* Responsive price display - larger with more spacing */
 @media (max-width: 767px) {
-  .price-card { padding: 0.75rem 0.5rem; }
-  .price-card .price-value { font-size: 22px !important; line-height: 28px !important; }
-  .price-card .price-icon { font-size: 1.25rem !important; }
-  .price-card .price-label { font-size: 10px !important; }
+  .price-card { padding: 1.5rem 1rem !important; min-height: 120px; }
+  .price-card .price-value { font-size: 28px !important; line-height: 34px !important; }
+  .price-card .price-icon { font-size: 1.5rem !important; }
+  .price-card .price-label { font-size: 11px !important; }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .price-card .price-value { font-size: 28px !important; line-height: 34px !important; }
+  .price-card .price-value { font-size: 32px !important; line-height: 38px !important; }
 }
 </style>
 </head>
@@ -93,41 +95,41 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <div class="lg:col-span-2">
 <div class="bg-surface rounded-lg border border-outline-variant p-6">
 <h2 class="font-label-caps text-label-caps text-secondary uppercase tracking-widest mb-4">Station Prices</h2>
-<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4 mb-6">
-<div class="price-card text-center p-3 md:p-4 bg-surface-container-low rounded-lg">
-<div class="flex items-center justify-center gap-1 md:gap-2 mb-1 md:mb-2">
-<span class="price-icon material-symbols-outlined text-outline text-xl md:text-2xl">local_gas_station</span>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 mb-6">
+<div class="price-card text-center p-5 md:p-6 bg-surface-container-low rounded-lg">
+<div class="flex items-center justify-center gap-2 mb-3">
+<span class="price-icon material-symbols-outlined text-outline text-2xl md:text-3xl">local_gas_station</span>
 <span class="price-label font-label-caps text-label-caps text-on-surface-variant">Regular</span>
 </div>
-<div class="price-value font-price-display text-price-display text-primary" id="price-regular">$0.00</div>
+<div class="price-value font-price-display text-price-display text-primary" id="price-regular">--</div>
 </div>
-<div class="price-card text-center p-3 md:p-4 bg-surface-container-low rounded-lg">
-<div class="flex items-center justify-center gap-1 md:gap-2 mb-1 md:mb-2">
-<span class="price-icon material-symbols-outlined text-outline text-xl md:text-2xl">local_gas_station</span>
+<div class="price-card text-center p-5 md:p-6 bg-surface-container-low rounded-lg">
+<div class="flex items-center justify-center gap-2 mb-3">
+<span class="price-icon material-symbols-outlined text-outline text-2xl md:text-3xl">local_gas_station</span>
 <span class="price-label font-label-caps text-label-caps text-on-surface-variant">Midgrade</span>
 </div>
-<div class="price-value font-price-display text-price-display text-primary" id="price-midgrade">$0.00</div>
+<div class="price-value font-price-display text-price-display text-primary" id="price-midgrade">--</div>
 </div>
-<div class="price-card text-center p-3 md:p-4 bg-surface-container-low rounded-lg">
-<div class="flex items-center justify-center gap-1 md:gap-2 mb-1 md:mb-2">
-<span class="price-icon material-symbols-outlined text-outline text-xl md:text-2xl">local_gas_station</span>
+<div class="price-card text-center p-5 md:p-6 bg-surface-container-low rounded-lg">
+<div class="flex items-center justify-center gap-2 mb-3">
+<span class="price-icon material-symbols-outlined text-outline text-2xl md:text-3xl">local_gas_station</span>
 <span class="price-label font-label-caps text-label-caps text-on-surface-variant">Premium</span>
 </div>
-<div class="price-value font-price-display text-price-display text-primary" id="price-premium">$0.00</div>
+<div class="price-value font-price-display text-price-display text-primary" id="price-premium">--</div>
 </div>
-<div class="price-card text-center p-3 md:p-4 bg-surface-container-low rounded-lg" id="price-diesel">
-<div class="flex items-center justify-center gap-1 md:gap-2 mb-1 md:mb-2">
-<span class="price-icon material-symbols-outlined text-outline text-xl md:text-2xl">local_gas_station</span>
+<div class="price-card text-center p-5 md:p-6 bg-surface-container-low rounded-lg" id="price-diesel">
+<div class="flex items-center justify-center gap-2 mb-3">
+<span class="price-icon material-symbols-outlined text-outline text-2xl md:text-3xl">local_gas_station</span>
 <span class="price-label font-label-caps text-label-caps text-on-surface-variant">Diesel</span>
 </div>
-<div class="price-value font-price-display text-price-display text-primary" id="price-diesel-value">$0.00</div>
+<div class="price-value font-price-display text-price-display text-primary" id="price-diesel-value">--</div>
 </div>
-<div class="price-card text-center p-3 md:p-4 bg-surface-container-low rounded-lg" id="price-e85">
-<div class="flex items-center justify-center gap-1 md:gap-2 mb-1 md:mb-2">
-<span class="price-icon material-symbols-outlined text-outline text-xl md:text-2xl">local_gas_station</span>
+<div class="price-card text-center p-5 md:p-6 bg-surface-container-low rounded-lg" id="price-e85">
+<div class="flex items-center justify-center gap-2 mb-3">
+<span class="price-icon material-symbols-outlined text-outline text-2xl md:text-3xl">local_gas_station</span>
 <span class="price-label font-label-caps text-label-caps text-on-surface-variant">E85</span>
 </div>
-<div class="price-value font-price-display text-price-display text-primary" id="price-e85-value">$0.00</div>
+<div class="price-value font-price-display text-price-display text-primary" id="price-e85-value">--</div>
 </div>
 </div>
 </div>
@@ -151,5 +153,5 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <p class="font-metadata-sm text-metadata-sm text-outline">© 2024 NYC Gas Data. All prices are manually updated by the site administrator.</p>
 </div>
 </footer>
-<script src="station.js"></script>
+<script src="/station.js"></script>
 </body></html>

@@ -49,7 +49,7 @@ function renderStations(stations) {
 
   sorted.forEach((station) => {
     const row = document.createElement('a');
-    row.href = `../station.html?id=${encodeURIComponent(station.url)}`;
+    row.href = `../../station.html?id=${encodeURIComponent(station.url)}`;
     row.className = 'price-row block bg-white border border-outline-variant rounded-lg p-4 mb-3 hover:border-secondary transition-all no-underline';
     
     // Build address parts - show street on one line, city/state on another
