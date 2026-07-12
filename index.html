@@ -129,7 +129,9 @@
 <div class="max-w-container-max mx-auto flex justify-between items-center px-row-padding-x py-2">
 <div class="flex items-center gap-4">
 <button id="mobile-menu-btn" class="xl:hidden material-symbols-outlined text-outline">menu</button>
+<a href="./" class="flex items-center">
 <span class="material-symbols-outlined text-secondary text-3xl">local_gas_station</span>
+</a>
 </div>
 <div class="flex-1 max-w-md mx-6">
 <div class="relative group">
@@ -137,9 +139,6 @@
 <input id="homepage-search" class="w-full pl-10 pr-4 py-1.5 bg-surface-container rounded-lg border-none focus:ring-2 focus:ring-secondary transition-all text-body-md" placeholder="Search by neighborhood..." type="text"/>
 </div>
 </div>
-<button class="bg-secondary text-on-secondary px-4 py-1.5 rounded-lg font-label-caps text-label-caps hover:opacity-90 active:scale-95 transition-all">
-                REPORT PRICE
-            </button>
 </div>
 </header>
 <!-- Mobile SideNavBar -->
@@ -212,12 +211,6 @@
 <h1 class="font-price-display text-price-display-mobile md:text-price-display text-white mb-1">Find cheap gas.</h1>
 <p class="text-on-primary-container font-body-md">Updating real-time across all 5 boroughs.</p>
 </div>
-<div class="w-full md:w-auto z-10 flex gap-2">
-<input class="w-full md:w-40 px-4 py-4 rounded-lg bg-white/10 border border-white/20 text-white placeholder:text-white/40 font-bold text-2xl focus:ring-2 focus:ring-secondary focus:bg-white/20 transition-all text-center" placeholder="Zip code" type="text"/>
-<button class="bg-secondary text-on-secondary px-8 py-4 rounded-lg font-bold hover:scale-105 active:scale-95 transition-all">
-                        GO
-                    </button>
-</div>
 </div>
 </section>
 <!-- Utility Filters -->
@@ -286,26 +279,6 @@
 </div>
 </div>
 </section>
-<!-- Newsletter / Map Integration CTA -->
-<section class="grid grid-cols-1 md:grid-cols-2 gap-4">
-<div class="bg-surface-container border border-outline-variant p-6 rounded-lg">
-<h3 class="font-station-name text-body-md font-bold mb-2">Price Alerts</h3>
-<p class="font-metadata-sm text-on-surface-variant mb-4">Get notified when prices drop below $3.00 in your area.</p>
-<div class="flex gap-2">
-<input class="flex-1 px-3 py-2 border border-outline-variant rounded bg-surface focus:ring-2 focus:ring-secondary text-body-md" placeholder="Email address" type="email"/>
-<button class="bg-primary text-white px-4 py-2 rounded font-label-caps text-label-caps">JOIN</button>
-</div>
-</div>
-<div class="relative rounded-lg overflow-hidden border border-outline-variant h-40">
-<div class="w-full h-full bg-cover bg-center grayscale opacity-50" data-alt="A stylized minimalist digital map of New York City boroughs with subtle data visualizations and navigation pins. The map uses a monochrome navy and light gray palette with vibrant amber highlights for data points, fitting a modern light-mode data-rich interface. The lighting is clean and even, suggesting high-precision information utility." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCIWsbV6A6RHcvSBo0drVcgjdianQG1bfbLYTlU2m-_x8LkqWpnqSd2wUFNCP_L_zhdJNts83FCC6keHdwu8n0j5A9qz7yFMi-AnVYlmAs_qs61zF4jZXc5qEs85jpCxY2jPwL7YPhDRSJGORD7Dm8NPSxsrc2tk1pMlbocIGBBEZUHiOpqJ2GnDtWW9sEDcOeE1J7yUqEJCErle2tpXV3P69u3m60Hr35qW312S-QDlq4euNBW4GUrQH3kmyUUCy4LGiN1K3vzfHc')"></div>
-<div class="absolute inset-0 flex items-center justify-center bg-primary/10 backdrop-blur-[2px]">
-<button class="bg-white text-primary px-6 py-2 rounded-lg font-bold shadow-lg border border-outline-variant flex items-center gap-2">
-<span class="material-symbols-outlined" data-icon="map">map</span>
-                        OPEN LIVE MAP
-                    </button>
-</div>
-</div>
-</section>
 </main>
 <!-- Footer -->
 <footer class="bg-surface-container-lowest border-t border-outline-variant mt-12 py-8">
@@ -317,7 +290,7 @@
 <a class="font-metadata-sm text-metadata-sm text-on-surface-variant hover:text-secondary transition-colors" href="#">API</a>
 <a class="font-metadata-sm text-metadata-sm text-on-surface-variant hover:text-secondary transition-colors" href="#">Contact</a>
 </div>
-<p class="font-metadata-sm text-metadata-sm text-outline">© 2024 NYC Gas Data. Prices are crowd-sourced and updated by the community.</p>
+<p class="font-metadata-sm text-metadata-sm text-outline">© 2024 NYC Gas Data. All prices are manually updated by the site administrator.</p>
 </div>
 </footer>
     <script src="assets/js/app.js"></script>

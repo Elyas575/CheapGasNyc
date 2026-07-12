@@ -52,7 +52,6 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <span class="material-symbols-outlined">arrow_back</span>
 <span class="font-metadata-sm">Back</span>
 </a>
-<button class="bg-secondary text-on-secondary px-4 py-1.5 rounded-lg font-label-caps text-label-caps hover:opacity-90 active:scale-95 transition-all">REPORT PRICE</button>
 </div>
 </header>
 <main class="max-w-container-max mx-auto px-4 pb-12 pt-6">
@@ -70,9 +69,9 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <div class="flex gap-6">
 <div class="flex-1">
 <div class="flex items-start gap-4 mb-4">
-<div class="w-16 h-16 bg-white border border-outline-variant rounded-full flex items-center justify-center" id="station-logo">
+<a href="../index.html" class="w-16 h-16 bg-white border border-outline-variant rounded-full flex items-center justify-center" id="station-logo">
 <span class="material-symbols-outlined text-4xl text-outline">local_gas_station</span>
-</div>
+</a>
 <div class="flex-1">
 <h1 class="font-station-name text-station-name font-bold text-primary mb-1" id="station-name">Loading...</h1>
 <div class="flex items-center gap-2 mb-2">
@@ -101,7 +100,6 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <span class="font-label-caps text-label-caps text-on-surface-variant">Regular</span>
 </div>
 <div class="font-price-display text-price-display text-primary" id="price-regular">$0.00</div>
-<p class="font-metadata-sm text-metadata-sm text-outline mt-1" id="price-regular-reporter">-</p>
 </div>
 <div class="text-center p-4 bg-surface-container-low rounded-lg">
 <div class="flex items-center justify-center gap-2 mb-2">
@@ -109,7 +107,6 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <span class="font-label-caps text-label-caps text-on-surface-variant">Midgrade</span>
 </div>
 <div class="font-price-display text-price-display text-primary" id="price-midgrade">$0.00</div>
-<p class="font-metadata-sm text-metadata-sm text-outline mt-1" id="price-midgrade-reporter">-</p>
 </div>
 <div class="text-center p-4 bg-surface-container-low rounded-lg">
 <div class="flex items-center justify-center gap-2 mb-2">
@@ -117,10 +114,8 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <span class="font-label-caps text-label-caps text-on-surface-variant">Premium</span>
 </div>
 <div class="font-price-display text-price-display text-primary" id="price-premium">$0.00</div>
-<p class="font-metadata-sm text-metadata-sm text-outline mt-1" id="price-premium-reporter">-</p>
 </div>
 </div>
-<button class="w-full bg-secondary text-on-secondary py-3 rounded-lg font-bold hover:opacity-90 transition-all">LOG IN TO REPORT PRICES</button>
 </div>
 </div>
 
@@ -136,19 +131,10 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 </div>
 </div>
 
-<!-- Reviews Section -->
-<div class="bg-surface rounded-lg border border-outline-variant p-6">
-<h2 class="font-label-caps text-label-caps text-secondary uppercase tracking-widest mb-4">Reviews</h2>
-<div id="reviews-container" class="space-y-4">
-<div class="p-4 bg-surface-container-low rounded-lg">
-<p class="text-outline text-center">Loading reviews...</p>
-</div>
-</div>
-</div>
 </main>
 <footer class="bg-surface-container-lowest border-t border-outline-variant mt-12 py-8">
 <div class="max-w-container-max mx-auto px-4 text-center">
-<p class="font-metadata-sm text-metadata-sm text-outline">© 2024 NYC Gas Data. Prices are crowd-sourced and updated by the community.</p>
+<p class="font-metadata-sm text-metadata-sm text-outline">© 2024 NYC Gas Data. All prices are manually updated by the site administrator.</p>
 </div>
 </footer>
 <script src="station.js"></script>

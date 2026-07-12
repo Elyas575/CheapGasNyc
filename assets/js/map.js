@@ -1,9 +1,7 @@
-// GasFast NYC - Map Page
-// Loads all stations and displays them on an interactive Google Map
+// NYC Gas - Map Page
+// Displays all stations with Google Maps links
 
 let allStations = [];
-let map;
-let markers = [];
 
 const BOROUGHS = ['bronx', 'brooklyn', 'manhattan', 'queens', 'staten-island'];
 
@@ -17,54 +15,55 @@ async function loadAllStations() {
     const results = await Promise.all(promises);
     allStations = results.flat();
     console.log(`Loaded ${allStations.length} stations for map`);
+    displayStationsList();
   } catch (error) {
     console.error('Failed to load stations for map:', error);
+    document.getElementById('stations-list').innerHTML = `
+      <div class="col-span-2 text-center py-12">
+        <p class="text-outline">Failed to load stations. Please try again later.</p>
+      </div>
+    `;
   }
 }
 
-function createPriceMarker(station) {
-  const price = station.price.replace('$', '');
-  const lat = station.geo?.lat;
-  const lng = station.geo?.lng;
+function getGoogleMapsLink(station) {
+  // Create a Google Maps search link for the station
+  const address = encodeURIComponent(`${station.address.street}, ${station.address.city}, ${station.address.state} ${station.address.zip}`);
+  return `https://www.google.com/maps/search/?api=1&query=${address}`;
+}
 
-  if (!lat || !lng) return null;
+function getGoogleMapsDirectionsLink(station) {
+  // Create a Google Maps directions link
+  const address = encodeURIComponent(`${station.address.street}, ${station.address.city}, ${station.address.state} ${station.address.zip}`);
+  return `https://www.google.com/maps/dir/?api=1&destination=${address}`;
+}
 
-  // Create custom marker with price label
-  const markerContent = `
-    <div class="gas-station-marker">
-      <div style="font-weight: 700; font-size: 16px; line-height: 1;">${price}</div>
-    </div>
-  `;
+function displayStationsList() {
+  const container = document.getElementById('stations-list');
+  
+  if (allStations.length === 0) {
+    container.innerHTML = `
+      <div class="col-span-2 text-center py-12">
+        <p class="text-outline">No stations found.</p>
+      </div>
+    `;
+    return;
+  }
 
-  const marker = new google.maps.Marker({
-    position: { lat: parseFloat(lat), lng: parseFloat(lng) },
-    map: map,
-    title: `${station.name} - ${station.price}`,
-    label: {
-      text: price,
-      color: 'white',
-      fontSize: '16px',
-      fontWeight: '700'
-    },
-    icon: {
-      path: google.maps.SymbolPath.CIRCLE,
-      scale: 12,
-      fillColor: '#855300',
-      fillOpacity: 1,
-      strokeColor: '#ffffff',
-      strokeWeight: 2
-    }
+  // Sort stations by price (cheapest first)
+  const sortedStations = allStations.sort((a, b) => {
+    const priceA = parseFloat(a.price.replace('$', ''));
+    const priceB = parseFloat(b.price.replace('$', ''));
+    return priceA - priceB;
   });
 
-  // Add info window on click
-  const infoWindow = new google.maps.InfoWindow({
-    content: `
-      <div style="padding: 8px; min-width: 200px;">
-        <h3 style="margin: 0 0 8px 0; font-weight: 600; font-size: 16px;">${station.name}</h3>
-        <p style="margin: 4px 0; color: #666; font-size: 14px;">${station.address.street}, ${station.address.city}</p>
-        <p style="margin: 4px 0; font-weight: 700; font-size: 20px; color: #855300;">${station.price}</p>
+  container.innerHTML = sortedStations.map(station => {
+    const mapsLink = getGoogleMapsLink(station);
+    const boroughName = station.borough.charAt(0).toUpperCase() + station.borough.slice(1);
+    
+    return `
         <p style="margin: 4px 0; font-size: 12px; color: #999;">${station.reported_ago}</p>
-        <a href="${station.url}" target="_blank" style="display: inline-block; margin-top: 8px; padding: 6px 12px; background: #855300; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: 600;">View on GasBuddy</a>
+        <a href="${mapsLink}" target="_blank" style="display: inline-block; margin-top: 8px; padding: 6px 12px; background: #855300; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: 600;">View on Google Maps</a>
       </div>
     `
   });
@@ -84,6 +83,12 @@ function initMap() {
     zoom: 11,
     center: nycCenter,
     mapTypeId: 'roadmap',
+    mapTypeControl: true,
+    mapTypeControlOptions: {
+      style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+      position: google.maps.ControlPosition.TOP_RIGHT,
+      mapTypeIds: ['roadmap', 'satellite', 'hybrid']
+    },
     styles: [
       {
         featureType: 'poi',
