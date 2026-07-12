@@ -1,62 +1,912 @@
-[
-  {
-    "name": "Brooklyn Gas & Go",
-    "url": "https://www.gasbuddy.com/station/100001",
-    "address": { "street": "150 Atlantic Ave", "city": "Brooklyn", "state": "NY", "zip": "11201", "country": "US" },
-    "geo": { "lat": 40.685, "lng": -73.976 },
-    "rating": { "value": 4.0, "count": 120 },
-    "price": "$3.69",
-    "price_type": "Cash",
-    "reported_by": "brooklyn_driver",
-    "reported_ago": "2 Hours Ago",
-    "scraped_at": "2026-07-09T06:22:09.713177"
-  },
-  {
-    "name": "Shell",
-    "url": "https://www.gasbuddy.com/station/100002",
-    "address": { "street": "500 Broadway", "city": "Brooklyn", "state": "NY", "zip": "11211", "country": "US" },
-    "geo": { "lat": 40.705, "lng": -73.950 },
-    "rating": { "value": 3.8, "count": 89 },
-    "price": "$3.75",
-    "price_type": "Credit",
-    "reported_by": "DataFeed",
-    "reported_ago": "5 Hours Ago",
-    "scraped_at": "2026-07-09T06:22:09.713199"
-  },
-  {
-    "name": "Mobil",
-    "url": "https://www.gasbuddy.com/station/100003",
-    "address": { "street": "800 Flatbush Ave", "city": "Brooklyn", "state": "NY", "zip": "11226", "country": "US" },
-    "geo": { "lat": 40.650, "lng": -73.960 },
-    "rating": { "value": 4.2, "count": 210 },
-    "price": "$3.79",
-    "price_type": "Cash",
-    "reported_by": "gas_hunter",
-    "reported_ago": "3 Hours Ago",
-    "scraped_at": "2026-07-09T06:22:09.713207"
-  },
-  {
-    "name": "Exxon",
-    "url": "https://www.gasbuddy.com/station/100004",
-    "address": { "street": "1234 Fulton St", "city": "Brooklyn", "state": "NY", "zip": "11216", "country": "US" },
-    "geo": { "lat": 40.680, "lng": -73.940 },
-    "rating": { "value": 3.5, "count": 55 },
-    "price": "$3.81",
-    "price_type": "Cash",
-    "reported_by": "DataFeed",
-    "reported_ago": "8 Hours Ago",
-    "scraped_at": "2026-07-09T06:22:09.713213"
-  },
-  {
-    "name": "BP",
-    "url": "https://www.gasbuddy.com/station/100005",
-    "address": { "street": "2001 Utica Ave", "city": "Brooklyn", "state": "NY", "zip": "11234", "country": "US" },
-    "geo": { "lat": 40.620, "lng": -73.930 },
-    "rating": { "value": 4.4, "count": 165 },
-    "price": "$3.83",
-    "price_type": "Credit",
-    "reported_by": "fuel_finder",
-    "reported_ago": "12 Hours Ago",
-    "scraped_at": "2026-07-09T06:22:09.713219"
+{
+  "borough": "brooklyn",
+  "extracted_at": "2026-07-12T17:19:34.188870",
+  "total_stations": 44,
+  "fuel_types": {
+    "Regular Fuel Prices": {
+      "stations": [
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/81349",
+          "address": {
+            "street": "463 N Conduit Blvd",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$3.55",
+          "price_type": "Cash",
+          "reported_by": "williams45",
+          "reported_ago": "3 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:33.898961"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/85247",
+          "address": {
+            "street": "1935 Linden Blvd",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$3.63",
+          "price_type": "Cash",
+          "reported_by": "zunovoa",
+          "reported_ago": "41 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:33.901733"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/85543",
+          "address": {
+            "street": "8913 Ditmas Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$3.63",
+          "price_type": "Cash",
+          "reported_by": "kcbrooklyn",
+          "reported_ago": "14 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:33.904506"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/85243",
+          "address": {
+            "street": "8401 Flatlands",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$3.65",
+          "price_type": "Cash",
+          "reported_by": "zunovoa",
+          "reported_ago": "23 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:33.907250"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/133920",
+          "address": {
+            "street": "4801 Kings Hwy",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$3.67",
+          "price_type": "Credit",
+          "reported_by": "Lakis300",
+          "reported_ago": "5 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:33.910189"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/131021",
+          "address": {
+            "street": "1149 Utica Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$3.67",
+          "price_type": "Credit",
+          "reported_by": "Lakis300",
+          "reported_ago": "5 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:33.913216"
+        },
+        {
+          "name": "Xpress",
+          "url": "https://www.gasbuddy.com/station/85496",
+          "address": {
+            "street": "1450 Atlantic Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$3.67",
+          "price_type": "Credit",
+          "reported_by": "Buddy_138njn7h",
+          "reported_ago": "1 Hour Ago",
+          "scraped_at": "2026-07-12T17:19:33.916053"
+        },
+        {
+          "name": "Bolla Market",
+          "url": "https://www.gasbuddy.com/station/136047",
+          "address": {
+            "street": "497 Meeker Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$3.69",
+          "price_type": "Cash",
+          "reported_by": "Buddy_wk72gy8k",
+          "reported_ago": "1 Hour Ago",
+          "scraped_at": "2026-07-12T17:19:33.918829"
+        },
+        {
+          "name": "76",
+          "url": "https://www.gasbuddy.com/station/56227",
+          "address": {
+            "street": "3170 Atlantic Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$3.69",
+          "price_type": "Credit",
+          "reported_by": "ronpor51110",
+          "reported_ago": "5 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:33.921724"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/85245",
+          "address": {
+            "street": "2816 Atlantic Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$3.69",
+          "price_type": "Credit",
+          "reported_by": "kiranpurrier",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-12T17:19:33.924621"
+        }
+      ],
+      "count": 10
+    },
+    "Mid-Grade Fuel Prices": {
+      "stations": [
+        {
+          "name": "Sonomax",
+          "url": "https://www.gasbuddy.com/station/56234",
+          "address": {
+            "street": "278 Greenpoint Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$3.89",
+          "price_type": "Cash",
+          "reported_by": "frcmd",
+          "reported_ago": "9 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:33.975722"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/81349",
+          "address": {
+            "street": "463 N Conduit Blvd",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$3.99",
+          "price_type": "Cash",
+          "reported_by": "williams45",
+          "reported_ago": "3 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:33.976998"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/85543",
+          "address": {
+            "street": "8913 Ditmas Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.03",
+          "price_type": "Cash",
+          "reported_by": "kcbrooklyn",
+          "reported_ago": "14 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:33.978309"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/133920",
+          "address": {
+            "street": "4801 Kings Hwy",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.09",
+          "price_type": "Credit",
+          "reported_by": "Lakis300",
+          "reported_ago": "6 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:33.979673"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/131021",
+          "address": {
+            "street": "1149 Utica Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.09",
+          "price_type": "Credit",
+          "reported_by": "Lakis300",
+          "reported_ago": "6 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:33.981064"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/85241",
+          "address": {
+            "street": "1022 Rockaway Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.09",
+          "price_type": "Cash",
+          "reported_by": "visitor",
+          "reported_ago": "14 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:33.982351"
+        },
+        {
+          "name": "Xpress",
+          "url": "https://www.gasbuddy.com/station/85496",
+          "address": {
+            "street": "1450 Atlantic Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.19",
+          "price_type": "Credit",
+          "reported_by": "Buddy_138njn7h",
+          "reported_ago": "1 Hour Ago",
+          "scraped_at": "2026-07-12T17:19:33.983682"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/116565",
+          "address": {
+            "street": "3003 Coney Island AVE",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.23",
+          "price_type": "Credit",
+          "reported_by": "Lakis300",
+          "reported_ago": "4 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:33.984995"
+        },
+        {
+          "name": "Allegiance",
+          "url": "https://www.gasbuddy.com/station/85191",
+          "address": {
+            "street": "2965 86th St",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.23",
+          "price_type": "Credit",
+          "reported_by": "dial86",
+          "reported_ago": "2 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:33.986295"
+        },
+        {
+          "name": "King Plaza Tire And Auto Care",
+          "url": "https://www.gasbuddy.com/station/130396",
+          "address": {
+            "street": "3827 Kings Hwy",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.25",
+          "price_type": "Cash",
+          "reported_by": "#12#_lenbar",
+          "reported_ago": "45 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:33.987882"
+        }
+      ],
+      "count": 10
+    },
+    "Premium Fuel Prices": {
+      "stations": [
+        {
+          "name": "Sonomax",
+          "url": "https://www.gasbuddy.com/station/56234",
+          "address": {
+            "street": "278 Greenpoint Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.15",
+          "price_type": "Cash",
+          "reported_by": "frcmd",
+          "reported_ago": "9 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.038612"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/81349",
+          "address": {
+            "street": "463 N Conduit Blvd",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.25",
+          "price_type": "Cash",
+          "reported_by": "williams45",
+          "reported_ago": "3 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.041356"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/85543",
+          "address": {
+            "street": "8913 Ditmas Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.43",
+          "price_type": "Cash",
+          "reported_by": "kcbrooklyn",
+          "reported_ago": "14 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.044105"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/133920",
+          "address": {
+            "street": "4801 Kings Hwy",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.49",
+          "price_type": "Credit",
+          "reported_by": "Lakis300",
+          "reported_ago": "6 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:34.047056"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/131021",
+          "address": {
+            "street": "1149 Utica Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.49",
+          "price_type": "Credit",
+          "reported_by": "Lakis300",
+          "reported_ago": "6 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:34.050078"
+        },
+        {
+          "name": "Xpress",
+          "url": "https://www.gasbuddy.com/station/85496",
+          "address": {
+            "street": "1450 Atlantic Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.49",
+          "price_type": "Credit",
+          "reported_by": "Buddy_138njn7h",
+          "reported_ago": "1 Hour Ago",
+          "scraped_at": "2026-07-12T17:19:34.052909"
+        },
+        {
+          "name": "Gulf",
+          "url": "https://www.gasbuddy.com/station/85223",
+          "address": {
+            "street": "60565th St",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.49",
+          "price_type": "Credit",
+          "reported_by": "VZbereha",
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.055774"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/85241",
+          "address": {
+            "street": "1022 Rockaway Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.49",
+          "price_type": "Credit",
+          "reported_by": "visitor",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.058584"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56222",
+          "address": {
+            "street": "1935 Coney Island Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.55",
+          "price_type": "Credit",
+          "reported_by": "Lakis300",
+          "reported_ago": "5 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:34.061473"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/85245",
+          "address": {
+            "street": "2816 Atlantic Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.55",
+          "price_type": "Credit",
+          "reported_by": "coc518bx",
+          "reported_ago": "6 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.064362"
+        }
+      ],
+      "count": 10
+    },
+    "Diesel Fuel Prices": {
+      "stations": [
+        {
+          "name": "Sonomax",
+          "url": "https://www.gasbuddy.com/station/56234",
+          "address": {
+            "street": "278 Greenpoint Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$4.59",
+          "price_type": "Cash",
+          "reported_by": "frcmd",
+          "reported_ago": "9 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.116776"
+        },
+        {
+          "name": "Speedway",
+          "url": "https://www.gasbuddy.com/station/85071",
+          "address": {
+            "street": "833 4th Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$5.09",
+          "price_type": "Credit",
+          "reported_by": "COBRA_0139",
+          "reported_ago": "3 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.118558"
+        },
+        {
+          "name": "Gulf",
+          "url": "https://www.gasbuddy.com/station/85223",
+          "address": {
+            "street": "60565th St",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$5.09",
+          "price_type": "Credit",
+          "reported_by": "VZbereha",
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.120968"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56222",
+          "address": {
+            "street": "1935 Coney Island Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$5.19",
+          "price_type": "Credit",
+          "reported_by": "Lakis300",
+          "reported_ago": "5 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:34.123814"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/56231",
+          "address": {
+            "street": "6418 7th Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$5.19",
+          "price_type": "Credit",
+          "reported_by": "VZbereha",
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.126516"
+        },
+        {
+          "name": "Amoco",
+          "url": "https://www.gasbuddy.com/station/147002",
+          "address": {
+            "street": "1760 Flatbush Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$5.29",
+          "price_type": "Cash",
+          "reported_by": "#12#_lenbar",
+          "reported_ago": "44 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:34.129244"
+        },
+        {
+          "name": "King Plaza Tire And Auto Care",
+          "url": "https://www.gasbuddy.com/station/130396",
+          "address": {
+            "street": "3827 Kings Hwy",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$5.29",
+          "price_type": "Cash",
+          "reported_by": "#12#_lenbar",
+          "reported_ago": "45 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:34.131930"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/201784",
+          "address": {
+            "street": "5824 Church",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$5.29",
+          "price_type": "Credit",
+          "reported_by": "visitor",
+          "reported_ago": "14 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.134724"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/133920",
+          "address": {
+            "street": "4801 Kings Hwy",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$5.39",
+          "price_type": "Credit",
+          "reported_by": "Lakis300",
+          "reported_ago": "6 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:34.137037"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/131021",
+          "address": {
+            "street": "1149 Utica Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "$5.39",
+          "price_type": "Credit",
+          "reported_by": "Lakis300",
+          "reported_ago": "6 Minutes Ago",
+          "scraped_at": "2026-07-12T17:19:34.139541"
+        }
+      ],
+      "count": 10
+    },
+    "E85 Fuel Prices": {
+      "stations": [
+        {
+          "name": "Conoco",
+          "url": "https://www.gasbuddy.com/station/56216",
+          "address": {
+            "street": "594 Jamaica Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-12T17:19:34.173190"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/131021",
+          "address": {
+            "street": "1149 Utica Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-12T17:19:34.175761"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/85148",
+          "address": {
+            "street": "1049 Grand St",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-12T17:19:34.177026"
+        },
+        {
+          "name": "Conoco",
+          "url": "https://www.gasbuddy.com/station/85271",
+          "address": {
+            "street": "1121 Pennsylvania Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": null,
+            "lng": null
+          },
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-12T17:19:34.178227"
+        }
+      ],
+      "count": 4
+    }
   }
-]
+}

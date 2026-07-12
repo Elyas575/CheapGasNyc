@@ -1,62 +1,852 @@
-[
-  {
-    "name": "Queens Fuel Center",
-    "url": "https://www.gasbuddy.com/station/200001",
-    "address": { "street": "75-20 Queens Blvd", "city": "Queens", "state": "NY", "zip": "11373", "country": "US" },
-    "geo": { "lat": 40.730, "lng": -73.890 },
-    "rating": { "value": 4.1, "count": 95 },
-    "price": "$3.67",
-    "price_type": "Cash",
-    "reported_by": "queens_driver",
-    "reported_ago": "1 Hour Ago",
-    "scraped_at": "2026-07-09T06:22:09.713177"
-  },
-  {
-    "name": "Shell",
-    "url": "https://www.gasbuddy.com/station/200002",
-    "address": { "street": "30-01 Northern Blvd", "city": "Queens", "state": "NY", "zip": "11101", "country": "US" },
-    "geo": { "lat": 40.750, "lng": -73.920 },
-    "rating": { "value": 3.9, "count": 140 },
-    "price": "$3.71",
-    "price_type": "Credit",
-    "reported_by": "DataFeed",
-    "reported_ago": "4 Hours Ago",
-    "scraped_at": "2026-07-09T06:22:09.713199"
-  },
-  {
-    "name": "Mobil",
-    "url": "https://www.gasbuddy.com/station/200003",
-    "address": { "street": "95-10 Astoria Blvd", "city": "Queens", "state": "NY", "zip": "11369", "country": "US" },
-    "geo": { "lat": 40.760, "lng": -73.870 },
-    "rating": { "value": 4.3, "count": 180 },
-    "price": "$3.75",
-    "price_type": "Cash",
-    "reported_by": "gas_queen",
-    "reported_ago": "6 Hours Ago",
-    "scraped_at": "2026-07-09T06:22:09.713207"
-  },
-  {
-    "name": "Exxon",
-    "url": "https://www.gasbuddy.com/station/200004",
-    "address": { "street": "161-10 Jamaica Ave", "city": "Queens", "state": "NY", "zip": "11432", "country": "US" },
-    "geo": { "lat": 40.700, "lng": -73.800 },
-    "rating": { "value": 3.6, "count": 72 },
-    "price": "$3.79",
-    "price_type": "Cash",
-    "reported_by": "DataFeed",
-    "reported_ago": "9 Hours Ago",
-    "scraped_at": "2026-07-09T06:22:09.713213"
-  },
-  {
-    "name": "BP",
-    "url": "https://www.gasbuddy.com/station/200005",
-    "address": { "street": "50-01 Vernon Blvd", "city": "Queens", "state": "NY", "zip": "11101", "country": "US" },
-    "geo": { "lat": 40.740, "lng": -73.950 },
-    "rating": { "value": 4.0, "count": 110 },
-    "price": "$3.82",
-    "price_type": "Credit",
-    "reported_by": "fuel_king",
-    "reported_ago": "11 Hours Ago",
-    "scraped_at": "2026-07-09T06:22:09.713219"
+{
+  "borough": "queens",
+  "extracted_at": "2026-07-12T17:19:34.940888",
+  "total_stations": 41,
+  "fuel_types": {
+    "Regular Fuel Prices": {
+      "stations": [
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/203697",
+          "address": {
+            "street": "100-03 N Conduit Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713643,
+            "lng": -73.821044
+          },
+          "price": "$3.69",
+          "price_type": "Credit",
+          "reported_by": "RambleOn",
+          "reported_ago": "19 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.586893"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/133524",
+          "address": {
+            "street": "10409 Atlantic Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713643,
+            "lng": -73.821044
+          },
+          "price": "$3.75",
+          "price_type": "Cash",
+          "reported_by": "cmny",
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.589894"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/90218",
+          "address": {
+            "street": "7509 Northern Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713643,
+            "lng": -73.821044
+          },
+          "price": "$3.79",
+          "price_type": "Credit",
+          "reported_by": "trixie10007",
+          "reported_ago": "2 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.592968"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/143146",
+          "address": {
+            "street": "2565 Brooklyn-Queens Expressway East",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713643,
+            "lng": -73.821044
+          },
+          "price": "$3.79",
+          "price_type": "Credit",
+          "reported_by": "trixie10007",
+          "reported_ago": "2 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.596114"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56330",
+          "address": {
+            "street": "211-60 Hillside Ave",
+            "city": "Queens Village",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713643,
+            "lng": -73.821044
+          },
+          "price": "$3.79",
+          "price_type": "Credit",
+          "reported_by": "melchevelle",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.597698"
+        },
+        {
+          "name": "CITGO",
+          "url": "https://www.gasbuddy.com/station/90026",
+          "address": {
+            "street": "75-41 Yellowstone Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713643,
+            "lng": -73.821044
+          },
+          "price": "$3.79",
+          "price_type": "Credit",
+          "reported_by": "ss013",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-12T17:19:34.599141"
+        },
+        {
+          "name": "Gas Sale",
+          "url": "https://www.gasbuddy.com/station/9642",
+          "address": {
+            "street": "68-27 Woodhaven Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713643,
+            "lng": -73.821044
+          },
+          "price": "$3.85",
+          "price_type": "Cash",
+          "reported_by": "ss013",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-12T17:19:34.600530"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/140156",
+          "address": {
+            "street": "119-01 Atlantic Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713643,
+            "lng": -73.821044
+          },
+          "price": "$3.89",
+          "price_type": "Cash",
+          "reported_by": "Buddy_934q3c2w",
+          "reported_ago": "1 Hour Ago",
+          "scraped_at": "2026-07-12T17:19:34.601922"
+        },
+        {
+          "name": "Amoco",
+          "url": "https://www.gasbuddy.com/station/118569",
+          "address": {
+            "street": "154-09 Union Tpke",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713643,
+            "lng": -73.821044
+          },
+          "price": "$3.89",
+          "price_type": "Cash",
+          "reported_by": "NT_RE",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-12T17:19:34.603349"
+        },
+        {
+          "name": "Speedway",
+          "url": "https://www.gasbuddy.com/station/56262",
+          "address": {
+            "street": "219-28 Hillside Ave",
+            "city": "Queens Village",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713643,
+            "lng": -73.821044
+          },
+          "price": "$3.89",
+          "price_type": "Credit",
+          "reported_by": "Buddy_bnxcwj7r",
+          "reported_ago": "2 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.604785"
+        }
+      ],
+      "count": 10
+    },
+    "Mid-Grade Fuel Prices": {
+      "stations": [
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/203697",
+          "address": {
+            "street": "100-03 N Conduit Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.71118,
+            "lng": -73.822709
+          },
+          "price": "$4.09",
+          "price_type": "Credit",
+          "reported_by": "RambleOn",
+          "reported_ago": "19 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.670756"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/133524",
+          "address": {
+            "street": "10409 Atlantic Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.71118,
+            "lng": -73.822709
+          },
+          "price": "$4.15",
+          "price_type": "Cash",
+          "reported_by": "cmny",
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.673829"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/90218",
+          "address": {
+            "street": "7509 Northern Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.71118,
+            "lng": -73.822709
+          },
+          "price": "$4.19",
+          "price_type": "Credit",
+          "reported_by": "trixie10007",
+          "reported_ago": "2 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.676927"
+        },
+        {
+          "name": "Gulf",
+          "url": "https://www.gasbuddy.com/station/79921",
+          "address": {
+            "street": "14150 Union Tpke",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.71118,
+            "lng": -73.822709
+          },
+          "price": "$4.23",
+          "price_type": "Credit",
+          "reported_by": "coc518bx",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-12T17:19:34.680104"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/133957",
+          "address": {
+            "street": "94-02 111th",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.71118,
+            "lng": -73.822709
+          },
+          "price": "$4.25",
+          "price_type": "Cash",
+          "reported_by": "cmny",
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.683130"
+        },
+        {
+          "name": "Amoco",
+          "url": "https://www.gasbuddy.com/station/140150",
+          "address": {
+            "street": "118-11 Atlantic Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.71118,
+            "lng": -73.822709
+          },
+          "price": "$4.29",
+          "price_type": "Cash",
+          "reported_by": "Buddy_934q3c2w",
+          "reported_ago": "1 Hour Ago",
+          "scraped_at": "2026-07-12T17:19:34.686172"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/140156",
+          "address": {
+            "street": "119-01 Atlantic Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.71118,
+            "lng": -73.822709
+          },
+          "price": "$4.29",
+          "price_type": "Cash",
+          "reported_by": "Buddy_934q3c2w",
+          "reported_ago": "1 Hour Ago",
+          "scraped_at": "2026-07-12T17:19:34.689205"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/118945",
+          "address": {
+            "street": "114-02 Van Wyck Expy",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.71118,
+            "lng": -73.822709
+          },
+          "price": "$4.29",
+          "price_type": "Credit",
+          "reported_by": "Irg1704",
+          "reported_ago": "9 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.692255"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/56326",
+          "address": {
+            "street": "212-01 Hillside Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.71118,
+            "lng": -73.822709
+          },
+          "price": "$4.29",
+          "price_type": "Credit",
+          "reported_by": "melchevelle",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-12T17:19:34.695427"
+        },
+        {
+          "name": "CITGO",
+          "url": "https://www.gasbuddy.com/station/90026",
+          "address": {
+            "street": "75-41 Yellowstone Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.71118,
+            "lng": -73.822709
+          },
+          "price": "$4.29",
+          "price_type": "Credit",
+          "reported_by": "ss013",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-12T17:19:34.698492"
+        }
+      ],
+      "count": 10
+    },
+    "Premium Fuel Prices": {
+      "stations": [
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/203697",
+          "address": {
+            "street": "100-03 N Conduit Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713769,
+            "lng": -73.84885
+          },
+          "price": "$4.39",
+          "price_type": "Credit",
+          "reported_by": "RambleOn",
+          "reported_ago": "19 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.769089"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/90218",
+          "address": {
+            "street": "7509 Northern Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713769,
+            "lng": -73.84885
+          },
+          "price": "$4.55",
+          "price_type": "Credit",
+          "reported_by": "trixie10007",
+          "reported_ago": "2 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.772173"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/133524",
+          "address": {
+            "street": "10409 Atlantic Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713769,
+            "lng": -73.84885
+          },
+          "price": "$4.55",
+          "price_type": "Cash",
+          "reported_by": "cmny",
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.775115"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/133957",
+          "address": {
+            "street": "94-02 111th",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713769,
+            "lng": -73.84885
+          },
+          "price": "$4.59",
+          "price_type": "Cash",
+          "reported_by": "cmny",
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.778104"
+        },
+        {
+          "name": "Gulf",
+          "url": "https://www.gasbuddy.com/station/79921",
+          "address": {
+            "street": "14150 Union Tpke",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713769,
+            "lng": -73.84885
+          },
+          "price": "$4.67",
+          "price_type": "Credit",
+          "reported_by": "DataFeed",
+          "reported_ago": "14 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.780216"
+        },
+        {
+          "name": "Amoco",
+          "url": "https://www.gasbuddy.com/station/140150",
+          "address": {
+            "street": "118-11 Atlantic Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713769,
+            "lng": -73.84885
+          },
+          "price": "$4.69",
+          "price_type": "Cash",
+          "reported_by": "Buddy_934q3c2w",
+          "reported_ago": "1 Hour Ago",
+          "scraped_at": "2026-07-12T17:19:34.781616"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/140156",
+          "address": {
+            "street": "119-01 Atlantic Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713769,
+            "lng": -73.84885
+          },
+          "price": "$4.69",
+          "price_type": "Cash",
+          "reported_by": "Buddy_934q3c2w",
+          "reported_ago": "1 Hour Ago",
+          "scraped_at": "2026-07-12T17:19:34.782994"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/118945",
+          "address": {
+            "street": "114-02 Van Wyck Expy",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713769,
+            "lng": -73.84885
+          },
+          "price": "$4.69",
+          "price_type": "Credit",
+          "reported_by": "Irg1704",
+          "reported_ago": "9 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.784405"
+        },
+        {
+          "name": "CITGO",
+          "url": "https://www.gasbuddy.com/station/90026",
+          "address": {
+            "street": "75-41 Yellowstone Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713769,
+            "lng": -73.84885
+          },
+          "price": "$4.69",
+          "price_type": "Credit",
+          "reported_by": "ss013",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-12T17:19:34.785816"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/56327",
+          "address": {
+            "street": "107-10 Astoria Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.713769,
+            "lng": -73.84885
+          },
+          "price": "$4.75",
+          "price_type": "Credit",
+          "reported_by": "JPT_Fundkeiser",
+          "reported_ago": "3 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.788684"
+        }
+      ],
+      "count": 10
+    },
+    "Diesel Fuel Prices": {
+      "stations": [
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/203697",
+          "address": {
+            "street": "100-03 N Conduit Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.718405,
+            "lng": -73.82828
+          },
+          "price": "$5.19",
+          "price_type": "Credit",
+          "reported_by": "RambleOn",
+          "reported_ago": "19 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.852502"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/71629",
+          "address": {
+            "street": "43-15 Junction Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.718405,
+            "lng": -73.82828
+          },
+          "price": "$5.29",
+          "price_type": "Credit",
+          "reported_by": "DataFeed",
+          "reported_ago": "14 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.855631"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56330",
+          "address": {
+            "street": "211-60 Hillside Ave",
+            "city": "Queens Village",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.718405,
+            "lng": -73.82828
+          },
+          "price": "$5.35",
+          "price_type": "Credit",
+          "reported_by": "melchevelle",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.858835"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/133524",
+          "address": {
+            "street": "10409 Atlantic Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.718405,
+            "lng": -73.82828
+          },
+          "price": "$5.39",
+          "price_type": "Cash",
+          "reported_by": "cmny",
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.861922"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/133957",
+          "address": {
+            "street": "94-02 111th",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.718405,
+            "lng": -73.82828
+          },
+          "price": "$5.49",
+          "price_type": "Cash",
+          "reported_by": "cmny",
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-12T17:19:34.865028"
+        },
+        {
+          "name": "Gulf",
+          "url": "https://www.gasbuddy.com/station/79921",
+          "address": {
+            "street": "14150 Union Tpke",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.718405,
+            "lng": -73.82828
+          },
+          "price": "$5.49",
+          "price_type": "Credit",
+          "reported_by": "coc518bx",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-12T17:19:34.868139"
+        },
+        {
+          "name": "Amoco",
+          "url": "https://www.gasbuddy.com/station/118569",
+          "address": {
+            "street": "154-09 Union Tpke",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.718405,
+            "lng": -73.82828
+          },
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-12T17:19:34.871583"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/129573",
+          "address": {
+            "street": "185-25 N Conduit Ave",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.718405,
+            "lng": -73.82828
+          },
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-12T17:19:34.875748"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/143055",
+          "address": {
+            "street": "100-07 Rockaway Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.718405,
+            "lng": -73.82828
+          },
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-12T17:19:34.879496"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/68062",
+          "address": {
+            "street": "4606 Ditmars Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.718405,
+            "lng": -73.82828
+          },
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-12T17:19:34.883064"
+        }
+      ],
+      "count": 10
+    },
+    "E85 Fuel Prices": {
+      "stations": [
+        {
+          "name": "Gas Sale",
+          "url": "https://www.gasbuddy.com/station/9642",
+          "address": {
+            "street": "68-27 Woodhaven Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": null,
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.714542,
+            "lng": -73.85941
+          },
+          "price": "$2.75",
+          "price_type": "Cash",
+          "reported_by": "DJBennyBlanco",
+          "reported_ago": "2 Days Ago",
+          "scraped_at": "2026-07-12T17:19:34.919397"
+        }
+      ],
+      "count": 1
+    }
   }
-]
+}

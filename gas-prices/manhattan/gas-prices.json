@@ -1,6 +1,6 @@
 {
   "borough": "manhattan",
-  "extracted_at": "2026-07-12T16:14:52.487925",
+  "extracted_at": "2026-07-12T17:19:34.524549",
   "total_stations": 42,
   "fuel_types": {
     "Regular Fuel Prices": {
@@ -23,7 +23,7 @@
           "price_type": "Credit",
           "reported_by": "DataFeed",
           "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-12T16:14:52.208176"
+          "scraped_at": "2026-07-12T17:19:34.242985"
         },
         {
           "name": "BP",
@@ -43,7 +43,7 @@
           "price_type": "Credit",
           "reported_by": "coachof2",
           "reported_ago": "13 Hours Ago",
-          "scraped_at": "2026-07-12T16:14:52.210400"
+          "scraped_at": "2026-07-12T17:19:34.244432"
         },
         {
           "name": "Shell",
@@ -63,7 +63,7 @@
           "price_type": "Credit",
           "reported_by": "DataFeed",
           "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-12T16:14:52.213571"
+          "scraped_at": "2026-07-12T17:19:34.245979"
         },
         {
           "name": "Shell",
@@ -83,7 +83,7 @@
           "price_type": "Credit",
           "reported_by": "scar720",
           "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-12T16:14:52.216643"
+          "scraped_at": "2026-07-12T17:19:34.247404"
         },
         {
           "name": "Mobil",
@@ -103,7 +103,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.219810"
+          "scraped_at": "2026-07-12T17:19:34.248880"
         },
         {
           "name": "BP",
@@ -123,7 +123,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.222973"
+          "scraped_at": "2026-07-12T17:19:34.250351"
         },
         {
           "name": "Mobil",
@@ -143,7 +143,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.226403"
+          "scraped_at": "2026-07-12T17:19:34.253287"
         },
         {
           "name": "BP",
@@ -163,7 +163,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.228093"
+          "scraped_at": "2026-07-12T17:19:34.256685"
         },
         {
           "name": "Mobil",
@@ -183,7 +183,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.229611"
+          "scraped_at": "2026-07-12T17:19:34.259850"
         },
         {
           "name": "BP",
@@ -203,7 +203,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.231164"
+          "scraped_at": "2026-07-12T17:19:34.263151"
         }
       ],
       "count": 10
@@ -228,7 +228,7 @@
           "price_type": "Credit",
           "reported_by": "coachof2",
           "reported_ago": "13 Hours Ago",
-          "scraped_at": "2026-07-12T16:14:52.279358"
+          "scraped_at": "2026-07-12T17:19:34.308093"
         },
         {
           "name": "Conoco",
@@ -248,7 +248,7 @@
           "price_type": "Credit",
           "reported_by": "DataFeed",
           "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-12T16:14:52.282023"
+          "scraped_at": "2026-07-12T17:19:34.309355"
         },
         {
           "name": "Shell",
@@ -268,7 +268,7 @@
           "price_type": "Credit",
           "reported_by": "scar720",
           "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-12T16:14:52.284704"
+          "scraped_at": "2026-07-12T17:19:34.310652"
         },
         {
           "name": "Mobil",
@@ -288,7 +288,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.287529"
+          "scraped_at": "2026-07-12T17:19:34.313553"
         },
         {
           "name": "BP",
@@ -308,7 +308,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.290359"
+          "scraped_at": "2026-07-12T17:19:34.316453"
         },
         {
           "name": "Mobil",
@@ -328,7 +328,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.293181"
+          "scraped_at": "2026-07-12T17:19:34.319272"
         },
         {
           "name": "Shell",
@@ -348,7 +348,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.296035"
+          "scraped_at": "2026-07-12T17:19:34.322111"
         },
         {
           "name": "Sunoco",
@@ -368,7 +368,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.298831"
+          "scraped_at": "2026-07-12T17:19:34.324939"
         },
         {
           "name": "BP",
@@ -388,7 +388,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.301799"
+          "scraped_at": "2026-07-12T17:19:34.327962"
         },
         {
           "name": "BP",
@@ -408,7 +408,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.304866"
+          "scraped_at": "2026-07-12T17:19:34.331215"
         }
       ],
       "count": 10
@@ -433,7 +433,7 @@
           "price_type": "Credit",
           "reported_by": "DataFeed",
           "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-12T16:14:52.358589"
+          "scraped_at": "2026-07-12T17:19:34.387050"
         },
         {
           "name": "Mobil",
@@ -453,7 +453,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.360129"
+          "scraped_at": "2026-07-12T17:19:34.389934"
         },
         {
           "name": "BP",
@@ -473,7 +473,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.361592"
+          "scraped_at": "2026-07-12T17:19:34.392914"
         },
         {
           "name": "Mobil",
@@ -493,7 +493,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.363037"
+          "scraped_at": "2026-07-12T17:19:34.396233"
         },
         {
           "name": "BP",
@@ -513,7 +513,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.365713"
+          "scraped_at": "2026-07-12T17:19:34.399423"
         },
         {
           "name": "BP",
@@ -533,7 +533,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.368720"
+          "scraped_at": "2026-07-12T17:19:34.402439"
         },
         {
           "name": "Mobil",
@@ -553,7 +553,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.371610"
+          "scraped_at": "2026-07-12T17:19:34.405373"
         },
         {
           "name": "Sunoco",
@@ -573,7 +573,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.374461"
+          "scraped_at": "2026-07-12T17:19:34.408195"
         },
         {
           "name": "Shell",
@@ -593,7 +593,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.377455"
+          "scraped_at": "2026-07-12T17:19:34.409631"
         },
         {
           "name": "Shell",
@@ -613,7 +613,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.380459"
+          "scraped_at": "2026-07-12T17:19:34.412159"
         }
       ],
       "count": 10
@@ -638,7 +638,7 @@
           "price_type": "Credit",
           "reported_by": "DataFeed",
           "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-12T16:14:52.435445"
+          "scraped_at": "2026-07-12T17:19:34.474806"
         },
         {
           "name": "BP",
@@ -658,7 +658,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.438321"
+          "scraped_at": "2026-07-12T17:19:34.477872"
         },
         {
           "name": "Shell",
@@ -678,7 +678,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.441301"
+          "scraped_at": "2026-07-12T17:19:34.479747"
         },
         {
           "name": "Sunoco",
@@ -698,7 +698,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.444270"
+          "scraped_at": "2026-07-12T17:19:34.481158"
         },
         {
           "name": "BP",
@@ -718,7 +718,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.447347"
+          "scraped_at": "2026-07-12T17:19:34.482617"
         },
         {
           "name": "Mobil",
@@ -738,7 +738,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.450185"
+          "scraped_at": "2026-07-12T17:19:34.483974"
         },
         {
           "name": "BP",
@@ -758,7 +758,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.454575"
+          "scraped_at": "2026-07-12T17:19:34.487184"
         },
         {
           "name": "Shell",
@@ -778,7 +778,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.456459"
+          "scraped_at": "2026-07-12T17:19:34.491007"
         },
         {
           "name": "Mobil",
@@ -798,7 +798,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.458083"
+          "scraped_at": "2026-07-12T17:19:34.492443"
         },
         {
           "name": "Shell",
@@ -818,7 +818,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.459494"
+          "scraped_at": "2026-07-12T17:19:34.493842"
         }
       ],
       "count": 10
@@ -843,7 +843,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.481858"
+          "scraped_at": "2026-07-12T17:19:34.518630"
         },
         {
           "name": "BP",
@@ -863,7 +863,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-12T16:14:52.484015"
+          "scraped_at": "2026-07-12T17:19:34.520823"
         }
       ],
       "count": 2
