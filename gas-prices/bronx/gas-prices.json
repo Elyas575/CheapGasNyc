@@ -7,7 +7,7 @@
       "stations": [
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/86583",
+          "url": "station/86583",
           "address": {
             "street": "71 Major Deegan Expwy",
             "city": "Bronx",
@@ -27,7 +27,7 @@
         },
         {
           "name": "Petroleum",
-          "url": "https://www.gasbuddy.com/station/152001",
+          "url": "station/152001",
           "address": {
             "street": "1165 Ogden Ave",
             "city": "Bronx",
@@ -47,7 +47,7 @@
         },
         {
           "name": "76",
-          "url": "https://www.gasbuddy.com/station/85946",
+          "url": "station/85946",
           "address": {
             "street": "2007 Williamsbridge Rd",
             "city": "Bronx",
@@ -67,7 +67,7 @@
         },
         {
           "name": "Gulf",
-          "url": "https://www.gasbuddy.com/station/86538",
+          "url": "station/86538",
           "address": {
             "street": "1805 Webster Ave",
             "city": "Bronx",
@@ -87,7 +87,7 @@
         },
         {
           "name": "B&G Services",
-          "url": "https://www.gasbuddy.com/station/85984",
+          "url": "station/85984",
           "address": {
             "street": "1243 East Tremont Ave",
             "city": "Bronx",
@@ -107,7 +107,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/143371",
+          "url": "station/143371",
           "address": {
             "street": "1719 Cross Bronx Expy N",
             "city": "Bronx",
@@ -127,7 +127,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56206",
+          "url": "station/56206",
           "address": {
             "street": "119 Bruckner Blvd",
             "city": "Bronx",
@@ -147,7 +147,7 @@
         },
         {
           "name": "Amoco",
-          "url": "https://www.gasbuddy.com/station/56196",
+          "url": "station/56196",
           "address": {
             "street": "164 WILLIS AVE",
             "city": "Bronx",
@@ -167,7 +167,7 @@
         },
         {
           "name": "Gulf",
-          "url": "https://www.gasbuddy.com/station/155581",
+          "url": "station/155581",
           "address": {
             "street": "4711 3rd Ave",
             "city": "Bronx",
@@ -187,7 +187,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/85835",
+          "url": "station/85835",
           "address": {
             "street": "1500 Williamsbridge Rd",
             "city": "Bronx",
@@ -212,7 +212,7 @@
       "stations": [
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/143371",
+          "url": "station/143371",
           "address": {
             "street": "1719 Cross Bronx Expy N",
             "city": "Bronx",
@@ -232,7 +232,7 @@
         },
         {
           "name": "B&G Services",
-          "url": "https://www.gasbuddy.com/station/85984",
+          "url": "station/85984",
           "address": {
             "street": "1243 East Tremont Ave",
             "city": "Bronx",
@@ -252,7 +252,7 @@
         },
         {
           "name": "Petroleum",
-          "url": "https://www.gasbuddy.com/station/152001",
+          "url": "station/152001",
           "address": {
             "street": "1165 Ogden Ave",
             "city": "Bronx",
@@ -272,7 +272,7 @@
         },
         {
           "name": "Gulf",
-          "url": "https://www.gasbuddy.com/station/86538",
+          "url": "station/86538",
           "address": {
             "street": "1805 Webster Ave",
             "city": "Bronx",
@@ -292,7 +292,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/85835",
+          "url": "station/85835",
           "address": {
             "street": "1500 Williamsbridge Rd",
             "city": "Bronx",
@@ -312,7 +312,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/204800",
+          "url": "station/204800",
           "address": {
             "street": "1610 Eastchester Rd",
             "city": "Bronx",
@@ -332,7 +332,7 @@
         },
         {
           "name": "Gulf",
-          "url": "https://www.gasbuddy.com/station/133388",
+          "url": "station/133388",
           "address": {
             "street": "2947 Jerome Ave",
             "city": "Bronx",
@@ -352,7 +352,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/85852",
+          "url": "station/85852",
           "address": {
             "street": "91 WESTCHESTER SQ",
             "city": "Bronx",
@@ -372,7 +372,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/85841",
+          "url": "station/85841",
           "address": {
             "street": "3055 WESTCHESTER AVE",
             "city": "Bronx",
@@ -392,7 +392,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/86535",
+          "url": "station/86535",
           "address": {
             "street": "611 Grand Concourse",
             "city": "Bronx",
@@ -417,7 +417,7 @@
       "stations": [
         {
           "name": "Petroleum",
-          "url": "https://www.gasbuddy.com/station/152001",
+          "url": "station/152001",
           "address": {
             "street": "1165 Ogden Ave",
             "city": "Bronx",
@@ -437,7 +437,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/143371",
+          "url": "station/143371",
           "address": {
             "street": "1719 Cross Bronx Expy N",
             "city": "Bronx",
@@ -457,7 +457,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/85835",
+          "url": "station/85835",
           "address": {
             "street": "1500 Williamsbridge Rd",
             "city": "Bronx",
@@ -477,7 +477,7 @@
         },
         {
           "name": "Amoco",
-          "url": "https://www.gasbuddy.com/station/56196",
+          "url": "station/56196",
           "address": {
             "street": "164 WILLIS AVE",
             "city": "Bronx",
@@ -497,7 +497,7 @@
         },
         {
           "name": "Gulf",
-          "url": "https://www.gasbuddy.com/station/133388",
+          "url": "station/133388",
           "address": {
             "street": "2947 Jerome Ave",
             "city": "Bronx",
@@ -517,7 +517,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/208630",
+          "url": "station/208630",
           "address": {
             "street": "601 E Fordham Rd",
             "city": "Bronx",
@@ -537,7 +537,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56188",
+          "url": "station/56188",
           "address": {
             "street": "641 E GUN HILL RD",
             "city": "Bronx",
@@ -557,7 +557,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/85852",
+          "url": "station/85852",
           "address": {
             "street": "91 WESTCHESTER SQ",
             "city": "Bronx",
@@ -577,7 +577,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/85841",
+          "url": "station/85841",
           "address": {
             "street": "3055 WESTCHESTER AVE",
             "city": "Bronx",
@@ -597,7 +597,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/86535",
+          "url": "station/86535",
           "address": {
             "street": "611 Grand Concourse",
             "city": "Bronx",
@@ -622,7 +622,7 @@
       "stations": [
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/86600",
+          "url": "station/86600",
           "address": {
             "street": "590 E Fordham Rd",
             "city": "Bronx",
@@ -642,7 +642,7 @@
         },
         {
           "name": "Gulf",
-          "url": "https://www.gasbuddy.com/station/86538",
+          "url": "station/86538",
           "address": {
             "street": "1805 Webster Ave",
             "city": "Bronx",
@@ -662,7 +662,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/85890",
+          "url": "station/85890",
           "address": {
             "street": "4068 3RD AVE",
             "city": "Bronx",
@@ -682,7 +682,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/179390",
+          "url": "station/179390",
           "address": {
             "street": "4643 3rd Ave",
             "city": "Bronx",
@@ -702,7 +702,7 @@
         },
         {
           "name": "Amoco",
-          "url": "https://www.gasbuddy.com/station/56196",
+          "url": "station/56196",
           "address": {
             "street": "164 WILLIS AVE",
             "city": "Bronx",
@@ -722,7 +722,7 @@
         },
         {
           "name": "Phillips 66",
-          "url": "https://www.gasbuddy.com/station/131935",
+          "url": "station/131935",
           "address": {
             "street": "902 Soundview Ave",
             "city": "Bronx",
@@ -742,7 +742,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56206",
+          "url": "station/56206",
           "address": {
             "street": "119 Bruckner Blvd",
             "city": "Bronx",
@@ -762,7 +762,7 @@
         },
         {
           "name": "B&G Services",
-          "url": "https://www.gasbuddy.com/station/85984",
+          "url": "station/85984",
           "address": {
             "street": "1243 East Tremont Ave",
             "city": "Bronx",
@@ -782,7 +782,7 @@
         },
         {
           "name": "Gulf",
-          "url": "https://www.gasbuddy.com/station/85991",
+          "url": "station/85991",
           "address": {
             "street": "1255 E Gun Hill Rd",
             "city": "Bronx",
@@ -802,7 +802,7 @@
         },
         {
           "name": "76",
-          "url": "https://www.gasbuddy.com/station/85946",
+          "url": "station/85946",
           "address": {
             "street": "2007 Williamsbridge Rd",
             "city": "Bronx",
@@ -827,7 +827,7 @@
       "stations": [
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/86665",
+          "url": "station/86665",
           "address": {
             "street": "1320 Hutchinson River Pkwy N",
             "city": "Bronx",
@@ -847,7 +847,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/85891",
+          "url": "station/85891",
           "address": {
             "street": "3500 CONNER ST",
             "city": "Bronx",
@@ -867,7 +867,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56193",
+          "url": "station/56193",
           "address": {
             "street": "4201 Webster Ave",
             "city": "Bronx",
@@ -887,7 +887,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/97062",
+          "url": "station/97062",
           "address": {
             "street": "3804 BOSTON RD",
             "city": "Bronx",
@@ -907,7 +907,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/86664",
+          "url": "station/86664",
           "address": {
             "street": "1325 Hutchinson River Pkwy S",
             "city": "Bronx",
@@ -927,7 +927,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56205",
+          "url": "station/56205",
           "address": {
             "street": "4147 Throggs Neck Expy",
             "city": "Bronx",
@@ -947,7 +947,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56204",
+          "url": "station/56204",
           "address": {
             "street": "1930 BARTOW AVE",
             "city": "Bronx",
@@ -967,7 +967,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/85975",
+          "url": "station/85975",
           "address": {
             "street": "3276 Jerome Ave",
             "city": "Bronx",
@@ -992,7 +992,7 @@
       "stations": [
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/86665",
+          "url": "station/86665",
           "address": {
             "street": "1320 Hutchinson River Pkwy N",
             "city": "Bronx",
@@ -1012,7 +1012,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/86664",
+          "url": "station/86664",
           "address": {
             "street": "1325 Hutchinson River Pkwy S",
             "city": "Bronx",

@@ -7,7 +7,7 @@
       "stations": [
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/203697",
+          "url": "station/203697",
           "address": {
             "street": "100-03 N Conduit Ave",
             "city": "Queens",
@@ -27,7 +27,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/133524",
+          "url": "station/133524",
           "address": {
             "street": "10409 Atlantic Ave",
             "city": "Queens",
@@ -47,7 +47,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/90218",
+          "url": "station/90218",
           "address": {
             "street": "7509 Northern Blvd",
             "city": "Queens",
@@ -67,7 +67,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/143146",
+          "url": "station/143146",
           "address": {
             "street": "2565 Brooklyn-Queens Expressway East",
             "city": "Queens",
@@ -87,7 +87,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56330",
+          "url": "station/56330",
           "address": {
             "street": "211-60 Hillside Ave",
             "city": "Queens Village",
@@ -107,7 +107,7 @@
         },
         {
           "name": "CITGO",
-          "url": "https://www.gasbuddy.com/station/90026",
+          "url": "station/90026",
           "address": {
             "street": "75-41 Yellowstone Blvd",
             "city": "Queens",
@@ -127,7 +127,7 @@
         },
         {
           "name": "Gas Sale",
-          "url": "https://www.gasbuddy.com/station/9642",
+          "url": "station/9642",
           "address": {
             "street": "68-27 Woodhaven Blvd",
             "city": "Queens",
@@ -147,7 +147,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/140156",
+          "url": "station/140156",
           "address": {
             "street": "119-01 Atlantic Ave",
             "city": "Queens",
@@ -167,7 +167,7 @@
         },
         {
           "name": "Amoco",
-          "url": "https://www.gasbuddy.com/station/118569",
+          "url": "station/118569",
           "address": {
             "street": "154-09 Union Tpke",
             "city": "Queens",
@@ -187,7 +187,7 @@
         },
         {
           "name": "Speedway",
-          "url": "https://www.gasbuddy.com/station/56262",
+          "url": "station/56262",
           "address": {
             "street": "219-28 Hillside Ave",
             "city": "Queens Village",
@@ -212,7 +212,7 @@
       "stations": [
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/203697",
+          "url": "station/203697",
           "address": {
             "street": "100-03 N Conduit Ave",
             "city": "Queens",
@@ -232,7 +232,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/133524",
+          "url": "station/133524",
           "address": {
             "street": "10409 Atlantic Ave",
             "city": "Queens",
@@ -252,7 +252,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/90218",
+          "url": "station/90218",
           "address": {
             "street": "7509 Northern Blvd",
             "city": "Queens",
@@ -272,7 +272,7 @@
         },
         {
           "name": "Gulf",
-          "url": "https://www.gasbuddy.com/station/79921",
+          "url": "station/79921",
           "address": {
             "street": "14150 Union Tpke",
             "city": "Queens",
@@ -292,7 +292,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/133957",
+          "url": "station/133957",
           "address": {
             "street": "94-02 111th",
             "city": "Queens",
@@ -312,7 +312,7 @@
         },
         {
           "name": "Amoco",
-          "url": "https://www.gasbuddy.com/station/140150",
+          "url": "station/140150",
           "address": {
             "street": "118-11 Atlantic Ave",
             "city": "Queens",
@@ -332,7 +332,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/140156",
+          "url": "station/140156",
           "address": {
             "street": "119-01 Atlantic Ave",
             "city": "Queens",
@@ -352,7 +352,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/118945",
+          "url": "station/118945",
           "address": {
             "street": "114-02 Van Wyck Expy",
             "city": "Queens",
@@ -372,7 +372,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56326",
+          "url": "station/56326",
           "address": {
             "street": "212-01 Hillside Ave",
             "city": "Queens",
@@ -392,7 +392,7 @@
         },
         {
           "name": "CITGO",
-          "url": "https://www.gasbuddy.com/station/90026",
+          "url": "station/90026",
           "address": {
             "street": "75-41 Yellowstone Blvd",
             "city": "Queens",
@@ -417,7 +417,7 @@
       "stations": [
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/203697",
+          "url": "station/203697",
           "address": {
             "street": "100-03 N Conduit Ave",
             "city": "Queens",
@@ -437,7 +437,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/90218",
+          "url": "station/90218",
           "address": {
             "street": "7509 Northern Blvd",
             "city": "Queens",
@@ -457,7 +457,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/133524",
+          "url": "station/133524",
           "address": {
             "street": "10409 Atlantic Ave",
             "city": "Queens",
@@ -477,7 +477,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/133957",
+          "url": "station/133957",
           "address": {
             "street": "94-02 111th",
             "city": "Queens",
@@ -497,7 +497,7 @@
         },
         {
           "name": "Gulf",
-          "url": "https://www.gasbuddy.com/station/79921",
+          "url": "station/79921",
           "address": {
             "street": "14150 Union Tpke",
             "city": "Queens",
@@ -517,7 +517,7 @@
         },
         {
           "name": "Amoco",
-          "url": "https://www.gasbuddy.com/station/140150",
+          "url": "station/140150",
           "address": {
             "street": "118-11 Atlantic Ave",
             "city": "Queens",
@@ -537,7 +537,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/140156",
+          "url": "station/140156",
           "address": {
             "street": "119-01 Atlantic Ave",
             "city": "Queens",
@@ -557,7 +557,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/118945",
+          "url": "station/118945",
           "address": {
             "street": "114-02 Van Wyck Expy",
             "city": "Queens",
@@ -577,7 +577,7 @@
         },
         {
           "name": "CITGO",
-          "url": "https://www.gasbuddy.com/station/90026",
+          "url": "station/90026",
           "address": {
             "street": "75-41 Yellowstone Blvd",
             "city": "Queens",
@@ -597,7 +597,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56327",
+          "url": "station/56327",
           "address": {
             "street": "107-10 Astoria Blvd",
             "city": "Queens",
@@ -622,7 +622,7 @@
       "stations": [
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/203697",
+          "url": "station/203697",
           "address": {
             "street": "100-03 N Conduit Ave",
             "city": "Queens",
@@ -642,7 +642,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/71629",
+          "url": "station/71629",
           "address": {
             "street": "43-15 Junction Blvd",
             "city": "Queens",
@@ -662,7 +662,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56330",
+          "url": "station/56330",
           "address": {
             "street": "211-60 Hillside Ave",
             "city": "Queens Village",
@@ -682,7 +682,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/133524",
+          "url": "station/133524",
           "address": {
             "street": "10409 Atlantic Ave",
             "city": "Queens",
@@ -702,7 +702,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/133957",
+          "url": "station/133957",
           "address": {
             "street": "94-02 111th",
             "city": "Queens",
@@ -722,7 +722,7 @@
         },
         {
           "name": "Gulf",
-          "url": "https://www.gasbuddy.com/station/79921",
+          "url": "station/79921",
           "address": {
             "street": "14150 Union Tpke",
             "city": "Queens",
@@ -742,7 +742,7 @@
         },
         {
           "name": "Amoco",
-          "url": "https://www.gasbuddy.com/station/118569",
+          "url": "station/118569",
           "address": {
             "street": "154-09 Union Tpke",
             "city": "Queens",
@@ -762,7 +762,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/129573",
+          "url": "station/129573",
           "address": {
             "street": "185-25 N Conduit Ave",
             "city": "Queens",
@@ -782,7 +782,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/143055",
+          "url": "station/143055",
           "address": {
             "street": "100-07 Rockaway Blvd",
             "city": "Queens",
@@ -802,7 +802,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/68062",
+          "url": "station/68062",
           "address": {
             "street": "4606 Ditmars Blvd",
             "city": "Queens",
@@ -827,7 +827,7 @@
       "stations": [
         {
           "name": "Gas Sale",
-          "url": "https://www.gasbuddy.com/station/9642",
+          "url": "station/9642",
           "address": {
             "street": "68-27 Woodhaven Blvd",
             "city": "Queens",

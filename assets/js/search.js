@@ -64,7 +64,9 @@ document.addEventListener('DOMContentLoaded', () => {
     resultsContainer.innerHTML = '';
   sorted.forEach(station => {
       const link = document.createElement('a');
-      link.href = `../station.html?id=${encodeURIComponent(station.url)}`;
+      // Use numeric station ID for clean URLs
+      const numericId = station.url ? station.url.match(/\/?station\/(\d+)/)?.[1] || station.url : '';
+      link.href = `../station.html?id=${encodeURIComponent(numericId)}`;
       link.className = 'price-row block bg-white border border-outline-variant rounded-lg p-4 mb-3 hover:border-secondary transition-all no-underline';
       
       // Build address parts - show street on one line, city/state on another

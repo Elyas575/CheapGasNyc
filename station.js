@@ -13,8 +13,8 @@ function getStationId() {
 // Normalize URL for comparison - extract the numeric ID from the URL
 function normalizeStationId(url) {
   if (!url) return '';
-  // Extract the numeric ID from the end of the URL (e.g., "151842" from "https://www.gasbuddy.com/station/151842")
-  const match = url.match(/\/station\/(\d+)/);
+  // Extract the numeric ID from the URL (e.g., "151842" from "station/151842")
+  const match = url.match(/\/?station\/(\d+)/);
   return match ? match[1] : url;
 }
 

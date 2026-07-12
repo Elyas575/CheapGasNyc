@@ -7,7 +7,7 @@
       "stations": [
         {
           "name": "Conoco",
-          "url": "https://www.gasbuddy.com/station/151842",
+          "url": "station/151842",
           "address": {
             "street": "4275 Broadway",
             "city": "Manhattan",
@@ -27,7 +27,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56274",
+          "url": "station/56274",
           "address": {
             "street": "255 E 125th St",
             "city": "Manhattan",
@@ -47,7 +47,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56305",
+          "url": "station/56305",
           "address": {
             "street": "232 W 145th St",
             "city": "Manhattan",
@@ -67,7 +67,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56306",
+          "url": "station/56306",
           "address": {
             "street": "4116 Broadway",
             "city": "Manhattan",
@@ -87,7 +87,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56285",
+          "url": "station/56285",
           "address": {
             "street": "348 E 106th St",
             "city": "Manhattan",
@@ -107,7 +107,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/112339",
+          "url": "station/112339",
           "address": {
             "street": "2326 1st Ave",
             "city": "Manhattan",
@@ -127,7 +127,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56299",
+          "url": "station/56299",
           "address": {
             "street": "150 W 145th St",
             "city": "Manhattan",
@@ -147,7 +147,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56275",
+          "url": "station/56275",
           "address": {
             "street": "3936 10th Ave",
             "city": "Manhattan",
@@ -167,7 +167,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56292",
+          "url": "station/56292",
           "address": {
             "street": "51-63 8th Ave",
             "city": "Manhattan",
@@ -187,7 +187,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56276",
+          "url": "station/56276",
           "address": {
             "street": "4353 Broadway",
             "city": "Manhattan",
@@ -212,7 +212,7 @@
       "stations": [
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56274",
+          "url": "station/56274",
           "address": {
             "street": "255 E 125th St",
             "city": "Manhattan",
@@ -232,7 +232,7 @@
         },
         {
           "name": "Conoco",
-          "url": "https://www.gasbuddy.com/station/151842",
+          "url": "station/151842",
           "address": {
             "street": "4275 Broadway",
             "city": "Manhattan",
@@ -252,7 +252,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56306",
+          "url": "station/56306",
           "address": {
             "street": "4116 Broadway",
             "city": "Manhattan",
@@ -272,7 +272,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56285",
+          "url": "station/56285",
           "address": {
             "street": "348 E 106th St",
             "city": "Manhattan",
@@ -292,7 +292,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/112339",
+          "url": "station/112339",
           "address": {
             "street": "2326 1st Ave",
             "city": "Manhattan",
@@ -312,7 +312,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56299",
+          "url": "station/56299",
           "address": {
             "street": "150 W 145th St",
             "city": "Manhattan",
@@ -332,7 +332,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56304",
+          "url": "station/56304",
           "address": {
             "street": "2276 1st Ave",
             "city": "Manhattan",
@@ -352,7 +352,7 @@
         },
         {
           "name": "Sunoco",
-          "url": "https://www.gasbuddy.com/station/56309",
+          "url": "station/56309",
           "address": {
             "street": "5080 Broadway",
             "city": "Manhattan",
@@ -372,7 +372,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56276",
+          "url": "station/56276",
           "address": {
             "street": "4353 Broadway",
             "city": "Manhattan",
@@ -392,7 +392,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56275",
+          "url": "station/56275",
           "address": {
             "street": "3936 10th Ave",
             "city": "Manhattan",
@@ -417,7 +417,7 @@
       "stations": [
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56297",
+          "url": "station/56297",
           "address": {
             "street": "718 11th Ave",
             "city": "Manhattan",
@@ -437,7 +437,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56285",
+          "url": "station/56285",
           "address": {
             "street": "348 E 106th St",
             "city": "Manhattan",
@@ -457,7 +457,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/112339",
+          "url": "station/112339",
           "address": {
             "street": "2326 1st Ave",
             "city": "Manhattan",
@@ -477,7 +477,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56299",
+          "url": "station/56299",
           "address": {
             "street": "150 W 145th St",
             "city": "Manhattan",
@@ -497,7 +497,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56275",
+          "url": "station/56275",
           "address": {
             "street": "3936 10th Ave",
             "city": "Manhattan",
@@ -517,7 +517,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56276",
+          "url": "station/56276",
           "address": {
             "street": "4353 Broadway",
             "city": "Manhattan",
@@ -537,7 +537,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56292",
+          "url": "station/56292",
           "address": {
             "street": "51-63 8th Ave",
             "city": "Manhattan",
@@ -557,7 +557,7 @@
         },
         {
           "name": "Sunoco",
-          "url": "https://www.gasbuddy.com/station/56309",
+          "url": "station/56309",
           "address": {
             "street": "5080 Broadway",
             "city": "Manhattan",
@@ -577,7 +577,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56304",
+          "url": "station/56304",
           "address": {
             "street": "2276 1st Ave",
             "city": "Manhattan",
@@ -597,7 +597,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56305",
+          "url": "station/56305",
           "address": {
             "street": "232 W 145th St",
             "city": "Manhattan",
@@ -622,7 +622,7 @@
       "stations": [
         {
           "name": "Conoco",
-          "url": "https://www.gasbuddy.com/station/151842",
+          "url": "station/151842",
           "address": {
             "street": "4275 Broadway",
             "city": "Manhattan",
@@ -642,7 +642,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/112339",
+          "url": "station/112339",
           "address": {
             "street": "2326 1st Ave",
             "city": "Manhattan",
@@ -662,7 +662,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56304",
+          "url": "station/56304",
           "address": {
             "street": "2276 1st Ave",
             "city": "Manhattan",
@@ -682,7 +682,7 @@
         },
         {
           "name": "Sunoco",
-          "url": "https://www.gasbuddy.com/station/56309",
+          "url": "station/56309",
           "address": {
             "street": "5080 Broadway",
             "city": "Manhattan",
@@ -702,7 +702,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56275",
+          "url": "station/56275",
           "address": {
             "street": "3936 10th Ave",
             "city": "Manhattan",
@@ -722,7 +722,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56292",
+          "url": "station/56292",
           "address": {
             "street": "51-63 8th Ave",
             "city": "Manhattan",
@@ -742,7 +742,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56284",
+          "url": "station/56284",
           "address": {
             "street": "242 Dyckman St",
             "city": "Manhattan",
@@ -762,7 +762,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56322",
+          "url": "station/56322",
           "address": {
             "street": "117 Morningside Ave",
             "city": "Manhattan",
@@ -782,7 +782,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56297",
+          "url": "station/56297",
           "address": {
             "street": "718 11th Ave",
             "city": "Manhattan",
@@ -802,7 +802,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56311",
+          "url": "station/56311",
           "address": {
             "street": "3260 Broadway",
             "city": "Manhattan",
@@ -827,7 +827,7 @@
       "stations": [
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56273",
+          "url": "station/56273",
           "address": {
             "street": "466 10th Ave",
             "city": "Manhattan",
@@ -847,7 +847,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56275",
+          "url": "station/56275",
           "address": {
             "street": "3936 10th Ave",
             "city": "Manhattan",

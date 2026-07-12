@@ -7,7 +7,7 @@
       "stations": [
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56376",
+          "url": "station/56376",
           "address": {
             "street": "1842 Victory Blvd",
             "city": "Staten Island",
@@ -27,7 +27,7 @@
         },
         {
           "name": "Costco",
-          "url": "https://www.gasbuddy.com/station/56364",
+          "url": "station/56364",
           "address": {
             "street": "2975 Richmond Ave",
             "city": "Staten Island",
@@ -47,7 +47,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56390",
+          "url": "station/56390",
           "address": {
             "street": "868 Arthur Kill Rd",
             "city": "Staten Island",
@@ -67,7 +67,7 @@
         },
         {
           "name": "Moble",
-          "url": "https://www.gasbuddy.com/station/56347",
+          "url": "station/56347",
           "address": {
             "street": "4275 AMBOY RD",
             "city": "Staten Island",
@@ -87,7 +87,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56388",
+          "url": "station/56388",
           "address": {
             "street": "2525 Victory Blvd",
             "city": "Staten Island",
@@ -107,7 +107,7 @@
         },
         {
           "name": "CITGO",
-          "url": "https://www.gasbuddy.com/station/56354",
+          "url": "station/56354",
           "address": {
             "street": "4472 Amboy Rd",
             "city": "Staten Island",
@@ -127,7 +127,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56386",
+          "url": "station/56386",
           "address": {
             "street": "1774 Victory Blvd",
             "city": "Staten Island",
@@ -147,7 +147,7 @@
         },
         {
           "name": "Sunoco",
-          "url": "https://www.gasbuddy.com/station/56395",
+          "url": "station/56395",
           "address": {
             "street": "700 South Ave",
             "city": "Staten Island",
@@ -167,7 +167,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56362",
+          "url": "station/56362",
           "address": {
             "street": "248 BAY ST",
             "city": "Staten Island",
@@ -187,7 +187,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/201565",
+          "url": "station/201565",
           "address": {
             "street": "1212 Victory Blvd",
             "city": "Staten Island",
@@ -212,7 +212,7 @@
       "stations": [
         {
           "name": "Moble",
-          "url": "https://www.gasbuddy.com/station/56347",
+          "url": "station/56347",
           "address": {
             "street": "4275 AMBOY RD",
             "city": "Staten Island",
@@ -232,7 +232,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56390",
+          "url": "station/56390",
           "address": {
             "street": "868 Arthur Kill Rd",
             "city": "Staten Island",
@@ -252,7 +252,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56388",
+          "url": "station/56388",
           "address": {
             "street": "2525 Victory Blvd",
             "city": "Staten Island",
@@ -272,7 +272,7 @@
         },
         {
           "name": "CITGO",
-          "url": "https://www.gasbuddy.com/station/56354",
+          "url": "station/56354",
           "address": {
             "street": "4472 Amboy Rd",
             "city": "Staten Island",
@@ -292,7 +292,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56386",
+          "url": "station/56386",
           "address": {
             "street": "1774 Victory Blvd",
             "city": "Staten Island",
@@ -312,7 +312,7 @@
         },
         {
           "name": "Sunoco",
-          "url": "https://www.gasbuddy.com/station/56395",
+          "url": "station/56395",
           "address": {
             "street": "700 South Ave",
             "city": "Staten Island",
@@ -332,7 +332,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56350",
+          "url": "station/56350",
           "address": {
             "street": "708 RICHMOND RD",
             "city": "Staten Island",
@@ -352,7 +352,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/201565",
+          "url": "station/201565",
           "address": {
             "street": "1212 Victory Blvd",
             "city": "Staten Island",
@@ -372,7 +372,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56387",
+          "url": "station/56387",
           "address": {
             "street": "741 Forest Ave",
             "city": "Staten Island",
@@ -392,7 +392,7 @@
         },
         {
           "name": "CITGO",
-          "url": "https://www.gasbuddy.com/station/56367",
+          "url": "station/56367",
           "address": {
             "street": "1201 Victory Blvd",
             "city": "Staten Island",
@@ -417,7 +417,7 @@
       "stations": [
         {
           "name": "Costco",
-          "url": "https://www.gasbuddy.com/station/56364",
+          "url": "station/56364",
           "address": {
             "street": "2975 Richmond Ave",
             "city": "Staten Island",
@@ -437,7 +437,7 @@
         },
         {
           "name": "Moble",
-          "url": "https://www.gasbuddy.com/station/56347",
+          "url": "station/56347",
           "address": {
             "street": "4275 AMBOY RD",
             "city": "Staten Island",
@@ -457,7 +457,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56390",
+          "url": "station/56390",
           "address": {
             "street": "868 Arthur Kill Rd",
             "city": "Staten Island",
@@ -477,7 +477,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56388",
+          "url": "station/56388",
           "address": {
             "street": "2525 Victory Blvd",
             "city": "Staten Island",
@@ -497,7 +497,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56386",
+          "url": "station/56386",
           "address": {
             "street": "1774 Victory Blvd",
             "city": "Staten Island",
@@ -517,7 +517,7 @@
         },
         {
           "name": "Sunoco",
-          "url": "https://www.gasbuddy.com/station/56395",
+          "url": "station/56395",
           "address": {
             "street": "700 South Ave",
             "city": "Staten Island",
@@ -537,7 +537,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56350",
+          "url": "station/56350",
           "address": {
             "street": "708 RICHMOND RD",
             "city": "Staten Island",
@@ -557,7 +557,7 @@
         },
         {
           "name": "CITGO",
-          "url": "https://www.gasbuddy.com/station/77587",
+          "url": "station/77587",
           "address": {
             "street": "535 Vanderbilt Ave",
             "city": "Staten Island",
@@ -577,7 +577,7 @@
         },
         {
           "name": "CITGO",
-          "url": "https://www.gasbuddy.com/station/56354",
+          "url": "station/56354",
           "address": {
             "street": "4472 Amboy Rd",
             "city": "Staten Island",
@@ -597,7 +597,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/201565",
+          "url": "station/201565",
           "address": {
             "street": "1212 Victory Blvd",
             "city": "Staten Island",
@@ -622,7 +622,7 @@
       "stations": [
         {
           "name": "CITGO",
-          "url": "https://www.gasbuddy.com/station/56356",
+          "url": "station/56356",
           "address": {
             "street": "172 West Service Rd",
             "city": "Staten Island",
@@ -642,7 +642,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56348",
+          "url": "station/56348",
           "address": {
             "street": "2151 ARTHUR KILL RD",
             "city": "Staten Island",
@@ -662,7 +662,7 @@
         },
         {
           "name": "Sunoco",
-          "url": "https://www.gasbuddy.com/station/81597",
+          "url": "station/81597",
           "address": {
             "street": "425 Vanderbilt Ave",
             "city": "Staten Island",
@@ -682,7 +682,7 @@
         },
         {
           "name": "55",
-          "url": "https://www.gasbuddy.com/station/70853",
+          "url": "station/70853",
           "address": {
             "street": "1234 Forest Ave",
             "city": "Staten Island",
@@ -702,7 +702,7 @@
         },
         {
           "name": "Sunoco",
-          "url": "https://www.gasbuddy.com/station/56395",
+          "url": "station/56395",
           "address": {
             "street": "700 South Ave",
             "city": "Staten Island",
@@ -722,7 +722,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56379",
+          "url": "station/56379",
           "address": {
             "street": "2430 Richmond Rd",
             "city": "Staten Island",
@@ -742,7 +742,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56390",
+          "url": "station/56390",
           "address": {
             "street": "868 Arthur Kill Rd",
             "city": "Staten Island",
@@ -762,7 +762,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56389",
+          "url": "station/56389",
           "address": {
             "street": "1680 Richmond Ave",
             "city": "Staten Island",
@@ -782,7 +782,7 @@
         },
         {
           "name": "CITGO",
-          "url": "https://www.gasbuddy.com/station/56360",
+          "url": "station/56360",
           "address": {
             "street": "995 Manor Rd",
             "city": "Staten Island",
@@ -802,7 +802,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56392",
+          "url": "station/56392",
           "address": {
             "street": "231 Bay St",
             "city": "Staten Island",

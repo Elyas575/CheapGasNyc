@@ -7,7 +7,7 @@
       "stations": [
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/81349",
+          "url": "station/81349",
           "address": {
             "street": "463 N Conduit Blvd",
             "city": "Brooklyn",
@@ -27,7 +27,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/85247",
+          "url": "station/85247",
           "address": {
             "street": "1935 Linden Blvd",
             "city": "Brooklyn",
@@ -47,7 +47,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/85543",
+          "url": "station/85543",
           "address": {
             "street": "8913 Ditmas Ave",
             "city": "Brooklyn",
@@ -67,7 +67,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/85243",
+          "url": "station/85243",
           "address": {
             "street": "8401 Flatlands",
             "city": "Brooklyn",
@@ -87,7 +87,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/133920",
+          "url": "station/133920",
           "address": {
             "street": "4801 Kings Hwy",
             "city": "Brooklyn",
@@ -107,7 +107,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/131021",
+          "url": "station/131021",
           "address": {
             "street": "1149 Utica Ave",
             "city": "Brooklyn",
@@ -127,7 +127,7 @@
         },
         {
           "name": "Xpress",
-          "url": "https://www.gasbuddy.com/station/85496",
+          "url": "station/85496",
           "address": {
             "street": "1450 Atlantic Ave",
             "city": "Brooklyn",
@@ -147,7 +147,7 @@
         },
         {
           "name": "Bolla Market",
-          "url": "https://www.gasbuddy.com/station/136047",
+          "url": "station/136047",
           "address": {
             "street": "497 Meeker Ave",
             "city": "Brooklyn",
@@ -167,7 +167,7 @@
         },
         {
           "name": "76",
-          "url": "https://www.gasbuddy.com/station/56227",
+          "url": "station/56227",
           "address": {
             "street": "3170 Atlantic Ave",
             "city": "Brooklyn",
@@ -187,7 +187,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/85245",
+          "url": "station/85245",
           "address": {
             "street": "2816 Atlantic Ave",
             "city": "Brooklyn",
@@ -212,7 +212,7 @@
       "stations": [
         {
           "name": "Sonomax",
-          "url": "https://www.gasbuddy.com/station/56234",
+          "url": "station/56234",
           "address": {
             "street": "278 Greenpoint Ave",
             "city": "Brooklyn",
@@ -232,7 +232,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/81349",
+          "url": "station/81349",
           "address": {
             "street": "463 N Conduit Blvd",
             "city": "Brooklyn",
@@ -252,7 +252,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/85543",
+          "url": "station/85543",
           "address": {
             "street": "8913 Ditmas Ave",
             "city": "Brooklyn",
@@ -272,7 +272,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/133920",
+          "url": "station/133920",
           "address": {
             "street": "4801 Kings Hwy",
             "city": "Brooklyn",
@@ -292,7 +292,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/131021",
+          "url": "station/131021",
           "address": {
             "street": "1149 Utica Ave",
             "city": "Brooklyn",
@@ -312,7 +312,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/85241",
+          "url": "station/85241",
           "address": {
             "street": "1022 Rockaway Ave",
             "city": "Brooklyn",
@@ -332,7 +332,7 @@
         },
         {
           "name": "Xpress",
-          "url": "https://www.gasbuddy.com/station/85496",
+          "url": "station/85496",
           "address": {
             "street": "1450 Atlantic Ave",
             "city": "Brooklyn",
@@ -352,7 +352,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/116565",
+          "url": "station/116565",
           "address": {
             "street": "3003 Coney Island AVE",
             "city": "Brooklyn",
@@ -372,7 +372,7 @@
         },
         {
           "name": "Allegiance",
-          "url": "https://www.gasbuddy.com/station/85191",
+          "url": "station/85191",
           "address": {
             "street": "2965 86th St",
             "city": "Brooklyn",
@@ -392,7 +392,7 @@
         },
         {
           "name": "King Plaza Tire And Auto Care",
-          "url": "https://www.gasbuddy.com/station/130396",
+          "url": "station/130396",
           "address": {
             "street": "3827 Kings Hwy",
             "city": "Brooklyn",
@@ -417,7 +417,7 @@
       "stations": [
         {
           "name": "Sonomax",
-          "url": "https://www.gasbuddy.com/station/56234",
+          "url": "station/56234",
           "address": {
             "street": "278 Greenpoint Ave",
             "city": "Brooklyn",
@@ -437,7 +437,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/81349",
+          "url": "station/81349",
           "address": {
             "street": "463 N Conduit Blvd",
             "city": "Brooklyn",
@@ -457,7 +457,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/85543",
+          "url": "station/85543",
           "address": {
             "street": "8913 Ditmas Ave",
             "city": "Brooklyn",
@@ -477,7 +477,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/133920",
+          "url": "station/133920",
           "address": {
             "street": "4801 Kings Hwy",
             "city": "Brooklyn",
@@ -497,7 +497,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/131021",
+          "url": "station/131021",
           "address": {
             "street": "1149 Utica Ave",
             "city": "Brooklyn",
@@ -517,7 +517,7 @@
         },
         {
           "name": "Xpress",
-          "url": "https://www.gasbuddy.com/station/85496",
+          "url": "station/85496",
           "address": {
             "street": "1450 Atlantic Ave",
             "city": "Brooklyn",
@@ -537,7 +537,7 @@
         },
         {
           "name": "Gulf",
-          "url": "https://www.gasbuddy.com/station/85223",
+          "url": "station/85223",
           "address": {
             "street": "60565th St",
             "city": "Brooklyn",
@@ -557,7 +557,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/85241",
+          "url": "station/85241",
           "address": {
             "street": "1022 Rockaway Ave",
             "city": "Brooklyn",
@@ -577,7 +577,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56222",
+          "url": "station/56222",
           "address": {
             "street": "1935 Coney Island Ave",
             "city": "Brooklyn",
@@ -597,7 +597,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/85245",
+          "url": "station/85245",
           "address": {
             "street": "2816 Atlantic Ave",
             "city": "Brooklyn",
@@ -622,7 +622,7 @@
       "stations": [
         {
           "name": "Sonomax",
-          "url": "https://www.gasbuddy.com/station/56234",
+          "url": "station/56234",
           "address": {
             "street": "278 Greenpoint Ave",
             "city": "Brooklyn",
@@ -642,7 +642,7 @@
         },
         {
           "name": "Speedway",
-          "url": "https://www.gasbuddy.com/station/85071",
+          "url": "station/85071",
           "address": {
             "street": "833 4th Ave",
             "city": "Brooklyn",
@@ -662,7 +662,7 @@
         },
         {
           "name": "Gulf",
-          "url": "https://www.gasbuddy.com/station/85223",
+          "url": "station/85223",
           "address": {
             "street": "60565th St",
             "city": "Brooklyn",
@@ -682,7 +682,7 @@
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56222",
+          "url": "station/56222",
           "address": {
             "street": "1935 Coney Island Ave",
             "city": "Brooklyn",
@@ -702,7 +702,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56231",
+          "url": "station/56231",
           "address": {
             "street": "6418 7th Ave",
             "city": "Brooklyn",
@@ -722,7 +722,7 @@
         },
         {
           "name": "Amoco",
-          "url": "https://www.gasbuddy.com/station/147002",
+          "url": "station/147002",
           "address": {
             "street": "1760 Flatbush Ave",
             "city": "Brooklyn",
@@ -742,7 +742,7 @@
         },
         {
           "name": "King Plaza Tire And Auto Care",
-          "url": "https://www.gasbuddy.com/station/130396",
+          "url": "station/130396",
           "address": {
             "street": "3827 Kings Hwy",
             "city": "Brooklyn",
@@ -762,7 +762,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/201784",
+          "url": "station/201784",
           "address": {
             "street": "5824 Church",
             "city": "Brooklyn",
@@ -782,7 +782,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/133920",
+          "url": "station/133920",
           "address": {
             "street": "4801 Kings Hwy",
             "city": "Brooklyn",
@@ -802,7 +802,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/131021",
+          "url": "station/131021",
           "address": {
             "street": "1149 Utica Ave",
             "city": "Brooklyn",
@@ -827,7 +827,7 @@
       "stations": [
         {
           "name": "Conoco",
-          "url": "https://www.gasbuddy.com/station/56216",
+          "url": "station/56216",
           "address": {
             "street": "594 Jamaica Ave",
             "city": "Brooklyn",
@@ -847,7 +847,7 @@
         },
         {
           "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/131021",
+          "url": "station/131021",
           "address": {
             "street": "1149 Utica Ave",
             "city": "Brooklyn",
@@ -867,7 +867,7 @@
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/85148",
+          "url": "station/85148",
           "address": {
             "street": "1049 Grand St",
             "city": "Brooklyn",
@@ -887,7 +887,7 @@
         },
         {
           "name": "Conoco",
-          "url": "https://www.gasbuddy.com/station/85271",
+          "url": "station/85271",
           "address": {
             "street": "1121 Pennsylvania Ave",
             "city": "Brooklyn",
