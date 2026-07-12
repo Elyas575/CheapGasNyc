@@ -218,19 +218,18 @@
 <label class="flex items-center gap-2 cursor-pointer max-w-xs">
 <span class="material-symbols-outlined text-outline">local_gas_station</span>
 <select id="fuel-type-select" class="w-full py-2 px-3 bg-white border border-outline-variant rounded-lg font-body-md text-on-surface focus:ring-2 focus:ring-secondary focus:border-secondary">
-<option value="regular">Regular Fuel Prices</option>
-<option value="midgrade">Midgrade Fuel Prices</option>
-<option value="premium">Premium Fuel Prices</option>
-<option value="diesel">Diesel Fuel Prices</option>
-<option value="e85">E85 Fuel Prices</option>
-<option value="unl88">UNL88 Fuel Prices</option>
+<option value="Regular Fuel Prices">Regular Fuel Prices</option>
+<option value="Mid-Grade Fuel Prices">Mid-Grade Fuel Prices</option>
+<option value="Premium Fuel Prices">Premium Fuel Prices</option>
+<option value="Diesel Fuel Prices">Diesel Fuel Prices</option>
+<option value="E85 Fuel Prices">E85 Fuel Prices</option>
 </select>
 </label>
 </section>
 <!-- Leaderboard: Dense List -->
 <section class="mb-section-gap">
 <div class="flex items-end justify-between mb-3">
-<h2 class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Cheapest in Bronx </h2>
+<h2 class="font-label-caps text-label-caps text-secondary uppercase tracking-widest" id="section-heading">Cheapest Stations Across NYC</h2>
 </div>
 <div class="bg-surface rounded-lg border border-outline-variant overflow-hidden">
 <!-- Header row -->
@@ -241,42 +240,42 @@
             <!-- Station Rows injected by JS -->
             <div id="station-list" class="divide-y divide-outline-variant"></div>
 </div>
-<button class="w-full py-3 mt-2 text-primary font-bold hover:bg-surface-container-high border border-outline-variant rounded transition-all">VIEW ALL STATIONS</button>
+<button id="view-all-btn" class="w-full py-3 mt-2 text-primary font-bold hover:bg-surface-container-high border border-outline-variant rounded transition-all">VIEW ALL STATIONS</button>
 </section>
 <!-- Browse by Borough Grid -->
 <section class="mb-section-gap">
 <h2 class="font-label-caps text-label-caps text-secondary uppercase tracking-widest mb-4">Browse by Borough</h2>
 <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
 <!-- Manhattan -->
-<div class="borough-card group cursor-pointer bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all">
+<a href="gas-prices/manhattan/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline">
 <span class="material-symbols-outlined borough-icon text-4xl text-outline group-hover:text-secondary mb-2 transition-transform" data-icon="location_city">location_city</span>
-<span class="font-station-name text-body-md font-bold">Manhattan</span>
+<span class="font-station-name text-body-md font-bold text-primary">Manhattan</span>
 <span class="font-metadata-sm text-metadata-sm text-outline">128 Stations</span>
-</div>
+</a>
 <!-- Brooklyn -->
-<div class="borough-card group cursor-pointer bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all">
+<a href="gas-prices/brooklyn/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline">
 <span class="material-symbols-outlined borough-icon text-4xl text-outline group-hover:text-secondary mb-2 transition-transform" data-icon="home_work">home_work</span>
-<span class="font-station-name text-body-md font-bold">Brooklyn</span>
+<span class="font-station-name text-body-md font-bold text-primary">Brooklyn</span>
 <span class="font-metadata-sm text-metadata-sm text-outline">245 Stations</span>
-</div>
+</a>
 <!-- Queens -->
-<div class="borough-card group cursor-pointer bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all">
+<a href="gas-prices/queens/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline">
 <span class="material-symbols-outlined borough-icon text-4xl text-outline group-hover:text-secondary mb-2 transition-transform" data-icon="apartment">apartment</span>
-<span class="font-station-name text-body-md font-bold">Queens</span>
+<span class="font-station-name text-body-md font-bold text-primary">Queens</span>
 <span class="font-metadata-sm text-metadata-sm text-outline">312 Stations</span>
-</div>
+</a>
 <!-- Bronx -->
-<div class="borough-card group cursor-pointer bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all">
+<a href="gas-prices/bronx/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline">
 <span class="material-symbols-outlined borough-icon text-4xl text-outline group-hover:text-secondary mb-2 transition-transform" data-icon="corporate_fare">corporate_fare</span>
-<span class="font-station-name text-body-md font-bold">Bronx</span>
+<span class="font-station-name text-body-md font-bold text-primary">Bronx</span>
 <span class="font-metadata-sm text-metadata-sm text-outline">189 Stations</span>
-</div>
+</a>
 <!-- Staten Island -->
-<div class="borough-card group cursor-pointer bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all">
+<a href="gas-prices/staten-island/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline">
 <span class="material-symbols-outlined borough-icon text-4xl text-outline group-hover:text-secondary mb-2 transition-transform" data-icon="location_on">location_on</span>
-<span class="font-station-name text-body-md font-bold">Staten Island</span>
+<span class="font-station-name text-body-md font-bold text-primary">Staten Island</span>
 <span class="font-metadata-sm text-metadata-sm text-outline">94 Stations</span>
-</div>
+</a>
 </div>
 </section>
 </main>

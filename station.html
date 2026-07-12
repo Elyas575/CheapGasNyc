@@ -43,6 +43,16 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 .price-row:hover { background-color: #f2f3f9; }
 #station-map { height: 400px; width: 100%; border-radius: 0.5rem; }
 .star-rating { color: #ffb95f; }
+/* Responsive price display - smaller on mobile */
+@media (max-width: 767px) {
+  .price-card { padding: 0.75rem 0.5rem; }
+  .price-card .price-value { font-size: 22px !important; line-height: 28px !important; }
+  .price-card .price-icon { font-size: 1.25rem !important; }
+  .price-card .price-label { font-size: 10px !important; }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .price-card .price-value { font-size: 28px !important; line-height: 34px !important; }
+}
 </style>
 </head>
 <body class="font-body-md text-body-md">
@@ -64,25 +74,15 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <span class="text-primary font-medium" id="breadcrumb-station">Station Name</span>
 </div>
 
-<!-- Station Header -->
+<!-- Station Info Card -->
 <div class="bg-surface rounded-lg border border-outline-variant p-6 mb-6">
-<div class="flex gap-6">
-<div class="flex-1">
-<div class="flex items-start gap-4 mb-4">
-<a href="../index.html" class="w-16 h-16 bg-white border border-outline-variant rounded-full flex items-center justify-center" id="station-logo">
-<span class="material-symbols-outlined text-4xl text-outline">local_gas_station</span>
-</a>
-<div class="flex-1">
-<h1 class="font-station-name text-station-name font-bold text-primary mb-1" id="station-name">Loading...</h1>
-<div class="flex items-center gap-2 mb-2">
-<div class="flex items-center gap-1" id="station-rating">
-<div class="flex text-yellow-500 text-sm">★★★★☆</div>
-<span class="text-sm text-outline">(0 reviews)</span>
+<div class="flex items-start gap-4">
+<div class="w-20 h-20 bg-white border border-outline-variant rounded-full flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-5xl text-outline">local_gas_station</span>
 </div>
-</div>
+    <div class="flex-1">
+<h1 class="font-station-name text-station-name font-bold text-primary mb-2" id="station-name">Loading...</h1>
 <p class="font-metadata-sm text-metadata-sm text-outline" id="station-address">Loading address...</p>
-</div>
-</div>
 </div>
 </div>
 </div>
@@ -93,27 +93,41 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <div class="lg:col-span-2">
 <div class="bg-surface rounded-lg border border-outline-variant p-6">
 <h2 class="font-label-caps text-label-caps text-secondary uppercase tracking-widest mb-4">Station Prices</h2>
-<div class="grid grid-cols-3 gap-4 mb-6">
-<div class="text-center p-4 bg-surface-container-low rounded-lg">
-<div class="flex items-center justify-center gap-2 mb-2">
-<span class="material-symbols-outlined text-outline">local_gas_station</span>
-<span class="font-label-caps text-label-caps text-on-surface-variant">Regular</span>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4 mb-6">
+<div class="price-card text-center p-3 md:p-4 bg-surface-container-low rounded-lg">
+<div class="flex items-center justify-center gap-1 md:gap-2 mb-1 md:mb-2">
+<span class="price-icon material-symbols-outlined text-outline text-xl md:text-2xl">local_gas_station</span>
+<span class="price-label font-label-caps text-label-caps text-on-surface-variant">Regular</span>
 </div>
-<div class="font-price-display text-price-display text-primary" id="price-regular">$0.00</div>
+<div class="price-value font-price-display text-price-display text-primary" id="price-regular">$0.00</div>
 </div>
-<div class="text-center p-4 bg-surface-container-low rounded-lg">
-<div class="flex items-center justify-center gap-2 mb-2">
-<span class="material-symbols-outlined text-outline">local_gas_station</span>
-<span class="font-label-caps text-label-caps text-on-surface-variant">Midgrade</span>
+<div class="price-card text-center p-3 md:p-4 bg-surface-container-low rounded-lg">
+<div class="flex items-center justify-center gap-1 md:gap-2 mb-1 md:mb-2">
+<span class="price-icon material-symbols-outlined text-outline text-xl md:text-2xl">local_gas_station</span>
+<span class="price-label font-label-caps text-label-caps text-on-surface-variant">Midgrade</span>
 </div>
-<div class="font-price-display text-price-display text-primary" id="price-midgrade">$0.00</div>
+<div class="price-value font-price-display text-price-display text-primary" id="price-midgrade">$0.00</div>
 </div>
-<div class="text-center p-4 bg-surface-container-low rounded-lg">
-<div class="flex items-center justify-center gap-2 mb-2">
-<span class="material-symbols-outlined text-outline">local_gas_station</span>
-<span class="font-label-caps text-label-caps text-on-surface-variant">Premium</span>
+<div class="price-card text-center p-3 md:p-4 bg-surface-container-low rounded-lg">
+<div class="flex items-center justify-center gap-1 md:gap-2 mb-1 md:mb-2">
+<span class="price-icon material-symbols-outlined text-outline text-xl md:text-2xl">local_gas_station</span>
+<span class="price-label font-label-caps text-label-caps text-on-surface-variant">Premium</span>
 </div>
-<div class="font-price-display text-price-display text-primary" id="price-premium">$0.00</div>
+<div class="price-value font-price-display text-price-display text-primary" id="price-premium">$0.00</div>
+</div>
+<div class="price-card text-center p-3 md:p-4 bg-surface-container-low rounded-lg" id="price-diesel">
+<div class="flex items-center justify-center gap-1 md:gap-2 mb-1 md:mb-2">
+<span class="price-icon material-symbols-outlined text-outline text-xl md:text-2xl">local_gas_station</span>
+<span class="price-label font-label-caps text-label-caps text-on-surface-variant">Diesel</span>
+</div>
+<div class="price-value font-price-display text-price-display text-primary" id="price-diesel-value">$0.00</div>
+</div>
+<div class="price-card text-center p-3 md:p-4 bg-surface-container-low rounded-lg" id="price-e85">
+<div class="flex items-center justify-center gap-1 md:gap-2 mb-1 md:mb-2">
+<span class="price-icon material-symbols-outlined text-outline text-xl md:text-2xl">local_gas_station</span>
+<span class="price-label font-label-caps text-label-caps text-on-surface-variant">E85</span>
+</div>
+<div class="price-value font-price-display text-price-display text-primary" id="price-e85-value">$0.00</div>
 </div>
 </div>
 </div>

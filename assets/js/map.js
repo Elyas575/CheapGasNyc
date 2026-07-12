@@ -5,12 +5,26 @@ let allStations = [];
 
 const BOROUGHS = ['bronx', 'brooklyn', 'manhattan', 'queens', 'staten-island'];
 
+let currentFuelType = 'Regular Fuel Prices';
+
 async function loadAllStations() {
   try {
     const promises = BOROUGHS.map(async (borough) => {
       const response = await fetch(`../gas-prices/${borough}/gas-prices.json`);
-      const stations = await response.json();
-      return stations.map(s => ({ ...s, borough }));
+      const data = await response.json();
+      
+      let stations = [];
+      // Format 1: Flat array (Bronx, Brooklyn, Queens, Staten Island)
+      if (Array.isArray(data)) {
+        stations = data.map(s => ({ ...s, borough }));
+      // Format 2: { fuel_types: { ... } } (Manhattan)
+      } else if (data.fuel_types && typeof data.fuel_types === 'object') {
+        const fuelData = data.fuel_types[currentFuelType];
+        if (fuelData && fuelData.stations) {
+          stations = fuelData.stations.map(s => ({ ...s, borough }));
+        }
+      }
+      return stations;
     });
     const results = await Promise.all(promises);
     allStations = results.flat();
@@ -115,4 +129,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // Map will be initialized by Google Maps callback
     window.initMap = initMap;
   });
+
+  const fuelTypeSelect = document.getElementById('fuel-type-select');
+  if (fuelTypeSelect) {
+    fuelTypeSelect.addEventListener('change', (e) => {
+      currentFuelType = e.target.value;
+      loadAllStations();
+    });
+  }
 });
