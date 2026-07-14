@@ -46,16 +46,73 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <body class="font-body-md text-body-md">
 <header class="bg-surface border-b border-outline-variant z-50 sticky top-0">
 <div class="max-w-container-max mx-auto flex justify-between items-center px-4 py-2">
-<a href="../index.html" class="flex items-center gap-2 text-outline hover:text-primary transition-colors">
-<span class="material-symbols-outlined">arrow_back</span>
-<span class="font-metadata-sm">Back</span>
-</a>
+<button id="mobile-menu-btn" class="xl:hidden material-symbols-outlined text-outline">menu</button>
 <a href="../" class="flex items-center">
 <img src="../logo/logo.jpeg" alt="Cheap Gas NYC" class="h-10 w-auto"/>
 </a>
 </div>
 </header>
-<main class="max-w-container-max mx-auto px-4 pb-12 pt-6">
+<!-- Mobile SideNavBar -->
+<nav id="mobile-nav" class="fixed inset-0 bg-black/50 z-50 hidden">
+<div class="absolute left-0 top-0 h-full w-64 bg-surface-container-lowest border-r border-outline-variant py-6 px-4 transform -translate-x-full transition-transform" id="mobile-nav-panel">
+<div class="mb-6">
+<h3 class="font-station-name text-body-md font-bold text-primary mb-1">Boroughs</h3>
+<p class="font-metadata-sm text-metadata-sm text-on-surface-variant">Quick access</p>
+</div>
+<div class="flex flex-col gap-1">
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../gas-prices/manhattan/" onclick="closeMobileNav()">
+<span class="material-symbols-outlined" data-icon="location_city">location_city</span>
+<span>Manhattan</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../gas-prices/brooklyn/" onclick="closeMobileNav()">
+<span class="material-symbols-outlined" data-icon="home_work">home_work</span>
+<span>Brooklyn</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../gas-prices/queens/" onclick="closeMobileNav()">
+<span class="material-symbols-outlined" data-icon="apartment">apartment</span>
+<span>Queens</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../gas-prices/bronx/" onclick="closeMobileNav()">
+<span class="material-symbols-outlined" data-icon="corporate_fare">corporate_fare</span>
+<span>Bronx</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../gas-prices/staten-island/" onclick="closeMobileNav()">
+<span class="material-symbols-outlined" data-icon="location_on">location_on</span>
+<span>Staten Island</span>
+</a>
+</div>
+</div>
+</nav>
+<!-- SideNavBar (Desktop Only) -->
+<nav class="fixed left-0 top-12 h-full z-40 hidden xl:flex flex-col w-64 bg-surface-container-lowest border-r border-outline-variant py-6 px-4">
+<div class="mb-6">
+<h3 class="font-station-name text-body-md font-bold text-primary mb-1">Boroughs</h3>
+<p class="font-metadata-sm text-metadata-sm text-on-surface-variant">Quick access</p>
+</div>
+<div class="flex flex-col gap-1">
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../gas-prices/manhattan/">
+<span class="material-symbols-outlined" data-icon="location_city">location_city</span>
+<span>Manhattan</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../gas-prices/brooklyn/">
+<span class="material-symbols-outlined" data-icon="home_work">home_work</span>
+<span>Brooklyn</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../gas-prices/queens/">
+<span class="material-symbols-outlined" data-icon="apartment">apartment</span>
+<span>Queens</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../gas-prices/bronx/">
+<span class="material-symbols-outlined" data-icon="corporate_fare">corporate_fare</span>
+<span>Bronx</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../gas-prices/staten-island/">
+<span class="material-symbols-outlined" data-icon="location_on">location_on</span>
+<span>Staten Island</span>
+</a>
+</div>
+</nav>
+<main class="max-w-container-max mx-auto px-4 pb-12 pt-6 xl:ml-64">
 <div class="bg-surface rounded-lg border border-outline-variant overflow-hidden p-4">
 <div class="mb-4">
 <label class="flex items-center gap-2 cursor-pointer max-w-xs mb-3">
@@ -87,4 +144,30 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 </div>
 </footer>
 <script src="../assets/js/map.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var menuBtn = document.getElementById('mobile-menu-btn');
+  var mobileNav = document.getElementById('mobile-nav');
+  var mobileNavPanel = document.getElementById('mobile-nav-panel');
+  if (menuBtn && mobileNav && mobileNavPanel) {
+    menuBtn.addEventListener('click', function() {
+      mobileNav.classList.remove('hidden');
+      requestAnimationFrame(function() {
+        mobileNavPanel.classList.remove('-translate-x-full');
+      });
+    });
+    mobileNav.addEventListener('click', function(e) {
+      if (e.target === mobileNav) closeMobileNav();
+    });
+  }
+  function closeMobileNav() {
+    if (!mobileNav || !mobileNavPanel) return;
+    mobileNavPanel.classList.add('-translate-x-full');
+    setTimeout(function() {
+      mobileNav.classList.add('hidden');
+    }, 300);
+  }
+  window.closeMobileNav = closeMobileNav;
+});
+</script>
 </body></html>
