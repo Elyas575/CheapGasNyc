@@ -21,7 +21,6 @@
           },
           "price": "$3.50",
           "price_type": "Cash",
-          "reported_by": "Buddy_8wd6tftb",
           "reported_ago": "10 Hours Ago",
           "scraped_at": "2026-07-12T17:19:34.989876"
         },
@@ -41,7 +40,6 @@
           },
           "price": "$3.69",
           "price_type": "Credit",
-          "reported_by": "kinect56",
           "reported_ago": "21 Hours Ago",
           "scraped_at": "2026-07-12T17:19:34.991310"
         },
@@ -61,7 +59,6 @@
           },
           "price": "$3.69",
           "price_type": "Cash",
-          "reported_by": "gadgetboyj",
           "reported_ago": "12 Hours Ago",
           "scraped_at": "2026-07-12T17:19:34.993312"
         },
@@ -81,7 +78,6 @@
           },
           "price": "$3.69",
           "price_type": "Cash",
-          "reported_by": "mklp29",
           "reported_ago": "19 Hours Ago",
           "scraped_at": "2026-07-12T17:19:34.996649"
         },
@@ -101,7 +97,6 @@
           },
           "price": "$3.69",
           "price_type": "Cash",
-          "reported_by": "adelkhalil72",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:34.999662"
         },
@@ -121,7 +116,6 @@
           },
           "price": "$3.79",
           "price_type": "Cash",
-          "reported_by": "Rahmet",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.002740"
         },
@@ -141,7 +135,6 @@
           },
           "price": "$3.79",
           "price_type": "Cash",
-          "reported_by": "adelkhalil72",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.005709"
         },
@@ -161,7 +154,6 @@
           },
           "price": "$3.79",
           "price_type": "Credit",
-          "reported_by": "nysamb712",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.008948"
         },
@@ -181,7 +173,6 @@
           },
           "price": "$3.83",
           "price_type": "Credit",
-          "reported_by": "DataFeed",
           "reported_ago": "21 Hours Ago",
           "scraped_at": "2026-07-12T17:19:35.012238"
         },
@@ -201,7 +192,6 @@
           },
           "price": "$3.89",
           "price_type": "Cash",
-          "reported_by": "REST108",
           "reported_ago": "1 Hour Ago",
           "scraped_at": "2026-07-12T17:19:35.015285"
         }
@@ -226,7 +216,6 @@
           },
           "price": "$4.09",
           "price_type": "Cash",
-          "reported_by": "visitor",
           "reported_ago": "6 Hours Ago",
           "scraped_at": "2026-07-12T17:19:35.086638"
         },
@@ -246,7 +235,6 @@
           },
           "price": "$4.09",
           "price_type": "Cash",
-          "reported_by": "gadgetboyj",
           "reported_ago": "12 Hours Ago",
           "scraped_at": "2026-07-12T17:19:35.089598"
         },
@@ -266,7 +254,6 @@
           },
           "price": "$4.09",
           "price_type": "Cash",
-          "reported_by": "adelkhalil72",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.092527"
         },
@@ -286,7 +273,6 @@
           },
           "price": "$4.19",
           "price_type": "Cash",
-          "reported_by": "Rahmet",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.095545"
         },
@@ -306,7 +292,6 @@
           },
           "price": "$4.19",
           "price_type": "Cash",
-          "reported_by": "adelkhalil72",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.098533"
         },
@@ -326,7 +311,6 @@
           },
           "price": "$4.19",
           "price_type": "Credit",
-          "reported_by": "nysamb712",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.101610"
         },
@@ -346,7 +330,6 @@
           },
           "price": "$4.29",
           "price_type": "Credit",
-          "reported_by": "vinman250",
           "reported_ago": "6 Hours Ago",
           "scraped_at": "2026-07-12T17:19:35.104658"
         },
@@ -366,7 +349,6 @@
           },
           "price": "$4.29",
           "price_type": "Cash",
-          "reported_by": "REST108",
           "reported_ago": "1 Hour Ago",
           "scraped_at": "2026-07-12T17:19:35.107561"
         },
@@ -386,7 +368,6 @@
           },
           "price": "$4.29",
           "price_type": "Cash",
-          "reported_by": "REST108",
           "reported_ago": "1 Hour Ago",
           "scraped_at": "2026-07-12T17:19:35.110499"
         },
@@ -406,7 +387,6 @@
           },
           "price": "$4.39",
           "price_type": "Credit",
-          "reported_by": "REST108",
           "reported_ago": "1 Hour Ago",
           "scraped_at": "2026-07-12T17:19:35.113555"
         }
@@ -431,7 +411,6 @@
           },
           "price": "$4.49",
           "price_type": "Credit",
-          "reported_by": "kinect56",
           "reported_ago": "21 Hours Ago",
           "scraped_at": "2026-07-12T17:19:35.182073"
         },
@@ -451,7 +430,6 @@
           },
           "price": "$4.49",
           "price_type": "Cash",
-          "reported_by": "visitor",
           "reported_ago": "6 Hours Ago",
           "scraped_at": "2026-07-12T17:19:35.185045"
         },
@@ -471,7 +449,6 @@
           },
           "price": "$4.49",
           "price_type": "Cash",
-          "reported_by": "gadgetboyj",
           "reported_ago": "12 Hours Ago",
           "scraped_at": "2026-07-12T17:19:35.187983"
         },
@@ -491,7 +468,6 @@
           },
           "price": "$4.49",
           "price_type": "Cash",
-          "reported_by": "adelkhalil72",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.190919"
         },
@@ -511,7 +487,6 @@
           },
           "price": "$4.59",
           "price_type": "Cash",
-          "reported_by": "adelkhalil72",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.194214"
         },
@@ -531,7 +506,6 @@
           },
           "price": "$4.59",
           "price_type": "Credit",
-          "reported_by": "nysamb712",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.197522"
         },
@@ -551,7 +525,6 @@
           },
           "price": "$4.69",
           "price_type": "Credit",
-          "reported_by": "vinman250",
           "reported_ago": "6 Hours Ago",
           "scraped_at": "2026-07-12T17:19:35.200638"
         },
@@ -571,7 +544,6 @@
           },
           "price": "$4.69",
           "price_type": "Credit",
-          "reported_by": "vinman250",
           "reported_ago": "6 Hours Ago",
           "scraped_at": "2026-07-12T17:19:35.203631"
         },
@@ -591,7 +563,6 @@
           },
           "price": "$4.69",
           "price_type": "Cash",
-          "reported_by": "Rahmet",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.205091"
         },
@@ -611,7 +582,6 @@
           },
           "price": "$4.79",
           "price_type": "Cash",
-          "reported_by": "REST108",
           "reported_ago": "1 Hour Ago",
           "scraped_at": "2026-07-12T17:19:35.206488"
         }
@@ -636,7 +606,6 @@
           },
           "price": "$4.89",
           "price_type": "Cash",
-          "reported_by": "my02pals",
           "reported_ago": "23 Hours Ago",
           "scraped_at": "2026-07-12T17:19:35.262116"
         },
@@ -656,7 +625,6 @@
           },
           "price": "$5.39",
           "price_type": "Cash",
-          "reported_by": "my02pals",
           "reported_ago": "23 Hours Ago",
           "scraped_at": "2026-07-12T17:19:35.265251"
         },
@@ -676,7 +644,6 @@
           },
           "price": "$5.39",
           "price_type": "Cash",
-          "reported_by": "vinman250",
           "reported_ago": "6 Hours Ago",
           "scraped_at": "2026-07-12T17:19:35.268192"
         },
@@ -696,7 +663,6 @@
           },
           "price": "$5.49",
           "price_type": "Cash",
-          "reported_by": "MPooch1966",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.271106"
         },
@@ -716,7 +682,6 @@
           },
           "price": "$5.65",
           "price_type": "Credit",
-          "reported_by": "nysamb712",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.274208"
         },
@@ -736,7 +701,6 @@
           },
           "price": "$5.71",
           "price_type": "Cash",
-          "reported_by": "Rahmet",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.277144"
         },
@@ -756,7 +720,6 @@
           },
           "price": "$5.79",
           "price_type": "Cash",
-          "reported_by": "chicomab",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.280301"
         },
@@ -776,7 +739,6 @@
           },
           "price": "$5.99",
           "price_type": "Cash",
-          "reported_by": "my02pals",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:35.283284"
         },
@@ -796,7 +758,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:35.286425"
         },
@@ -816,7 +777,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:35.289761"
         }

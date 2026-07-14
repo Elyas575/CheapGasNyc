@@ -61,12 +61,7 @@ function renderStations(stations) {
     // Show price or -- if not available
     const displayPrice = station.price && station.price !== '- - -' ? station.price : '--';
     
-    // Generate star rating (placeholder)
-    const starRating = '★★☆☆☆';
-    const reviewCount = '135';
-    
     // Get reporter info
-    const reporterName = station.reported_by || 'Anonymous';
     const reportedTime = station.reported_ago || 'Unknown';
     const priceType = station.price_type || 'Credit';
     
@@ -80,25 +75,17 @@ function renderStations(stations) {
         </div>
         <div class="flex-1 min-w-0">
           <h3 class="font-station-name text-station-name font-bold text-primary mb-1">${station.name}</h3>
-          <div class="flex items-center gap-1 mb-1">
-            <span class="text-yellow-500 text-sm">${starRating}</span>
-            <span class="text-xs text-outline">${reviewCount}</span>
-          </div>
           ${street ? `<p class="font-metadata-sm text-metadata-sm text-outline">${street}</p>` : ''}
           ${cityState ? `<p class="font-metadata-sm text-metadata-sm text-outline">${cityState}</p>` : ''}
         </div>
-        <div class="text-right flex-shrink-0">
-          <div class="font-price-display text-price-display text-primary mb-1">${displayPrice}</div>
-          <div class="flex items-center gap-1 text-xs text-outline mb-1">
-            <span class="material-symbols-outlined text-[10px]">person</span>
-            <span>${reporterName}</span>
-          </div>
-          <div class="flex items-center gap-1 text-xs text-outline">
-            <span class="material-symbols-outlined text-[10px]">schedule</span>
-            <span>${reportedTime}</span>
-          </div>
-          ${showCashBadge ? '<span class="inline-block mt-1 px-2 py-0.5 bg-green-600 text-white text-xs rounded-full font-bold">CASH</span>' : ''}
-        </div>
+       <div class="text-right flex-shrink-0">
+           <div class="font-price-display text-price-display text-primary mb-1">${displayPrice}</div>
+           <div class="flex items-center gap-1 text-xs text-outline">
+             <span class="material-symbols-outlined text-[10px]">schedule</span>
+             <span>${reportedTime}</span>
+           </div>
+           ${showCashBadge ? '<span class="inline-block mt-1 px-2 py-0.5 bg-green-600 text-white text-xs rounded-full font-bold">CASH</span>' : ''}
+         </div>
       </div>
     `;
     container.appendChild(row);

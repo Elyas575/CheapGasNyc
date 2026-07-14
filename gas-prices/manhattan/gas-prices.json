@@ -21,7 +21,6 @@
           },
           "price": "$3.89",
           "price_type": "Credit",
-          "reported_by": "DataFeed",
           "reported_ago": "12 Hours Ago",
           "scraped_at": "2026-07-12T17:19:34.242985"
         },
@@ -41,7 +40,6 @@
           },
           "price": "$3.99",
           "price_type": "Credit",
-          "reported_by": "coachof2",
           "reported_ago": "13 Hours Ago",
           "scraped_at": "2026-07-12T17:19:34.244432"
         },
@@ -61,7 +59,6 @@
           },
           "price": "$4.05",
           "price_type": "Credit",
-          "reported_by": "DataFeed",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:34.245979"
         },
@@ -81,7 +78,6 @@
           },
           "price": "$4.09",
           "price_type": "Credit",
-          "reported_by": "scar720",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:34.247404"
         },
@@ -101,7 +97,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.248880"
         },
@@ -121,7 +116,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.250351"
         },
@@ -141,7 +135,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.253287"
         },
@@ -161,7 +154,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.256685"
         },
@@ -181,7 +173,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.259850"
         },
@@ -201,7 +192,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.263151"
         }
@@ -226,7 +216,6 @@
           },
           "price": "$4.39",
           "price_type": "Credit",
-          "reported_by": "coachof2",
           "reported_ago": "13 Hours Ago",
           "scraped_at": "2026-07-12T17:19:34.308093"
         },
@@ -246,7 +235,6 @@
           },
           "price": "$4.39",
           "price_type": "Credit",
-          "reported_by": "DataFeed",
           "reported_ago": "12 Hours Ago",
           "scraped_at": "2026-07-12T17:19:34.309355"
         },
@@ -266,7 +254,6 @@
           },
           "price": "$4.69",
           "price_type": "Credit",
-          "reported_by": "scar720",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:34.310652"
         },
@@ -286,7 +273,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.313553"
         },
@@ -306,7 +292,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.316453"
         },
@@ -326,7 +311,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.319272"
         },
@@ -346,7 +330,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.322111"
         },
@@ -366,7 +349,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.324939"
         },
@@ -386,7 +368,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.327962"
         },
@@ -406,7 +387,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.331215"
         }
@@ -431,7 +411,6 @@
           },
           "price": "$7.39",
           "price_type": "Credit",
-          "reported_by": "DataFeed",
           "reported_ago": "1 Day Ago",
           "scraped_at": "2026-07-12T17:19:34.387050"
         },
@@ -451,7 +430,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.389934"
         },
@@ -471,7 +449,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.392914"
         },
@@ -491,7 +468,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.396233"
         },
@@ -511,7 +487,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.399423"
         },
@@ -531,7 +506,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.402439"
         },
@@ -551,7 +525,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.405373"
         },
@@ -571,7 +544,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.408195"
         },
@@ -591,7 +563,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.409631"
         },
@@ -611,7 +582,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.412159"
         }
@@ -636,7 +606,6 @@
           },
           "price": "$5.99",
           "price_type": "Credit",
-          "reported_by": "DataFeed",
           "reported_ago": "12 Hours Ago",
           "scraped_at": "2026-07-12T17:19:34.474806"
         },
@@ -656,7 +625,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.477872"
         },
@@ -676,7 +644,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.479747"
         },
@@ -696,7 +663,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.481158"
         },
@@ -716,7 +682,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.482617"
         },
@@ -736,7 +701,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.483974"
         },
@@ -756,7 +720,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.487184"
         },
@@ -776,7 +739,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.491007"
         },
@@ -796,7 +758,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.492443"
         },
@@ -816,7 +777,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.493842"
         }
@@ -841,7 +801,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.518630"
         },
@@ -861,7 +820,6 @@
           },
           "price": "- - -",
           "price_type": "Credit",
-          "reported_by": null,
           "reported_ago": null,
           "scraped_at": "2026-07-12T17:19:34.520823"
         }
