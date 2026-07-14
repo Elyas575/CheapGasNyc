@@ -126,17 +126,21 @@
 <body class="font-body-md text-body-md">
 <!-- TopAppBar -->
 <header class="bg-surface docked full-width top-0 border-b border-outline-variant z-50 sticky">
-<div class="max-w-container-max mx-auto flex justify-between items-center px-row-padding-x py-2">
-<div class="flex items-center gap-4">
+<div class="max-w-container-max mx-auto px-row-padding-x py-2">
+<div class="sm:flex sm:items-center sm:justify-between">
+<div class="flex items-center justify-between sm:gap-4">
+<div class="flex items-center gap-2">
 <button id="mobile-menu-btn" class="xl:hidden material-symbols-outlined text-outline">menu</button>
-<a href="./" class="flex items-center">
-<img src="logo/logo.jpeg" alt="Cheap Gas NYC" class="h-10 w-auto"/>
+<a href="./" class="flex items-center shrink-0">
+<img src="logo/logo.jpeg" alt="Cheap Gas NYC" class="h-8 sm:h-10 w-auto"/>
 </a>
 </div>
-<div class="flex-1 max-w-md mx-6">
+</div>
+<div class="mt-2 sm:mt-0 sm:flex-1 sm:ml-6">
 <div class="relative group">
 <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline">search</span>
-<input id="homepage-search" class="w-full pl-10 pr-4 py-1.5 bg-surface-container rounded-lg border-none focus:ring-2 focus:ring-secondary transition-all text-body-md" placeholder="Search by neighborhood..." type="text"/>
+<input id="homepage-search" class="w-full pl-10 pr-4 py-3 sm:py-1.5 bg-surface-container rounded-lg border-none focus:ring-2 focus:ring-secondary transition-all text-body-md text-base" placeholder="Station, street, or zip..." type="text"/>
+</div>
 </div>
 </div>
 </div>
