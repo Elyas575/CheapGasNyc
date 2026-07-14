@@ -12,10 +12,10 @@ const BOROUGH_NAMES = {
 
 let allStations = [];
 let currentFuelType = 'Regular Fuel Prices';
+let visibleCount = 10;
 
 // Extract stations from JSON data in either format
 function extractStationsFromBorough(data, borough, fuelType) {
-  // Format 1: Flat array (Bronx, Brooklyn, Queens, Staten Island)
   if (Array.isArray(data)) {
     return data.map(s => ({ 
       ...s, 
@@ -24,7 +24,6 @@ function extractStationsFromBorough(data, borough, fuelType) {
     }));
   }
   
-  // Format 2: { fuel_types: { "Regular Fuel Prices": { stations: [...] } } } (Manhattan)
   if (data.fuel_types && typeof data.fuel_types === 'object') {
     const fuelData = data.fuel_types[fuelType];
     if (fuelData && fuelData.stations) {
@@ -66,6 +65,7 @@ async function loadAllStations() {
     if (allStations.length === 0) {
       container.innerHTML = '<div class="p-4 text-center text-outline">No stations found for the selected fuel type.</div>';
     } else {
+      visibleCount = 10;
       renderStations(allStations);
     }
   } catch (error) {
@@ -78,14 +78,12 @@ function updateHeading(stations) {
   const heading = document.getElementById('section-heading');
   if (!heading) return;
   
-  // Find the cheapest station with a valid price
   const withPrice = stations.filter(s => s.price && s.price !== '- - -' && s.price !== '$0.00');
   if (withPrice.length === 0) {
     heading.textContent = `Cheapest Stations Across NYC`;
     return;
   }
   
-  // Find which borough has the cheapest station
   const sorted = [...withPrice].sort((a, b) => 
     parseFloat(a.price.replace('$', '')) - parseFloat(b.price.replace('$', ''))
   );
@@ -102,28 +100,23 @@ function renderStations(stations) {
   const container = document.getElementById('station-list');
   container.innerHTML = '';
 
-  // Update heading with cheapest borough info
   updateHeading(stations);
 
-  sorted.forEach((station) => {
+  const shown = sorted.slice(0, visibleCount);
+  shown.forEach((station) => {
     const row = document.createElement('a');
-    // Use numeric station ID for clean URLs
     const numericId = station.url ? station.url.match(/\/?station\/(\d+)/)?.[1] || station.url : '';
     row.href = `station.html?id=${encodeURIComponent(numericId)}`;
     row.className = 'price-row block bg-white border border-outline-variant rounded-lg p-4 mb-3 hover:border-secondary transition-all no-underline';
     
-    // Build address parts - include borough name for context across all NYC
     const street = station.address.street || '';
     const cityState = [station.address.city || BOROUGH_NAMES[station.borough], station.address.state].filter(Boolean).join(', ') || BOROUGH_NAMES[station.borough] || '';
     
-    // Show price or -- if not available
     const displayPrice = station.price && station.price !== '- - -' ? station.price : '--';
     
-    // Get reporter info
     const reportedTime = station.reported_ago || 'Unknown';
     const priceType = station.price_type || 'Credit';
     
-    // Show CASH badge if applicable
     const showCashBadge = priceType === 'Cash';
     
     row.innerHTML = `
@@ -149,9 +142,22 @@ function renderStations(stations) {
     `;
     container.appendChild(row);
   });
+
+  const viewAllBtn = document.getElementById('view-all-btn');
+  if (viewAllBtn) {
+    if (visibleCount >= sorted.length) {
+      viewAllBtn.style.display = 'none';
+    } else {
+      viewAllBtn.style.display = 'block';
+    }
+  }
 }
 
-// Mobile menu functionality
+function showMoreStations() {
+  visibleCount += 10;
+  renderStations(allStations);
+}
+
 function openMobileNav() {
   const nav = document.getElementById('mobile-nav');
   const panel = document.getElementById('mobile-nav-panel');
@@ -175,11 +181,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   loadAllStations();
 
+  const viewAllBtn = document.getElementById('view-all-btn');
+  if (viewAllBtn) {
+    viewAllBtn.addEventListener('click', showMoreStations);
+  }
+
   const searchInput = document.getElementById('homepage-search');
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
       const query = e.target.value.toLowerCase().trim();
       if (!query) {
+        visibleCount = 10;
         renderStations(allStations);
         return;
       }
@@ -189,6 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
         (s.address.city && s.address.city.toLowerCase().includes(query)) ||
         (s.address.zip && s.address.zip.includes(query))
       );
+      visibleCount = 10;
       renderStations(filtered);
     });
   }
