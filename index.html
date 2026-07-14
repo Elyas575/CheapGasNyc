@@ -5,62 +5,62 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>NYC Gas Prices | Real-Time Cheapest Gas Prices</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Geist:wght@100..900&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Geist:wght@100..900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
             theme: {
                 extend: {
                     "colors": {
-                        "on-background": "#191c20",
+                        "on-background": "#1a1a1a",
                         "on-tertiary": "#ffffff",
-                        "tertiary": "#000000",
-                        "surface-container-low": "#f2f3f9",
-                        "primary-fixed": "#dae2fd",
-                        "on-tertiary-fixed": "#002109",
+                        "tertiary": "#2e7d32",
+                        "surface-container-low": "#f5f5f5",
+                        "primary-fixed": "#e8e8e8",
+                        "on-tertiary-fixed": "#e8f5e9",
                         "primary": "#000000",
                         "surface-container-lowest": "#ffffff",
-                        "surface": "#f8f9ff",
-                        "surface-bright": "#f8f9ff",
-                        "on-secondary-fixed": "#2a1700",
-                        "inverse-on-surface": "#eff0f6",
-                        "background": "#f8f9ff",
-                        "primary-container": "#131b2e",
-                        "error": "#ba1a1a",
+                        "surface": "#fafafa",
+                        "surface-bright": "#fafafa",
+                        "on-secondary-fixed": "#1a1a00",
+                        "inverse-on-surface": "#f0f0f0",
+                        "background": "#fafafa",
+                        "primary-container": "#1a1a1a",
+                        "error": "#d32f2f",
                         "on-primary": "#ffffff",
-                        "on-secondary-fixed-variant": "#653e00",
-                        "inverse-surface": "#2e3135",
-                        "on-tertiary-fixed-variant": "#005321",
-                        "outline": "#76777d",
-                        "tertiary-fixed-dim": "#4ae176",
+                        "on-secondary-fixed-variant": "#b8960f",
+                        "inverse-surface": "#2d2d2d",
+                        "on-tertiary-fixed-variant": "#1b5e20",
+                        "outline": "#757575",
+                        "tertiary-fixed-dim": "#66bb6a",
                         "on-error": "#ffffff",
-                        "on-surface-variant": "#45464d",
-                        "surface-container-high": "#e6e8ed",
-                        "surface-dim": "#d8dadf",
-                        "tertiary-fixed": "#6bff8f",
-                        "secondary": "#855300",
-                        "on-secondary-container": "#684000",
+                        "on-surface-variant": "#494949",
+                        "surface-container-high": "#e8e8e8",
+                        "surface-dim": "#d6d6d6",
+                        "tertiary-fixed": "#81c784",
+                        "secondary": "#d4af37",
+                        "on-secondary-container": "#b8960f",
                         "on-secondary": "#ffffff",
-                        "inverse-primary": "#bec6e0",
-                        "on-error-container": "#93000a",
-                        "primary-fixed-dim": "#bec6e0",
-                        "on-primary-container": "#7c839b",
-                        "surface-container": "#eceef3",
-                        "on-primary-fixed-variant": "#3f465c",
-                        "surface-container-highest": "#e1e2e8",
-                        "on-tertiary-container": "#009844",
-                        "outline-variant": "#c6c6cd",
-                        "on-surface": "#191c20",
-                        "secondary-fixed": "#ffddb8",
-                        "surface-variant": "#e1e2e8",
-                        "error-container": "#ffdad6",
-                        "tertiary-container": "#002109",
-                        "secondary-fixed-dim": "#ffb95f",
-                        "secondary-container": "#fea619",
-                        "surface-tint": "#565e74",
-                        "on-primary-fixed": "#131b2e"
+                        "inverse-primary": "#d4d4d4",
+                        "on-error-container": "#c62828",
+                        "primary-fixed-dim": "#d4d4d4",
+                        "on-primary-container": "#616161",
+                        "surface-container": "#eeeeee",
+                        "on-primary-fixed-variant": "#424242",
+                        "surface-container-highest": "#e0e0e0",
+                        "on-tertiary-container": "#2e7d32",
+                        "outline-variant": "#c8c8c8",
+                        "on-surface": "#1a1a1a",
+                        "secondary-fixed": "#fff8e1",
+                        "surface-variant": "#e0e0e0",
+                        "error-container": "#ffebee",
+                        "tertiary-container": "#e8f5e9",
+                        "secondary-fixed-dim": "#f5d742",
+                        "secondary-container": "#f5d742",
+                        "surface-tint": "#5a5a5a",
+                        "on-primary-fixed": "#1a1a1a"
                     },
                     "borderRadius": {
                         "DEFAULT": "0.125rem",
@@ -101,8 +101,8 @@
             vertical-align: middle;
         }
         body {
-            background-color: #f8f9ff;
-            color: #191c20;
+            background-color: #fafafa;
+            color: #1a1a1a;
             -webkit-font-smoothing: antialiased;
         }
         .custom-scrollbar::-webkit-scrollbar {
@@ -112,11 +112,11 @@
             background: transparent;
         }
         .custom-scrollbar::-webkit-scrollbar-thumb {
-            background: #c6c6cd;
+            background: #c8c8c8;
             border-radius: 10px;
         }
         .price-row:hover {
-            background-color: #f2f3f9;
+            background-color: #f5f5f5;
         }
         .borough-card:hover .borough-icon {
             transform: scale(1.1);
@@ -130,7 +130,7 @@
 <div class="flex items-center gap-4">
 <button id="mobile-menu-btn" class="xl:hidden material-symbols-outlined text-outline">menu</button>
 <a href="./" class="flex items-center">
-<span class="material-symbols-outlined text-secondary text-3xl">local_gas_station</span>
+<img src="logo/logo.jpeg" alt="Cheap Gas NYC" class="h-10 w-auto"/>
 </a>
 </div>
 <div class="flex-1 max-w-md mx-6">
@@ -206,7 +206,7 @@
 <section class="mb-section-gap">
 <div class="bg-primary-container text-on-primary rounded-xl p-6 flex flex-col md:flex-row items-center justify-between gap-6 overflow-hidden relative">
 <!-- Atmospheric light effect -->
-<div class="absolute -right-20 -top-20 w-64 h-64 bg-secondary rounded-full blur-[100px] opacity-20"></div>
+<div class="absolute -right-20 -top-20 w-64 h-64 bg-secondary rounded-full blur-[100px] opacity-30"></div>
 <div class="z-10 text-center md:text-left">
 <h1 class="font-price-display text-price-display-mobile md:text-price-display text-white mb-1">Find cheap gas.</h1>
 <p class="text-on-primary-container font-body-md">Updating real-time across all 5 boroughs.</p>

@@ -116,26 +116,18 @@ function displayStation(station) {
   document.getElementById('price-midgrade').textContent = midgradePrice;
   document.getElementById('price-premium').textContent = premiumPrice;
   
-  // Show/hide diesel and E85 if available
+  // Show all fuel types (including those with -- prices)
   const dieselCard = document.getElementById('price-diesel');
   const e85Card = document.getElementById('price-e85');
   
   if (dieselCard) {
-    if (dieselPrice) {
-      dieselCard.style.display = 'block';
-      document.getElementById('price-diesel-value').textContent = dieselPrice;
-    } else {
-      dieselCard.style.display = 'none';
-    }
+    dieselCard.style.display = 'block';
+    document.getElementById('price-diesel-value').textContent = dieselPrice || '--';
   }
   
   if (e85Card) {
-    if (e85Price) {
-      e85Card.style.display = 'block';
-      document.getElementById('price-e85-value').textContent = e85Price;
-    } else {
-      e85Card.style.display = 'none';
-    }
+    e85Card.style.display = 'block';
+    document.getElementById('price-e85-value').textContent = e85Price || '--';
   }
 
   // Update map query and directions link
