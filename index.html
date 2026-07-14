@@ -129,12 +129,42 @@
 <div class="max-w-container-max mx-auto px-row-padding-x py-2">
 <div class="sm:flex sm:items-center sm:justify-between">
 <div class="flex items-center justify-between sm:gap-4">
-<div class="flex items-center gap-2">
-<button id="mobile-menu-btn" class="xl:hidden material-symbols-outlined text-outline">menu</button>
-<a href="./" class="flex items-center shrink-0">
-<img src="logo/logo.jpeg" alt="Cheap Gas NYC" class="h-8 sm:h-10 w-auto"/>
-</a>
-</div>
+  <div class="flex items-center gap-2">
+    <button id="mobile-menu-btn" class="xl:hidden material-symbols-outlined text-outline">menu</button>
+    <a href="./" class="flex items-center shrink-0">
+      <img src="logo/logo.jpeg" alt="Cheap Gas NYC" class="h-8 sm:h-10 w-auto"/>
+    </a>
+  </div>
+  <!-- Mobile Borough Selector -->
+  <div class="xl:hidden relative">
+    <button id="borough-selector-btn" class="p-2 hover:bg-surface-container-high rounded-lg transition-all">
+      <span class="material-symbols-outlined text-outline">location_on</span>
+    </button>
+    <div id="borough-dropdown" class="hidden absolute right-0 top-full mt-2 w-48 bg-surface-container-lowest border border-outline-variant rounded-lg shadow-lg z-50 overflow-hidden">
+      <div class="py-2">
+        <a href="gas-prices/manhattan/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
+          <span class="material-symbols-outlined text-outline text-xl">location_city</span>
+          <span class="font-body-md">Manhattan</span>
+        </a>
+        <a href="gas-prices/brooklyn/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
+          <span class="material-symbols-outlined text-outline text-xl">home_work</span>
+          <span class="font-body-md">Brooklyn</span>
+        </a>
+        <a href="gas-prices/queens/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
+          <span class="material-symbols-outlined text-outline text-xl">apartment</span>
+          <span class="font-body-md">Queens</span>
+        </a>
+        <a href="gas-prices/bronx/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
+          <span class="material-symbols-outlined text-outline text-xl">corporate_fare</span>
+          <span class="font-body-md">Bronx</span>
+        </a>
+        <a href="gas-prices/staten-island/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
+          <span class="material-symbols-outlined text-outline text-xl">location_on</span>
+          <span class="font-body-md">Staten Island</span>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="mt-2 sm:mt-0 sm:flex-1 sm:ml-6">
 <div class="relative group">

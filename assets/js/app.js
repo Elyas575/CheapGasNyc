@@ -213,4 +213,30 @@ document.addEventListener('DOMContentLoaded', () => {
       loadAllStations();
     });
   }
+
+  // Mobile borough selector
+  const boroughBtn = document.getElementById('borough-selector-btn');
+  const boroughDropdown = document.getElementById('borough-dropdown');
+  
+  if (boroughBtn && boroughDropdown) {
+    boroughBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      boroughDropdown.classList.toggle('hidden');
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!boroughBtn.contains(e.target) && !boroughDropdown.contains(e.target)) {
+        boroughDropdown.classList.add('hidden');
+      }
+    });
+
+    // Close dropdown when a borough is selected
+    const boroughLinks = boroughDropdown.querySelectorAll('a');
+    boroughLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        boroughDropdown.classList.add('hidden');
+      });
+    });
+  }
 });

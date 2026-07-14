@@ -52,6 +52,36 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <img src="../../logo/logo.jpeg" alt="Cheap Gas NYC" class="h-8 sm:h-10 w-auto"/>
 </a>
 </div>
+<!-- Mobile Borough Selector -->
+<div class="xl:hidden relative">
+  <button id="borough-selector-btn" class="p-2 hover:bg-surface-container-high rounded-lg transition-all">
+    <span class="material-symbols-outlined text-outline">location_on</span>
+  </button>
+  <div id="borough-dropdown" class="hidden absolute right-0 top-full mt-2 w-48 bg-surface-container-lowest border border-outline-variant rounded-lg shadow-lg z-50 overflow-hidden">
+    <div class="py-2">
+      <a href="../../gas-prices/manhattan/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
+        <span class="material-symbols-outlined text-outline text-xl">location_city</span>
+        <span class="font-body-md">Manhattan</span>
+      </a>
+      <a href="../../gas-prices/brooklyn/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
+        <span class="material-symbols-outlined text-outline text-xl">home_work</span>
+        <span class="font-body-md">Brooklyn</span>
+      </a>
+      <a href="../../gas-prices/queens/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
+        <span class="material-symbols-outlined text-outline text-xl">apartment</span>
+        <span class="font-body-md">Queens</span>
+      </a>
+      <a href="../../gas-prices/bronx/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
+        <span class="material-symbols-outlined text-outline text-xl">corporate_fare</span>
+        <span class="font-body-md">Bronx</span>
+      </a>
+      <a href="../../gas-prices/staten-island/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
+        <span class="material-symbols-outlined text-outline text-xl">location_on</span>
+        <span class="font-body-md">Staten Island</span>
+      </a>
+    </div>
+  </div>
+</div>
 </div>
 <div class="mt-2 sm:mt-0 sm:flex-1 sm:ml-6">
 <div class="relative group">
@@ -176,6 +206,27 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 300);
   }
   window.closeMobileNav = closeMobileNav;
+  
+  // Mobile borough selector
+  var boroughBtn = document.getElementById('borough-selector-btn');
+  var boroughDropdown = document.getElementById('borough-dropdown');
+  if (boroughBtn && boroughDropdown) {
+    boroughBtn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      boroughDropdown.classList.toggle('hidden');
+    });
+    document.addEventListener('click', function(e) {
+      if (!boroughBtn.contains(e.target) && !boroughDropdown.contains(e.target)) {
+        boroughDropdown.classList.add('hidden');
+      }
+    });
+    var boroughLinks = boroughDropdown.querySelectorAll('a');
+    boroughLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        boroughDropdown.classList.add('hidden');
+      });
+    });
+  }
 });
 </script>
 </body></html>
