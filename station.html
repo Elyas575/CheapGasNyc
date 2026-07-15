@@ -3,6 +3,11 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Station Details | NYC Gas</title>
+<link rel="icon" type="image/png" href="logo/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="logo/favicon.svg" />
+<link rel="shortcut icon" href="logo/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png" />
+<link rel="manifest" href="logo/site.webmanifest" />
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Geist:wght@100..900&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
@@ -172,9 +177,13 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <div class="w-20 h-20 bg-white border border-outline-variant rounded-full flex items-center justify-center flex-shrink-0">
 <span class="material-symbols-outlined text-5xl text-outline">local_gas_station</span>
 </div>
-    <div class="flex-1">
+<div class="flex-1">
 <h1 class="font-station-name text-station-name font-bold text-primary mb-2" id="station-name">Loading...</h1>
 <p class="font-metadata-sm text-metadata-sm text-outline" id="station-address">Loading address...</p>
+<p class="font-metadata-sm text-metadata-sm text-outline mt-1 flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">schedule</span>
+<span>Prices last updated: <span id="price-timestamp">--</span></span>
+</p>
 </div>
 </div>
 </div>
@@ -192,6 +201,7 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <span class="price-label font-label-caps text-label-caps text-on-surface-variant">Regular</span>
 </div>
 <div class="price-value font-price-display text-price-display text-primary" id="price-regular">--</div>
+<div class="font-metadata-sm text-metadata-sm text-outline mt-1" id="time-regular"></div>
 </div>
 <div class="price-card text-center p-5 md:p-6 bg-surface-container-low rounded-lg">
 <div class="flex items-center justify-center gap-2 mb-3">
@@ -199,6 +209,7 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <span class="price-label font-label-caps text-label-caps text-on-surface-variant">Midgrade</span>
 </div>
 <div class="price-value font-price-display text-price-display text-primary" id="price-midgrade">--</div>
+<div class="font-metadata-sm text-metadata-sm text-outline mt-1" id="time-midgrade"></div>
 </div>
 <div class="price-card text-center p-5 md:p-6 bg-surface-container-low rounded-lg">
 <div class="flex items-center justify-center gap-2 mb-3">
@@ -206,6 +217,7 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <span class="price-label font-label-caps text-label-caps text-on-surface-variant">Premium</span>
 </div>
 <div class="price-value font-price-display text-price-display text-primary" id="price-premium">--</div>
+<div class="font-metadata-sm text-metadata-sm text-outline mt-1" id="time-premium"></div>
 </div>
 <div class="price-card text-center p-5 md:p-6 bg-surface-container-low rounded-lg" id="price-diesel">
 <div class="flex items-center justify-center gap-2 mb-3">
@@ -213,6 +225,7 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <span class="price-label font-label-caps text-label-caps text-on-surface-variant">Diesel</span>
 </div>
 <div class="price-value font-price-display text-price-display text-primary" id="price-diesel-value">--</div>
+<div class="font-metadata-sm text-metadata-sm text-outline mt-1" id="time-diesel"></div>
 </div>
 <div class="price-card text-center p-5 md:p-6 bg-surface-container-low rounded-lg" id="price-e85">
 <div class="flex items-center justify-center gap-2 mb-3">
@@ -220,6 +233,7 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <span class="price-label font-label-caps text-label-caps text-on-surface-variant">E85</span>
 </div>
 <div class="price-value font-price-display text-price-display text-primary" id="price-e85-value">--</div>
+<div class="font-metadata-sm text-metadata-sm text-outline mt-1" id="time-e85"></div>
 </div>
 </div>
 </div>

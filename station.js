@@ -37,7 +37,7 @@ async function loadStationData() {
       
       const foundStation = findStationInData(data, searchId);
       if (foundStation) {
-        currentStation = { ...foundStation, borough };
+        currentStation = { ...foundStation, borough, extracted_at: data.extracted_at || null };
         displayStation(currentStation);
         return;
       }
@@ -90,6 +90,29 @@ function findStationInData(data, searchId) {
   return null;
 }
 
+function formatTimestamp(extractedAt) {
+  if (!extractedAt) return 'Unknown';
+  
+  const date = new Date(extractedAt);
+  const now = new Date();
+  const diffMs = now - date;
+  const diffMins = Math.floor(diffMs / 60000);
+  const diffHours = Math.floor(diffMins / 60);
+  const diffDays = Math.floor(diffHours / 24);
+  
+  // Format the date nicely
+  const options = { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true };
+  const formattedDate = date.toLocaleDateString('en-US', options);
+  
+  // Show relative time if recent
+  if (diffMins < 1) return 'Just now';
+  if (diffMins < 60) return `${diffMins} min ago (${formattedDate})`;
+  if (diffHours < 24) return `${diffHours} hr ago (${formattedDate})`;
+  if (diffDays < 7) return `${diffDays} day${diffDays > 1 ? 's' : ''} ago (${formattedDate})`;
+  
+  return formattedDate;
+}
+
 function displayStation(station) {
   // Update breadcrumb
   const boroughName = station.borough ? station.borough.charAt(0).toUpperCase() + station.borough.slice(1) : 'Unknown';
@@ -101,6 +124,18 @@ function displayStation(station) {
   document.getElementById('station-name').textContent = station.name;
   const addressStr = station.address.street || station.address.city || station.address.state || 'Address not available';
   document.getElementById('station-address').textContent = addressStr;
+  
+  // Update timestamp
+  const timestampEl = document.getElementById('price-timestamp');
+  if (timestampEl) {
+    timestampEl.textContent = formatTimestamp(station.extracted_at);
+  }
+
+  // Helper to get reported_ago for a fuel type
+  function getReportedAgo(fuelTypeKey) {
+    const fuelStation = station.fuel_types?.[fuelTypeKey];
+    return fuelStation?.reported_ago || null;
+  }
 
   // Update prices for all fuel types
   function getDisplayPrice(price) {
@@ -115,6 +150,28 @@ function displayStation(station) {
   document.getElementById('price-regular').textContent = regularPrice;
   document.getElementById('price-midgrade').textContent = midgradePrice;
   document.getElementById('price-premium').textContent = premiumPrice;
+  
+  // Set reported_ago for each fuel type
+  const reportedAgoRegular = getReportedAgo('Regular Fuel Prices') || station.reported_ago || null;
+  const reportedAgoMidgrade = getReportedAgo('Mid-Grade Fuel Prices');
+  const reportedAgoPremium = getReportedAgo('Premium Fuel Prices');
+  const reportedAgoDiesel = getReportedAgo('Diesel Fuel Prices');
+  const reportedAgoE85 = getReportedAgo('E85 Fuel Prices');
+  
+  const timeRegular = document.getElementById('time-regular');
+  if (timeRegular && reportedAgoRegular) timeRegular.textContent = reportedAgoRegular;
+  
+  const timeMidgrade = document.getElementById('time-midgrade');
+  if (timeMidgrade && reportedAgoMidgrade) timeMidgrade.textContent = reportedAgoMidgrade;
+  
+  const timePremium = document.getElementById('time-premium');
+  if (timePremium && reportedAgoPremium) timePremium.textContent = reportedAgoPremium;
+  
+  const timeDiesel = document.getElementById('time-diesel');
+  if (timeDiesel && reportedAgoDiesel) timeDiesel.textContent = reportedAgoDiesel;
+  
+  const timeE85 = document.getElementById('time-e85');
+  if (timeE85 && reportedAgoE85) timeE85.textContent = reportedAgoE85;
   
   // Show all fuel types (including those with -- prices)
   const dieselCard = document.getElementById('price-diesel');
