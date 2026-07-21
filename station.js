@@ -18,6 +18,23 @@ function normalizeStationId(url) {
   return match ? match[1] : url;
 }
 
+function getBrandLogoUrl(stationName) {
+  if (!stationName) return null;
+  const name = stationName.trim().toLowerCase();
+  const brandMap = {
+    '76': '76.png',
+    'amoco': 'amoco.png',
+    'gulf': 'gulf.png',
+    'mobil': 'mobil.png',
+    'shell': 'shell.png',
+    'sunoco': 'sunoco.png'
+  };
+  if (brandMap[name]) {
+    return `images/${brandMap[name]}`;
+  }
+  return null;
+}
+
 function parseReportedAgoToMs(reportedAgo) {
   if (!reportedAgo || reportedAgo.trim() === '- - -') return null;
   const match = reportedAgo.trim().match(/(\d+)\s+(Hour|Hours|Day|Days|Minute|Minutes)\s+Ago/i);
@@ -185,7 +202,16 @@ function displayStation(station) {
   document.getElementById('breadcrumb-borough').href = `gas-prices/${station.borough || 'brooklyn'}/index.html`;
   document.getElementById('breadcrumb-station').textContent = station.name;
 
-  // Update header
+  // Update header - show brand logo if available
+  const brandLogo = getBrandLogoUrl(station.name);
+  const logoContainer = document.querySelector('.w-20.h-20.bg-white');
+  if (logoContainer) {
+    if (brandLogo) {
+      logoContainer.innerHTML = `<img src="${brandLogo}" alt="${station.name}" class="w-12 h-12 object-contain" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><span class="material-symbols-outlined text-5xl text-outline" style="display:none">local_gas_station</span>`;
+    } else {
+      logoContainer.innerHTML = `<span class="material-symbols-outlined text-5xl text-outline">local_gas_station</span>`;
+    }
+  }
   document.getElementById('station-name').textContent = station.name;
   const addressStr = station.address.street || station.address.city || station.address.state || 'Address not available';
   document.getElementById('station-address').textContent = addressStr;

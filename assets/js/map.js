@@ -7,6 +7,23 @@ const BOROUGHS = ['bronx', 'brooklyn', 'manhattan', 'queens', 'staten-island'];
 
 let currentFuelType = 'Regular Fuel Prices';
 
+function getBrandLogoUrl(stationName) {
+  if (!stationName) return null;
+  const name = stationName.trim().toLowerCase();
+  const brandMap = {
+    '76': '76.png',
+    'amoco': 'amoco.png',
+    'gulf': 'gulf.png',
+    'mobil': 'mobil.png',
+    'shell': 'shell.png',
+    'sunoco': 'sunoco.png'
+  };
+  if (brandMap[name]) {
+    return `../images/${brandMap[name]}`;
+  }
+  return null;
+}
+
 function parseReportedAgoToMs(reportedAgo) {
   if (!reportedAgo || reportedAgo.trim() === '- - -') return null;
   const match = reportedAgo.trim().match(/(\d+)\s+(Hour|Hours|Day|Days|Minute|Minutes)\s+Ago/i);
@@ -108,10 +125,21 @@ function displayStationsList() {
     const mapsLink = getGoogleMapsLink(station);
     const trueReportTime = getTrueReportTime(station);
     const reportedTime = timeAgo(trueReportTime);
+    const brandLogo = getBrandLogoUrl(station.name);
     
     return `
-        <p style="margin: 4px 0; font-size: 12px; color: #999;">${reportedTime}</p>
-        <a href="${mapsLink}" target="_blank" style="display: inline-block; margin-top: 8px; padding: 6px 12px; background: #855300; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: 600;">View on Google Maps</a>
+      <div class="bg-white border border-gray-200 rounded-lg p-4 mb-3">
+        <div class="flex items-center gap-3">
+          ${brandLogo ? `<img src="${brandLogo}" alt="${station.name}" class="w-10 h-10 object-contain" onerror="this.style.display='none'">` : ''}
+          <div class="flex-1">
+            <h3 class="font-bold text-gray-900">${station.name}</h3>
+            <p style="margin: 2px 0; font-size: 13px; color: #666;">${station.address.street || ''}</p>
+            <p style="margin: 2px 0; font-size: 13px; color: #666;">${station.address.city || ''}, ${station.address.state || ''} ${station.address.zip || ''}</p>
+            <div class="font-bold text-lg text-amber-700">${station.price && station.price !== '- - -' ? station.price : '--'}</div>
+            <p style="margin: 4px 0; font-size: 12px; color: #999;">${reportedTime}</p>
+            <a href="${mapsLink}" target="_blank" style="display: inline-block; margin-top: 8px; padding: 6px 12px; background: #855300; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: 600;">View on Google Maps</a>
+          </div>
+        </div>
       </div>
     `
   });

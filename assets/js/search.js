@@ -11,6 +11,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let currentFuelType = 'Regular Fuel Prices';
 
+  function getBrandLogoUrl(stationName) {
+    if (!stationName) return null;
+    const name = stationName.trim().toLowerCase();
+    const brandMap = {
+      '76': '76.png',
+      'amoco': 'amoco.png',
+      'gulf': 'gulf.png',
+      'mobil': 'mobil.png',
+      'shell': 'shell.png',
+      'sunoco': 'sunoco.png'
+    };
+    if (brandMap[name]) {
+      return `../images/${brandMap[name]}`;
+    }
+    return null;
+  }
+
   function parseReportedAgoToMs(reportedAgo) {
     if (!reportedAgo || reportedAgo.trim() === '- - -') return null;
     const match = reportedAgo.trim().match(/(\d+)\s+(Hour|Hours|Day|Days|Minute|Minutes)\s+Ago/i);
@@ -116,10 +133,15 @@ document.addEventListener('DOMContentLoaded', () => {
       const priceType = station.price_type || 'Credit';
       const showCashBadge = priceType === 'Cash';
       
+      const brandLogo = getBrandLogoUrl(station.name);
+      const logoHtml = brandLogo
+        ? `<img src="${brandLogo}" alt="${station.name}" class="w-10 h-10 object-contain" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><span class="material-symbols-outlined text-4xl text-outline" style="display:none">local_gas_station</span>`
+        : `<span class="material-symbols-outlined text-4xl text-outline">local_gas_station</span>`;
+
       link.innerHTML = `
         <div class="flex items-center gap-4">
           <div class="w-16 h-16 bg-white border border-outline-variant rounded-full flex items-center justify-center flex-shrink-0 overflow-hidden">
-            <span class="material-symbols-outlined text-4xl text-outline">local_gas_station</span>
+            ${logoHtml}
           </div>
           <div class="flex-1 min-w-0">
             <h3 class="font-station-name text-station-name font-bold text-primary mb-1">${station.name}</h3>
