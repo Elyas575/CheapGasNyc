@@ -7,6 +7,44 @@ const BOROUGHS = ['bronx', 'brooklyn', 'manhattan', 'queens', 'staten-island'];
 
 let currentFuelType = 'Regular Fuel Prices';
 
+function parseReportedAgoToMs(reportedAgo) {
+  if (!reportedAgo || reportedAgo.trim() === '- - -') return null;
+  const match = reportedAgo.trim().match(/(\d+)\s+(Hour|Hours|Day|Days|Minute|Minutes)\s+Ago/i);
+  if (!match) return null;
+
+  const value = parseInt(match[1], 10);
+  const unit = match[2].toLowerCase();
+
+  if (unit.includes('day')) return value * 24 * 60 * 60 * 1000;
+  if (unit.includes('minute')) return value * 60 * 1000;
+  return value * 60 * 60 * 1000; // hours
+}
+
+function getTrueReportTime(station) {
+  if (!station.scraped_at || !station.reported_ago) return null;
+  
+  const reportedOffset = parseReportedAgoToMs(station.reported_ago);
+  if (reportedOffset === null) return null;
+  
+  const scrapedDate = new Date(station.scraped_at + 'Z');
+  return new Date(scrapedDate.getTime() - reportedOffset);
+}
+
+function timeAgo(trueReportTime) {
+  if (!trueReportTime) return 'Unknown';
+  const now = new Date();
+  const diffMs = now - trueReportTime;
+  const diffMins = Math.floor(diffMs / 60000);
+  const diffHours = Math.floor(diffMins / 60);
+  const diffDays = Math.floor(diffHours / 24);
+  
+  if (diffMins < 1) return 'Just now';
+  if (diffMins < 60) return `${diffMins} min ago`;
+  if (diffHours < 24) return `${diffHours} hr${diffHours > 1 ? 's' : ''} ago`;
+  if (diffDays >= 1 && diffDays < 7) return `${diffDays} day${diffDays > 1 ? 's' : ''} ago`;
+  return trueReportTime.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
 async function loadAllStations() {
   try {
     const promises = BOROUGHS.map(async (borough) => {
@@ -14,10 +52,8 @@ async function loadAllStations() {
       const data = await response.json();
       
       let stations = [];
-      // Format 1: Flat array (Bronx, Brooklyn, Queens, Staten Island)
       if (Array.isArray(data)) {
         stations = data.map(s => ({ ...s, borough }));
-      // Format 2: { fuel_types: { ... } } (Manhattan)
       } else if (data.fuel_types && typeof data.fuel_types === 'object') {
         const fuelData = data.fuel_types[currentFuelType];
         if (fuelData && fuelData.stations) {
@@ -41,13 +77,11 @@ async function loadAllStations() {
 }
 
 function getGoogleMapsLink(station) {
-  // Create a Google Maps search link for the station
   const address = encodeURIComponent(`${station.address.street}, ${station.address.city}, ${station.address.state} ${station.address.zip}`);
   return `https://www.google.com/maps/search/?api=1&query=${address}`;
 }
 
 function getGoogleMapsDirectionsLink(station) {
-  // Create a Google Maps directions link
   const address = encodeURIComponent(`${station.address.street}, ${station.address.city}, ${station.address.state} ${station.address.zip}`);
   return `https://www.google.com/maps/dir/?api=1&destination=${address}`;
 }
@@ -64,33 +98,26 @@ function displayStationsList() {
     return;
   }
 
-  // Sort stations by price (cheapest first)
   const sortedStations = allStations.sort((a, b) => {
-    const priceA = parseFloat(a.price.replace('$', ''));
-    const priceB = parseFloat(b.price.replace('$', ''));
+    const priceA = a.price ? parseFloat(a.price.replace('$', '')) : Infinity;
+    const priceB = b.price ? parseFloat(b.price.replace('$', '')) : Infinity;
     return priceA - priceB;
   });
 
   container.innerHTML = sortedStations.map(station => {
     const mapsLink = getGoogleMapsLink(station);
-    const boroughName = station.borough.charAt(0).toUpperCase() + station.borough.slice(1);
+    const trueReportTime = getTrueReportTime(station);
+    const reportedTime = timeAgo(trueReportTime);
     
     return `
-        <p style="margin: 4px 0; font-size: 12px; color: #999;">${station.reported_ago}</p>
+        <p style="margin: 4px 0; font-size: 12px; color: #999;">${reportedTime}</p>
         <a href="${mapsLink}" target="_blank" style="display: inline-block; margin-top: 8px; padding: 6px 12px; background: #855300; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: 600;">View on Google Maps</a>
       </div>
     `
   });
-
-  marker.addListener('click', () => {
-    infoWindow.open(map, marker);
-  });
-
-  return marker;
 }
 
 function initMap() {
-  // Center map on NYC
   const nycCenter = { lat: 40.7128, lng: -74.0060 };
 
   map = new google.maps.Map(document.getElementById('map'), {
@@ -112,7 +139,6 @@ function initMap() {
     ]
   });
 
-  // Add markers for all stations
   allStations.forEach(station => {
     const marker = createPriceMarker(station);
     if (marker) {
@@ -123,10 +149,8 @@ function initMap() {
   console.log(`Added ${markers.length} markers to map`);
 }
 
-// Load stations and initialize map when page loads
 document.addEventListener('DOMContentLoaded', () => {
   loadAllStations().then(() => {
-    // Map will be initialized by Google Maps callback
     window.initMap = initMap;
   });
 

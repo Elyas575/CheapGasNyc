@@ -14,7 +14,44 @@ let allStations = [];
 let currentFuelType = 'Regular Fuel Prices';
 let visibleCount = 10;
 
-// Extract stations from JSON data in either format
+function parseReportedAgoToMs(reportedAgo) {
+  if (!reportedAgo || reportedAgo.trim() === '- - -') return null;
+  const match = reportedAgo.trim().match(/(\d+)\s+(Hour|Hours|Day|Days|Minute|Minutes)\s+Ago/i);
+  if (!match) return null;
+
+  const value = parseInt(match[1], 10);
+  const unit = match[2].toLowerCase();
+
+  if (unit.includes('day')) return value * 24 * 60 * 60 * 1000;
+  if (unit.includes('minute')) return value * 60 * 1000;
+  return value * 60 * 60 * 1000; // hours
+}
+
+function getTrueReportTime(station) {
+  if (!station.scraped_at || !station.reported_ago) return null;
+  
+  const reportedOffset = parseReportedAgoToMs(station.reported_ago);
+  if (reportedOffset === null) return null;
+  
+  const scrapedDate = new Date(station.scraped_at + 'Z');
+  return new Date(scrapedDate.getTime() - reportedOffset);
+}
+
+function timeAgo(trueReportTime) {
+  if (!trueReportTime) return 'Unknown';
+  const now = new Date();
+  const diffMs = now - trueReportTime;
+  const diffMins = Math.floor(diffMs / 60000);
+  const diffHours = Math.floor(diffMins / 60);
+  const diffDays = Math.floor(diffHours / 24);
+  
+  if (diffMins < 1) return 'Just now';
+  if (diffMins < 60) return `${diffMins} min ago`;
+  if (diffHours < 24) return `${diffHours} hr${diffHours > 1 ? 's' : ''} ago`;
+  if (diffDays >= 1 && diffDays < 7) return `${diffDays} day${diffDays > 1 ? 's' : ''} ago`;
+  return trueReportTime.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
 function extractStationsFromBorough(data, borough, fuelType) {
   if (Array.isArray(data)) {
     return data.map(s => ({ 
@@ -84,9 +121,11 @@ function updateHeading(stations) {
     return;
   }
   
-  const sorted = [...withPrice].sort((a, b) => 
-    parseFloat(a.price.replace('$', '')) - parseFloat(b.price.replace('$', ''))
-  );
+  const sorted = [...withPrice].sort((a, b) => {
+    const priceA = parseFloat(a.price.replace('$', ''));
+    const priceB = parseFloat(b.price.replace('$', ''));
+    return priceA - priceB;
+  });
   const cheapestBorough = BOROUGH_NAMES[sorted[0].borough] || sorted[0].borough;
   const cheapestPrice = sorted[0].price;
   heading.textContent = `Cheapest in ${cheapestBorough} - from ${cheapestPrice}`;
@@ -94,7 +133,9 @@ function updateHeading(stations) {
 
 function renderStations(stations) {
   const sorted = [...stations].sort((a, b) => {
-    return parseFloat(a.price.replace('$', '')) - parseFloat(b.price.replace('$', ''));
+    const priceA = a.price ? parseFloat(a.price.replace('$', '')) : Infinity;
+    const priceB = b.price ? parseFloat(b.price.replace('$', '')) : Infinity;
+    return priceA - priceB;
   });
 
   const container = document.getElementById('station-list');
@@ -108,15 +149,16 @@ function renderStations(stations) {
     const numericId = station.url ? station.url.match(/\/?station\/(\d+)/)?.[1] || station.url : '';
     row.href = `station.html?id=${encodeURIComponent(numericId)}`;
     row.className = 'price-row block bg-white border border-outline-variant rounded-lg p-4 mb-3 hover:border-secondary transition-all no-underline';
+    row._stationData = station;
     
     const street = station.address.street || '';
     const cityState = [station.address.city || BOROUGH_NAMES[station.borough], station.address.state].filter(Boolean).join(', ') || BOROUGH_NAMES[station.borough] || '';
     
     const displayPrice = station.price && station.price !== '- - -' ? station.price : '--';
     
-    const reportedTime = station.reported_ago || 'Unknown';
+    const trueReportTime = getTrueReportTime(station);
+    const reportedTime = timeAgo(trueReportTime);
     const priceType = station.price_type || 'Credit';
-    
     const showCashBadge = priceType === 'Cash';
     
     row.innerHTML = `
@@ -133,7 +175,7 @@ function renderStations(stations) {
            <div class="font-price-display text-price-display text-primary mb-1">${displayPrice}</div>
            <div class="flex items-center gap-1 text-xs text-outline">
              <span class="material-symbols-outlined text-[10px]">schedule</span>
-             <span>${reportedTime}</span>
+             <span class="time-display">${reportedTime}</span>
            </div>
            ${showCashBadge ? '<span class="inline-block mt-1 px-2 py-0.5 bg-green-600 text-white text-xs rounded-full font-bold">CASH</span>' : ''}
            ${station.borough ? `<span class="inline-block mt-1 px-2 py-0.5 bg-secondary/10 text-secondary text-xs rounded-full font-medium">${BOROUGH_NAMES[station.borough] || station.borough}</span>` : ''}
@@ -214,7 +256,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Mobile borough selector
   const boroughBtn = document.getElementById('borough-selector-btn');
   const boroughDropdown = document.getElementById('borough-dropdown');
   
@@ -224,14 +265,12 @@ document.addEventListener('DOMContentLoaded', () => {
       boroughDropdown.classList.toggle('hidden');
     });
 
-    // Close dropdown when clicking outside
     document.addEventListener('click', (e) => {
       if (!boroughBtn.contains(e.target) && !boroughDropdown.contains(e.target)) {
         boroughDropdown.classList.add('hidden');
       }
     });
 
-    // Close dropdown when a borough is selected
     const boroughLinks = boroughDropdown.querySelectorAll('a');
     boroughLinks.forEach(link => {
       link.addEventListener('click', () => {

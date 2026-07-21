@@ -9,6 +9,44 @@ function getBoroughName() {
 
 let currentFuelType = 'Regular Fuel Prices';
 
+function parseReportedAgoToMs(reportedAgo) {
+  if (!reportedAgo || reportedAgo.trim() === '- - -') return null;
+  const match = reportedAgo.trim().match(/(\d+)\s+(Hour|Hours|Day|Days|Minute|Minutes)\s+Ago/i);
+  if (!match) return null;
+
+  const value = parseInt(match[1], 10);
+  const unit = match[2].toLowerCase();
+
+  if (unit.includes('day')) return value * 24 * 60 * 60 * 1000;
+  if (unit.includes('minute')) return value * 60 * 1000;
+  return value * 60 * 60 * 1000; // hours
+}
+
+function getTrueReportTime(station) {
+  if (!station.scraped_at || !station.reported_ago) return null;
+  
+  const reportedOffset = parseReportedAgoToMs(station.reported_ago);
+  if (reportedOffset === null) return null;
+  
+  const scrapedDate = new Date(station.scraped_at + 'Z');
+  return new Date(scrapedDate.getTime() - reportedOffset);
+}
+
+function timeAgo(trueReportTime) {
+  if (!trueReportTime) return 'Unknown';
+  const now = new Date();
+  const diffMs = now - trueReportTime;
+  const diffMins = Math.floor(diffMs / 60000);
+  const diffHours = Math.floor(diffMins / 60);
+  const diffDays = Math.floor(diffHours / 24);
+  
+  if (diffMins < 1) return 'Just now';
+  if (diffMins < 60) return `${diffMins} min ago`;
+  if (diffHours < 24) return `${diffHours} hr${diffHours > 1 ? 's' : ''} ago`;
+  if (diffDays >= 1 && diffDays < 7) return `${diffDays} day${diffDays > 1 ? 's' : ''} ago`;
+  return trueReportTime.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
 async function loadBoroughStations() {
   const container = document.getElementById('station-list');
   if (!container) return;
@@ -21,10 +59,8 @@ async function loadBoroughStations() {
     
     let stations = [];
     
-    // Format 1: Flat array (Bronx, Brooklyn, Queens, Staten Island)
     if (Array.isArray(data)) {
       stations = data;
-    // Format 2: { fuel_types: { "Regular Fuel Prices": { stations: [...] } } } (Manhattan)
     } else if (data.fuel_types && typeof data.fuel_types === 'object') {
       const fuelData = data.fuel_types[currentFuelType];
       if (fuelData && fuelData.stations) {
@@ -41,7 +77,9 @@ async function loadBoroughStations() {
 
 function renderStations(stations) {
   const sorted = [...stations].sort((a, b) => {
-    return parseFloat(a.price.replace('$', '')) - parseFloat(b.price.replace('$', ''));
+    const priceA = a.price ? parseFloat(a.price.replace('$', '')) : Infinity;
+    const priceB = b.price ? parseFloat(b.price.replace('$', '')) : Infinity;
+    return priceA - priceB;
   });
 
   const container = document.getElementById('station-list');
@@ -49,23 +87,18 @@ function renderStations(stations) {
 
   sorted.forEach((station) => {
     const row = document.createElement('a');
-    // Use numeric station ID for clean URLs
     const numericId = station.url ? station.url.match(/\/?station\/(\d+)/)?.[1] || station.url : '';
     row.href = `../../station.html?id=${encodeURIComponent(numericId)}`;
     row.className = 'price-row block bg-white border border-outline-variant rounded-lg p-4 mb-3 hover:border-secondary transition-all no-underline';
+    row._stationData = station;
     
-    // Build address parts - show street on one line, city/state on another
     const street = station.address.street || '';
     const cityState = [station.address.city, station.address.state].filter(Boolean).join(', ') || '';
-    
-    // Show price or -- if not available
     const displayPrice = station.price && station.price !== '- - -' ? station.price : '--';
     
-    // Get reporter info
-    const reportedTime = station.reported_ago || 'Unknown';
+    const trueReportTime = getTrueReportTime(station);
+    const reportedTime = timeAgo(trueReportTime);
     const priceType = station.price_type || 'Credit';
-    
-    // Show CASH badge if applicable
     const showCashBadge = priceType === 'Cash';
     
     row.innerHTML = `
@@ -82,7 +115,7 @@ function renderStations(stations) {
            <div class="font-price-display text-price-display text-primary mb-1">${displayPrice}</div>
            <div class="flex items-center gap-1 text-xs text-outline">
              <span class="material-symbols-outlined text-[10px]">schedule</span>
-             <span>${reportedTime}</span>
+             <span class="time-display">${reportedTime}</span>
            </div>
            ${showCashBadge ? '<span class="inline-block mt-1 px-2 py-0.5 bg-green-600 text-white text-xs rounded-full font-bold">CASH</span>' : ''}
          </div>
