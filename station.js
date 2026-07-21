@@ -18,6 +18,68 @@ function normalizeStationId(url) {
   return match ? match[1] : url;
 }
 
+function parseReportedAgoToMs(reportedAgo) {
+  if (!reportedAgo || reportedAgo.trim() === '- - -') return null;
+  const match = reportedAgo.trim().match(/(\d+)\s+(Hour|Hours|Day|Days|Minute|Minutes)\s+Ago/i);
+  if (!match) return null;
+
+  const value = parseInt(match[1], 10);
+  const unit = match[2].toLowerCase();
+
+  if (unit.includes('day')) return value * 24 * 60 * 60 * 1000;
+  if (unit.includes('minute')) return value * 60 * 1000;
+  return value * 60 * 60 * 1000; // hours
+}
+
+function getTrueReportTime(reportedAgo, scrapedAt) {
+  if (!scrapedAt || !reportedAgo) return null;
+  
+  const reportedOffset = parseReportedAgoToMs(reportedAgo);
+  if (reportedOffset === null) return null;
+  
+  const scrapedDate = new Date(scrapedAt + 'Z');
+  return new Date(scrapedDate.getTime() - reportedOffset);
+}
+
+function timeAgo(trueReportTime) {
+  if (!trueReportTime) return 'Unknown';
+  const now = new Date();
+  const diffMs = now - trueReportTime;
+  const diffMins = Math.floor(diffMs / 60000);
+  const diffHours = Math.floor(diffMins / 60);
+  const diffDays = Math.floor(diffHours / 24);
+  
+  if (diffMins < 1) return 'Just now';
+  if (diffMins < 60) return `${diffMins} min ago`;
+  if (diffHours < 24) return `${diffHours} hr${diffHours > 1 ? 's' : ''} ago`;
+  if (diffDays >= 1 && diffDays < 7) return `${diffDays} day${diffDays > 1 ? 's' : ''} ago`;
+  return trueReportTime.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
+// Update all times on the page every 60 seconds
+function updateAllTimes() {
+  if (!currentStation) return;
+  
+  const fuelTypes = ['Regular Fuel Prices', 'Mid-Grade Fuel Prices', 'Premium Fuel Prices', 'Diesel Fuel Prices', 'E85 Fuel Prices'];
+  const elementIds = ['time-regular', 'time-midgrade', 'time-premium', 'time-diesel', 'time-e85'];
+  
+  fuelTypes.forEach((fuelType, index) => {
+    const fuelStation = currentStation.fuel_types?.[fuelType];
+    const reportedAgo = fuelStation?.reported_ago || (fuelType === 'Regular Fuel Prices' ? currentStation.reported_ago : null);
+    
+    if (reportedAgo) {
+      const scrapedAt = fuelStation?.scraped_at || currentStation.extracted_at;
+      const trueReportTime = getTrueReportTime(reportedAgo, scrapedAt);
+      if (trueReportTime) {
+        const el = document.getElementById(elementIds[index]);
+        if (el) {
+          el.textContent = timeAgo(trueReportTime);
+        }
+      }
+    }
+  });
+}
+
 // Get station data from JSON files
 async function loadStationData() {
   const stationId = getStationId();
@@ -39,6 +101,9 @@ async function loadStationData() {
       if (foundStation) {
         currentStation = { ...foundStation, borough, extracted_at: data.extracted_at || null };
         displayStation(currentStation);
+        updateAllTimes();
+        // Update times every 60 seconds
+        setInterval(updateAllTimes, 60000);
         return;
       }
     }
@@ -158,20 +223,51 @@ function displayStation(station) {
   const reportedAgoDiesel = getReportedAgo('Diesel Fuel Prices');
   const reportedAgoE85 = getReportedAgo('E85 Fuel Prices');
   
+  const scrapedAtRegular = station.fuel_types?.['Regular Fuel Prices']?.scraped_at || station.extracted_at;
+  const scrapedAtMidgrade = station.fuel_types?.['Mid-Grade Fuel Prices']?.scraped_at;
+  const scrapedAtPremium = station.fuel_types?.['Premium Fuel Prices']?.scraped_at;
+  const scrapedAtDiesel = station.fuel_types?.['Diesel Fuel Prices']?.scraped_at;
+  const scrapedAtE85 = station.fuel_types?.['E85 Fuel Prices']?.scraped_at;
+  
   const timeRegular = document.getElementById('time-regular');
-  if (timeRegular && reportedAgoRegular) timeRegular.textContent = reportedAgoRegular;
+  if (timeRegular && reportedAgoRegular) {
+    timeRegular.setAttribute('data-reported-ago', reportedAgoRegular);
+    timeRegular.setAttribute('data-scraped-at', scrapedAtRegular || '');
+    const trueReportTime = getTrueReportTime(reportedAgoRegular, scrapedAtRegular);
+    timeRegular.textContent = trueReportTime ? timeAgo(trueReportTime) : reportedAgoRegular;
+  }
   
   const timeMidgrade = document.getElementById('time-midgrade');
-  if (timeMidgrade && reportedAgoMidgrade) timeMidgrade.textContent = reportedAgoMidgrade;
+  if (timeMidgrade && reportedAgoMidgrade) {
+    timeMidgrade.setAttribute('data-reported-ago', reportedAgoMidgrade);
+    timeMidgrade.setAttribute('data-scraped-at', scrapedAtMidgrade || '');
+    const trueReportTime = getTrueReportTime(reportedAgoMidgrade, scrapedAtMidgrade);
+    timeMidgrade.textContent = trueReportTime ? timeAgo(trueReportTime) : reportedAgoMidgrade;
+  }
   
   const timePremium = document.getElementById('time-premium');
-  if (timePremium && reportedAgoPremium) timePremium.textContent = reportedAgoPremium;
+  if (timePremium && reportedAgoPremium) {
+    timePremium.setAttribute('data-reported-ago', reportedAgoPremium);
+    timePremium.setAttribute('data-scraped-at', scrapedAtPremium || '');
+    const trueReportTime = getTrueReportTime(reportedAgoPremium, scrapedAtPremium);
+    timePremium.textContent = trueReportTime ? timeAgo(trueReportTime) : reportedAgoPremium;
+  }
   
   const timeDiesel = document.getElementById('time-diesel');
-  if (timeDiesel && reportedAgoDiesel) timeDiesel.textContent = reportedAgoDiesel;
+  if (timeDiesel && reportedAgoDiesel) {
+    timeDiesel.setAttribute('data-reported-ago', reportedAgoDiesel);
+    timeDiesel.setAttribute('data-scraped-at', scrapedAtDiesel || '');
+    const trueReportTime = getTrueReportTime(reportedAgoDiesel, scrapedAtDiesel);
+    timeDiesel.textContent = trueReportTime ? timeAgo(trueReportTime) : reportedAgoDiesel;
+  }
   
   const timeE85 = document.getElementById('time-e85');
-  if (timeE85 && reportedAgoE85) timeE85.textContent = reportedAgoE85;
+  if (timeE85 && reportedAgoE85) {
+    timeE85.setAttribute('data-reported-ago', reportedAgoE85);
+    timeE85.setAttribute('data-scraped-at', scrapedAtE85 || '');
+    const trueReportTime = getTrueReportTime(reportedAgoE85, scrapedAtE85);
+    timeE85.textContent = trueReportTime ? timeAgo(trueReportTime) : reportedAgoE85;
+  }
   
   // Show all fuel types (including those with -- prices)
   const dieselCard = document.getElementById('price-diesel');
