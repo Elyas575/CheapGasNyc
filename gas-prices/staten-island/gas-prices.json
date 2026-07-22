@@ -1,6 +1,6 @@
 {
   "borough": "staten-island",
-  "extracted_at": "2026-07-21T14:21:46.971388",
+  "extracted_at": "2026-07-22T07:32:20.201396",
   "total_stations": 40,
   "fuel_types": {
     "Regular Fuel Prices": {
@@ -26,34 +26,36 @@
           "latest_review": "Most expensive stations on the island, go to Mobil on Arthur Kill rd & Richmond they have the bests prices ",
           "price": "$3.69",
           "price_type": "Cash",
-          "reported_by": "vtreglia",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.586800"
+          "reported_by": "barnowl154",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.819548",
+          "reported_at": "2026-07-21T16:32:19.822501"
         },
         {
-          "name": "Costco",
-          "url": "https://www.gasbuddy.com/station/56364",
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56390",
           "address": {
-            "street": "2975 Richmond Ave",
+            "street": "868 Arthur Kill Rd",
             "city": "Staten Island",
             "state": "NY",
-            "zip": "10314",
+            "zip": "10312",
             "country": "US"
           },
           "geo": {
-            "lat": 40.571469308429,
-            "lng": -74.169362336397
+            "lat": 40.560732063679,
+            "lng": -74.169516563416
           },
           "rating": {
-            "value": 4.4,
-            "count": 340
+            "value": 4.6,
+            "count": 257
           },
-          "latest_review": "Best value for the price and you can use your Costco card.",
+          "latest_review": "Cheapest gas in area always ",
           "price": "$3.79",
-          "price_type": "Credit",
-          "reported_by": "Owner",
-          "reported_ago": "15 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.586812"
+          "price_type": "Cash",
+          "reported_by": "PerseusAuditore",
+          "reported_ago": "10 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.819560",
+          "reported_at": "2026-07-21T21:32:19.822799"
         },
         {
           "name": "Mobil",
@@ -77,133 +79,35 @@
           "price": "$3.85",
           "price_type": "Cash",
           "reported_by": "ritamckernan24",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.586818"
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-22T07:32:19.819565",
+          "reported_at": "2026-07-21T07:32:19.823350"
         },
         {
-          "name": "Speedway",
-          "url": "https://www.gasbuddy.com/station/56383",
+          "name": "Costco",
+          "url": "https://www.gasbuddy.com/station/56364",
           "address": {
-            "street": "951 Bay St",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10305-4938",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.619254,
-            "lng": -74.069905
-          },
-          "rating": {
-            "value": 3.9,
-            "count": 131
-          },
-          "latest_review": "always my go to when I need gas. usually the cheapest around",
-          "price": "$3.89",
-          "price_type": "Credit",
-          "reported_by": "mikepork",
-          "reported_ago": "21 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.586824"
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56386",
-          "address": {
-            "street": "1774 Victory Blvd",
+            "street": "2975 Richmond Ave",
             "city": "Staten Island",
             "state": "NY",
             "zip": "10314",
             "country": "US"
           },
           "geo": {
-            "lat": 40.613013792831,
-            "lng": -74.122612774372
-          },
-          "rating": {
-            "value": 4.6,
-            "count": 109
-          },
-          "latest_review": "Great location \nClean gas \nTop tier gasoline ",
-          "price": "$3.89",
-          "price_type": "Cash",
-          "reported_by": "ritamckernan24",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.586829"
-        },
-        {
-          "name": "Speedway",
-          "url": "https://www.gasbuddy.com/station/56382",
-          "address": {
-            "street": "2121 Forest Ave",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10303",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.62674,
-            "lng": -74.16014
-          },
-          "rating": {
-            "value": 4,
-            "count": 67
-          },
-          "latest_review": "This station have the best Customer service on Staten Island . Emploee always polite and professional . ",
-          "price": "$3.89",
-          "price_type": "Credit",
-          "reported_by": "David495",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.586834"
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56390",
-          "address": {
-            "street": "868 Arthur Kill Rd",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10312",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.560732063679,
-            "lng": -74.169516563416
-          },
-          "rating": {
-            "value": 4.6,
-            "count": 257
-          },
-          "latest_review": "Cheapest gas in area always ",
-          "price": "$3.79",
-          "price_type": "Cash",
-          "reported_by": "vtreglia",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.586840"
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56392",
-          "address": {
-            "street": "231 Bay St",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10301",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.636277,
-            "lng": -74.075795
+            "lat": 40.571469308429,
+            "lng": -74.169362336397
           },
           "rating": {
             "value": 4.4,
-            "count": 174
+            "count": 340
           },
-          "latest_review": "they post a different price outside then is on the pumps",
-          "price": "$3.93",
+          "latest_review": "Best value for the price and you can use your Costco card.",
+          "price": "$3.89",
           "price_type": "Credit",
-          "reported_by": "DataFeed",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.586845"
+          "reported_by": "Owner",
+          "reported_ago": "28 Minutes Ago",
+          "scraped_at": "2026-07-22T07:32:19.819570",
+          "reported_at": "2026-07-22T07:04:19.823942"
         },
         {
           "name": "Sunoco",
@@ -227,8 +131,9 @@
           "price": "$3.89",
           "price_type": "Cash",
           "reported_by": "vinman250",
-          "reported_ago": "4 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.586850"
+          "reported_ago": "10 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.819574",
+          "reported_at": "2026-07-21T21:32:19.824423"
         },
         {
           "name": "Mobil",
@@ -252,8 +157,113 @@
           "price": "$3.85",
           "price_type": "Cash",
           "reported_by": "Rahmet",
-          "reported_ago": "1 Hour Ago",
-          "scraped_at": "2026-07-21T14:21:46.586855"
+          "reported_ago": "18 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.819578",
+          "reported_at": "2026-07-21T13:32:19.823077"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/145111",
+          "address": {
+            "street": "2111 HYLAN BLVD",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10306",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.579166,
+            "lng": -74.101667
+          },
+          "rating": {
+            "value": 4.3,
+            "count": 41
+          },
+          "latest_review": "Different price for cash and credit. Gas buddy discount is off cash price but your charged credit price. ",
+          "price": "$3.95",
+          "price_type": "Credit",
+          "reported_by": "Buddy_yuf11v1x",
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.819582",
+          "reported_at": "2026-07-21T23:32:19.825022"
+        },
+        {
+          "name": "Speedway",
+          "url": "https://www.gasbuddy.com/station/56382",
+          "address": {
+            "street": "2121 Forest Ave",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10303",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.62674,
+            "lng": -74.16014
+          },
+          "rating": {
+            "value": 4,
+            "count": 67
+          },
+          "latest_review": "This station have the best Customer service on Staten Island . Emploee always polite and professional . ",
+          "price": "$3.95",
+          "price_type": "Credit",
+          "reported_by": "my02pals",
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.819586",
+          "reported_at": "2026-07-21T20:32:19.825610"
+        },
+        {
+          "name": "7-Eleven",
+          "url": "https://www.gasbuddy.com/station/56361",
+          "address": {
+            "street": "1252 Forest Ave",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10302",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.626129919475,
+            "lng": -74.131611585617
+          },
+          "rating": {
+            "value": 4,
+            "count": 87
+          },
+          "latest_review": "Good and fast service. ",
+          "price": "$3.95",
+          "price_type": "Credit",
+          "reported_by": "my02pals",
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.819590",
+          "reported_at": "2026-07-21T20:32:19.826193"
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/201565",
+          "address": {
+            "street": "1212 Victory Blvd",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10301",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.61591,
+            "lng": -74.10437
+          },
+          "rating": {
+            "value": 3.8,
+            "count": 15
+          },
+          "latest_review": "Ok prices with a convenience store. There are other food places close by. Large station.",
+          "price": "$3.99",
+          "price_type": "Cash",
+          "reported_by": "vinman250",
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.819594",
+          "reported_at": "2026-07-21T20:32:19.826675"
         }
       ],
       "count": 10
@@ -281,9 +291,36 @@
           "latest_review": "Most expensive stations on the island, go to Mobil on Arthur Kill rd & Richmond they have the bests prices ",
           "price": "$4.09",
           "price_type": "Cash",
-          "reported_by": "vtreglia",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.670163"
+          "reported_by": "barnowl154",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.902311",
+          "reported_at": "2026-07-21T16:32:19.907093"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56390",
+          "address": {
+            "street": "868 Arthur Kill Rd",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10312",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.560732063679,
+            "lng": -74.169516563416
+          },
+          "rating": {
+            "value": 4.6,
+            "count": 257
+          },
+          "latest_review": "Cheapest gas in area always ",
+          "price": "$4.09",
+          "price_type": "Cash",
+          "reported_by": "barnowl154",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.902324",
+          "reported_at": "2026-07-21T16:32:19.907590"
         },
         {
           "name": "Mobil",
@@ -307,33 +344,9 @@
           "price": "$4.25",
           "price_type": "Cash",
           "reported_by": "ritamckernan24",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.670176"
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56386",
-          "address": {
-            "street": "1774 Victory Blvd",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10314",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.613013792831,
-            "lng": -74.122612774372
-          },
-          "rating": {
-            "value": 4.6,
-            "count": 109
-          },
-          "latest_review": "Great location \nClean gas \nTop tier gasoline ",
-          "price": "$4.29",
-          "price_type": "Cash",
-          "reported_by": "ritamckernan24",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.670182"
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-22T07:32:19.902331",
+          "reported_at": "2026-07-21T07:32:19.908578"
         },
         {
           "name": "Mobil",
@@ -357,33 +370,9 @@
           "price": "$4.25",
           "price_type": "Cash",
           "reported_by": "Rahmet",
-          "reported_ago": "1 Hour Ago",
-          "scraped_at": "2026-07-21T14:21:46.670187"
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56390",
-          "address": {
-            "street": "868 Arthur Kill Rd",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10312",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.560732063679,
-            "lng": -74.169516563416
-          },
-          "rating": {
-            "value": 4.6,
-            "count": 257
-          },
-          "latest_review": "Cheapest gas in area always ",
-          "price": "$4.09",
-          "price_type": "Cash",
-          "reported_by": "vtreglia",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.670192"
+          "reported_ago": "18 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.902336",
+          "reported_at": "2026-07-21T13:32:19.908072"
         },
         {
           "name": "Shell",
@@ -407,8 +396,35 @@
           "price": "$4.39",
           "price_type": "Cash",
           "reported_by": "vinman250",
-          "reported_ago": "4 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.670198"
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.902342",
+          "reported_at": "2026-07-21T20:32:19.909683"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56386",
+          "address": {
+            "street": "1774 Victory Blvd",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10314",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.613013792831,
+            "lng": -74.122612774372
+          },
+          "rating": {
+            "value": 4.6,
+            "count": 109
+          },
+          "latest_review": "Great location \nClean gas \nTop tier gasoline ",
+          "price": "$4.39",
+          "price_type": "Cash",
+          "reported_by": "ebd4662",
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.902348",
+          "reported_at": "2026-07-21T20:32:19.910164"
         },
         {
           "name": "Speedway",
@@ -429,36 +445,38 @@
             "count": 67
           },
           "latest_review": "This station have the best Customer service on Staten Island . Emploee always polite and professional . ",
-          "price": "$4.39",
+          "price": "$4.45",
           "price_type": "Credit",
-          "reported_by": "David495",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.670203"
+          "reported_by": "my02pals",
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.902353",
+          "reported_at": "2026-07-21T20:32:19.910751"
         },
         {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56345",
+          "name": "Sunoco",
+          "url": "https://www.gasbuddy.com/station/56395",
           "address": {
-            "street": "2071 VICTORY BLVD",
+            "street": "700 South Ave",
             "city": "Staten Island",
             "state": "NY",
-            "zip": "10314",
+            "zip": "10303",
             "country": "US"
           },
           "geo": {
-            "lat": 40.612414,
-            "lng": -74.132682
+            "lat": 40.621827608803,
+            "lng": -74.16855096817
           },
           "rating": {
-            "value": 3.8,
-            "count": 110
+            "value": 4.2,
+            "count": 105
           },
-          "latest_review": "Great in and out spot",
-          "price": "$4.49",
+          "latest_review": "Sunoco sells 4 grades of gasoline. GasBuddy should allow an edit ",
+          "price": "$4.35",
           "price_type": "Credit",
-          "reported_by": "Finzup13",
+          "reported_by": "my02pals",
           "reported_ago": "20 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.670208"
+          "scraped_at": "2026-07-22T07:32:19.902358",
+          "reported_at": "2026-07-21T11:32:19.909203"
         },
         {
           "name": "BP",
@@ -482,33 +500,35 @@
           "price": "$4.49",
           "price_type": "Credit",
           "reported_by": "Rahmet",
-          "reported_ago": "1 Hour Ago",
-          "scraped_at": "2026-07-21T14:21:46.670213"
+          "reported_ago": "18 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.902364",
+          "reported_at": "2026-07-21T13:32:19.911964"
         },
         {
-          "name": "7-Eleven",
-          "url": "https://www.gasbuddy.com/station/56361",
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/56345",
           "address": {
-            "street": "1252 Forest Ave",
+            "street": "2071 VICTORY BLVD",
             "city": "Staten Island",
             "state": "NY",
-            "zip": "10302",
+            "zip": "10314",
             "country": "US"
           },
           "geo": {
-            "lat": 40.626129919475,
-            "lng": -74.131611585617
+            "lat": 40.612414,
+            "lng": -74.132682
           },
           "rating": {
-            "value": 4,
-            "count": 87
+            "value": 3.8,
+            "count": 110
           },
-          "latest_review": "Good and fast service. ",
+          "latest_review": "Great in and out spot",
           "price": "$4.49",
           "price_type": "Credit",
-          "reported_by": "ritamckernan24",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.670219"
+          "reported_by": "TuBrr",
+          "reported_ago": "17 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:19.902369",
+          "reported_at": "2026-07-21T14:32:19.911357"
         }
       ],
       "count": 10
@@ -536,84 +556,10 @@
           "latest_review": "Most expensive stations on the island, go to Mobil on Arthur Kill rd & Richmond they have the bests prices ",
           "price": "$4.49",
           "price_type": "Cash",
-          "reported_by": "vtreglia",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.767703"
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56386",
-          "address": {
-            "street": "1774 Victory Blvd",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10314",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.613013792831,
-            "lng": -74.122612774372
-          },
-          "rating": {
-            "value": 4.6,
-            "count": 109
-          },
-          "latest_review": "Great location \nClean gas \nTop tier gasoline ",
-          "price": "$4.69",
-          "price_type": "Cash",
-          "reported_by": "chicomab",
+          "reported_by": "barnowl154",
           "reported_ago": "15 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.767725"
-        },
-        {
-          "name": "Costco",
-          "url": "https://www.gasbuddy.com/station/56364",
-          "address": {
-            "street": "2975 Richmond Ave",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10314",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.571469308429,
-            "lng": -74.169362336397
-          },
-          "rating": {
-            "value": 4.4,
-            "count": 340
-          },
-          "latest_review": "Best value for the price and you can use your Costco card.",
-          "price": "$4.59",
-          "price_type": "Credit",
-          "reported_by": "Owner",
-          "reported_ago": "15 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.767737"
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56389",
-          "address": {
-            "street": "1680 Richmond Ave",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10314",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.607263520435,
-            "lng": -74.162596464157
-          },
-          "rating": {
-            "value": 4.5,
-            "count": 102
-          },
-          "latest_review": "Convenient location, and this station doesn't charge between 11 - 15 cents more, per gallon, for using your credit card, like the BP across the street does.",
-          "price": "$4.65",
-          "price_type": "Cash",
-          "reported_by": "Rahmet",
-          "reported_ago": "1 Hour Ago",
-          "scraped_at": "2026-07-21T14:21:46.767745"
+          "scraped_at": "2026-07-22T07:32:20.025157",
+          "reported_at": "2026-07-21T16:32:20.030371"
         },
         {
           "name": "Mobil",
@@ -636,34 +582,10 @@
           "latest_review": "Cheapest gas in area always ",
           "price": "$4.49",
           "price_type": "Cash",
-          "reported_by": "vtreglia",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.767752"
-        },
-        {
-          "name": "Speedway",
-          "url": "https://www.gasbuddy.com/station/56382",
-          "address": {
-            "street": "2121 Forest Ave",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10303",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.62674,
-            "lng": -74.16014
-          },
-          "rating": {
-            "value": 4,
-            "count": 67
-          },
-          "latest_review": "This station have the best Customer service on Staten Island . Emploee always polite and professional . ",
-          "price": "$4.79",
-          "price_type": "Credit",
-          "reported_by": "David495",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.767757"
+          "reported_by": "barnowl154",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.025169",
+          "reported_at": "2026-07-21T16:32:20.030859"
         },
         {
           "name": "Sunoco",
@@ -687,83 +609,191 @@
           "price": "$4.65",
           "price_type": "Credit",
           "reported_by": "my02pals",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.767764"
-        },
-        {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56345",
-          "address": {
-            "street": "2071 VICTORY BLVD",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10314",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.612414,
-            "lng": -74.132682
-          },
-          "rating": {
-            "value": 3.8,
-            "count": 110
-          },
-          "latest_review": "Great in and out spot",
-          "price": "$4.89",
-          "price_type": "Credit",
-          "reported_by": "Finzup13",
           "reported_ago": "20 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.767772"
+          "scraped_at": "2026-07-22T07:32:20.025175",
+          "reported_at": "2026-07-21T11:32:20.031952"
         },
         {
-          "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/201565",
+          "name": "Costco",
+          "url": "https://www.gasbuddy.com/station/56364",
           "address": {
-            "street": "1212 Victory Blvd",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10301",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.61591,
-            "lng": -74.10437
-          },
-          "rating": {
-            "value": 3.8,
-            "count": 15
-          },
-          "latest_review": "Ok prices with a convenience store. There are other food places close by. Large station.",
-          "price": "$4.89",
-          "price_type": "Cash",
-          "reported_by": "vinman250",
-          "reported_ago": "4 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.767780"
-        },
-        {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56346",
-          "address": {
-            "street": "1705 Richmond Ave",
+            "street": "2975 Richmond Ave",
             "city": "Staten Island",
             "state": "NY",
             "zip": "10314",
             "country": "US"
           },
           "geo": {
-            "lat": 40.60723,
-            "lng": -74.16203
+            "lat": 40.571469308429,
+            "lng": -74.169362336397
+          },
+          "rating": {
+            "value": 4.4,
+            "count": 340
+          },
+          "latest_review": "Best value for the price and you can use your Costco card.",
+          "price": "$4.69",
+          "price_type": "Credit",
+          "reported_by": "Owner",
+          "reported_ago": "28 Minutes Ago",
+          "scraped_at": "2026-07-22T07:32:20.025181",
+          "reported_at": "2026-07-22T07:04:20.032540"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56389",
+          "address": {
+            "street": "1680 Richmond Ave",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10314",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.607263520435,
+            "lng": -74.162596464157
+          },
+          "rating": {
+            "value": 4.5,
+            "count": 102
+          },
+          "latest_review": "Convenient location, and this station doesn't charge between 11 - 15 cents more, per gallon, for using your credit card, like the BP across the street does.",
+          "price": "$4.65",
+          "price_type": "Cash",
+          "reported_by": "Rahmet",
+          "reported_ago": "18 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.025186",
+          "reported_at": "2026-07-21T13:32:20.031344"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56386",
+          "address": {
+            "street": "1774 Victory Blvd",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10314",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.613013792831,
+            "lng": -74.122612774372
+          },
+          "rating": {
+            "value": 4.6,
+            "count": 109
+          },
+          "latest_review": "Great location \nClean gas \nTop tier gasoline ",
+          "price": "$4.79",
+          "price_type": "Cash",
+          "reported_by": "ebd4662",
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.025192",
+          "reported_at": "2026-07-21T20:32:20.033984"
+        },
+        {
+          "name": "Sunoco",
+          "url": "https://www.gasbuddy.com/station/112269",
+          "address": {
+            "street": "630 Arthur Kill Rd ",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10308",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.560764,
+            "lng": -74.1627396
+          },
+          "rating": {
+            "value": 4.1,
+            "count": 35
+          },
+          "latest_review": "93 is a rip-off here compared to any other station nearby. ",
+          "price": "$4.77",
+          "price_type": "Cash",
+          "reported_by": "24monty24",
+          "reported_ago": "12 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.025197",
+          "reported_at": "2026-07-21T19:32:20.033014"
+        },
+        {
+          "name": "Speedway",
+          "url": "https://www.gasbuddy.com/station/56382",
+          "address": {
+            "street": "2121 Forest Ave",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10303",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.62674,
+            "lng": -74.16014
+          },
+          "rating": {
+            "value": 4,
+            "count": 67
+          },
+          "latest_review": "This station have the best Customer service on Staten Island . Emploee always polite and professional . ",
+          "price": "$4.85",
+          "price_type": "Credit",
+          "reported_by": "my02pals",
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.025203",
+          "reported_at": "2026-07-21T20:32:20.035052"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56388",
+          "address": {
+            "street": "2525 Victory Blvd",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10314",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.610209985987,
+            "lng": -74.147061109543
+          },
+          "rating": {
+            "value": 4.5,
+            "count": 115
+          },
+          "latest_review": "very nice customer service . Use to go there when it was a service station , oil changes and mechanical services. Purchased Tim Horton donuts, very nice staff. \nWill definitely go back.  They did a great job renovating the station.",
+          "price": "$4.79",
+          "price_type": "Cash",
+          "reported_by": "whosalden",
+          "reported_ago": "20 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.025208",
+          "reported_at": "2026-07-21T11:32:20.034464"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/77588",
+          "address": {
+            "street": "1098 RICHMOND RD",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10304",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.59964,
+            "lng": -74.09189
           },
           "rating": {
             "value": 3.9,
-            "count": 55
+            "count": 21
           },
-          "latest_review": "I think it SUCKS that they charge between 10 & 15 cents a gallon, EXTRA, for paying for gas with a credit card. This is the 21st CENTURY, who uses cash anymore??? The Mobil station, right across the street, learned their lesson, and stopped that practice. I'll bet a years pay that the Mobil station saw a nice spike in business, since they did that. SCREW BP, I'll never buy a drop of gas there....",
-          "price": "$4.89",
-          "price_type": "Credit",
-          "reported_by": "Rahmet",
-          "reported_ago": "1 Hour Ago",
-          "scraped_at": "2026-07-21T14:21:46.767789"
+          "latest_review": "Higher prices here",
+          "price": "$4.79",
+          "price_type": "Cash",
+          "reported_by": "vinman250",
+          "reported_ago": "10 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.025213",
+          "reported_at": "2026-07-21T21:32:20.033508"
         }
       ],
       "count": 10
@@ -791,9 +821,62 @@
           "latest_review": "Cheapest gas in area always ",
           "price": "$5.07",
           "price_type": "Cash",
-          "reported_by": "vtreglia",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.855287"
+          "reported_by": "barnowl154",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.104705",
+          "reported_at": "2026-07-21T16:32:20.109875"
+        },
+        {
+          "name": "CITGO",
+          "url": "https://www.gasbuddy.com/station/56353",
+          "address": {
+            "street": "1810 Forest Ave",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10302",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.625013652496,
+            "lng": -74.148895740509
+          },
+          "rating": {
+            "value": 3.7,
+            "count": 29
+          },
+          "latest_review": "Ok",
+          "price": "$5.09",
+          "price_type": "Cash",
+          "reported_by": "my02pals",
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.104719",
+          "reported_at": "2026-07-21T20:32:20.110365"
+        },
+        {
+          "name": "Speedway",
+          "url": "https://www.gasbuddy.com/station/56383",
+          "address": {
+            "street": "951 Bay St",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10305-4938",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.619254,
+            "lng": -74.069905
+          },
+          "rating": {
+            "value": 3.9,
+            "count": 131
+          },
+          "latest_review": "always my go to when I need gas. usually the cheapest around",
+          "price": "$5.39",
+          "price_type": "Credit",
+          "reported_by": "DataFeed",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.104725",
+          "reported_at": "2026-07-21T16:32:20.111428"
         },
         {
           "name": "Sunoco",
@@ -817,8 +900,9 @@
           "price": "$5.39",
           "price_type": "Cash",
           "reported_by": "vinman250",
-          "reported_ago": "4 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.855298"
+          "reported_ago": "10 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.104731",
+          "reported_at": "2026-07-21T21:32:20.110847"
         },
         {
           "name": "Speedway",
@@ -841,34 +925,36 @@
           "latest_review": "This station have the best Customer service on Staten Island . Emploee always polite and professional . ",
           "price": "$5.65",
           "price_type": "Credit",
-          "reported_by": "David495",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.855305"
+          "reported_by": "my02pals",
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.104736",
+          "reported_at": "2026-07-21T20:32:20.112010"
         },
         {
-          "name": "Speedway",
-          "url": "https://www.gasbuddy.com/station/56383",
+          "name": "Moble",
+          "url": "https://www.gasbuddy.com/station/56347",
           "address": {
-            "street": "951 Bay St",
+            "street": "4275 AMBOY RD",
             "city": "Staten Island",
             "state": "NY",
-            "zip": "10305-4938",
+            "zip": "10308",
             "country": "US"
           },
           "geo": {
-            "lat": 40.619254,
-            "lng": -74.069905
+            "lat": 40.5466,
+            "lng": -74.15825
           },
           "rating": {
-            "value": 3.9,
-            "count": 131
+            "value": 4.2,
+            "count": 51
           },
-          "latest_review": "always my go to when I need gas. usually the cheapest around",
-          "price": "$5.39",
-          "price_type": "Credit",
-          "reported_by": "dovidnn1",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.855310"
+          "latest_review": "Most expensive stations on the island, go to Mobil on Arthur Kill rd & Richmond they have the bests prices ",
+          "price": "$5.79",
+          "price_type": "Cash",
+          "reported_by": "barnowl154",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.104742",
+          "reported_at": "2026-07-21T16:32:20.113665"
         },
         {
           "name": "Sunoco",
@@ -892,83 +978,9 @@
           "price": "$5.69",
           "price_type": "Credit",
           "reported_by": "my02pals",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.855315"
-        },
-        {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56362",
-          "address": {
-            "street": "248 BAY ST",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10301",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.63593,
-            "lng": -74.07584
-          },
-          "rating": {
-            "value": 4,
-            "count": 60
-          },
-          "latest_review": "station always out of paper receipt ",
-          "price": "$5.75",
-          "price_type": "Credit",
-          "reported_by": "gserrano9485",
-          "reported_ago": "17 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.855321"
-        },
-        {
-          "name": "Moble",
-          "url": "https://www.gasbuddy.com/station/56347",
-          "address": {
-            "street": "4275 AMBOY RD",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10308",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.5466,
-            "lng": -74.15825
-          },
-          "rating": {
-            "value": 4.2,
-            "count": 51
-          },
-          "latest_review": "Most expensive stations on the island, go to Mobil on Arthur Kill rd & Richmond they have the bests prices ",
-          "price": "$5.79",
-          "price_type": "Cash",
-          "reported_by": "vtreglia",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.855326"
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/31128",
-          "address": {
-            "street": "2150 Hylan Blvd",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10306",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.577932286885,
-            "lng": -74.102166295052
-          },
-          "rating": {
-            "value": 4.6,
-            "count": 81
-          },
-          "latest_review": "Plenty of stations for gas which is awesome!!!",
-          "price": "$5.59",
-          "price_type": "Credit",
-          "reported_by": "elena_abl",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-21T14:21:46.855331"
+          "reported_ago": "20 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.104747",
+          "reported_at": "2026-07-21T11:32:20.112612"
         },
         {
           "name": "Mobil",
@@ -992,8 +1004,35 @@
           "price": "$5.99",
           "price_type": "Cash",
           "reported_by": "Rahmet",
-          "reported_ago": "1 Hour Ago",
-          "scraped_at": "2026-07-21T14:21:46.855336"
+          "reported_ago": "18 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.104753",
+          "reported_at": "2026-07-21T13:32:20.114136"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/56362",
+          "address": {
+            "street": "248 BAY ST",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10301",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.63593,
+            "lng": -74.07584
+          },
+          "rating": {
+            "value": 4,
+            "count": 60
+          },
+          "latest_review": "station always out of paper receipt ",
+          "price": "$5.75",
+          "price_type": "Credit",
+          "reported_by": "gserrano9485",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-22T07:32:20.104758",
+          "reported_at": "2026-07-21T07:32:20.113193"
         },
         {
           "name": "Sunoco",
@@ -1017,8 +1056,9 @@
           "price": "$6.39",
           "price_type": "Cash",
           "reported_by": "darkrider8969",
-          "reported_ago": "3 Hours Ago",
-          "scraped_at": "2026-07-21T14:21:46.855342"
+          "reported_ago": "20 Hours Ago",
+          "scraped_at": "2026-07-22T07:32:20.104763",
+          "reported_at": "2026-07-21T11:32:20.114616"
         }
       ],
       "count": 10
