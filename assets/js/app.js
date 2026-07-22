@@ -16,15 +16,19 @@ let visibleCount = 10;
 
 function getBrandLogoUrl(stationName) {
   if (!stationName) return null;
-  const name = stationName.trim().toLowerCase();
-  const brandMap = {
-    '76': '76.png',
-    'amoco': 'amoco.png',
-    'gulf': 'gulf.png',
-    'mobil': 'mobil.png',
-    'shell': 'shell.png',
-    'sunoco': 'sunoco.png'
-  };
+    const name = stationName.trim().toLowerCase();
+    const brandMap = {
+      '7-eleven': '7eleven.png',
+      '76': '76.png',
+      'amoco': 'amoco.png',
+      'bp': 'bp.png',
+      'costco': 'costco.png',
+      'gulf': 'gulf.png',
+      'mobil': 'mobil.png',
+      'shell': 'shell.png',
+      'speedway': 'speedway.png',
+      'sunoco': 'sunoco.png'
+    };
   if (brandMap[name]) {
     return `images/${brandMap[name]}`;
   }

@@ -14,8 +14,15 @@ function getBrandLogoUrl(stationName) {
     '76': '76.png',
     'amoco': 'amoco.png',
     'gulf': 'gulf.png',
+    '7-eleven': '7eleven.png',
+    '76': '76.png',
+    'amoco': 'amoco.png',
+    'bp': 'bp.png',
+    'costco': 'costco.png',
+    'gulf': 'gulf.png',
     'mobil': 'mobil.png',
     'shell': 'shell.png',
+    'speedway': 'speedway.png',
     'sunoco': 'sunoco.png'
   };
   if (brandMap[name]) {

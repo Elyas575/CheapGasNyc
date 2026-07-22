@@ -6,7 +6,7 @@
     "Regular Fuel Prices": {
       "stations": [
         {
-          "name": "Moble",
+          "name": "Mobil",
           "url": "https://www.gasbuddy.com/station/56347",
           "address": {
             "street": "4275 AMBOY RD",
@@ -271,7 +271,7 @@
     "Mid-Grade Fuel Prices": {
       "stations": [
         {
-          "name": "Moble",
+          "name": "Mobil",
           "url": "https://www.gasbuddy.com/station/56347",
           "address": {
             "street": "4275 AMBOY RD",
@@ -536,7 +536,7 @@
     "Premium Fuel Prices": {
       "stations": [
         {
-          "name": "Moble",
+          "name": "Mobil",
           "url": "https://www.gasbuddy.com/station/56347",
           "address": {
             "street": "4275 AMBOY RD",
@@ -931,7 +931,7 @@
           "reported_at": "2026-07-21T20:32:20.112010"
         },
         {
-          "name": "Moble",
+          "name": "Mobil",
           "url": "https://www.gasbuddy.com/station/56347",
           "address": {
             "street": "4275 AMBOY RD",
