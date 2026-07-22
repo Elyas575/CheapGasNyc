@@ -1,12 +1,12 @@
 {
   "borough": "staten-island",
-  "extracted_at": "2026-07-22T07:32:20.201396",
+  "extracted_at": "2026-07-22T15:58:16.173800",
   "total_stations": 40,
   "fuel_types": {
     "Regular Fuel Prices": {
       "stations": [
         {
-          "name": "Mobil",
+          "name": "Moble",
           "url": "https://www.gasbuddy.com/station/56347",
           "address": {
             "street": "4275 AMBOY RD",
@@ -27,9 +27,9 @@
           "price": "$3.69",
           "price_type": "Cash",
           "reported_by": "barnowl154",
-          "reported_ago": "15 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.819548",
-          "reported_at": "2026-07-21T16:32:19.822501"
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-22T15:58:15.801602",
+          "reported_at": "2026-07-21T15:58:15.804023"
         },
         {
           "name": "Mobil",
@@ -53,9 +53,9 @@
           "price": "$3.79",
           "price_type": "Cash",
           "reported_by": "PerseusAuditore",
-          "reported_ago": "10 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.819560",
-          "reported_at": "2026-07-21T21:32:19.822799"
+          "reported_ago": "19 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:15.801613",
+          "reported_at": "2026-07-21T20:58:15.804298"
         },
         {
           "name": "Mobil",
@@ -76,90 +76,38 @@
             "count": 49
           },
           "latest_review": "Its ok",
-          "price": "$3.85",
+          "price": "$3.89",
           "price_type": "Cash",
-          "reported_by": "ritamckernan24",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-22T07:32:19.819565",
-          "reported_at": "2026-07-21T07:32:19.823350"
+          "reported_by": "chicomab",
+          "reported_ago": "1 Hour Ago",
+          "scraped_at": "2026-07-22T15:58:15.801618",
+          "reported_at": "2026-07-22T14:58:15.804831"
         },
         {
-          "name": "Costco",
-          "url": "https://www.gasbuddy.com/station/56364",
+          "name": "CITGO",
+          "url": "https://www.gasbuddy.com/station/56354",
           "address": {
-            "street": "2975 Richmond Ave",
+            "street": "4472 Amboy Rd",
             "city": "Staten Island",
             "state": "NY",
             "zip": "10314",
             "country": "US"
           },
           "geo": {
-            "lat": 40.571469308429,
-            "lng": -74.169362336397
+            "lat": 40.544220419107,
+            "lng": -74.162119030952
           },
           "rating": {
-            "value": 4.4,
-            "count": 340
+            "value": 4.2,
+            "count": 19
           },
-          "latest_review": "Best value for the price and you can use your Costco card.",
+          "latest_review": "Good ",
           "price": "$3.89",
-          "price_type": "Credit",
-          "reported_by": "Owner",
-          "reported_ago": "28 Minutes Ago",
-          "scraped_at": "2026-07-22T07:32:19.819570",
-          "reported_at": "2026-07-22T07:04:19.823942"
-        },
-        {
-          "name": "Sunoco",
-          "url": "https://www.gasbuddy.com/station/81597",
-          "address": {
-            "street": "425 Vanderbilt Ave",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10304",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.615298628553,
-            "lng": -74.084612578154
-          },
-          "rating": {
-            "value": 3.2,
-            "count": 41
-          },
-          "latest_review": "Go",
-          "price": "$3.89",
-          "price_type": "Cash",
-          "reported_by": "vinman250",
-          "reported_ago": "10 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.819574",
-          "reported_at": "2026-07-21T21:32:19.824423"
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56389",
-          "address": {
-            "street": "1680 Richmond Ave",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10314",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.607263520435,
-            "lng": -74.162596464157
-          },
-          "rating": {
-            "value": 4.5,
-            "count": 102
-          },
-          "latest_review": "Convenient location, and this station doesn't charge between 11 - 15 cents more, per gallon, for using your credit card, like the BP across the street does.",
-          "price": "$3.85",
           "price_type": "Cash",
           "reported_by": "Rahmet",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.819578",
-          "reported_at": "2026-07-21T13:32:19.823077"
+          "reported_ago": "3 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:15.801622",
+          "reported_at": "2026-07-22T12:58:15.805094"
         },
         {
           "name": "BP",
@@ -183,9 +131,9 @@
           "price": "$3.95",
           "price_type": "Credit",
           "reported_by": "Buddy_yuf11v1x",
-          "reported_ago": "8 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.819582",
-          "reported_at": "2026-07-21T23:32:19.825022"
+          "reported_ago": "16 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:15.801626",
+          "reported_at": "2026-07-21T23:58:15.805420"
         },
         {
           "name": "Speedway",
@@ -209,9 +157,9 @@
           "price": "$3.95",
           "price_type": "Credit",
           "reported_by": "my02pals",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.819586",
-          "reported_at": "2026-07-21T20:32:19.825610"
+          "reported_ago": "29 Minutes Ago",
+          "scraped_at": "2026-07-22T15:58:15.801630",
+          "reported_at": "2026-07-22T15:29:15.805739"
         },
         {
           "name": "7-Eleven",
@@ -235,9 +183,61 @@
           "price": "$3.95",
           "price_type": "Credit",
           "reported_by": "my02pals",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.819590",
-          "reported_at": "2026-07-21T20:32:19.826193"
+          "reported_ago": "19 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:15.801634",
+          "reported_at": "2026-07-21T20:58:15.806377"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56389",
+          "address": {
+            "street": "1680 Richmond Ave",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10314",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.607263520435,
+            "lng": -74.162596464157
+          },
+          "rating": {
+            "value": 4.5,
+            "count": 102
+          },
+          "latest_review": "Convenient location, and this station doesn't charge between 11 - 15 cents more, per gallon, for using your credit card, like the BP across the street does.",
+          "price": "$3.85",
+          "price_type": "Cash",
+          "reported_by": "Rahmet",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-22T15:58:15.801638",
+          "reported_at": "2026-07-21T15:58:15.804562"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/31128",
+          "address": {
+            "street": "2150 Hylan Blvd",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10306",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.577932286885,
+            "lng": -74.102166295052
+          },
+          "rating": {
+            "value": 4.6,
+            "count": 81
+          },
+          "latest_review": "Plenty of stations for gas which is awesome!!!",
+          "price": "$3.95",
+          "price_type": "Credit",
+          "reported_by": "Buddy_yuf11v1x",
+          "reported_ago": "16 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:15.801642",
+          "reported_at": "2026-07-21T23:58:15.806061"
         },
         {
           "name": "Shell",
@@ -261,9 +261,9 @@
           "price": "$3.99",
           "price_type": "Cash",
           "reported_by": "vinman250",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.819594",
-          "reported_at": "2026-07-21T20:32:19.826675"
+          "reported_ago": "7 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:15.801646",
+          "reported_at": "2026-07-22T08:58:15.806642"
         }
       ],
       "count": 10
@@ -271,7 +271,7 @@
     "Mid-Grade Fuel Prices": {
       "stations": [
         {
-          "name": "Mobil",
+          "name": "Moble",
           "url": "https://www.gasbuddy.com/station/56347",
           "address": {
             "street": "4275 AMBOY RD",
@@ -292,9 +292,9 @@
           "price": "$4.09",
           "price_type": "Cash",
           "reported_by": "barnowl154",
-          "reported_ago": "15 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.902311",
-          "reported_at": "2026-07-21T16:32:19.907093"
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-22T15:58:15.874854",
+          "reported_at": "2026-07-21T15:58:15.880260"
         },
         {
           "name": "Mobil",
@@ -318,9 +318,9 @@
           "price": "$4.09",
           "price_type": "Cash",
           "reported_by": "barnowl154",
-          "reported_ago": "15 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.902324",
-          "reported_at": "2026-07-21T16:32:19.907590"
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-22T15:58:15.874867",
+          "reported_at": "2026-07-21T15:58:15.880750"
         },
         {
           "name": "Mobil",
@@ -341,12 +341,12 @@
             "count": 49
           },
           "latest_review": "Its ok",
-          "price": "$4.25",
+          "price": "$4.29",
           "price_type": "Cash",
-          "reported_by": "ritamckernan24",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-22T07:32:19.902331",
-          "reported_at": "2026-07-21T07:32:19.908578"
+          "reported_by": "chicomab",
+          "reported_ago": "1 Hour Ago",
+          "scraped_at": "2026-07-22T15:58:15.874874",
+          "reported_at": "2026-07-22T14:58:15.881704"
         },
         {
           "name": "Mobil",
@@ -370,9 +370,35 @@
           "price": "$4.25",
           "price_type": "Cash",
           "reported_by": "Rahmet",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.902336",
-          "reported_at": "2026-07-21T13:32:19.908072"
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-22T15:58:15.874879",
+          "reported_at": "2026-07-21T15:58:15.881231"
+        },
+        {
+          "name": "CITGO",
+          "url": "https://www.gasbuddy.com/station/56401",
+          "address": {
+            "street": "700 Richmond Terr",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10301",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.644657902767,
+            "lng": -74.095637798309
+          },
+          "rating": {
+            "value": 3.4,
+            "count": 91
+          },
+          "latest_review": "Great place",
+          "price": "$4.38",
+          "price_type": "Cash",
+          "reported_by": "REST108",
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:15.874885",
+          "reported_at": "2026-07-22T11:58:15.882951"
         },
         {
           "name": "Shell",
@@ -396,9 +422,9 @@
           "price": "$4.39",
           "price_type": "Cash",
           "reported_by": "vinman250",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.902342",
-          "reported_at": "2026-07-21T20:32:19.909683"
+          "reported_ago": "7 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:15.874890",
+          "reported_at": "2026-07-22T08:58:15.883445"
         },
         {
           "name": "Mobil",
@@ -422,35 +448,9 @@
           "price": "$4.39",
           "price_type": "Cash",
           "reported_by": "ebd4662",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.902348",
-          "reported_at": "2026-07-21T20:32:19.910164"
-        },
-        {
-          "name": "Speedway",
-          "url": "https://www.gasbuddy.com/station/56382",
-          "address": {
-            "street": "2121 Forest Ave",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10303",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.62674,
-            "lng": -74.16014
-          },
-          "rating": {
-            "value": 4,
-            "count": 67
-          },
-          "latest_review": "This station have the best Customer service on Staten Island . Emploee always polite and professional . ",
-          "price": "$4.45",
-          "price_type": "Credit",
-          "reported_by": "my02pals",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.902353",
-          "reported_at": "2026-07-21T20:32:19.910751"
+          "reported_ago": "20 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:15.874896",
+          "reported_at": "2026-07-21T19:58:15.883934"
         },
         {
           "name": "Sunoco",
@@ -474,61 +474,61 @@
           "price": "$4.35",
           "price_type": "Credit",
           "reported_by": "my02pals",
+          "reported_ago": "36 Minutes Ago",
+          "scraped_at": "2026-07-22T15:58:15.874901",
+          "reported_at": "2026-07-22T15:22:15.882309"
+        },
+        {
+          "name": "Sunoco",
+          "url": "https://www.gasbuddy.com/station/112269",
+          "address": {
+            "street": "630 Arthur Kill Rd ",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10308",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.560764,
+            "lng": -74.1627396
+          },
+          "rating": {
+            "value": 4.1,
+            "count": 35
+          },
+          "latest_review": "93 is a rip-off here compared to any other station nearby. ",
+          "price": "$4.39",
+          "price_type": "Cash",
+          "reported_by": "24monty24",
           "reported_ago": "20 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.902358",
-          "reported_at": "2026-07-21T11:32:19.909203"
+          "scraped_at": "2026-07-22T15:58:15.874908",
+          "reported_at": "2026-07-21T19:58:15.884450"
         },
         {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56346",
+          "name": "Speedway",
+          "url": "https://www.gasbuddy.com/station/56382",
           "address": {
-            "street": "1705 Richmond Ave",
+            "street": "2121 Forest Ave",
             "city": "Staten Island",
             "state": "NY",
-            "zip": "10314",
+            "zip": "10303",
             "country": "US"
           },
           "geo": {
-            "lat": 40.60723,
-            "lng": -74.16203
+            "lat": 40.62674,
+            "lng": -74.16014
           },
           "rating": {
-            "value": 3.9,
-            "count": 55
+            "value": 4,
+            "count": 67
           },
-          "latest_review": "I think it SUCKS that they charge between 10 & 15 cents a gallon, EXTRA, for paying for gas with a credit card. This is the 21st CENTURY, who uses cash anymore??? The Mobil station, right across the street, learned their lesson, and stopped that practice. I'll bet a years pay that the Mobil station saw a nice spike in business, since they did that. SCREW BP, I'll never buy a drop of gas there....",
-          "price": "$4.49",
+          "latest_review": "This station have the best Customer service on Staten Island . Emploee always polite and professional . ",
+          "price": "$4.45",
           "price_type": "Credit",
-          "reported_by": "Rahmet",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.902364",
-          "reported_at": "2026-07-21T13:32:19.911964"
-        },
-        {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56345",
-          "address": {
-            "street": "2071 VICTORY BLVD",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10314",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.612414,
-            "lng": -74.132682
-          },
-          "rating": {
-            "value": 3.8,
-            "count": 110
-          },
-          "latest_review": "Great in and out spot",
-          "price": "$4.49",
-          "price_type": "Credit",
-          "reported_by": "TuBrr",
-          "reported_ago": "17 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:19.902369",
-          "reported_at": "2026-07-21T14:32:19.911357"
+          "reported_by": "my02pals",
+          "reported_ago": "29 Minutes Ago",
+          "scraped_at": "2026-07-22T15:58:15.874913",
+          "reported_at": "2026-07-22T15:29:15.885106"
         }
       ],
       "count": 10
@@ -536,7 +536,7 @@
     "Premium Fuel Prices": {
       "stations": [
         {
-          "name": "Mobil",
+          "name": "Moble",
           "url": "https://www.gasbuddy.com/station/56347",
           "address": {
             "street": "4275 AMBOY RD",
@@ -557,9 +557,9 @@
           "price": "$4.49",
           "price_type": "Cash",
           "reported_by": "barnowl154",
-          "reported_ago": "15 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.025157",
-          "reported_at": "2026-07-21T16:32:20.030371"
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-22T15:58:15.993233",
+          "reported_at": "2026-07-21T15:58:15.998419"
         },
         {
           "name": "Mobil",
@@ -583,9 +583,35 @@
           "price": "$4.49",
           "price_type": "Cash",
           "reported_by": "barnowl154",
-          "reported_ago": "15 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.025169",
-          "reported_at": "2026-07-21T16:32:20.030859"
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-22T15:58:15.993245",
+          "reported_at": "2026-07-21T15:58:15.998927"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56373",
+          "address": {
+            "street": "387 Port Richmond Ave",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10302",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.632649359643,
+            "lng": -74.137115478516
+          },
+          "rating": {
+            "value": 4.2,
+            "count": 49
+          },
+          "latest_review": "Its ok",
+          "price": "$4.69",
+          "price_type": "Cash",
+          "reported_by": "chicomab",
+          "reported_ago": "1 Hour Ago",
+          "scraped_at": "2026-07-22T15:58:15.993251",
+          "reported_at": "2026-07-22T14:58:16.001100"
         },
         {
           "name": "Sunoco",
@@ -609,9 +635,9 @@
           "price": "$4.65",
           "price_type": "Credit",
           "reported_by": "my02pals",
-          "reported_ago": "20 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.025175",
-          "reported_at": "2026-07-21T11:32:20.031952"
+          "reported_ago": "36 Minutes Ago",
+          "scraped_at": "2026-07-22T15:58:15.993257",
+          "reported_at": "2026-07-22T15:22:15.999540"
         },
         {
           "name": "Costco",
@@ -635,35 +661,9 @@
           "price": "$4.69",
           "price_type": "Credit",
           "reported_by": "Owner",
-          "reported_ago": "28 Minutes Ago",
-          "scraped_at": "2026-07-22T07:32:20.025181",
-          "reported_at": "2026-07-22T07:04:20.032540"
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56389",
-          "address": {
-            "street": "1680 Richmond Ave",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10314",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.607263520435,
-            "lng": -74.162596464157
-          },
-          "rating": {
-            "value": 4.5,
-            "count": 102
-          },
-          "latest_review": "Convenient location, and this station doesn't charge between 11 - 15 cents more, per gallon, for using your credit card, like the BP across the street does.",
-          "price": "$4.65",
-          "price_type": "Cash",
-          "reported_by": "Rahmet",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.025186",
-          "reported_at": "2026-07-21T13:32:20.031344"
+          "reported_ago": "1 Hour Ago",
+          "scraped_at": "2026-07-22T15:58:15.993262",
+          "reported_at": "2026-07-22T14:58:16.000625"
         },
         {
           "name": "Mobil",
@@ -687,35 +687,35 @@
           "price": "$4.79",
           "price_type": "Cash",
           "reported_by": "ebd4662",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.025192",
-          "reported_at": "2026-07-21T20:32:20.033984"
+          "reported_ago": "20 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:15.993268",
+          "reported_at": "2026-07-21T19:58:16.002054"
         },
         {
-          "name": "Sunoco",
-          "url": "https://www.gasbuddy.com/station/112269",
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56389",
           "address": {
-            "street": "630 Arthur Kill Rd ",
+            "street": "1680 Richmond Ave",
             "city": "Staten Island",
             "state": "NY",
-            "zip": "10308",
+            "zip": "10314",
             "country": "US"
           },
           "geo": {
-            "lat": 40.560764,
-            "lng": -74.1627396
+            "lat": 40.607263520435,
+            "lng": -74.162596464157
           },
           "rating": {
-            "value": 4.1,
-            "count": 35
+            "value": 4.5,
+            "count": 102
           },
-          "latest_review": "93 is a rip-off here compared to any other station nearby. ",
-          "price": "$4.77",
+          "latest_review": "Convenient location, and this station doesn't charge between 11 - 15 cents more, per gallon, for using your credit card, like the BP across the street does.",
+          "price": "$4.65",
           "price_type": "Cash",
-          "reported_by": "24monty24",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.025197",
-          "reported_at": "2026-07-21T19:32:20.033014"
+          "reported_by": "Rahmet",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-22T15:58:15.993273",
+          "reported_at": "2026-07-21T15:58:16.000017"
         },
         {
           "name": "Speedway",
@@ -739,61 +739,61 @@
           "price": "$4.85",
           "price_type": "Credit",
           "reported_by": "my02pals",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.025203",
-          "reported_at": "2026-07-21T20:32:20.035052"
+          "reported_ago": "29 Minutes Ago",
+          "scraped_at": "2026-07-22T15:58:15.993278",
+          "reported_at": "2026-07-22T15:29:16.002637"
         },
         {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56388",
+          "name": "Sunoco",
+          "url": "https://www.gasbuddy.com/station/112269",
           "address": {
-            "street": "2525 Victory Blvd",
+            "street": "630 Arthur Kill Rd ",
             "city": "Staten Island",
             "state": "NY",
-            "zip": "10314",
+            "zip": "10308",
             "country": "US"
           },
           "geo": {
-            "lat": 40.610209985987,
-            "lng": -74.147061109543
+            "lat": 40.560764,
+            "lng": -74.1627396
           },
           "rating": {
-            "value": 4.5,
-            "count": 115
+            "value": 4.1,
+            "count": 35
           },
-          "latest_review": "very nice customer service . Use to go there when it was a service station , oil changes and mechanical services. Purchased Tim Horton donuts, very nice staff. \nWill definitely go back.  They did a great job renovating the station.",
-          "price": "$4.79",
+          "latest_review": "93 is a rip-off here compared to any other station nearby. ",
+          "price": "$4.77",
           "price_type": "Cash",
-          "reported_by": "whosalden",
+          "reported_by": "24monty24",
           "reported_ago": "20 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.025208",
-          "reported_at": "2026-07-21T11:32:20.034464"
+          "scraped_at": "2026-07-22T15:58:15.993284",
+          "reported_at": "2026-07-21T19:58:16.001577"
         },
         {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/77588",
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/201565",
           "address": {
-            "street": "1098 RICHMOND RD",
+            "street": "1212 Victory Blvd",
             "city": "Staten Island",
             "state": "NY",
-            "zip": "10304",
+            "zip": "10301",
             "country": "US"
           },
           "geo": {
-            "lat": 40.59964,
-            "lng": -74.09189
+            "lat": 40.61591,
+            "lng": -74.10437
           },
           "rating": {
-            "value": 3.9,
-            "count": 21
+            "value": 3.8,
+            "count": 15
           },
-          "latest_review": "Higher prices here",
-          "price": "$4.79",
+          "latest_review": "Ok prices with a convenience store. There are other food places close by. Large station.",
+          "price": "$4.89",
           "price_type": "Cash",
           "reported_by": "vinman250",
-          "reported_ago": "10 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.025213",
-          "reported_at": "2026-07-21T21:32:20.033508"
+          "reported_ago": "7 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:15.993289",
+          "reported_at": "2026-07-22T08:58:16.003116"
         }
       ],
       "count": 10
@@ -822,9 +822,9 @@
           "price": "$5.07",
           "price_type": "Cash",
           "reported_by": "barnowl154",
-          "reported_ago": "15 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.104705",
-          "reported_at": "2026-07-21T16:32:20.109875"
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-22T15:58:16.074094",
+          "reported_at": "2026-07-21T15:58:16.079490"
         },
         {
           "name": "CITGO",
@@ -848,9 +848,9 @@
           "price": "$5.09",
           "price_type": "Cash",
           "reported_by": "my02pals",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.104719",
-          "reported_at": "2026-07-21T20:32:20.110365"
+          "reported_ago": "19 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:16.074106",
+          "reported_at": "2026-07-21T20:58:16.079985"
         },
         {
           "name": "Speedway",
@@ -874,9 +874,9 @@
           "price": "$5.39",
           "price_type": "Credit",
           "reported_by": "DataFeed",
-          "reported_ago": "15 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.104725",
-          "reported_at": "2026-07-21T16:32:20.111428"
+          "reported_ago": "23 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:16.074112",
+          "reported_at": "2026-07-21T16:58:16.081069"
         },
         {
           "name": "Sunoco",
@@ -900,9 +900,9 @@
           "price": "$5.39",
           "price_type": "Cash",
           "reported_by": "vinman250",
-          "reported_ago": "10 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.104731",
-          "reported_at": "2026-07-21T21:32:20.110847"
+          "reported_ago": "7 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:16.074118",
+          "reported_at": "2026-07-22T08:58:16.080482"
         },
         {
           "name": "Speedway",
@@ -926,35 +926,35 @@
           "price": "$5.65",
           "price_type": "Credit",
           "reported_by": "my02pals",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.104736",
-          "reported_at": "2026-07-21T20:32:20.112010"
+          "reported_ago": "30 Minutes Ago",
+          "scraped_at": "2026-07-22T15:58:16.074123",
+          "reported_at": "2026-07-22T15:28:16.081650"
         },
         {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56347",
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/75788",
           "address": {
-            "street": "4275 AMBOY RD",
+            "street": "3701 Amboy Rd",
             "city": "Staten Island",
             "state": "NY",
             "zip": "10308",
             "country": "US"
           },
           "geo": {
-            "lat": 40.5466,
-            "lng": -74.15825
+            "lat": 40.553052,
+            "lng": -74.142367
           },
           "rating": {
-            "value": 4.2,
-            "count": 51
+            "value": 4.1,
+            "count": 36
           },
-          "latest_review": "Most expensive stations on the island, go to Mobil on Arthur Kill rd & Richmond they have the bests prices ",
-          "price": "$5.79",
+          "latest_review": "place is closed ",
+          "price": "$5.69",
           "price_type": "Cash",
-          "reported_by": "barnowl154",
-          "reported_ago": "15 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.104742",
-          "reported_at": "2026-07-21T16:32:20.113665"
+          "reported_by": "Rahmet",
+          "reported_ago": "3 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:16.074128",
+          "reported_at": "2026-07-22T12:58:16.082733"
         },
         {
           "name": "Sunoco",
@@ -978,9 +978,61 @@
           "price": "$5.69",
           "price_type": "Credit",
           "reported_by": "my02pals",
-          "reported_ago": "20 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.104747",
-          "reported_at": "2026-07-21T11:32:20.112612"
+          "reported_ago": "36 Minutes Ago",
+          "scraped_at": "2026-07-22T15:58:16.074134",
+          "reported_at": "2026-07-22T15:22:16.082265"
+        },
+        {
+          "name": "Moble",
+          "url": "https://www.gasbuddy.com/station/56347",
+          "address": {
+            "street": "4275 AMBOY RD",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10308",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.5466,
+            "lng": -74.15825
+          },
+          "rating": {
+            "value": 4.2,
+            "count": 51
+          },
+          "latest_review": "Most expensive stations on the island, go to Mobil on Arthur Kill rd & Richmond they have the bests prices ",
+          "price": "$5.79",
+          "price_type": "Cash",
+          "reported_by": "barnowl154",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-22T15:58:16.074139",
+          "reported_at": "2026-07-21T15:58:16.083755"
+        },
+        {
+          "name": "CITGO",
+          "url": "https://www.gasbuddy.com/station/56356",
+          "address": {
+            "street": "172 West Service Rd",
+            "city": "Staten Island",
+            "state": "NY",
+            "zip": "10314",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.589565704339,
+            "lng": -74.194107055664
+          },
+          "rating": {
+            "value": 2.4,
+            "count": 19
+          },
+          "latest_review": "Always outrageous, inflated price gougers with ridiculous gas prices. Should be reported to 311 and NYC Consumer affairs. Shameful business that needs to lower their gas prices to be in line with the actual market price!!",
+          "price": "$5.79",
+          "price_type": "Credit",
+          "reported_by": "DataFeed",
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-22T15:58:16.074144",
+          "reported_at": "2026-07-22T11:58:16.083285"
         },
         {
           "name": "Mobil",
@@ -1004,61 +1056,9 @@
           "price": "$5.99",
           "price_type": "Cash",
           "reported_by": "Rahmet",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.104753",
-          "reported_at": "2026-07-21T13:32:20.114136"
-        },
-        {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56362",
-          "address": {
-            "street": "248 BAY ST",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10301",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.63593,
-            "lng": -74.07584
-          },
-          "rating": {
-            "value": 4,
-            "count": 60
-          },
-          "latest_review": "station always out of paper receipt ",
-          "price": "$5.75",
-          "price_type": "Credit",
-          "reported_by": "gserrano9485",
           "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-22T07:32:20.104758",
-          "reported_at": "2026-07-21T07:32:20.113193"
-        },
-        {
-          "name": "Sunoco",
-          "url": "https://www.gasbuddy.com/station/56399",
-          "address": {
-            "street": "1781 Arthur Kill Rd",
-            "city": "Staten Island",
-            "state": "NY",
-            "zip": "10312",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.558796201534,
-            "lng": -74.198178648949
-          },
-          "rating": {
-            "value": 4.8,
-            "count": 96
-          },
-          "latest_review": "Great location. \n",
-          "price": "$6.39",
-          "price_type": "Cash",
-          "reported_by": "darkrider8969",
-          "reported_ago": "20 Hours Ago",
-          "scraped_at": "2026-07-22T07:32:20.104763",
-          "reported_at": "2026-07-21T11:32:20.114616"
+          "scraped_at": "2026-07-22T15:58:16.074149",
+          "reported_at": "2026-07-21T15:58:16.084232"
         }
       ],
       "count": 10
