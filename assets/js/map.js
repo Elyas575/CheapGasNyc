@@ -11,14 +11,14 @@ function getBrandLogoUrl(stationName) {
   if (!stationName) return null;
   const name = stationName.trim().toLowerCase();
   const brandMap = {
-    '76': '76.png',
-    'amoco': 'amoco.png',
-    'gulf': 'gulf.png',
     '7-eleven': '7eleven.png',
     '76': '76.png',
     'amoco': 'amoco.png',
+    'atlantis': 'atlantis.png',
     'bp': 'bp.png',
+    'conoco': 'conoco.png',
     'costco': 'costco.png',
+    'global': 'global.png',
     'gulf': 'gulf.png',
     'mobil': 'mobil.png',
     'shell': 'shell.png',
