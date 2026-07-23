@@ -132,7 +132,8 @@ async function loadAllStations() {
     } else {
       visibleCount = 10;
       renderStations(allStations);
-      initHomepageMap(allStations);
+      const visibleStations = allStations.slice(0, visibleCount);
+      initHomepageMap(visibleStations);
     }
   } catch (error) {
     console.error('Failed to load stations:', error);
@@ -328,6 +329,8 @@ function renderStations(stations) {
 function showMoreStations() {
   visibleCount += 10;
   renderStations(allStations);
+  const visibleStations = allStations.slice(0, visibleCount);
+  initHomepageMap(visibleStations);
 }
 
 function openMobileNav() {
