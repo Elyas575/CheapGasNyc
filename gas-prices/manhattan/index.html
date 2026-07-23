@@ -20,6 +20,8 @@
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Geist:wght@100..900&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 tailwind.config = {
   darkMode: "class",
@@ -181,12 +183,17 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <div class="flex items-end justify-between mb-3">
 <h2 class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Cheapest in Manhattan</h2>
 </div>
-<div class="bg-surface rounded-lg border border-outline-variant overflow-hidden">
-<div class="grid grid-cols-[100px_1fr] gap-4 px-4 py-2 bg-surface-container-low border-b border-outline-variant">
-<span class="font-label-caps text-label-caps text-on-surface-variant">PRICE</span>
-<span class="font-label-caps text-label-caps text-on-surface-variant">STATION & ADDRESS</span>
-</div>
-<div id="station-list" class="divide-y divide-outline-variant"></div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+  <div class="bg-surface rounded-lg border border-outline-variant overflow-hidden">
+    <div class="grid grid-cols-[100px_1fr] gap-4 px-4 py-2 bg-surface-container-low border-b border-outline-variant">
+      <span class="font-label-caps text-label-caps text-on-surface-variant">PRICE</span>
+      <span class="font-label-caps text-label-caps text-on-surface-variant">STATION & ADDRESS</span>
+    </div>
+    <div id="station-list" class="divide-y divide-outline-variant"></div>
+  </div>
+  <div class="bg-surface rounded-lg border border-outline-variant overflow-hidden lg:sticky lg:top-24 lg:self-start">
+    <div id="borough-map" class="h-[400px] lg:h-[500px]"></div>
+  </div>
 </div>
 </section>
 </main>

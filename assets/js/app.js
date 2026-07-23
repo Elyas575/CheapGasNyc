@@ -13,6 +13,8 @@ const BOROUGH_NAMES = {
 let allStations = [];
 let currentFuelType = 'Regular Fuel Prices';
 let visibleCount = 10;
+let homepageMap = null;
+let homepageMarkers = [];
 
 function getBrandLogoUrl(stationName) {
   if (!stationName) return null;
@@ -126,14 +128,112 @@ async function loadAllStations() {
     
     if (allStations.length === 0) {
       container.innerHTML = '<div class="p-4 text-center text-outline">No stations found for the selected fuel type.</div>';
+      initHomepageMap([]);
     } else {
       visibleCount = 10;
       renderStations(allStations);
+      initHomepageMap(allStations);
     }
   } catch (error) {
     console.error('Failed to load stations:', error);
     container.innerHTML = `<div class="p-4 text-center text-outline">Failed to load station data. Please check browser console for details.</div>`;
   }
+}
+
+function initHomepageMap(stations) {
+  const mapDiv = document.getElementById('homepage-map');
+  if (!mapDiv) return;
+  if (typeof L === 'undefined') return;
+
+  if (homepageMap) {
+    homepageMap.remove();
+    homepageMap = null;
+  }
+  homepageMarkers = [];
+
+  const stationsWithCoords = stations.filter(s => s.geo && s.geo.lat && s.geo.lng);
+  if (stationsWithCoords.length === 0) return;
+
+  const bounds = [];
+  stationsWithCoords.forEach(s => {
+    const lat = parseFloat(s.geo.lat);
+    const lng = parseFloat(s.geo.lng);
+    if (!isNaN(lat) && !isNaN(lng)) {
+      bounds.push([lat, lng]);
+    }
+  });
+
+  if (bounds.length === 0) return;
+
+  homepageMap = L.map(mapDiv).fitBounds(bounds, { padding: [30, 30] });
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(homepageMap);
+
+  bounds.forEach((latlng, index) => {
+    const station = stationsWithCoords[index];
+    const price = station.price && station.price !== '- - -' ? station.price : '--';
+    const brandLogo = getBrandLogoUrl(station.name);
+    
+    // Standardized logo: fixed 32x32 square with object-contain
+    const logoInner = brandLogo
+      ? `<img src="${brandLogo}" alt="" style="width:32px;height:32px;object-fit:contain;display:block;">`
+      : `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#121416"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>`;
+
+    // Smaller price font at lower zoom levels to reduce collision
+    const priceFontSize = homepageMap.getZoom() <= 13 ? '10px' : '12px';
+    const pricePadding = homepageMap.getZoom() <= 13 ? '2px 8px' : '3px 12px';
+
+    // Complete teardrop pin card
+    const iconHtml = `
+    <div style="display:flex;flex-direction:column;align-items:center;filter:drop-shadow(0 4px 8px rgba(0,0,0,0.25));cursor:pointer;transition:transform 0.15s;">
+      <!-- Price badge -->
+      <div style="background:#121416;color:#f2b705;font-size:${priceFontSize};font-weight:700;padding:${pricePadding};border-radius:20px;white-space:nowrap;letter-spacing:-0.01em;">${price}</div>
+      <!-- Logo lens -->
+      <div style="display:flex;align-items:center;justify-content:center;width:46px;height:46px;background:#ffffff;border-radius:10px;margin-top:-2px;box-shadow:inset 0 0 0 1px rgba(0,0,0,0.06);">
+        ${logoInner}
+      </div>
+      <!-- Pointer triangle -->
+      <div style="width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-top:8px solid #ffffff;margin-top:-1px;"></div>
+    </div>`;
+
+    const customIcon = L.divIcon({
+      html: iconHtml,
+      className: '',
+      iconSize: [46, 78],
+      iconAnchor: [23, 76],
+      popupAnchor: [0, -80]
+    });
+
+    const marker = L.marker(latlng, {
+      icon: customIcon,
+      title: station.name
+    }).addTo(homepageMap);
+
+    const addressStr = station.address.street ? `${station.address.street}, ${station.address.city || ''}` : (station.address.city || '');
+    const mapQuery = encodeURIComponent(`${station.address.street || ''}, ${station.address.city || ''}, ${station.address.state || 'NY'}`);
+    
+    marker.bindPopup(`
+      <div style="font-family:sans-serif;width:200px;border-top:3px solid #f2b705;">
+        <div class="p-2">
+          <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #f0f0f0;padding-bottom:6px;margin-bottom:6px;">
+            <div>
+              <div style="font-weight:800;font-size:14px;color:#121416;line-height:1.2;">${station.name}</div>
+              <div style="font-size:11px;color:#999;">${addressStr || 'NYC'}</div>
+            </div>
+            <span style="font-size:10px;background:#d1fae5;color:#065f46;font-weight:700;padding:2px 6px;border-radius:4px;">Regular</span>
+          </div>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;">
+            <span style="font-size:22px;font-weight:900;color:#121416;line-height:1;">${price}<span style="font-size:11px;font-weight:400;color:#aaa;">/gal</span></span>
+            <a href="https://maps.google.com/?q=${mapQuery}" target="_blank" style="font-size:12px;font-weight:700;color:#f2b705;text-decoration:none;">Directions →</a>
+          </div>
+        </div>
+      </div>
+    `, { offset: L.point(0, -35), className: 'custom-clean-popup' });
+
+    homepageMarkers.push(marker);
+  });
 }
 
 function updateHeading(stations) {

@@ -22,6 +22,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Geist:wght@100..900&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
@@ -274,21 +276,26 @@
 </select>
 </label>
 </section>
-<!-- Leaderboard: Dense List -->
+<!-- Leaderboard: Dense List + Map -->
 <section class="mb-section-gap">
 <div class="flex items-end justify-between mb-3">
 <h2 class="font-label-caps text-label-caps text-secondary uppercase tracking-widest" id="section-heading">Cheapest Stations Across NYC</h2>
 </div>
-<div class="bg-surface rounded-lg border border-outline-variant overflow-hidden">
-<!-- Header row -->
-<div class="grid grid-cols-[100px_1fr] gap-4 px-row-padding-x py-2 bg-surface-container-low border-b border-outline-variant">
-                <span class="font-label-caps text-label-caps text-on-surface-variant">PRICE</span>
-                <span class="font-label-caps text-label-caps text-on-surface-variant">STATION & ADDRESS</span>
-            </div>
-            <!-- Station Rows injected by JS -->
-            <div id="station-list" class="divide-y divide-outline-variant"></div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+  <div>
+    <div class="bg-surface rounded-lg border border-outline-variant overflow-hidden">
+      <div class="grid grid-cols-[100px_1fr] gap-4 px-row-padding-x py-2 bg-surface-container-low border-b border-outline-variant">
+        <span class="font-label-caps text-label-caps text-on-surface-variant">PRICE</span>
+        <span class="font-label-caps text-label-caps text-on-surface-variant">STATION & ADDRESS</span>
+      </div>
+      <div id="station-list" class="divide-y divide-outline-variant"></div>
+    </div>
+    <button id="view-all-btn" class="w-full py-3 mt-2 text-primary font-bold hover:bg-surface-container-high border border-outline-variant rounded transition-all">SHOW MORE</button>
+  </div>
+  <div class="bg-surface rounded-lg border border-outline-variant overflow-hidden lg:sticky lg:top-24 lg:self-start">
+    <div id="homepage-map" class="h-[400px] lg:h-[500px]"></div>
+  </div>
 </div>
-<button id="view-all-btn" class="w-full py-3 mt-2 text-primary font-bold hover:bg-surface-container-high border border-outline-variant rounded transition-all">SHOW MORE</button>
 </section>
 <!-- Browse by Borough Grid -->
 <section class="mb-section-gap">
