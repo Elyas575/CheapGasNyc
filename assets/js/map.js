@@ -20,6 +20,7 @@ function getBrandLogoUrl(stationName) {
     'costco': 'costco.png',
     'global': 'global.png',
     'gulf': 'gulf.png',
+    'lukoil': 'lukoil.png',
     'mobil': 'mobil.png',
     'shell': 'shell.png',
     'speedway': 'speedway.png',

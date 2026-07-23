@@ -8,6 +8,7 @@ function getBoroughName() {
 }
 
 let currentFuelType = 'Regular Fuel Prices';
+let allBoroughStations = [];
 
 function getBrandLogoUrl(stationName) {
   if (!stationName) return null;
@@ -22,6 +23,7 @@ function getBrandLogoUrl(stationName) {
     'costco': 'costco.png',
     'global': 'global.png',
     'gulf': 'gulf.png',
+    'lukoil': 'lukoil.png',
     'mobil': 'mobil.png',
     'shell': 'shell.png',
     'speedway': 'speedway.png',
@@ -92,6 +94,7 @@ async function loadBoroughStations() {
       }
     }
     
+    allBoroughStations = stations;
     renderStations(stations);
   } catch (error) {
     console.error('Failed to load stations:', error);
@@ -108,6 +111,11 @@ function renderStations(stations) {
 
   const container = document.getElementById('station-list');
   container.innerHTML = '';
+
+  if (sorted.length === 0) {
+    container.innerHTML = '<div class="p-4 text-center text-outline">No stations found matching your search.</div>';
+    return;
+  }
 
   sorted.forEach((station) => {
     const row = document.createElement('a');
@@ -154,12 +162,38 @@ function renderStations(stations) {
   });
 }
 
-document.addEventListener('DOMContentLoaded', loadBoroughStations);
-
-const fuelTypeSelect = document.getElementById('fuel-type-select');
-if (fuelTypeSelect) {
-  fuelTypeSelect.addEventListener('change', (e) => {
-    currentFuelType = e.target.value;
-    loadBoroughStations();
-  });
+function filterStations(query) {
+  if (!query) {
+    renderStations(allBoroughStations);
+    return;
+  }
+  const q = query.toLowerCase().trim();
+  const filtered = allBoroughStations.filter(s =>
+    s.name.toLowerCase().includes(q) ||
+    (s.address.street && s.address.street.toLowerCase().includes(q)) ||
+    (s.address.city && s.address.city.toLowerCase().includes(q)) ||
+    (s.address.zip && s.address.zip.includes(q))
+  );
+  renderStations(filtered);
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  loadBoroughStations();
+
+  // Search input listener
+  const searchInput = document.getElementById('homepage-search');
+  if (searchInput) {
+    searchInput.addEventListener('input', function(e) {
+      filterStations(e.target.value);
+    });
+  }
+
+  // Fuel type selector
+  const fuelTypeSelect = document.getElementById('fuel-type-select');
+  if (fuelTypeSelect) {
+    fuelTypeSelect.addEventListener('change', function(e) {
+      currentFuelType = e.target.value;
+      loadBoroughStations();
+    });
+  }
+});
