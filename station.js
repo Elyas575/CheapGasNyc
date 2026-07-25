@@ -18,29 +18,8 @@ function normalizeStationId(url) {
   return match ? match[1] : url;
 }
 
-function getBrandLogoUrl(stationName) {
-  if (!stationName) return null;
-  const name = stationName.trim().toLowerCase();
-  const brandMap = {
-    '7-eleven': '7eleven.png',
-    '76': '76.png',
-    'amoco': 'amoco.png',
-    'atlantis': 'atlantis.png',
-    'bp': 'bp.png',
-    'conoco': 'conoco.png',
-    'costco': 'costco.png',
-    'global': 'global.png',
-    'gulf': 'gulf.png',
-    'lukoil': 'lukoil.png',
-    'mobil': 'mobil.png',
-    'shell': 'shell.png',
-    'speedway': 'speedway.png',
-    'sunoco': 'sunoco.png'
-  };
-  if (brandMap[name]) {
-    return `images/${brandMap[name]}`;
-  }
-  return null;
+function getStationBrandLogo(stationName) {
+  return window.getBrandLogoUrl(stationName, 'images/');
 }
 
 function parseReportedAgoToMs(reportedAgo) {
@@ -211,7 +190,7 @@ function displayStation(station) {
   document.getElementById('breadcrumb-station').textContent = station.name;
 
   // Update header - show brand logo if available
-  const brandLogo = getBrandLogoUrl(station.name);
+  const brandLogo = getStationBrandLogo(station.name);
   const logoContainer = document.querySelector('.w-20.h-20.bg-white');
   if (logoContainer) {
     if (brandLogo) {

@@ -16,30 +16,10 @@ let visibleCount = 10;
 let homepageMap = null;
 let homepageMarkers = [];
 
-function getBrandLogoUrl(stationName) {
-  if (!stationName) return null;
-    const name = stationName.trim().toLowerCase();
-    const brandMap = {
-      '7-eleven': '7eleven.png',
-      '76': '76.png',
-      'amoco': 'amoco.png',
-      'atlantis': 'atlantis.png',
-      'bp': 'bp.png',
-      'conoco': 'conoco.png',
-      'costco': 'costco.png',
-      'global': 'global.png',
-      'gulf': 'gulf.png',
-      'lukoil': 'lukoil.png',
-      'mobil': 'mobil.png',
-      'shell': 'shell.png',
-      'speedway': 'speedway.png',
-      'sunoco': 'sunoco.png'
-    };
-  if (brandMap[name]) {
-    return `images/${brandMap[name]}`;
+
+  function getStationBrandLogo(stationName) {
+    return window.getBrandLogoUrl(stationName, 'images/');
   }
-  return null;
-}
 
 function parseReportedAgoToMs(reportedAgo) {
   if (!reportedAgo || reportedAgo.trim() === '- - -') return null;
@@ -175,7 +155,7 @@ function initHomepageMap(stations) {
   bounds.forEach((latlng, index) => {
     const station = stationsWithCoords[index];
     const price = station.price && station.price !== '- - -' ? station.price : '--';
-    const brandLogo = getBrandLogoUrl(station.name);
+    const brandLogo = getStationBrandLogo(station.name);
     
     // Standardized logo: fixed 32x32 square with object-contain
     const logoInner = brandLogo
@@ -287,7 +267,7 @@ function renderStations(stations) {
     const priceType = station.price_type || 'Credit';
     const showCashBadge = priceType === 'Cash';
     
-    const brandLogo = getBrandLogoUrl(station.name);
+    const brandLogo = getStationBrandLogo(station.name);
     const logoHtml = brandLogo
       ? `<img src="${brandLogo}" alt="${station.name}" class="w-10 h-10 object-contain" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><span class="material-symbols-outlined text-4xl text-outline" style="display:none">local_gas_station</span>`
       : `<span class="material-symbols-outlined text-4xl text-outline">local_gas_station</span>`;

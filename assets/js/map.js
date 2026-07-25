@@ -7,30 +7,9 @@ const BOROUGHS = ['bronx', 'brooklyn', 'manhattan', 'queens', 'staten-island'];
 
 let currentFuelType = 'Regular Fuel Prices';
 
-function getBrandLogoUrl(stationName) {
-  if (!stationName) return null;
-  const name = stationName.trim().toLowerCase();
-  const brandMap = {
-    '7-eleven': '7eleven.png',
-    '76': '76.png',
-    'amoco': 'amoco.png',
-    'atlantis': 'atlantis.png',
-    'bp': 'bp.png',
-    'conoco': 'conoco.png',
-    'costco': 'costco.png',
-    'global': 'global.png',
-    'gulf': 'gulf.png',
-    'lukoil': 'lukoil.png',
-    'mobil': 'mobil.png',
-    'shell': 'shell.png',
-    'speedway': 'speedway.png',
-    'sunoco': 'sunoco.png'
-  };
-  if (brandMap[name]) {
-    return `../images/${brandMap[name]}`;
+  function getStationBrandLogo(stationName) {
+    return window.getBrandLogoUrl(stationName, '../images/');
   }
-  return null;
-}
 
 function parseReportedAgoToMs(reportedAgo) {
   if (!reportedAgo || reportedAgo.trim() === '- - -') return null;
@@ -133,7 +112,7 @@ function displayStationsList() {
     const mapsLink = getGoogleMapsLink(station);
     const trueReportTime = getTrueReportTime(station);
     const reportedTime = timeAgo(trueReportTime);
-    const brandLogo = getBrandLogoUrl(station.name);
+    const brandLogo = getStationBrandLogo(station.name);
     
     return `
       <div class="bg-white border border-gray-200 rounded-lg p-4 mb-3">
