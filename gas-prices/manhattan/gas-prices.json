@@ -1,62 +1,10 @@
 {
   "borough": "manhattan",
-  "extracted_at": "2026-07-23T05:05:15.168796",
+  "extracted_at": "2026-07-25T07:20:13.350303",
   "total_stations": 42,
   "fuel_types": {
     "Regular Fuel Prices": {
       "stations": [
-        {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56276",
-          "address": {
-            "street": "4353 Broadway",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10033",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.853556827579,
-            "lng": -73.934281468391
-          },
-          "rating": {
-            "value": 3.7,
-            "count": 58
-          },
-          "latest_review": "Di best ",
-          "price": "$4.19",
-          "price_type": "Credit",
-          "reported_by": "Prince_Odell",
-          "reported_ago": "8 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.808775",
-          "reported_at": "2026-07-22T21:05:14.811906"
-        },
-        {
-          "name": "Sunoco",
-          "url": "https://www.gasbuddy.com/station/56309",
-          "address": {
-            "street": "5080 Broadway",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10034",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.870474690766,
-            "lng": -73.914799243212
-          },
-          "rating": {
-            "value": 3,
-            "count": 30
-          },
-          "latest_review": "The 20 cents was not applied to my price. I tried twice. ",
-          "price": "$4.19",
-          "price_type": "Credit",
-          "reported_by": "SeventhMaster",
-          "reported_ago": "6 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.808786",
-          "reported_at": "2026-07-22T23:05:14.812218"
-        },
         {
           "name": "Conoco",
           "url": "https://www.gasbuddy.com/station/151842",
@@ -79,9 +27,9 @@
           "price": "$4.15",
           "price_type": "Credit",
           "reported_by": "DataFeed",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.808791",
-          "reported_at": "2026-07-23T03:05:14.811220"
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-25T07:20:13.002774",
+          "reported_at": "2026-07-25T03:20:13.007830"
         },
         {
           "name": "BP",
@@ -104,165 +52,217 @@
           "latest_review": "Love this gas station always go there ",
           "price": "$4.19",
           "price_type": "Credit",
-          "reported_by": "vix1976",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.808795",
-          "reported_at": "2026-07-23T03:05:14.811553"
+          "reported_by": "DataFeed",
+          "reported_ago": "20 Hours Ago",
+          "scraped_at": "2026-07-25T07:20:13.002786",
+          "reported_at": "2026-07-24T11:20:13.008980"
         },
         {
-          "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56302",
+          "name": "CITGO",
+          "url": "https://www.gasbuddy.com/station/56283",
           "address": {
-            "street": "1855 1st Ave",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10128",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.783083197323,
-            "lng": -73.94514977932
-          },
-          "rating": {
-            "value": 3.3,
-            "count": 77
-          },
-          "latest_review": "This gas station charging wrong price for gas under debit card. They are charging credit under debit and that's wrong. It's fraud. ",
-          "price": "$4.54",
-          "price_type": "Credit",
-          "reported_by": "magalisj2006",
-          "reported_ago": "17 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.808800",
-          "reported_at": "2026-07-22T12:05:14.812542"
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56292",
-          "address": {
-            "street": "51-63 8th Ave",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10014-1609",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.739,
-            "lng": -74.0035
-          },
-          "rating": {
-            "value": 2.9,
-            "count": 137
-          },
-          "latest_review": "Extremely expensive.",
-          "price": "$5.59",
-          "price_type": "Cash",
-          "reported_by": "onesar",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-23T05:05:14.808804",
-          "reported_at": "2026-07-22T05:05:14.812808"
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56299",
-          "address": {
-            "street": "150 W 145th St",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10039-4103",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.821006192744,
-            "lng": -73.938099592924
-          },
-          "rating": {
-            "value": 2.9,
-            "count": 18
-          },
-          "latest_review": "Gas is too expensive, but they have full service auto repair",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:14.808808",
-          "reported_at": null
-        },
-        {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/112339",
-          "address": {
-            "street": "2326 1st Ave",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10035",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.7980139781,
-            "lng": -73.933613598347
-          },
-          "rating": {
-            "value": 3.6,
-            "count": 21
-          },
-          "latest_review": "Ok",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:14.808812",
-          "reported_at": null
-        },
-        {
-          "name": "Atlantis",
-          "url": "https://www.gasbuddy.com/station/56275",
-          "address": {
-            "street": "3936 10th Ave",
+            "street": "4880 Broadway",
             "city": "Manhattan",
             "state": "NY",
             "zip": "10034",
             "country": "US"
           },
           "geo": {
-            "lat": 40.86634806,
-            "lng": -73.9179562
+            "lat": 40.867002,
+            "lng": -73.922739
           },
           "rating": {
-            "value": 2.8,
-            "count": 55
+            "value": 3.2,
+            "count": 69
           },
-          "latest_review": "The road next to the gas station is under construction , low visibility getting and out due to the equipment around the station. ",
-          "price": "- - -",
+          "latest_review": "awesome staff",
+          "price": "$4.15",
           "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:14.808815",
-          "reported_at": null
+          "reported_by": "dzt1000",
+          "reported_ago": "18 Hours Ago",
+          "scraped_at": "2026-07-25T07:20:13.002792",
+          "reported_at": "2026-07-24T13:20:13.008409"
         },
         {
-          "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56304",
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56285",
           "address": {
-            "street": "2276 1st Ave",
+            "street": "348 E 106th St",
             "city": "Manhattan",
             "state": "NY",
-            "zip": "10035-5009",
+            "zip": "10029",
             "country": "US"
           },
           "geo": {
-            "lat": 40.796806,
-            "lng": -73.93454
+            "lat": 40.789582383323,
+            "lng": -73.940411657095
           },
           "rating": {
-            "value": 3.4,
-            "count": 31
+            "value": 3.7,
+            "count": 21
           },
-          "latest_review": "Gas",
+          "latest_review": "Went in for an oil changed for my 2018 Honda Fit EX. Full Synthetic Prime Series  SEA 0W20 Dex0S Gen 2 API SN Plus, and oil filter for $85. They dont have 0W16 yet. Even let me see them oil change. ",
+          "price": "$4.59",
+          "price_type": "Credit",
+          "reported_by": "TGNYC",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-07-25T07:20:13.002797",
+          "reported_at": "2026-07-24T16:20:13.010141"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/56284",
+          "address": {
+            "street": "242 Dyckman St",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10034",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.866148,
+            "lng": -73.928395
+          },
+          "rating": {
+            "value": 3.3,
+            "count": 150
+          },
+          "latest_review": "This BP gas station is 24 hours full service. The cash and credit card prices are the same.",
+          "price": "$4.19",
+          "price_type": "Credit",
+          "reported_by": "DataFeed",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-25T07:20:13.002802",
+          "reported_at": "2026-07-24T07:20:13.009578"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56297",
+          "address": {
+            "street": "718 11th Ave",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10019-5047",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.766310623287,
+            "lng": -73.994024321437
+          },
+          "rating": {
+            "value": 2.5,
+            "count": 146
+          },
+          "latest_review": "Not sure why people put lower price. If you look at the poll price it clearly say $4.99, $5.15, and $5.35. Not sure why some one always put fake price for this place ",
+          "price": "$6.49",
+          "price_type": "Credit",
+          "reported_by": "DataFeed",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-07-25T07:20:13.002808",
+          "reported_at": "2026-07-24T07:20:13.010715"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/56301",
+          "address": {
+            "street": "800 St Nicholas Ave",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10031-4004",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.827647795593,
+            "lng": -73.942403197289
+          },
+          "rating": {
+            "value": 3.5,
+            "count": 35
+          },
+          "latest_review": "Pretty good Station with 6 pumps, shop, air, ATM and garage.",
           "price": "- - -",
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:14.808820",
+          "scraped_at": "2026-07-25T07:20:13.002813",
+          "reported_at": null
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56280",
+          "address": {
+            "street": "303 W 96th St",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10025-6108",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.795703251973,
+            "lng": -73.973786383867
+          },
+          "rating": {
+            "value": 2.8,
+            "count": 40
+          },
+          "latest_review": "Nobody with any sense fills up here with prices that are close to double out of town. But when YOU NEED GAS, this joint is a total score!\nMuch easier to use than on first glance, drive right in no matter which side your filler in on.\nSelf service, possibly attendant service. Love this place in a pinch- and it SURE BEATS WALKING!",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.002818",
+          "reported_at": null
+        },
+        {
+          "name": "Global",
+          "url": "https://www.gasbuddy.com/station/56286",
+          "address": {
+            "street": "89 St Nicholas Pl",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10032-8004",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.830268,
+            "lng": -73.940534
+          },
+          "rating": {
+            "value": 3.9,
+            "count": 31
+          },
+          "latest_review": "same price cash or credit",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.002823",
+          "reported_at": null
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56273",
+          "address": {
+            "street": "466 10th Ave",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10018-1112",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.75597279,
+            "lng": -73.99789676
+          },
+          "rating": {
+            "value": 3.4,
+            "count": 187
+          },
+          "latest_review": "Too crowded with vehicles. Station management posted signs to lock your car while fueling - there have been numerous thefts of phones, etc. while customers are filling up & not watching their vehicle. Very expensive, but convenient.",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.002828",
           "reported_at": null
         }
       ],
@@ -271,32 +271,6 @@
     "Mid-Grade Fuel Prices": {
       "stations": [
         {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56274",
-          "address": {
-            "street": "255 E 125th St",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10035",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.803074755856,
-            "lng": -73.933706134558
-          },
-          "rating": {
-            "value": 3.8,
-            "count": 105
-          },
-          "latest_review": "Love this gas station always go there ",
-          "price": "$4.59",
-          "price_type": "Credit",
-          "reported_by": "TaxiLady69",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.886085",
-          "reported_at": "2026-07-22T18:05:14.891280"
-        },
-        {
           "name": "Conoco",
           "url": "https://www.gasbuddy.com/station/151842",
           "address": {
@@ -318,139 +292,87 @@
           "price": "$4.59",
           "price_type": "Credit",
           "reported_by": "DataFeed",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.886096",
-          "reported_at": "2026-07-23T03:05:14.891834"
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-25T07:20:13.079764",
+          "reported_at": "2026-07-25T03:20:13.084898"
         },
         {
-          "name": "Sunoco",
-          "url": "https://www.gasbuddy.com/station/56309",
+          "name": "Atlantis",
+          "url": "https://www.gasbuddy.com/station/56275",
           "address": {
-            "street": "5080 Broadway",
+            "street": "3936 10th Ave",
             "city": "Manhattan",
             "state": "NY",
             "zip": "10034",
             "country": "US"
           },
           "geo": {
-            "lat": 40.870474690766,
-            "lng": -73.914799243212
+            "lat": 40.86634806,
+            "lng": -73.9179562
           },
           "rating": {
-            "value": 3,
-            "count": 30
+            "value": 2.8,
+            "count": 55
           },
-          "latest_review": "The 20 cents was not applied to my price. I tried twice. ",
-          "price": "$4.75",
+          "latest_review": "The road next to the gas station is under construction , low visibility getting and out due to the equipment around the station. ",
+          "price": "$4.79",
           "price_type": "Credit",
-          "reported_by": "SeventhMaster",
-          "reported_ago": "6 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.886102",
-          "reported_at": "2026-07-22T23:05:14.892403"
+          "reported_by": "TGNYC",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-07-25T07:20:13.079776",
+          "reported_at": "2026-07-24T16:20:13.086152"
         },
         {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56276",
+          "name": "CITGO",
+          "url": "https://www.gasbuddy.com/station/56283",
           "address": {
-            "street": "4353 Broadway",
+            "street": "4880 Broadway",
             "city": "Manhattan",
             "state": "NY",
-            "zip": "10033",
+            "zip": "10034",
             "country": "US"
           },
           "geo": {
-            "lat": 40.853556827579,
-            "lng": -73.934281468391
+            "lat": 40.867002,
+            "lng": -73.922739
+          },
+          "rating": {
+            "value": 3.2,
+            "count": 69
+          },
+          "latest_review": "awesome staff",
+          "price": "$4.65",
+          "price_type": "Credit",
+          "reported_by": "dzt1000",
+          "reported_ago": "19 Hours Ago",
+          "scraped_at": "2026-07-25T07:20:13.079782",
+          "reported_at": "2026-07-24T12:20:13.085475"
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56285",
+          "address": {
+            "street": "348 E 106th St",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10029",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.789582383323,
+            "lng": -73.940411657095
           },
           "rating": {
             "value": 3.7,
-            "count": 58
+            "count": 21
           },
-          "latest_review": "Di best ",
-          "price": "$4.79",
+          "latest_review": "Went in for an oil changed for my 2018 Honda Fit EX. Full Synthetic Prime Series  SEA 0W20 Dex0S Gen 2 API SN Plus, and oil filter for $85. They dont have 0W16 yet. Even let me see them oil change. ",
+          "price": "$5.09",
           "price_type": "Credit",
-          "reported_by": "Prince_Odell",
-          "reported_ago": "8 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.886108",
-          "reported_at": "2026-07-22T21:05:14.893044"
-        },
-        {
-          "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56302",
-          "address": {
-            "street": "1855 1st Ave",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10128",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.783083197323,
-            "lng": -73.94514977932
-          },
-          "rating": {
-            "value": 3.3,
-            "count": 77
-          },
-          "latest_review": "This gas station charging wrong price for gas under debit card. They are charging credit under debit and that's wrong. It's fraud. ",
-          "price": "$5.55",
-          "price_type": "Cash",
-          "reported_by": "magalisj2006",
-          "reported_ago": "17 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.886113",
-          "reported_at": "2026-07-22T12:05:14.893518"
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56292",
-          "address": {
-            "street": "51-63 8th Ave",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10014-1609",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.739,
-            "lng": -74.0035
-          },
-          "rating": {
-            "value": 2.9,
-            "count": 137
-          },
-          "latest_review": "Extremely expensive.",
-          "price": "$6.19",
-          "price_type": "Cash",
-          "reported_by": "onesar",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-23T05:05:14.886118",
-          "reported_at": "2026-07-22T05:05:14.893993"
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56299",
-          "address": {
-            "street": "150 W 145th St",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10039-4103",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.821006192744,
-            "lng": -73.938099592924
-          },
-          "rating": {
-            "value": 2.9,
-            "count": 18
-          },
-          "latest_review": "Gas is too expensive, but they have full service auto repair",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:14.886123",
-          "reported_at": null
+          "reported_by": "TGNYC",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-07-25T07:20:13.079787",
+          "reported_at": "2026-07-24T16:20:13.086719"
         },
         {
           "name": "BP",
@@ -475,33 +397,33 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:14.886129",
+          "scraped_at": "2026-07-25T07:20:13.079793",
           "reported_at": null
         },
         {
-          "name": "Atlantis",
-          "url": "https://www.gasbuddy.com/station/56275",
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/56276",
           "address": {
-            "street": "3936 10th Ave",
+            "street": "4353 Broadway",
             "city": "Manhattan",
             "state": "NY",
-            "zip": "10034",
+            "zip": "10033",
             "country": "US"
           },
           "geo": {
-            "lat": 40.86634806,
-            "lng": -73.9179562
+            "lat": 40.853556827579,
+            "lng": -73.934281468391
           },
           "rating": {
-            "value": 2.8,
-            "count": 55
+            "value": 3.7,
+            "count": 58
           },
-          "latest_review": "The road next to the gas station is under construction , low visibility getting and out due to the equipment around the station. ",
+          "latest_review": "Di best ",
           "price": "- - -",
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:14.886134",
+          "scraped_at": "2026-07-25T07:20:13.079798",
           "reported_at": null
         },
         {
@@ -527,7 +449,85 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:14.886139",
+          "scraped_at": "2026-07-25T07:20:13.079803",
+          "reported_at": null
+        },
+        {
+          "name": "Sunoco",
+          "url": "https://www.gasbuddy.com/station/56309",
+          "address": {
+            "street": "5080 Broadway",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10034",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.870474690766,
+            "lng": -73.914799243212
+          },
+          "rating": {
+            "value": 3,
+            "count": 30
+          },
+          "latest_review": "The 20 cents was not applied to my price. I tried twice. ",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.079809",
+          "reported_at": null
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56299",
+          "address": {
+            "street": "150 W 145th St",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10039-4103",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.821006192744,
+            "lng": -73.938099592924
+          },
+          "rating": {
+            "value": 2.9,
+            "count": 18
+          },
+          "latest_review": "Gas is too expensive, but they have full service auto repair",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.079814",
+          "reported_at": null
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56292",
+          "address": {
+            "street": "51-63 8th Ave",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10014-1609",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.739,
+            "lng": -74.0035
+          },
+          "rating": {
+            "value": 2.9,
+            "count": 138
+          },
+          "latest_review": "Extremely expensive.",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.079820",
           "reported_at": null
         }
       ],
@@ -536,84 +536,6 @@
     "Premium Fuel Prices": {
       "stations": [
         {
-          "name": "Sunoco",
-          "url": "https://www.gasbuddy.com/station/56309",
-          "address": {
-            "street": "5080 Broadway",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10034",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.870474690766,
-            "lng": -73.914799243212
-          },
-          "rating": {
-            "value": 3,
-            "count": 30
-          },
-          "latest_review": "The 20 cents was not applied to my price. I tried twice. ",
-          "price": "$4.95",
-          "price_type": "Credit",
-          "reported_by": "SeventhMaster",
-          "reported_ago": "6 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.971813",
-          "reported_at": "2026-07-22T23:05:14.976989"
-        },
-        {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56276",
-          "address": {
-            "street": "4353 Broadway",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10033",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.853556827579,
-            "lng": -73.934281468391
-          },
-          "rating": {
-            "value": 3.7,
-            "count": 58
-          },
-          "latest_review": "Di best ",
-          "price": "$5.19",
-          "price_type": "Cash",
-          "reported_by": "Prince_Odell",
-          "reported_ago": "8 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.971825",
-          "reported_at": "2026-07-22T21:05:14.978662"
-        },
-        {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56274",
-          "address": {
-            "street": "255 E 125th St",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10035",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.803074755856,
-            "lng": -73.933706134558
-          },
-          "rating": {
-            "value": 3.8,
-            "count": 105
-          },
-          "latest_review": "Love this gas station always go there ",
-          "price": "$4.99",
-          "price_type": "Credit",
-          "reported_by": "TaxiLady69",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.971832",
-          "reported_at": "2026-07-22T18:05:14.977588"
-        },
-        {
           "name": "Conoco",
           "url": "https://www.gasbuddy.com/station/151842",
           "address": {
@@ -635,86 +557,190 @@
           "price": "$4.99",
           "price_type": "Credit",
           "reported_by": "DataFeed",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.971839",
-          "reported_at": "2026-07-23T03:05:14.978141"
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-25T07:20:13.165918",
+          "reported_at": "2026-07-25T03:20:13.171198"
         },
         {
-          "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56302",
+          "name": "Atlantis",
+          "url": "https://www.gasbuddy.com/station/56275",
           "address": {
-            "street": "1855 1st Ave",
+            "street": "3936 10th Ave",
             "city": "Manhattan",
             "state": "NY",
-            "zip": "10128",
+            "zip": "10034",
             "country": "US"
           },
           "geo": {
-            "lat": 40.783083197323,
-            "lng": -73.94514977932
+            "lat": 40.86634806,
+            "lng": -73.9179562
           },
           "rating": {
-            "value": 3.3,
-            "count": 77
+            "value": 2.8,
+            "count": 55
           },
-          "latest_review": "This gas station charging wrong price for gas under debit card. They are charging credit under debit and that's wrong. It's fraud. ",
-          "price": "$5.75",
-          "price_type": "Cash",
-          "reported_by": "magalisj2006",
-          "reported_ago": "17 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:14.971844",
-          "reported_at": "2026-07-22T12:05:14.979137"
+          "latest_review": "The road next to the gas station is under construction , low visibility getting and out due to the equipment around the station. ",
+          "price": "$5.19",
+          "price_type": "Credit",
+          "reported_by": "TGNYC",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-07-25T07:20:13.165930",
+          "reported_at": "2026-07-24T16:20:13.172453"
+        },
+        {
+          "name": "CITGO",
+          "url": "https://www.gasbuddy.com/station/56283",
+          "address": {
+            "street": "4880 Broadway",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10034",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.867002,
+            "lng": -73.922739
+          },
+          "rating": {
+            "value": 3.2,
+            "count": 69
+          },
+          "latest_review": "awesome staff",
+          "price": "$5.05",
+          "price_type": "Credit",
+          "reported_by": "dzt1000",
+          "reported_ago": "19 Hours Ago",
+          "scraped_at": "2026-07-25T07:20:13.165938",
+          "reported_at": "2026-07-24T12:20:13.171779"
         },
         {
           "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56292",
+          "url": "https://www.gasbuddy.com/station/56285",
           "address": {
-            "street": "51-63 8th Ave",
+            "street": "348 E 106th St",
             "city": "Manhattan",
             "state": "NY",
-            "zip": "10014-1609",
+            "zip": "10029",
             "country": "US"
           },
           "geo": {
-            "lat": 40.739,
-            "lng": -74.0035
+            "lat": 40.789582383323,
+            "lng": -73.940411657095
           },
           "rating": {
-            "value": 2.9,
-            "count": 137
+            "value": 3.7,
+            "count": 21
           },
-          "latest_review": "Extremely expensive.",
-          "price": "$6.29",
+          "latest_review": "Went in for an oil changed for my 2018 Honda Fit EX. Full Synthetic Prime Series  SEA 0W20 Dex0S Gen 2 API SN Plus, and oil filter for $85. They dont have 0W16 yet. Even let me see them oil change. ",
+          "price": "$5.59",
           "price_type": "Cash",
-          "reported_by": "onesar",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-23T05:05:14.971849",
-          "reported_at": "2026-07-22T05:05:14.979612"
+          "reported_by": "TGNYC",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-07-25T07:20:13.165944",
+          "reported_at": "2026-07-24T16:20:13.172929"
         },
         {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56299",
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/56301",
           "address": {
-            "street": "150 W 145th St",
+            "street": "800 St Nicholas Ave",
             "city": "Manhattan",
             "state": "NY",
-            "zip": "10039-4103",
+            "zip": "10031-4004",
             "country": "US"
           },
           "geo": {
-            "lat": 40.821006192744,
-            "lng": -73.938099592924
+            "lat": 40.827647795593,
+            "lng": -73.942403197289
           },
           "rating": {
-            "value": 2.9,
-            "count": 18
+            "value": 3.5,
+            "count": 35
           },
-          "latest_review": "Gas is too expensive, but they have full service auto repair",
+          "latest_review": "Pretty good Station with 6 pumps, shop, air, ATM and garage.",
           "price": "- - -",
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:14.971855",
+          "scraped_at": "2026-07-25T07:20:13.165949",
+          "reported_at": null
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56280",
+          "address": {
+            "street": "303 W 96th St",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10025-6108",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.795703251973,
+            "lng": -73.973786383867
+          },
+          "rating": {
+            "value": 2.8,
+            "count": 40
+          },
+          "latest_review": "Nobody with any sense fills up here with prices that are close to double out of town. But when YOU NEED GAS, this joint is a total score!\nMuch easier to use than on first glance, drive right in no matter which side your filler in on.\nSelf service, possibly attendant service. Love this place in a pinch- and it SURE BEATS WALKING!",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.165954",
+          "reported_at": null
+        },
+        {
+          "name": "Global",
+          "url": "https://www.gasbuddy.com/station/56286",
+          "address": {
+            "street": "89 St Nicholas Pl",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10032-8004",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.830268,
+            "lng": -73.940534
+          },
+          "rating": {
+            "value": 3.9,
+            "count": 31
+          },
+          "latest_review": "same price cash or credit",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.165960",
+          "reported_at": null
+        },
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56273",
+          "address": {
+            "street": "466 10th Ave",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10018-1112",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.75597279,
+            "lng": -73.99789676
+          },
+          "rating": {
+            "value": 3.4,
+            "count": 187
+          },
+          "latest_review": "Too crowded with vehicles. Station management posted signs to lock your car while fueling - there have been numerous thefts of phones, etc. while customers are filling up & not watching their vehicle. Very expensive, but convenient.",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.165965",
           "reported_at": null
         },
         {
@@ -740,33 +766,90 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:14.971860",
+          "scraped_at": "2026-07-25T07:20:13.165971",
           "reported_at": null
         },
         {
-          "name": "Atlantis",
-          "url": "https://www.gasbuddy.com/station/56275",
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/56276",
           "address": {
-            "street": "3936 10th Ave",
+            "street": "4353 Broadway",
             "city": "Manhattan",
             "state": "NY",
-            "zip": "10034",
+            "zip": "10033",
             "country": "US"
           },
           "geo": {
-            "lat": 40.86634806,
-            "lng": -73.9179562
+            "lat": 40.853556827579,
+            "lng": -73.934281468391
           },
           "rating": {
-            "value": 2.8,
-            "count": 55
+            "value": 3.7,
+            "count": 58
           },
-          "latest_review": "The road next to the gas station is under construction , low visibility getting and out due to the equipment around the station. ",
+          "latest_review": "Di best ",
           "price": "- - -",
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:14.971867",
+          "scraped_at": "2026-07-25T07:20:13.165976",
+          "reported_at": null
+        }
+      ],
+      "count": 10
+    },
+    "Diesel Fuel Prices": {
+      "stations": [
+        {
+          "name": "Conoco",
+          "url": "https://www.gasbuddy.com/station/151842",
+          "address": {
+            "street": "4275 Broadway",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10033",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.850976,
+            "lng": -73.935577
+          },
+          "rating": {
+            "value": 3.9,
+            "count": 93
+          },
+          "latest_review": "Driving out is kinda painful. ",
+          "price": "$5.99",
+          "price_type": "Credit",
+          "reported_by": "DataFeed",
+          "reported_ago": "4 Hours Ago",
+          "scraped_at": "2026-07-25T07:20:13.247994",
+          "reported_at": "2026-07-25T03:20:13.253174"
+        },
+        {
+          "name": "BP",
+          "url": "https://www.gasbuddy.com/station/112339",
+          "address": {
+            "street": "2326 1st Ave",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10035",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.7980139781,
+            "lng": -73.933613598347
+          },
+          "rating": {
+            "value": 3.6,
+            "count": 21
+          },
+          "latest_review": "Ok",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.248006",
           "reported_at": null
         },
         {
@@ -792,14 +875,35 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:14.971872",
+          "scraped_at": "2026-07-25T07:20:13.248014",
           "reported_at": null
-        }
-      ],
-      "count": 10
-    },
-    "Diesel Fuel Prices": {
-      "stations": [
+        },
+        {
+          "name": "Atlantis",
+          "url": "https://www.gasbuddy.com/station/56275",
+          "address": {
+            "street": "3936 10th Ave",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10034",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.86634806,
+            "lng": -73.9179562
+          },
+          "rating": {
+            "value": 2.8,
+            "count": 55
+          },
+          "latest_review": "The road next to the gas station is under construction , low visibility getting and out due to the equipment around the station. ",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.248019",
+          "reported_at": null
+        },
         {
           "name": "Sunoco",
           "url": "https://www.gasbuddy.com/station/56309",
@@ -819,12 +923,12 @@
             "count": 30
           },
           "latest_review": "The 20 cents was not applied to my price. I tried twice. ",
-          "price": "$5.39",
-          "price_type": "Cash",
-          "reported_by": "SeventhMaster",
-          "reported_ago": "6 Hours Ago",
-          "scraped_at": "2026-07-23T05:05:15.054117",
-          "reported_at": "2026-07-22T23:05:15.059170"
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.248024",
+          "reported_at": null
         },
         {
           "name": "Mobil",
@@ -842,170 +946,14 @@
           },
           "rating": {
             "value": 2.9,
-            "count": 137
+            "count": 138
           },
           "latest_review": "Extremely expensive.",
           "price": "- - -",
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:15.054130",
-          "reported_at": null
-        },
-        {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/112339",
-          "address": {
-            "street": "2326 1st Ave",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10035",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.7980139781,
-            "lng": -73.933613598347
-          },
-          "rating": {
-            "value": 3.6,
-            "count": 21
-          },
-          "latest_review": "Ok",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:15.054136",
-          "reported_at": null
-        },
-        {
-          "name": "Atlantis",
-          "url": "https://www.gasbuddy.com/station/56275",
-          "address": {
-            "street": "3936 10th Ave",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10034",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.86634806,
-            "lng": -73.9179562
-          },
-          "rating": {
-            "value": 2.8,
-            "count": 55
-          },
-          "latest_review": "The road next to the gas station is under construction , low visibility getting and out due to the equipment around the station. ",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:15.054141",
-          "reported_at": null
-        },
-        {
-          "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56304",
-          "address": {
-            "street": "2276 1st Ave",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10035-5009",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.796806,
-            "lng": -73.93454
-          },
-          "rating": {
-            "value": 3.4,
-            "count": 31
-          },
-          "latest_review": "Gas",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:15.054146",
-          "reported_at": null
-        },
-        {
-          "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56306",
-          "address": {
-            "street": "4116 Broadway",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10033",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.845193669325,
-            "lng": -73.938524723053
-          },
-          "rating": {
-            "value": 3.1,
-            "count": 56
-          },
-          "latest_review": "You might have to backup to exit. Right side has park cars. Also, people at the gas pump area standing there blocking a way out. Steep exit. Not good for low cars.",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:15.054151",
-          "reported_at": null
-        },
-        {
-          "name": "BP",
-          "url": "https://www.gasbuddy.com/station/56288",
-          "address": {
-            "street": "1890 Park Ave",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10035",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.807537259968,
-            "lng": -73.937573879957
-          },
-          "rating": {
-            "value": 3.4,
-            "count": 66
-          },
-          "latest_review": "Beware Pump running slow 01/16/2021",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:15.054158",
-          "reported_at": null
-        },
-        {
-          "name": "Shell",
-          "url": "https://www.gasbuddy.com/station/56311",
-          "address": {
-            "street": "3260 Broadway",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10027-2327",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.817629529522,
-            "lng": -73.956540450454
-          },
-          "rating": {
-            "value": 3,
-            "count": 30
-          },
-          "latest_review": "Clerks are rude and don't even make eye contact. Bathroom is filthy. ",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:15.054164",
+          "scraped_at": "2026-07-25T07:20:13.248030",
           "reported_at": null
         },
         {
@@ -1031,33 +979,85 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:15.054169",
+          "scraped_at": "2026-07-25T07:20:13.248035",
           "reported_at": null
         },
         {
           "name": "BP",
-          "url": "https://www.gasbuddy.com/station/106357",
+          "url": "https://www.gasbuddy.com/station/56288",
           "address": {
-            "street": "2157 Amsterdam Ave",
+            "street": "1890 Park Ave",
             "city": "Manhattan",
             "state": "NY",
-            "zip": "10032",
+            "zip": "10035",
             "country": "US"
           },
           "geo": {
-            "lat": 40.839054536859,
-            "lng": -73.937262743711
+            "lat": 40.807537259968,
+            "lng": -73.937573879957
           },
           "rating": {
-            "value": 3.7,
-            "count": 27
+            "value": 3.4,
+            "count": 66
           },
-          "latest_review": "very clean station and bathroom and good selection of snacks ",
+          "latest_review": "Beware Pump running slow 01/16/2021",
           "price": "- - -",
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:15.054175",
+          "scraped_at": "2026-07-25T07:20:13.248175",
+          "reported_at": null
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/56306",
+          "address": {
+            "street": "4116 Broadway",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10033",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.845193669325,
+            "lng": -73.938524723053
+          },
+          "rating": {
+            "value": 3.1,
+            "count": 56
+          },
+          "latest_review": "You might have to backup to exit. Right side has park cars. Also, people at the gas pump area standing there blocking a way out. Steep exit. Not good for low cars.",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.248180",
+          "reported_at": null
+        },
+        {
+          "name": "Shell",
+          "url": "https://www.gasbuddy.com/station/56311",
+          "address": {
+            "street": "3260 Broadway",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10027-2327",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.817629529522,
+            "lng": -73.956540450454
+          },
+          "rating": {
+            "value": 3,
+            "count": 30
+          },
+          "latest_review": "Clerks are rude and don't even make eye contact. Bathroom is filthy. ",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.248186",
           "reported_at": null
         }
       ],
@@ -1065,6 +1065,32 @@
     },
     "E85 Fuel Prices": {
       "stations": [
+        {
+          "name": "Mobil",
+          "url": "https://www.gasbuddy.com/station/56273",
+          "address": {
+            "street": "466 10th Ave",
+            "city": "Manhattan",
+            "state": "NY",
+            "zip": "10018-1112",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.75597279,
+            "lng": -73.99789676
+          },
+          "rating": {
+            "value": 3.4,
+            "count": 187
+          },
+          "latest_review": "Too crowded with vehicles. Station management posted signs to lock your car while fueling - there have been numerous thefts of phones, etc. while customers are filling up & not watching their vehicle. Very expensive, but convenient.",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-07-25T07:20:13.299786",
+          "reported_at": null
+        },
         {
           "name": "Atlantis",
           "url": "https://www.gasbuddy.com/station/56275",
@@ -1088,33 +1114,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:15.107777",
-          "reported_at": null
-        },
-        {
-          "name": "Mobil",
-          "url": "https://www.gasbuddy.com/station/56273",
-          "address": {
-            "street": "466 10th Ave",
-            "city": "Manhattan",
-            "state": "NY",
-            "zip": "10018-1112",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.75597279,
-            "lng": -73.99789676
-          },
-          "rating": {
-            "value": 3.4,
-            "count": 186
-          },
-          "latest_review": "Too crowded with vehicles. Station management posted signs to lock your car while fueling - there have been numerous thefts of phones, etc. while customers are filling up & not watching their vehicle. Very expensive, but convenient.",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-23T05:05:15.107789",
+          "scraped_at": "2026-07-25T07:20:13.299798",
           "reported_at": null
         }
       ],
