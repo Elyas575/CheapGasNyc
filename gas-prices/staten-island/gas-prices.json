@@ -6,7 +6,7 @@
     "Regular Fuel Prices": {
       "stations": [
         {
-          "name": "Moble",
+          "name": "Mobil",
           "address": {
             "street": "4275 AMBOY RD",
             "city": "Staten Island",
@@ -261,7 +261,7 @@
     "Mid-Grade Fuel Prices": {
       "stations": [
         {
-          "name": "Moble",
+          "name": "Mobil",
           "address": {
             "street": "4275 AMBOY RD",
             "city": "Staten Island",
@@ -516,7 +516,7 @@
     "Premium Fuel Prices": {
       "stations": [
         {
-          "name": "Moble",
+          "name": "Mobil",
           "address": {
             "street": "4275 AMBOY RD",
             "city": "Staten Island",
@@ -896,7 +896,7 @@
           "reported_at": "2026-07-25T17:37:33.905596"
         },
         {
-          "name": "Moble",
+          "name": "Mobil",
           "address": {
             "street": "4275 AMBOY RD",
             "city": "Staten Island",
