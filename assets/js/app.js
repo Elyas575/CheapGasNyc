@@ -114,6 +114,7 @@ async function loadAllStations() {
       renderStations(allStations);
       const visibleStations = allStations.slice(0, visibleCount);
       initHomepageMap(visibleStations);
+      updateHeroMetrics(allStations);
     }
   } catch (error) {
     console.error('Failed to load stations:', error);
@@ -237,6 +238,21 @@ function updateHeading(stations) {
   heading.textContent = `Cheapest in ${cheapestBorough} - from ${cheapestPrice}`;
 }
 
+function updateHeroMetrics(stations) {
+  const withPrice = stations.filter(s => s.price && s.price !== '- - -' && s.price !== '$0.00');
+  if (withPrice.length === 0) return;
+  
+  const prices = withPrice.map(s => parseFloat(s.price.replace('$', '')));
+  const lowestPrice = Math.min(...prices).toFixed(2);
+  const avgPrice = (prices.reduce((a, b) => a + b, 0) / prices.length).toFixed(2);
+  
+  const lowestEl = document.getElementById('hero-lowest-price');
+  if (lowestEl) lowestEl.textContent = `$${lowestPrice}`;
+  
+  const avgEl = document.getElementById('hero-avg-price');
+  if (avgEl) avgEl.textContent = `$${avgPrice}`;
+}
+
 function renderStations(stations) {
   const sorted = [...stations].sort((a, b) => {
     const priceA = a.price ? parseFloat(a.price.replace('$', '')) : Infinity;
@@ -252,8 +268,9 @@ function renderStations(stations) {
   const shown = sorted.slice(0, visibleCount);
   shown.forEach((station) => {
     const row = document.createElement('a');
-    const numericId = station.url ? station.url.match(/\/?station\/(\d+)/)?.[1] || station.url : '';
-    row.href = `station.html?id=${encodeURIComponent(numericId)}`;
+    const stationId = station.url ? station.url.match(/\/?station\/(\d+)/)?.[1] || station.url :
+      `${station.name}|${station.address?.street || ''}|${station.address?.city || ''}`;
+    row.href = `station.html?id=${encodeURIComponent(stationId)}`;
     row.className = 'price-row block bg-white border border-outline-variant rounded-lg p-4 mb-3 hover:border-secondary transition-all no-underline';
     row._stationData = station;
     

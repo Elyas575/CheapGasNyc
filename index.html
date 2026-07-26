@@ -174,11 +174,6 @@
     </div>
   </div>
 </div>
-<div class="mt-2 sm:mt-0 sm:flex-1 sm:ml-6">
-<div class="relative group">
-<input id="homepage-search" class="w-full pl-4 pr-4 py-3 sm:py-1.5 bg-surface-container rounded-lg border-none focus:ring-2 focus:ring-secondary transition-all text-body-md text-base" placeholder="Station, street, or zip..." type="text"/>
-</div>
-</div>
 </div>
 </div>
 </header>
@@ -233,14 +228,46 @@
 </div>
 </nav>
 <main class="max-w-container-max mx-auto px-row-padding-x pb-12 pt-6">
-<!-- Compact Hero Search -->
+<!-- Hero Banner -->
 <section class="mb-section-gap">
-<div class="bg-primary-container text-on-primary rounded-xl p-6 flex flex-col md:flex-row items-center justify-between gap-6 overflow-hidden relative">
-<!-- Atmospheric light effect -->
-<div class="absolute -right-20 -top-20 w-64 h-64 bg-secondary rounded-full blur-[100px] opacity-30"></div>
-<div class="z-10 text-center md:text-left">
-<h1 class="font-price-display text-price-display-mobile md:text-price-display text-white mb-1">Find cheap gas.</h1>
-<p class="text-on-primary-container font-body-md">Updating real-time across all 5 boroughs.</p>
+<div class="bg-[#121416] text-white rounded-2xl p-6 sm:p-8 shadow-lg relative overflow-hidden border border-gray-800">
+<!-- Subtle gold background glow -->
+<div class="absolute -right-10 -bottom-10 w-48 h-48 bg-[#f2b705]/10 rounded-full blur-3xl pointer-events-none"></div>
+
+<div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 relative z-10">
+<!-- Left Side: Copy & Live Status -->
+<div class="space-y-3">
+<div class="inline-flex items-center space-x-2 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full text-xs font-bold">
+<span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+<span>LIVE NYC FEED • UPDATED JUST NOW</span>
+</div>
+
+<h1 class="text-2xl sm:text-3xl font-black tracking-tight text-white">
+Find the Cheapest Gas in NYC
+</h1>
+
+<p class="text-gray-400 text-sm max-w-md">
+Tracking live fuel rates, cash vs. card discounts, and top station deals across all 5 boroughs.
+</p>
+
+<!-- Search Bar -->
+<div class="relative max-w-md">
+<input id="homepage-search" class="w-full pl-4 pr-4 py-3 bg-[#1c2024] border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:ring-2 focus:ring-secondary focus:border-secondary transition-all" placeholder="Station, street, or zip..." type="text"/>
+</div>
+</div>
+
+<!-- Right Side: Today's NYC Quick Averages -->
+<div class="bg-[#1c2024] border border-gray-700/60 rounded-xl p-4 flex items-center space-x-6 min-w-[240px]">
+<div>
+<span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">Lowest NYC Today</span>
+<span class="text-2xl font-black text-[#f2b705]" id="hero-lowest-price">$3.69<span class="text-xs font-normal text-gray-400">/gal</span></span>
+</div>
+<div class="h-8 w-[1px] bg-gray-700"></div>
+<div>
+<span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">NYC Average</span>
+<span class="text-2xl font-black text-white" id="hero-avg-price">$3.89</span>
+</div>
+</div>
 </div>
 </div>
 </section>
