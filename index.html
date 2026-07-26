@@ -1,354 +1,324 @@
 <!DOCTYPE html>
-
-<html class="light" lang="en"><head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-636SR5HM7C"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-636SR5HM7C');
-</script>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>NYC Gas Prices | Real-Time Cheapest Gas Prices</title>
-<link rel="icon" type="image/png" href="logo/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="logo/favicon.svg" />
-<link rel="shortcut icon" href="logo/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png" />
-<link rel="manifest" href="logo/site.webmanifest" />
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Geist:wght@100..900&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    "colors": {
-                        "on-background": "#1a1a1a",
-                        "on-tertiary": "#ffffff",
-                        "tertiary": "#2e7d32",
-                        "surface-container-low": "#f5f5f5",
-                        "primary-fixed": "#e8e8e8",
-                        "on-tertiary-fixed": "#e8f5e9",
-                        "primary": "#000000",
-                        "surface-container-lowest": "#ffffff",
-                        "surface": "#fafafa",
-                        "surface-bright": "#fafafa",
-                        "on-secondary-fixed": "#1a1a00",
-                        "inverse-on-surface": "#f0f0f0",
-                        "background": "#fafafa",
-                        "primary-container": "#1a1a1a",
-                        "error": "#d32f2f",
-                        "on-primary": "#ffffff",
-                        "on-secondary-fixed-variant": "#b8960f",
-                        "inverse-surface": "#2d2d2d",
-                        "on-tertiary-fixed-variant": "#1b5e20",
-                        "outline": "#757575",
-                        "tertiary-fixed-dim": "#66bb6a",
-                        "on-error": "#ffffff",
-                        "on-surface-variant": "#494949",
-                        "surface-container-high": "#e8e8e8",
-                        "surface-dim": "#d6d6d6",
-                        "tertiary-fixed": "#81c784",
-                        "secondary": "#d4af37",
-                        "on-secondary-container": "#b8960f",
-                        "on-secondary": "#ffffff",
-                        "inverse-primary": "#d4d4d4",
-                        "on-error-container": "#c62828",
-                        "primary-fixed-dim": "#d4d4d4",
-                        "on-primary-container": "#616161",
-                        "surface-container": "#eeeeee",
-                        "on-primary-fixed-variant": "#424242",
-                        "surface-container-highest": "#e0e0e0",
-                        "on-tertiary-container": "#2e7d32",
-                        "outline-variant": "#c8c8c8",
-                        "on-surface": "#1a1a1a",
-                        "secondary-fixed": "#fff8e1",
-                        "surface-variant": "#e0e0e0",
-                        "error-container": "#ffebee",
-                        "tertiary-container": "#e8f5e9",
-                        "secondary-fixed-dim": "#f5d742",
-                        "secondary-container": "#f5d742",
-                        "surface-tint": "#5a5a5a",
-                        "on-primary-fixed": "#1a1a1a"
-                    },
-                    "borderRadius": {
-                        "DEFAULT": "0.125rem",
-                        "lg": "0.25rem",
-                        "xl": "0.5rem",
-                        "full": "0.75rem"
-                    },
-                    "spacing": {
-                        "row-padding-x": "1rem",
-                        "container-max": "800px",
-                        "section-gap": "1.5rem",
-                        "row-padding-y": "0.75rem",
-                        "stack-gap": "0.25rem"
-                    },
-                    "fontFamily": {
-                        "price-display-mobile": ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'Inter', 'sans-serif'],
-                        "metadata-sm": ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Text', 'Inter', 'sans-serif'],
-                        "body-md": ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Text', 'Inter', 'sans-serif'],
-                        "label-caps": ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'Inter', 'sans-serif'],
-                        "station-name": ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'Inter', 'sans-serif'],
-                        "price-display": ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'Inter', 'sans-serif']
-                    },
-                    "fontSize": {
-                        "price-display-mobile": ["28px", {"lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
-                        "metadata-sm": ["13px", {"lineHeight": "18px", "letterSpacing": "0", "fontWeight": "400"}],
-                        "body-md": ["15px", {"lineHeight": "20px", "fontWeight": "400"}],
-                        "label-caps": ["11px", {"lineHeight": "14px", "letterSpacing": "0.02em", "fontWeight": "600"}],
-                        "station-name": ["17px", {"lineHeight": "22px", "fontWeight": "600"}],
-                        "price-display": ["34px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600"}]
-                    }
-                },
-            },
-        }
-    </script>
-<style>
-        
-        body {
-            background-color: #fafafa;
-            color: #1a1a1a;
-            -webkit-font-smoothing: antialiased;
-        }
-        .custom-scrollbar::-webkit-scrollbar {
-            width: 4px;
-        }
-        .custom-scrollbar::-webkit-scrollbar-track {
-            background: transparent;
-        }
-        .custom-scrollbar::-webkit-scrollbar-thumb {
-            background: #c8c8c8;
-            border-radius: 10px;
-        }
-        .price-row:hover {
-            background-color: #f5f5f5;
-        }
-        .borough-card:hover .borough-icon {
-            transform: scale(1.1);
-        }
-    </style>
+<html class="light" lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-636SR5HM7C"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-636SR5HM7C');
+  </script>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>NYC Gas Prices | Real-Time Cheapest Gas Prices</title>
+  <link rel="icon" type="image/png" href="logo/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="logo/favicon.svg" />
+  <link rel="shortcut icon" href="logo/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png" />
+  <link rel="manifest" href="logo/site.webmanifest" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Geist:wght@100..900&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-background": "#1a1a1a",
+            "on-tertiary": "#ffffff",
+            "tertiary": "#2e7d32",
+            "surface-container-low": "#f5f5f5",
+            "primary-fixed": "#e8e8e8",
+            "on-tertiary-fixed": "#e8f5e9",
+            "primary": "#000000",
+            "surface-container-lowest": "#ffffff",
+            "surface": "#fafafa",
+            "surface-bright": "#fafafa",
+            "on-secondary-fixed": "#1a1a00",
+            "inverse-on-surface": "#f0f0f0",
+            "background": "#fafafa",
+            "primary-container": "#1a1a1a",
+            "error": "#d32f2f",
+            "on-primary": "#ffffff",
+            "on-secondary-fixed-variant": "#b8960f",
+            "inverse-surface": "#2d2d2d",
+            "on-tertiary-fixed-variant": "#1b5e20",
+            "outline": "#757575",
+            "tertiary-fixed-dim": "#66bb6a",
+            "on-error": "#ffffff",
+            "on-surface-variant": "#494949",
+            "surface-container-high": "#e8e8e8",
+            "surface-dim": "#d6d6d6",
+            "tertiary-fixed": "#81c784",
+            "secondary": "#d4af37",
+            "on-secondary-container": "#b8960f",
+            "on-secondary": "#ffffff",
+            "inverse-primary": "#d4d4d4",
+            "on-error-container": "#c62828",
+            "primary-fixed-dim": "#d4d4d4",
+            "on-primary-container": "#616161",
+            "surface-container": "#eeeeee",
+            "on-primary-fixed-variant": "#424242",
+            "surface-container-highest": "#e0e0e0",
+            "on-tertiary-container": "#2e7d32",
+            "outline-variant": "#c8c8c8",
+            "on-surface": "#1a1a1a",
+            "secondary-fixed": "#fff8e1",
+            "surface-variant": "#e0e0e0",
+            "error-container": "#ffebee",
+            "tertiary-container": "#e8f5e9",
+            "secondary-fixed-dim": "#f5d742",
+            "secondary-container": "#f5d742",
+            "surface-tint": "#5a5a5a",
+            "on-primary-fixed": "#1a1a1a"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "row-padding-x": "1rem",
+            "container-max": "800px",
+            "section-gap": "1.5rem",
+            "row-padding-y": "0.75rem",
+            "stack-gap": "0.25rem"
+          },
+          "fontFamily": {
+            "price-display-mobile": ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'Inter', 'sans-serif'],
+            "metadata-sm": ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Text', 'Inter', 'sans-serif'],
+            "body-md": ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Text', 'Inter', 'sans-serif'],
+            "label-caps": ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'Inter', 'sans-serif'],
+            "station-name": ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'Inter', 'sans-serif'],
+            "price-display": ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'Inter', 'sans-serif']
+          },
+          "fontSize": {
+            "price-display-mobile": ["28px", {"lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+            "metadata-sm": ["13px", {"lineHeight": "18px", "letterSpacing": "0", "fontWeight": "400"}],
+            "body-md": ["15px", {"lineHeight": "20px", "fontWeight": "400"}],
+            "label-caps": ["11px", {"lineHeight": "14px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+            "station-name": ["17px", {"lineHeight": "22px", "fontWeight": "600"}],
+            "price-display": ["34px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600"}]
+          }
+        },
+      },
+    }
+  </script>
+  <style>
+    body {
+      background-color: #fafafa;
+      color: #1a1a1a;
+      -webkit-font-smoothing: antialiased;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 4px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #c8c8c8;
+      border-radius: 10px;
+    }
+    .price-row:hover {
+      background-color: #f5f5f5;
+    }
+    .borough-card:hover .borough-icon {
+      transform: scale(1.1);
+    }
+  </style>
 </head>
-<body class="font-body-md text-body-md">
-<!-- TopAppBar -->
-<header class="bg-surface docked full-width top-0 border-b border-outline-variant z-50 sticky">
-<div class="max-w-container-max mx-auto px-row-padding-x py-2">
-<div class="sm:flex sm:items-center sm:justify-between">
-<div class="flex items-center justify-between sm:gap-4">
-  <div class="flex items-center gap-2">
-    <button id="mobile-menu-btn" class="xl:hidden text-outline">menu</button>
-    <a href="./" class="flex items-center shrink-0">
-      <img src="logo/logo.jpeg" alt="Cheap Gas NYC" class="h-8 sm:h-10 w-auto"/>
-    </a>
-  </div>
-  <!-- Mobile Borough Selector -->
-  <div class="xl:hidden relative">
-    <button id="borough-selector-btn" class="p-2 hover:bg-surface-container-high rounded-lg transition-all">
-      <span class="text-outline">location_on</span>
-    </button>
-    <div id="borough-dropdown" class="hidden absolute right-0 top-full mt-2 w-48 bg-surface-container-lowest border border-outline-variant rounded-lg shadow-lg z-50 overflow-hidden">
-      <div class="py-2">
-        <a href="gas-prices/manhattan/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
-          <span class="font-body-md">Manhattan</span>
-        </a>
-        <a href="gas-prices/brooklyn/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
-          <span class="font-body-md">Brooklyn</span>
-        </a>
-        <a href="gas-prices/queens/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
-          <span class="font-body-md">Queens</span>
-        </a>
-        <a href="gas-prices/bronx/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
-          <span class="font-body-md">Bronx</span>
-        </a>
-        <a href="gas-prices/staten-island/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
-          <span class="font-body-md">Staten Island</span>
-        </a>
+<body class="font-body-md text-body-md min-h-screen flex flex-col">
+
+  <!-- TopAppBar -->
+  <header class="bg-surface docked full-width top-0 border-b border-outline-variant z-50 sticky">
+    <div class="max-w-7xl mx-auto px-4 py-2">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <button id="mobile-menu-btn" class="xl:hidden text-outline p-1 rounded hover:bg-gray-100">
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+          <a href="./" class="flex items-center shrink-0">
+            <img src="logo/logo.jpeg" alt="Cheap Gas NYC" class="h-8 sm:h-10 w-auto"/>
+          </a>
+        </div>
+        <!-- Mobile Borough Selector -->
+        <div class="xl:hidden relative">
+          <button id="borough-selector-btn" class="p-2 hover:bg-surface-container-high rounded-lg transition-all flex items-center">
+            <span class="material-symbols-outlined text-outline">location_on</span>
+          </button>
+          <div id="borough-dropdown" class="hidden absolute right-0 top-full mt-2 w-48 bg-surface-container-lowest border border-outline-variant rounded-lg shadow-lg z-50 overflow-hidden">
+            <div class="py-2">
+              <a href="gas-prices/manhattan/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Manhattan</a>
+              <a href="gas-prices/brooklyn/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Brooklyn</a>
+              <a href="gas-prices/queens/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Queens</a>
+              <a href="gas-prices/bronx/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Bronx</a>
+              <a href="gas-prices/staten-island/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Staten Island</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-</div>
-</div>
-</header>
-<!-- Mobile SideNavBar -->
-<nav id="mobile-nav" class="fixed inset-0 bg-black/50 z-50 hidden">
-<div class="absolute left-0 top-0 h-full w-64 bg-surface-container-lowest border-r border-outline-variant py-6 px-4 transform -translate-x-full transition-transform" id="mobile-nav-panel">
-<div class="mb-6">
-<h3 class="font-station-name text-body-md font-bold text-primary mb-1">Boroughs</h3>
-<p class="font-metadata-sm text-metadata-sm text-on-surface-variant">Quick access</p>
-</div>
-<div class="flex flex-col gap-1">
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="gas-prices/manhattan/" onclick="closeMobileNav()">
-<span>Manhattan</span>
-</a>
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="gas-prices/brooklyn/" onclick="closeMobileNav()">
-<span>Brooklyn</span>
-</a>
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="gas-prices/queens/" onclick="closeMobileNav()">
-<span>Queens</span>
-</a>
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="gas-prices/bronx/" onclick="closeMobileNav()">
-<span>Bronx</span>
-</a>
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="gas-prices/staten-island/" onclick="closeMobileNav()">
-<span>Staten Island</span>
-</a>
-</div>
-</div>
-</nav>
-<!-- SideNavBar (Desktop Only) -->
-<nav class="fixed left-0 top-12 h-full z-40 hidden xl:flex flex-col w-64 bg-surface-container-lowest border-r border-outline-variant py-6 px-4">
-<div class="mb-6">
-<h3 class="font-station-name text-body-md font-bold text-primary mb-1">Boroughs</h3>
-<p class="font-metadata-sm text-metadata-sm text-on-surface-variant">Quick access</p>
-</div>
-<div class="flex flex-col gap-1">
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="gas-prices/manhattan/">
-<span>Manhattan</span>
-</a>
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="gas-prices/brooklyn/">
-<span>Brooklyn</span>
-</a>
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="gas-prices/queens/">
-<span>Queens</span>
-</a>
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="gas-prices/bronx/">
-<span>Bronx</span>
-</a>
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="gas-prices/staten-island/">
-<span>Staten Island</span>
-</a>
-</div>
-</nav>
-<main class="max-w-container-max mx-auto px-row-padding-x pb-12 pt-6">
-<!-- Hero Banner -->
-<section class="mb-section-gap">
-<div class="bg-[#121416] text-white rounded-2xl p-6 sm:p-8 shadow-lg relative overflow-hidden border border-gray-800">
-<!-- Subtle gold background glow -->
-<div class="absolute -right-10 -bottom-10 w-48 h-48 bg-[#f2b705]/10 rounded-full blur-3xl pointer-events-none"></div>
+  </header>
 
-<div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 relative z-10">
-<!-- Left Side: Copy & Live Status -->
-<div class="space-y-3">
-<div class="inline-flex items-center space-x-2 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full text-xs font-bold">
-<span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-<span>LIVE NYC FEED • UPDATED JUST NOW</span>
-</div>
-
-<h1 class="text-2xl sm:text-3xl font-black tracking-tight text-white">
-Find the Cheapest Gas in NYC
-</h1>
-
-<p class="text-gray-400 text-sm max-w-md">
-Tracking live fuel rates, cash vs. card discounts, and top station deals across all 5 boroughs.
-</p>
-
-<!-- Search Bar -->
-<div class="relative max-w-md">
-<input id="homepage-search" class="w-full pl-4 pr-4 py-3 bg-[#1c2024] border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:ring-2 focus:ring-secondary focus:border-secondary transition-all" placeholder="Station, street, or zip..." type="text"/>
-</div>
-</div>
-
-<!-- Right Side: Today's NYC Quick Averages -->
-<div class="bg-[#1c2024] border border-gray-700/60 rounded-xl p-4 flex items-center space-x-6 min-w-[240px]">
-<div>
-<span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">Lowest NYC Today</span>
-<span class="text-2xl font-black text-[#f2b705]" id="hero-lowest-price">$3.69<span class="text-xs font-normal text-gray-400">/gal</span></span>
-</div>
-<div class="h-8 w-[1px] bg-gray-700"></div>
-<div>
-<span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">NYC Average</span>
-<span class="text-2xl font-black text-white" id="hero-avg-price">$3.89</span>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Utility Filters -->
-<section class="mb-6">
-<label class="flex items-center gap-2 cursor-pointer max-w-xs">
-<select id="fuel-type-select" class="w-full py-2 px-3 bg-white border border-outline-variant rounded-lg font-body-md text-on-surface focus:ring-2 focus:ring-secondary focus:border-secondary">
-<option value="Regular Fuel Prices">Regular Fuel Prices</option>
-<option value="Mid-Grade Fuel Prices">Mid-Grade Fuel Prices</option>
-<option value="Premium Fuel Prices">Premium Fuel Prices</option>
-<option value="Diesel Fuel Prices">Diesel Fuel Prices</option>
-<option value="E85 Fuel Prices">E85 Fuel Prices</option>
-</select>
-</label>
-</section>
-<!-- Leaderboard: Dense List + Map -->
-<section class="mb-section-gap">
-<div class="flex items-end justify-between mb-3">
-<h2 class="font-label-caps text-label-caps text-secondary uppercase tracking-widest" id="section-heading">Cheapest Stations Across NYC</h2>
-</div>
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-  <div>
-    <div class="bg-surface rounded-lg border border-outline-variant overflow-hidden">
-      <div class="grid grid-cols-[100px_1fr] gap-4 px-row-padding-x py-2 bg-surface-container-low border-b border-outline-variant">
-        <span class="font-label-caps text-label-caps text-on-surface-variant">PRICE</span>
-        <span class="font-label-caps text-label-caps text-on-surface-variant">STATION & ADDRESS</span>
+  <!-- Mobile SideNavBar -->
+  <nav id="mobile-nav" class="fixed inset-0 bg-black/50 z-50 hidden">
+    <div class="absolute left-0 top-0 h-full w-64 bg-surface-container-lowest border-r border-outline-variant py-6 px-4 transform -translate-x-full transition-transform" id="mobile-nav-panel">
+      <div class="mb-6 flex justify-between items-center">
+        <div>
+          <h3 class="font-station-name text-body-md font-bold text-primary mb-1">Boroughs</h3>
+          <p class="font-metadata-sm text-metadata-sm text-on-surface-variant">Quick access</p>
+        </div>
+        <button onclick="closeMobileNav()" class="text-gray-500 hover:text-black">
+          <span class="material-symbols-outlined">close</span>
+        </button>
       </div>
-      <div id="station-list" class="divide-y divide-outline-variant"></div>
+      <div class="flex flex-col gap-1">
+        <a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="gas-prices/manhattan/" onclick="closeMobileNav()">Manhattan</a>
+        <a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="gas-prices/brooklyn/" onclick="closeMobileNav()">Brooklyn</a>
+        <a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="gas-prices/queens/" onclick="closeMobileNav()">Queens</a>
+        <a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="gas-prices/bronx/" onclick="closeMobileNav()">Bronx</a>
+        <a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="gas-prices/staten-island/" onclick="closeMobileNav()">Staten Island</a>
+      </div>
     </div>
-    <button id="view-all-btn" class="w-full py-3 mt-2 text-primary font-bold hover:bg-surface-container-high border border-outline-variant rounded transition-all">SHOW MORE</button>
-  </div>
-  <div class="bg-surface rounded-lg border border-outline-variant overflow-hidden lg:sticky lg:top-24 lg:self-start">
-    <div id="homepage-map" class="h-[400px] lg:h-[500px]"></div>
-  </div>
-</div>
-</section>
-<!-- Browse by Borough Grid -->
-<section class="mb-section-gap">
-<h2 class="font-label-caps text-label-caps text-secondary uppercase tracking-widest mb-4">Browse by Borough</h2>
-<div class="grid grid-cols-2 md:grid-cols-5 gap-4">
-<!-- Manhattan -->
-<a href="gas-prices/manhattan/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline">
-<span class="font-station-name text-body-md font-bold text-primary">Manhattan</span>
-<span class="font-metadata-sm text-metadata-sm text-outline">128 Stations</span>
-</a>
-<!-- Brooklyn -->
-<a href="gas-prices/brooklyn/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline">
-<span class="font-station-name text-body-md font-bold text-primary">Brooklyn</span>
-<span class="font-metadata-sm text-metadata-sm text-outline">245 Stations</span>
-</a>
-<!-- Queens -->
-<a href="gas-prices/queens/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline">
-<span class="font-station-name text-body-md font-bold text-primary">Queens</span>
-<span class="font-metadata-sm text-metadata-sm text-outline">312 Stations</span>
-</a>
-<!-- Bronx -->
-<a href="gas-prices/bronx/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline">
-<span class="font-station-name text-body-md font-bold text-primary">Bronx</span>
-<span class="font-metadata-sm text-metadata-sm text-outline">189 Stations</span>
-</a>
-<!-- Staten Island -->
-<a href="gas-prices/staten-island/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline">
-<span class="font-station-name text-body-md font-bold text-primary">Staten Island</span>
-<span class="font-metadata-sm text-metadata-sm text-outline">94 Stations</span>
-</a>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<footer class="bg-surface-container-lowest border-t border-outline-variant mt-12 py-8">
-<div class="max-w-container-max mx-auto px-row-padding-x flex flex-col items-center gap-4 text-center">
-<div class="font-label-caps text-label-caps uppercase text-outline tracking-[0.2em]">NYC Gas Data</div>
-<div class="flex gap-6">
-<a class="font-metadata-sm text-metadata-sm text-on-surface-variant hover:text-secondary transition-colors" href="#">Privacy</a>
-<a class="font-metadata-sm text-metadata-sm text-on-surface-variant hover:text-secondary transition-colors" href="#">Terms</a>
-<a class="font-metadata-sm text-metadata-sm text-on-surface-variant hover:text-secondary transition-colors" href="#">API</a>
-<a class="font-metadata-sm text-metadata-sm text-on-surface-variant hover:text-secondary transition-colors" href="#">Contact</a>
-</div>
-<p class="font-metadata-sm text-metadata-sm text-outline">© 2024 NYC Gas Data. All prices are manually updated by the site administrator.</p>
-</div>
-</footer>
-    <script src="assets/js/brand-map.js"></script>
-    <script src="assets/js/app.js"></script>
-</body></html>
+  </nav>
+
+  <!-- Desktop SideNavBar -->
+  <nav class="fixed left-0 top-[57px] h-[calc(100vh-57px)] z-40 hidden xl:flex flex-col w-64 bg-surface-container-lowest border-r border-outline-variant py-6 px-4 overflow-y-auto">
+    <div class="mb-6">
+      <h3 class="font-station-name text-body-md font-bold text-primary mb-1">Boroughs</h3>
+      <p class="font-metadata-sm text-metadata-sm text-on-surface-variant">Quick access</p>
+    </div>
+    <div class="flex flex-col gap-1">
+      <a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="gas-prices/manhattan/">Manhattan</a>
+      <a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="gas-prices/brooklyn/">Brooklyn</a>
+      <a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="gas-prices/queens/">Queens</a>
+      <a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="gas-prices/bronx/">Bronx</a>
+      <a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="gas-prices/staten-island/">Staten Island</a>
+    </div>
+  </nav>
+
+  <!-- Main Content Wrapper (Shifted right on desktop to accommodate sidebar) -->
+  <main class="flex-grow xl:ml-64 p-4 sm:p-6 max-w-6xl">
+
+    <!-- Hero Banner -->
+    <section class="mb-section-gap">
+      <div class="bg-[#121416] text-white rounded-2xl p-6 sm:p-8 shadow-lg relative overflow-hidden border border-gray-800">
+        <!-- Subtle gold background glow -->
+        <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-[#f2b705]/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="relative z-10 space-y-4">
+          <!-- Live Status -->
+          <div class="inline-flex items-center space-x-2 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full text-xs font-bold">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>100% VERIFIED NYC FEED</span>
+          </div>
+
+          <h1 class="text-2xl sm:text-3xl font-black tracking-tight text-white leading-tight">
+            Gas Price Transparency for NYC Drivers
+          </h1>
+
+          <p class="text-gray-300 text-sm max-w-xl leading-relaxed">
+At CheapGasNYC, we believe every driver deserves true gas price transparency.
+You shouldn't have to drive across town only to realize a station posted a fake low price to rank #1. We deliver honest, real-time cash and card rates across all five boroughs so you can spend your money on what matters most.          </p>
+
+          <!-- Search Bar -->
+          <div class="relative max-w-md">
+            <input id="homepage-search" class="w-full pl-4 pr-4 py-3 bg-[#1c2024] border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:ring-2 focus:ring-secondary focus:border-secondary transition-all text-sm" placeholder="Search station, street, or zip..." type="text"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Utility Filters -->
+    <section class="mb-6">
+      <label class="flex items-center gap-2 cursor-pointer max-w-xs">
+        <select id="fuel-type-select" class="w-full py-2 px-3 bg-white border border-outline-variant rounded-lg font-body-md text-on-surface focus:ring-2 focus:ring-secondary focus:border-secondary">
+          <option value="Regular Fuel Prices">Regular Fuel Prices</option>
+          <option value="Mid-Grade Fuel Prices">Mid-Grade Fuel Prices</option>
+          <option value="Premium Fuel Prices">Premium Fuel Prices</option>
+          <option value="Diesel Fuel Prices">Diesel Fuel Prices</option>
+          <option value="E85 Fuel Prices">E85 Fuel Prices</option>
+        </select>
+      </label>
+    </section>
+
+    <!-- Leaderboard: Dense List + Map -->
+    <section class="mb-section-gap">
+      <div class="flex items-end justify-between mb-3">
+        <h2 class="font-label-caps text-label-caps text-secondary uppercase tracking-widest" id="section-heading">Cheapest Stations Across NYC</h2>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div>
+          <div class="bg-surface rounded-lg border border-outline-variant overflow-hidden">
+            <div class="grid grid-cols-[100px_1fr] gap-4 px-row-padding-x py-2 bg-surface-container-low border-b border-outline-variant">
+              <span class="font-label-caps text-label-caps text-on-surface-variant">PRICE</span>
+              <span class="font-label-caps text-label-caps text-on-surface-variant">STATION & ADDRESS</span>
+            </div>
+            <div id="station-list" class="divide-y divide-outline-variant"></div>
+          </div>
+          <button id="view-all-btn" class="w-full py-3 mt-2 text-primary font-bold hover:bg-surface-container-high border border-outline-variant rounded transition-all">SHOW MORE</button>
+        </div>
+        <div class="bg-surface rounded-lg border border-outline-variant overflow-hidden lg:sticky lg:top-24 lg:self-start">
+          <div id="homepage-map" class="h-[400px] lg:h-[500px]"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Browse by Borough Grid -->
+    <section class="mb-section-gap">
+      <h2 class="font-label-caps text-label-caps text-secondary uppercase tracking-widest mb-4">Browse by Borough</h2>
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+        <!-- Manhattan -->
+        <a href="gas-prices/manhattan/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline rounded-lg">
+          <span class="font-station-name text-body-md font-bold text-primary">Manhattan</span>
+          <span class="font-metadata-sm text-metadata-sm text-outline">128 Stations</span>
+        </a>
+        <!-- Brooklyn -->
+        <a href="gas-prices/brooklyn/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline rounded-lg">
+          <span class="font-station-name text-body-md font-bold text-primary">Brooklyn</span>
+          <span class="font-metadata-sm text-metadata-sm text-outline">245 Stations</span>
+        </a>
+        <!-- Queens -->
+        <a href="gas-prices/queens/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline rounded-lg">
+          <span class="font-station-name text-body-md font-bold text-primary">Queens</span>
+          <span class="font-metadata-sm text-metadata-sm text-outline">312 Stations</span>
+        </a>
+        <!-- Bronx -->
+        <a href="gas-prices/bronx/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline rounded-lg">
+          <span class="font-station-name text-body-md font-bold text-primary">Bronx</span>
+          <span class="font-metadata-sm text-metadata-sm text-outline">189 Stations</span>
+        </a>
+        <!-- Staten Island -->
+        <a href="gas-prices/staten-island/" class="borough-card group bg-white border border-outline-variant p-4 flex flex-col items-center justify-center text-center hover:border-secondary transition-all no-underline rounded-lg">
+          <span class="font-station-name text-body-md font-bold text-primary">Staten Island</span>
+          <span class="font-metadata-sm text-metadata-sm text-outline">94 Stations</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-surface-container-lowest border-t border-outline-variant xl:ml-64 py-8">
+    <div class="max-w-6xl mx-auto px-row-padding-x flex flex-col items-center gap-4 text-center">
+      <div class="font-label-caps text-label-caps uppercase text-outline tracking-[0.2em]">NYC Gas Data</div>
+      <div class="flex gap-6">
+        <a class="font-metadata-sm text-metadata-sm text-on-surface-variant hover:text-secondary transition-colors" href="#">Privacy</a>
+        <a class="font-metadata-sm text-metadata-sm text-on-surface-variant hover:text-secondary transition-colors" href="#">Terms</a>
+        <a class="font-metadata-sm text-metadata-sm text-on-surface-variant hover:text-secondary transition-colors" href="#">API</a>
+        <a class="font-metadata-sm text-metadata-sm text-on-surface-variant hover:text-secondary transition-colors" href="#">Contact</a>
+      </div>
+      <p class="font-metadata-sm text-metadata-sm text-outline">© 2024 NYC Gas Data. All prices are manually updated by the site administrator.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/brand-map.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
