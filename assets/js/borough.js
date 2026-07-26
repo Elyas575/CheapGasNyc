@@ -99,10 +99,11 @@ function renderStations(stations) {
     return;
   }
 
-  sorted.forEach((station) => {
-    const row = document.createElement('a');
-    const numericId = station.url ? station.url.match(/\/?station\/(\d+)/)?.[1] || station.url : '';
-    row.href = `../../station.html?id=${encodeURIComponent(numericId)}`;
+    sorted.forEach((station) => {
+      const row = document.createElement('a');
+      const stationId = station.url ? station.url.match(/\/?station\/(\d+)/)?.[1] || station.url :
+        `${station.name}|${station.address?.street || ''}|${station.address?.city || ''}`;
+      row.href = `../../station.html?id=${encodeURIComponent(stationId)}`;
     row.className = 'price-row block bg-white border border-outline-variant rounded-lg p-4 mb-3 hover:border-secondary transition-all no-underline';
     row._stationData = station;
     

@@ -119,11 +119,25 @@ async function loadStationData() {
   }
 }
 
+// Check if a station matches the searchId (supports URL-based and composite IDs)
+function stationMatchesId(station, searchId) {
+  // First try URL-based match (original format)
+  if (station.url && normalizeStationId(station.url) === searchId) {
+    return true;
+  }
+  // Try composite ID match: name|street|city
+  const compositeId = `${station.name}|${station.address?.street || ''}|${station.address?.city || ''}`;
+  if (compositeId === searchId) {
+    return true;
+  }
+  return false;
+}
+
 // Find a station in either format: flat array OR { fuel_types: {...} }
 function findStationInData(data, searchId) {
   // Format 1: Flat array (Bronx, Brooklyn, Queens, Staten Island)
   if (Array.isArray(data)) {
-    const station = data.find(s => s.url && normalizeStationId(s.url) === searchId);
+    const station = data.find(s => stationMatchesId(s, searchId));
     if (station) {
       return {
         ...station,
@@ -141,7 +155,7 @@ function findStationInData(data, searchId) {
 
     for (const [fuelType, fuelData] of Object.entries(fuelTypes)) {
       if (fuelData.stations && Array.isArray(fuelData.stations)) {
-        const station = fuelData.stations.find(s => s.url && normalizeStationId(s.url) === searchId);
+        const station = fuelData.stations.find(s => stationMatchesId(s, searchId));
         if (station) {
           allFuelData[fuelType] = station;
           if (!primaryStation) {
