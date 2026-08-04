@@ -337,6 +337,37 @@ function openMobileNav() {
   setTimeout(() => panel.classList.remove('-translate-x-full'), 10);
 }
 
+function toggleDiscoverSection() {
+  const section = document.getElementById('discover-section');
+  const arrow = document.getElementById('discover-arrow');
+  if (section && arrow) {
+    section.classList.toggle('hidden');
+    arrow.textContent = section.classList.contains('hidden') ? 'expand_more' : 'expand_less';
+  }
+}
+
+function toggleBoroughSection() {
+  const section = document.getElementById('borough-section');
+  const arrow = document.getElementById('borough-arrow');
+  if (section && arrow) {
+    section.classList.toggle('hidden');
+    arrow.textContent = section.classList.contains('hidden') ? 'expand_more' : 'expand_less';
+  }
+}
+
+function toggleBrandSection() {
+  const section = document.getElementById('brand-section');
+  const arrow = document.getElementById('brand-arrow');
+  if (section && arrow) {
+    section.classList.toggle('hidden');
+    arrow.textContent = section.classList.contains('hidden') ? 'expand_more' : 'expand_less';
+  }
+}
+
+window.toggleDiscoverSection = toggleDiscoverSection;
+window.toggleBoroughSection = toggleBoroughSection;
+window.toggleBrandSection = toggleBrandSection;
+
 function closeMobileNav() {
   const nav = document.getElementById('mobile-nav');
   const panel = document.getElementById('mobile-nav-panel');
@@ -405,6 +436,30 @@ document.addEventListener('DOMContentLoaded', () => {
     boroughLinks.forEach(link => {
       link.addEventListener('click', () => {
         boroughDropdown.classList.add('hidden');
+      });
+    });
+  }
+
+  // Discover dropdown
+  const discoverBtn = document.getElementById('discover-btn');
+  const discoverDropdown = document.getElementById('discover-dropdown');
+  
+  if (discoverBtn && discoverDropdown) {
+    discoverBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      discoverDropdown.classList.toggle('hidden');
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!discoverBtn.contains(e.target) && !discoverDropdown.contains(e.target)) {
+        discoverDropdown.classList.add('hidden');
+      }
+    });
+
+    const discoverLinks = discoverDropdown.querySelectorAll('a');
+    discoverLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        discoverDropdown.classList.add('hidden');
       });
     });
   }

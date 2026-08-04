@@ -101,27 +101,55 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 
 <!-- Mobile SideNavBar -->
 <nav id="mobile-nav" class="fixed inset-0 bg-black/50 z-50 hidden">
-<div class="absolute left-0 top-0 h-full w-64 bg-surface-container-lowest border-r border-outline-variant py-6 px-4 transform -translate-x-full transition-transform" id="mobile-nav-panel">
-<div class="mb-6">
-<h3 class="font-station-name text-body-md font-bold text-primary mb-1">Boroughs</h3>
-<p class="font-metadata-sm text-metadata-sm text-on-surface-variant">Quick access</p>
+<div class="absolute left-0 top-0 h-full w-64 bg-surface-container-lowest border-r border-outline-variant py-6 px-4 transform -translate-x-full transition-transform overflow-y-auto" id="mobile-nav-panel">
+<div class="mb-6 flex justify-between items-center">
+<div>
+<h3 class="font-station-name text-body-md font-bold text-primary mb-1">Menu</h3>
+<p class="font-metadata-sm text-metadata-sm text-on-surface-variant">Navigate NYC gas</p>
 </div>
-<div class="flex flex-col gap-1">
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../../gas-prices/manhattan/" onclick="closeMobileNav()">
-<span>Manhattan</span>
-</a>
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../../gas-prices/brooklyn/" onclick="closeMobileNav()">
-<span>Brooklyn</span>
-</a>
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../../gas-prices/queens/" onclick="closeMobileNav()">
-<span>Queens</span>
-</a>
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../../gas-prices/bronx/" onclick="closeMobileNav()">
-<span>Bronx</span>
-</a>
-<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all" href="../../gas-prices/staten-island/" onclick="closeMobileNav()">
-<span>Staten Island</span>
-</a>
+<button onclick="closeMobileNav()" class="text-gray-500 hover:text-black">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<div class="mb-4">
+<button onclick="toggleDiscoverSection()" class="flex items-center justify-between w-full px-3 py-2 text-on-surface hover:bg-surface-container-high transition-all rounded">
+<span class="font-body-md font-bold">Discover</span>
+<span class="material-symbols-outlined text-outline text-xl" id="discover-arrow">expand_more</span>
+</button>
+<div id="discover-section" class="hidden mt-1 ml-3 border-l border-outline-variant pl-3">
+<button onclick="toggleBoroughSection()" class="flex items-center justify-between w-full px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded">
+<span class="font-body-md">By Borough</span>
+<span class="material-symbols-outlined text-outline text-xl" id="borough-arrow">expand_more</span>
+</button>
+<div id="borough-section" class="hidden mt-1 ml-3 flex flex-col gap-1">
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../manhattan/" onclick="closeMobileNav()">Manhattan</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../brooklyn/" onclick="closeMobileNav()">Brooklyn</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../queens/" onclick="closeMobileNav()">Queens</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../bronx/" onclick="closeMobileNav()">Bronx</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../staten-island/" onclick="closeMobileNav()">Staten Island</a>
+</div>
+<button onclick="toggleBrandSection()" class="flex items-center justify-between w-full px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded">
+<span class="font-body-md">By Brand</span>
+<span class="material-symbols-outlined text-outline text-xl" id="brand-arrow">expand_more</span>
+</button>
+<div id="brand-section" class="hidden mt-1 ml-3 flex flex-col gap-1">
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=BP" onclick="closeMobileNav()">BP</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=Shell" onclick="closeMobileNav()">Shell</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=Mobil" onclick="closeMobileNav()">Mobil</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=CITGO" onclick="closeMobileNav()">CITGO</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=Conoco" onclick="closeMobileNav()">Conoco</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=Sunoco" onclick="closeMobileNav()">Sunoco</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=Gulf" onclick="closeMobileNav()">Gulf</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=Speedway" onclick="closeMobileNav()">Speedway</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=Costco" onclick="closeMobileNav()">Costco</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=Atlantis" onclick="closeMobileNav()">Atlantis</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=76" onclick="closeMobileNav()">76</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=Amoco" onclick="closeMobileNav()">Amoco</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=Lukoil" onclick="closeMobileNav()">Lukoil</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=Global" onclick="closeMobileNav()">Global</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-high transition-all rounded" href="../../search/?q=7-Eleven" onclick="closeMobileNav()">7-Eleven</a>
+</div>
+</div>
 </div>
 </div>
 </nav>
@@ -241,6 +269,32 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   }
+
+  // Discover section toggle functions
+  window.toggleDiscoverSection = function() {
+    var section = document.getElementById('discover-section');
+    var arrow = document.getElementById('discover-arrow');
+    if (section && arrow) {
+      section.classList.toggle('hidden');
+      arrow.textContent = section.classList.contains('hidden') ? 'expand_more' : 'expand_less';
+    }
+  };
+  window.toggleBoroughSection = function() {
+    var section = document.getElementById('borough-section');
+    var arrow = document.getElementById('borough-arrow');
+    if (section && arrow) {
+      section.classList.toggle('hidden');
+      arrow.textContent = section.classList.contains('hidden') ? 'expand_more' : 'expand_less';
+    }
+  };
+  window.toggleBrandSection = function() {
+    var section = document.getElementById('brand-section');
+    var arrow = document.getElementById('brand-arrow');
+    if (section && arrow) {
+      section.classList.toggle('hidden');
+      arrow.textContent = section.classList.contains('hidden') ? 'expand_more' : 'expand_less';
+    }
+  };
 });
 </script>
 </body></html>
