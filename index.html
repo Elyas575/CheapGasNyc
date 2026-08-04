@@ -165,9 +165,11 @@
         </div>
         <!-- Search Bar -->
         <div class="flex-1 max-w-xl">
-          <div class="relative">
-            <input id="homepage-search" class="w-full pl-4 pr-10 py-2 bg-gray-100 border border-gray-200 rounded-full text-body-md focus:ring-2 focus:ring-secondary focus:border-secondary transition-all" placeholder="Search station, street, or zip..." type="text"/>
-            <span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-outline">search</span>
+          <div class="relative flex items-center">
+            <input id="homepage-search" class="w-full pl-4 pr-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-body-md focus:ring-2 focus:ring-secondary focus:border-secondary transition-all" placeholder="Search station, street, or zip..." type="text"/>
+            <button class="absolute right-1 top-1/2 -translate-y-1/2 p-2 hover:bg-gray-200 rounded-full transition-all">
+              <span class="material-symbols-outlined text-outline text-xl">search</span>
+            </button>
           </div>
         </div>
       </div>
