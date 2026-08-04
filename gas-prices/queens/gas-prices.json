@@ -1,10 +1,35 @@
 {
   "borough": "queens",
-  "extracted_at": "2026-07-31T16:00:30.413707",
+  "extracted_at": "2026-08-04T11:49:43.997260",
   "total_stations": 41,
   "fuel_types": {
     "Regular Fuel Prices": {
       "stations": [
+        {
+          "name": "Shell",
+          "address": {
+            "street": "130-39 Merrick Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": "11434",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.680058191187,
+            "lng": -73.761846565274
+          },
+          "rating": {
+            "value": 4.1,
+            "count": 3
+          },
+          "latest_review": "Great Staff ….",
+          "price": "$3.79",
+          "price_type": "Cash",
+          "reported_by": "ZMONEY1020",
+          "reported_ago": "10 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.367585",
+          "reported_at": "2026-08-04T01:49:43.372790"
+        },
         {
           "name": "Mobil",
           "address": {
@@ -20,15 +45,40 @@
           },
           "rating": {
             "value": 3.4,
-            "count": 244
+            "count": 245
           },
           "latest_review": "Prices here are great. However, apparently, they don't accept GasBuddy's payment card (Wex card). ",
           "price": "$3.85",
           "price_type": "Cash",
-          "reported_by": "Buddy_en8c5475",
-          "reported_ago": "22 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.823814",
-          "reported_at": "2026-07-30T18:00:29.830569"
+          "reported_by": "ricojamm",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.367598",
+          "reported_at": "2026-08-03T22:49:43.373266"
+        },
+        {
+          "name": "USA",
+          "address": {
+            "street": "222-33 Braddock Ave",
+            "city": "Queens Village",
+            "state": "NY",
+            "zip": "11428",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.728868600744,
+            "lng": -73.736715316772
+          },
+          "rating": {
+            "value": 3.8,
+            "count": 70
+          },
+          "latest_review": "Very nice Costermer service ",
+          "price": "$3.89",
+          "price_type": "Cash",
+          "reported_by": "melchevelle",
+          "reported_ago": "7 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.367606",
+          "reported_at": "2026-08-04T04:49:43.373734"
         },
         {
           "name": "BP",
@@ -51,34 +101,9 @@
           "price": "$3.95",
           "price_type": "Cash",
           "reported_by": "Owner",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:29.823827",
-          "reported_at": "2026-07-30T16:00:29.831347"
-        },
-        {
-          "name": "Mobil",
-          "address": {
-            "street": "113-21 Rockaway Blvd",
-            "city": "Queens",
-            "state": "NY",
-            "zip": "11420",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.677249185626,
-            "lng": -73.824970722198
-          },
-          "rating": {
-            "value": 2.9,
-            "count": 37
-          },
-          "latest_review": "Okay gas station ",
-          "price": "$3.95",
-          "price_type": "Cash",
-          "reported_by": "jago91",
-          "reported_ago": "21 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.823834",
-          "reported_at": "2026-07-30T19:00:29.832006"
+          "reported_ago": "19 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.367612",
+          "reported_at": "2026-08-03T16:49:43.374215"
         },
         {
           "name": "Mobil",
@@ -100,35 +125,35 @@
           "latest_review": "Great ",
           "price": "$3.99",
           "price_type": "Cash",
-          "reported_by": "cmny",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:29.823840",
-          "reported_at": "2026-07-30T16:00:29.833995"
+          "reported_by": "ricojamm",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.367618",
+          "reported_at": "2026-08-03T22:49:43.374676"
         },
         {
-          "name": "Gulf",
+          "name": "CITGO",
           "address": {
-            "street": "11520 Beach Channel Dr",
+            "street": "75-41 Yellowstone Blvd",
             "city": "Queens",
             "state": "NY",
-            "zip": "11694-2206",
+            "zip": "11374",
             "country": "US"
           },
           "geo": {
-            "lat": 40.58203924,
-            "lng": -73.83805121
+            "lat": 40.714021874504,
+            "lng": -73.859028741717
           },
           "rating": {
-            "value": 4.1,
-            "count": 44
+            "value": 4,
+            "count": 336
           },
-          "latest_review": "Great gas station ",
-          "price": "$3.95",
-          "price_type": "Cash",
-          "reported_by": "Buddy_yvpfq9ep",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:29.823846",
-          "reported_at": "2026-07-30T16:00:29.832882"
+          "latest_review": "Same cash price when paying with debit card 👍",
+          "price": "$3.99",
+          "price_type": "Credit",
+          "reported_by": "Destin4_",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.367625",
+          "reported_at": "2026-08-03T22:49:43.375224"
         },
         {
           "name": "Mobil",
@@ -151,9 +176,59 @@
           "price": "$4.03",
           "price_type": "Credit",
           "reported_by": "melchevelle",
-          "reported_ago": "10 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.823852",
-          "reported_at": "2026-07-31T06:00:29.835099"
+          "reported_ago": "18 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.367631",
+          "reported_at": "2026-08-03T17:49:43.375812"
+        },
+        {
+          "name": "Mobil",
+          "address": {
+            "street": "50-92 Northern Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": "11372",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.752796049832,
+            "lng": -73.91061231494
+          },
+          "rating": {
+            "value": 3.6,
+            "count": 97
+          },
+          "latest_review": "Great",
+          "price": "$4.09",
+          "price_type": "Credit",
+          "reported_by": "jCVNY",
+          "reported_ago": "3 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.367637",
+          "reported_at": "2026-08-04T08:49:43.377410"
+        },
+        {
+          "name": "Gas Sale",
+          "address": {
+            "street": "68-27 Woodhaven Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": "11374",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.714542,
+            "lng": -73.85941
+          },
+          "rating": {
+            "value": 2.8,
+            "count": 473
+          },
+          "latest_review": "CAR WASH NEEDS AN UPGRADE.",
+          "price": "$4.03",
+          "price_type": "Cash",
+          "reported_by": "rosasz",
+          "reported_ago": "18 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.367643",
+          "reported_at": "2026-08-03T17:49:43.376270"
         },
         {
           "name": "Amoco",
@@ -174,86 +249,11 @@
           },
           "latest_review": "Gas burns too fast compared to the Gulf gas i put. I experimented for several months and gas doesnt last long with this non-brand.",
           "price": "$4.09",
-          "price_type": "Credit",
-          "reported_by": "anon_0fkn24gj",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.823858",
-          "reported_at": "2026-07-31T05:00:29.836136"
-        },
-        {
-          "name": "Speedway",
-          "address": {
-            "street": "219-28 Hillside Ave",
-            "city": "Queens Village",
-            "state": "NY",
-            "zip": "11427-2303",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.729682,
-            "lng": -73.744161
-          },
-          "rating": {
-            "value": 3.5,
-            "count": 80
-          },
-          "latest_review": "first off they list this station as 24 hours when it is actually closed at 11pm and the guy who works there often shuts down at 10:30pm",
-          "price": "$4.09",
-          "price_type": "Credit",
-          "reported_by": "lmw516",
-          "reported_ago": "20 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.823865",
-          "reported_at": "2026-07-30T20:00:29.837682"
-        },
-        {
-          "name": "Gulf",
-          "address": {
-            "street": "13435101st Ave",
-            "city": "Queens",
-            "state": "NY",
-            "zip": "11419",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.6936775,
-            "lng": -73.8129268
-          },
-          "rating": {
-            "value": 3.5,
-            "count": 65
-          },
-          "latest_review": "High gas prices at this location.",
-          "price": "$4.11",
           "price_type": "Cash",
-          "reported_by": "cmny",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.823871",
-          "reported_at": "2026-07-31T14:00:29.838166"
-        },
-        {
-          "name": "BP",
-          "address": {
-            "street": "119-01 Atlantic Ave",
-            "city": "Queens",
-            "state": "NY",
-            "zip": "11418",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.694333,
-            "lng": -73.827951
-          },
-          "rating": {
-            "value": 3.9,
-            "count": 137
-          },
-          "latest_review": "okok okokok okokok",
-          "price": "$4.09",
-          "price_type": "Cash",
-          "reported_by": "jsarai1313",
-          "reported_ago": "16 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.823877",
-          "reported_at": "2026-07-31T00:00:29.836694"
+          "reported_by": "pacman4now",
+          "reported_ago": "14 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.367650",
+          "reported_at": "2026-08-03T21:49:43.376817"
         }
       ],
       "count": 10
@@ -275,15 +275,40 @@
           },
           "rating": {
             "value": 3.4,
-            "count": 244
+            "count": 245
           },
           "latest_review": "Prices here are great. However, apparently, they don't accept GasBuddy's payment card (Wex card). ",
-          "price": "$4.65",
+          "price": "$4.15",
           "price_type": "Cash",
-          "reported_by": "Shacori1121",
-          "reported_ago": "2 Days Ago",
-          "scraped_at": "2026-07-31T16:00:29.974583",
-          "reported_at": "2026-07-29T16:00:29.984458"
+          "reported_by": "ricojamm",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.494884",
+          "reported_at": "2026-08-03T22:49:43.497300"
+        },
+        {
+          "name": "USA",
+          "address": {
+            "street": "222-33 Braddock Ave",
+            "city": "Queens Village",
+            "state": "NY",
+            "zip": "11428",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.728868600744,
+            "lng": -73.736715316772
+          },
+          "rating": {
+            "value": 3.8,
+            "count": 70
+          },
+          "latest_review": "Very nice Costermer service ",
+          "price": "$4.29",
+          "price_type": "Cash",
+          "reported_by": "melchevelle",
+          "reported_ago": "7 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.494897",
+          "reported_at": "2026-08-04T04:49:43.497569"
         },
         {
           "name": "Mobil",
@@ -305,10 +330,85 @@
           "latest_review": "Great ",
           "price": "$4.39",
           "price_type": "Cash",
-          "reported_by": "cmny",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:29.974596",
-          "reported_at": "2026-07-30T16:00:29.979683"
+          "reported_by": "ricojamm",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.494903",
+          "reported_at": "2026-08-03T22:49:43.497825"
+        },
+        {
+          "name": "CITGO",
+          "address": {
+            "street": "75-41 Yellowstone Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": "11374",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.714021874504,
+            "lng": -73.859028741717
+          },
+          "rating": {
+            "value": 4,
+            "count": 336
+          },
+          "latest_review": "Same cash price when paying with debit card 👍",
+          "price": "$4.39",
+          "price_type": "Credit",
+          "reported_by": "rosasz",
+          "reported_ago": "18 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.494908",
+          "reported_at": "2026-08-03T17:49:43.498125"
+        },
+        {
+          "name": "Gas Sale",
+          "address": {
+            "street": "68-27 Woodhaven Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": "11374",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.714542,
+            "lng": -73.85941
+          },
+          "rating": {
+            "value": 2.8,
+            "count": 473
+          },
+          "latest_review": "CAR WASH NEEDS AN UPGRADE.",
+          "price": "$4.43",
+          "price_type": "Cash",
+          "reported_by": "rosasz",
+          "reported_ago": "18 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.494913",
+          "reported_at": "2026-08-03T17:49:43.498377"
+        },
+        {
+          "name": "Amoco",
+          "address": {
+            "street": "154-09 Union Tpke  ",
+            "city": "Queens",
+            "state": "NY",
+            "zip": "11367",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.720081797818,
+            "lng": -73.809285163879
+          },
+          "rating": {
+            "value": 3.4,
+            "count": 163
+          },
+          "latest_review": "Gas burns too fast compared to the Gulf gas i put. I experimented for several months and gas doesnt last long with this non-brand.",
+          "price": "$4.49",
+          "price_type": "Cash",
+          "reported_by": "pacman4now",
+          "reported_ago": "14 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.494919",
+          "reported_at": "2026-08-03T21:49:43.499506"
         },
         {
           "name": "Gulf",
@@ -331,9 +431,9 @@
           "price": "$4.51",
           "price_type": "Cash",
           "reported_by": "cmny",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.974605",
-          "reported_at": "2026-07-31T14:00:29.983991"
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.494924",
+          "reported_at": "2026-08-04T03:49:43.499759"
         },
         {
           "name": "BP",
@@ -355,35 +455,10 @@
           "latest_review": "okok okokok okokok",
           "price": "$4.49",
           "price_type": "Cash",
-          "reported_by": "havacer",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.974611",
-          "reported_at": "2026-07-30T22:00:29.982932"
-        },
-        {
-          "name": "BP",
-          "address": {
-            "street": "107-10 Astoria Blvd",
-            "city": "Queens",
-            "state": "NY",
-            "zip": "11369",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.760309451626,
-            "lng": -73.861716985703
-          },
-          "rating": {
-            "value": 3.8,
-            "count": 118
-          },
-          "latest_review": "this is a great gas station. prices are relly good compared to other nearby stations. and same price cash and credit",
-          "price": "$4.49",
-          "price_type": "Credit",
-          "reported_by": "Buddy_7f8bebfc",
-          "reported_ago": "17 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.974619",
-          "reported_at": "2026-07-30T23:00:29.981976"
+          "reported_by": "cmny",
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.494929",
+          "reported_at": "2026-08-04T03:49:43.498639"
         },
         {
           "name": "BP",
@@ -405,116 +480,66 @@
           "latest_review": "Cash & Credit same price.",
           "price": "$4.49",
           "price_type": "Credit",
-          "reported_by": "chrisjoven067",
-          "reported_ago": "10 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.974625",
-          "reported_at": "2026-07-31T06:00:29.980814"
+          "reported_by": "ricojamm",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.494933",
+          "reported_at": "2026-08-03T22:49:43.498939"
         },
         {
-          "name": "Gulf",
+          "name": "BP",
           "address": {
-            "street": "14150 Union Tpke",
+            "street": "7509 Northern Blvd",
             "city": "Queens",
             "state": "NY",
-            "zip": "11367",
+            "zip": "11372",
             "country": "US"
           },
           "geo": {
-            "lat": 40.717318,
-            "lng": -73.817584
-          },
-          "rating": {
-            "value": 3.8,
-            "count": 238
-          },
-          "latest_review": "Station closed for renovations",
-          "price": "$4.47",
-          "price_type": "Credit",
-          "reported_by": "jid722",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.974632",
-          "reported_at": "2026-07-30T22:00:29.980254"
-        },
-        {
-          "name": "Amoco",
-          "address": {
-            "street": "118-11 Atlantic Ave",
-            "city": "Queens",
-            "state": "NY",
-            "zip": "11418",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.694264124145,
-            "lng": -73.828449212014
+            "lat": 40.755134360378,
+            "lng": -73.891322538256
           },
           "rating": {
             "value": 3.3,
-            "count": 154
+            "count": 279
           },
-          "latest_review": "Everything seems good except for the midget manager",
-          "price": "$4.49",
-          "price_type": "Cash",
-          "reported_by": "havacer",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.974638",
-          "reported_at": "2026-07-30T22:00:29.982453"
-        },
-        {
-          "name": "BP",
-          "address": {
-            "street": "212-01 Hillside Ave",
-            "city": "Queens",
-            "state": "NY",
-            "zip": "11427",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.724982169018,
-            "lng": -73.754096031189
-          },
-          "rating": {
-            "value": 4,
-            "count": 96
-          },
-          "latest_review": "BP has the best gas.",
+          "latest_review": "This has quickly become my go-to station during the pandemic. It never seems to be crowded. There are eight pumps available. It's also very clean. ",
           "price": "$4.49",
           "price_type": "Credit",
-          "reported_by": "DrRenegadeX",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.974644",
-          "reported_at": "2026-07-30T22:00:29.983530"
-        },
-        {
-          "name": "BP",
-          "address": {
-            "street": "43-15 Junction Blvd",
-            "city": "Queens",
-            "state": "NY",
-            "zip": "11368",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.745241157056,
-            "lng": -73.867735862732
-          },
-          "rating": {
-            "value": 3.4,
-            "count": 90
-          },
-          "latest_review": "The cashier is rude ",
-          "price": "$4.49",
-          "price_type": "Credit",
-          "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:29.974650",
-          "reported_at": "2026-07-31T04:00:29.981398"
+          "reported_by": "trixie10007",
+          "reported_ago": "14 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.494938",
+          "reported_at": "2026-08-03T21:49:43.499249"
         }
       ],
       "count": 10
     },
     "Premium Fuel Prices": {
       "stations": [
+        {
+          "name": "USA",
+          "address": {
+            "street": "222-33 Braddock Ave",
+            "city": "Queens Village",
+            "state": "NY",
+            "zip": "11428",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.728868600744,
+            "lng": -73.736715316772
+          },
+          "rating": {
+            "value": 3.8,
+            "count": 70
+          },
+          "latest_review": "Very nice Costermer service ",
+          "price": "$4.59",
+          "price_type": "Cash",
+          "reported_by": "melchevelle",
+          "reported_ago": "7 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.632125",
+          "reported_at": "2026-08-04T04:49:43.637715"
+        },
         {
           "name": "Mobil",
           "address": {
@@ -530,15 +555,15 @@
           },
           "rating": {
             "value": 3.4,
-            "count": 244
+            "count": 245
           },
           "latest_review": "Prices here are great. However, apparently, they don't accept GasBuddy's payment card (Wex card). ",
-          "price": "$4.65",
+          "price": "$4.55",
           "price_type": "Cash",
-          "reported_by": "Buddy_en8c5475",
-          "reported_ago": "22 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:30.111316",
-          "reported_at": "2026-07-30T18:00:30.113688"
+          "reported_by": "ricojamm",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.632138",
+          "reported_at": "2026-08-03T22:49:43.637241"
         },
         {
           "name": "Mobil",
@@ -560,10 +585,60 @@
           "latest_review": "Great ",
           "price": "$4.79",
           "price_type": "Cash",
-          "reported_by": "cmny",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:30.111329",
-          "reported_at": "2026-07-30T16:00:30.113952"
+          "reported_by": "ricojamm",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.632145",
+          "reported_at": "2026-08-03T22:49:43.638638"
+        },
+        {
+          "name": "Amoco",
+          "address": {
+            "street": "154-09 Union Tpke  ",
+            "city": "Queens",
+            "state": "NY",
+            "zip": "11367",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.720081797818,
+            "lng": -73.809285163879
+          },
+          "rating": {
+            "value": 3.4,
+            "count": 163
+          },
+          "latest_review": "Gas burns too fast compared to the Gulf gas i put. I experimented for several months and gas doesnt last long with this non-brand.",
+          "price": "$4.89",
+          "price_type": "Cash",
+          "reported_by": "pacman4now",
+          "reported_ago": "14 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.632152",
+          "reported_at": "2026-08-03T21:49:43.640230"
+        },
+        {
+          "name": "Gas Sale",
+          "address": {
+            "street": "68-27 Woodhaven Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": "11374",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.714542,
+            "lng": -73.85941
+          },
+          "rating": {
+            "value": 2.8,
+            "count": 473
+          },
+          "latest_review": "CAR WASH NEEDS AN UPGRADE.",
+          "price": "$4.73",
+          "price_type": "Cash",
+          "reported_by": "rosasz",
+          "reported_ago": "18 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.632160",
+          "reported_at": "2026-08-03T17:49:43.638176"
         },
         {
           "name": "Gulf",
@@ -586,109 +661,59 @@
           "price": "$4.91",
           "price_type": "Cash",
           "reported_by": "cmny",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:30.111334",
-          "reported_at": "2026-07-31T14:00:30.115969"
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.632166",
+          "reported_at": "2026-08-04T03:49:43.640690"
+        },
+        {
+          "name": "CITGO",
+          "address": {
+            "street": "75-41 Yellowstone Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": "11374",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.714021874504,
+            "lng": -73.859028741717
+          },
+          "rating": {
+            "value": 4,
+            "count": 336
+          },
+          "latest_review": "Same cash price when paying with debit card 👍",
+          "price": "$4.79",
+          "price_type": "Credit",
+          "reported_by": "rosasz",
+          "reported_ago": "18 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.632173",
+          "reported_at": "2026-08-03T17:49:43.639183"
         },
         {
           "name": "BP",
           "address": {
-            "street": "119-01 Atlantic Ave",
+            "street": "82-06 Astoria Blvd",
             "city": "Queens",
             "state": "NY",
-            "zip": "11418",
+            "zip": "11370",
             "country": "US"
           },
           "geo": {
-            "lat": 40.694333,
-            "lng": -73.827951
+            "lat": 40.764686584472,
+            "lng": -73.886764526367
           },
           "rating": {
-            "value": 3.9,
-            "count": 137
+            "value": 3.5,
+            "count": 49
           },
-          "latest_review": "okok okokok okokok",
-          "price": "$4.89",
+          "latest_review": "Employees cashiers are rude \nNo customer service \nNo restroom in nights \nNo large bills night\ni walking in store he see me like crazy pump are very dirty no garbage out ",
+          "price": "$4.99",
           "price_type": "Cash",
-          "reported_by": "havacer",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:30.111339",
-          "reported_at": "2026-07-30T22:00:30.115393"
-        },
-        {
-          "name": "BP",
-          "address": {
-            "street": "107-10 Astoria Blvd",
-            "city": "Queens",
-            "state": "NY",
-            "zip": "11369",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.760309451626,
-            "lng": -73.861716985703
-          },
-          "rating": {
-            "value": 3.8,
-            "count": 118
-          },
-          "latest_review": "this is a great gas station. prices are relly good compared to other nearby stations. and same price cash and credit",
-          "price": "$4.89",
-          "price_type": "Credit",
-          "reported_by": "Buddy_7f8bebfc",
-          "reported_ago": "17 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:30.111344",
-          "reported_at": "2026-07-30T23:00:30.114873"
-        },
-        {
-          "name": "BP",
-          "address": {
-            "street": "114-02 Van Wyck Expy",
-            "city": "Queens",
-            "state": "NY",
-            "zip": "11420",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.682509,
-            "lng": -73.806378
-          },
-          "rating": {
-            "value": 3.8,
-            "count": 75
-          },
-          "latest_review": "Cash & Credit same price.",
-          "price": "$4.89",
-          "price_type": "Credit",
-          "reported_by": "chrisjoven067",
+          "reported_by": "VZbereha",
           "reported_ago": "10 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:30.111349",
-          "reported_at": "2026-07-31T06:00:30.114557"
-        },
-        {
-          "name": "Gulf",
-          "address": {
-            "street": "14150 Union Tpke",
-            "city": "Queens",
-            "state": "NY",
-            "zip": "11367",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.717318,
-            "lng": -73.817584
-          },
-          "rating": {
-            "value": 3.8,
-            "count": 238
-          },
-          "latest_review": "Station closed for renovations",
-          "price": "$4.87",
-          "price_type": "Credit",
-          "reported_by": "jid722",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:30.111355",
-          "reported_at": "2026-07-30T22:00:30.114257"
+          "scraped_at": "2026-08-04T11:49:43.632179",
+          "reported_at": "2026-08-04T01:49:43.641165"
         },
         {
           "name": "Speedway",
@@ -710,60 +735,35 @@
           "latest_review": "first off they list this station as 24 hours when it is actually closed at 11pm and the guy who works there often shuts down at 10:30pm",
           "price": "$4.99",
           "price_type": "Credit",
-          "reported_by": "DataFeed",
-          "reported_ago": "23 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:30.111360",
-          "reported_at": "2026-07-30T17:00:30.116268"
-        },
-        {
-          "name": "Amoco",
-          "address": {
-            "street": "118-11 Atlantic Ave",
-            "city": "Queens",
-            "state": "NY",
-            "zip": "11418",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.694264124145,
-            "lng": -73.828449212014
-          },
-          "rating": {
-            "value": 3.3,
-            "count": 154
-          },
-          "latest_review": "Everything seems good except for the midget manager",
-          "price": "$4.89",
-          "price_type": "Cash",
-          "reported_by": "havacer",
+          "reported_by": "melchevelle",
           "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:30.111364",
-          "reported_at": "2026-07-30T22:00:30.115135"
+          "scraped_at": "2026-08-04T11:49:43.632185",
+          "reported_at": "2026-08-03T17:49:43.641779"
         },
         {
           "name": "BP",
           "address": {
-            "street": "212-01 Hillside Ave",
+            "street": "107-10 Astoria Blvd",
             "city": "Queens",
             "state": "NY",
-            "zip": "11427",
+            "zip": "11369",
             "country": "US"
           },
           "geo": {
-            "lat": 40.724982169018,
-            "lng": -73.754096031189
+            "lat": 40.760309451626,
+            "lng": -73.861716985703
           },
           "rating": {
-            "value": 4,
-            "count": 96
+            "value": 3.8,
+            "count": 118
           },
-          "latest_review": "BP has the best gas.",
+          "latest_review": "this is a great gas station. prices are relly good compared to other nearby stations. and same price cash and credit",
           "price": "$4.89",
           "price_type": "Credit",
-          "reported_by": "DrRenegadeX",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:30.111369",
-          "reported_at": "2026-07-30T22:00:30.115720"
+          "reported_by": "DataFeed",
+          "reported_ago": "10 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.632191",
+          "reported_at": "2026-08-04T01:49:43.639757"
         }
       ],
       "count": 10
@@ -785,15 +785,15 @@
           },
           "rating": {
             "value": 3.4,
-            "count": 244
+            "count": 245
           },
           "latest_review": "Prices here are great. However, apparently, they don't accept GasBuddy's payment card (Wex card). ",
           "price": "$5.39",
           "price_type": "Cash",
-          "reported_by": "Buddy_en8c5475",
-          "reported_ago": "22 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:30.256093",
-          "reported_at": "2026-07-30T18:00:30.262153"
+          "reported_by": "ricojamm",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.785105",
+          "reported_at": "2026-08-03T22:49:43.790285"
         },
         {
           "name": "Gulf",
@@ -810,65 +810,40 @@
           },
           "rating": {
             "value": 3.8,
-            "count": 238
+            "count": 240
           },
           "latest_review": "Station closed for renovations",
           "price": "$5.49",
           "price_type": "Credit",
-          "reported_by": "jid722",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:30.256108",
-          "reported_at": "2026-07-30T22:00:30.262796"
+          "reported_by": "DataFeed",
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.785117",
+          "reported_at": "2026-08-04T03:49:43.791020"
         },
         {
-          "name": "Shell",
+          "name": "Mobil",
           "address": {
-            "street": "92-10 Astoria Blvd",
+            "street": "10409 Atlantic Ave",
             "city": "Queens",
             "state": "NY",
-            "zip": "11369",
+            "zip": "11418",
             "country": "US"
           },
           "geo": {
-            "lat": 40.763145550176,
-            "lng": -73.877128958702
+            "lat": 40.690626,
+            "lng": -73.840896
           },
           "rating": {
-            "value": 3.9,
-            "count": 55
+            "value": 3.4,
+            "count": 127
           },
-          "latest_review": "Good gas, not eat prices in the area though ",
-          "price": "$5.65",
+          "latest_review": "Great ",
+          "price": "$5.79",
           "price_type": "Cash",
-          "reported_by": "Aviator_Rob",
-          "reported_ago": "34 Minutes Ago",
-          "scraped_at": "2026-07-31T16:00:30.256115",
-          "reported_at": "2026-07-31T15:26:30.263291"
-        },
-        {
-          "name": "Conoco",
-          "address": {
-            "street": "85-05 Astoria Blvd",
-            "city": "Queens",
-            "state": "NY",
-            "zip": "11372",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.76473,
-            "lng": -73.883965
-          },
-          "rating": {
-            "value": 3.9,
-            "count": 48
-          },
-          "latest_review": "The hot food is amazing, especially my favorite, the grilled chicken wrap.. very tasty  ",
-          "price": "$5.69",
-          "price_type": "Cash",
-          "reported_by": "Aviator_Rob",
-          "reported_ago": "40 Minutes Ago",
-          "scraped_at": "2026-07-31T16:00:30.256121",
-          "reported_at": "2026-07-31T15:20:30.264298"
+          "reported_by": "ricojamm",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.785124",
+          "reported_at": "2026-08-03T22:49:43.793607"
         },
         {
           "name": "Mobil",
@@ -891,9 +866,34 @@
           "price": "$5.75",
           "price_type": "Credit",
           "reported_by": "melchevelle",
+          "reported_ago": "18 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.785131",
+          "reported_at": "2026-08-03T17:49:43.792665"
+        },
+        {
+          "name": "Conoco",
+          "address": {
+            "street": "85-05 Astoria Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": "11372",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.76473,
+            "lng": -73.883965
+          },
+          "rating": {
+            "value": 3.9,
+            "count": 48
+          },
+          "latest_review": "The hot food is amazing, especially my favorite, the grilled chicken wrap.. very tasty  ",
+          "price": "$5.69",
+          "price_type": "Cash",
+          "reported_by": "VZbereha",
           "reported_ago": "10 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:30.256128",
-          "reported_at": "2026-07-31T06:00:30.265449"
+          "scraped_at": "2026-08-04T11:49:43.785137",
+          "reported_at": "2026-08-04T01:49:43.791488"
         },
         {
           "name": "Sunoco",
@@ -913,112 +913,112 @@
             "count": 13
           },
           "latest_review": "Good prices for the area for Sunoco",
-          "price": "$5.69",
-          "price_type": "Cash",
-          "reported_by": "Aviator_Rob",
-          "reported_ago": "39 Minutes Ago",
-          "scraped_at": "2026-07-31T16:00:30.256134",
-          "reported_at": "2026-07-31T15:21:30.263790"
+          "price": "$5.75",
+          "price_type": "Credit",
+          "reported_by": "DataFeed",
+          "reported_ago": "10 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.785143",
+          "reported_at": "2026-08-04T01:49:43.792077"
         },
         {
           "name": "BP",
           "address": {
-            "street": "4606 Ditmars Blvd",
+            "street": "81-02 Atlantic Ave",
             "city": "Queens",
             "state": "NY",
-            "zip": "11105",
+            "zip": "11416-1223",
             "country": "US"
           },
           "geo": {
-            "lat": 40.77003,
-            "lng": -73.902422
+            "lat": 40.684754847048,
+            "lng": -73.859335184097
           },
           "rating": {
-            "value": 3.8,
-            "count": 74
+            "value": 3.9,
+            "count": 44
           },
-          "latest_review": "Great",
-          "price": "$5.75",
+          "latest_review": "awesome",
+          "price": "$5.79",
           "price_type": "Cash",
-          "reported_by": "Buddy_t3e0gnpt",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:30.256140",
-          "reported_at": "2026-07-30T16:00:30.264820"
+          "reported_by": "Savio",
+          "reported_ago": "5 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.785149",
+          "reported_at": "2026-08-04T06:49:43.793144"
+        },
+        {
+          "name": "BP",
+          "address": {
+            "street": "7509 Northern Blvd",
+            "city": "Queens",
+            "state": "NY",
+            "zip": "11372",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.755134360378,
+            "lng": -73.891322538256
+          },
+          "rating": {
+            "value": 3.3,
+            "count": 279
+          },
+          "latest_review": "This has quickly become my go-to station during the pandemic. It never seems to be crowded. There are eight pumps available. It's also very clean. ",
+          "price": "$5.85",
+          "price_type": "Credit",
+          "reported_by": "trixie10007",
+          "reported_ago": "14 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.785155",
+          "reported_at": "2026-08-03T21:49:43.794180"
         },
         {
           "name": "Shell",
           "address": {
-            "street": "9005 Myrtle Ave",
+            "street": "98-02 Northern Blvd",
             "city": "Queens",
             "state": "NY",
-            "zip": "11385",
+            "zip": "11368-1042",
             "country": "US"
           },
           "geo": {
-            "lat": 40.702567,
-            "lng": -73.855127
+            "lat": 40.757020157126,
+            "lng": -73.870149850845
           },
           "rating": {
-            "value": 3.2,
-            "count": 144
+            "value": 3.4,
+            "count": 38
           },
-          "latest_review": "4.13 per gallon & a messy congested station.  No thanks.",
-          "price": "$5.85",
-          "price_type": "Credit",
-          "reported_by": "DataFeed",
-          "reported_ago": "1 Hour Ago",
-          "scraped_at": "2026-07-31T16:00:30.256147",
-          "reported_at": "2026-07-31T15:00:30.267135"
+          "latest_review": "This place was taken over by yellow taxi cabs ",
+          "price": "$5.89",
+          "price_type": "Cash",
+          "reported_by": "JPT_Fundkeiser",
+          "reported_ago": "21 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.785162",
+          "reported_at": "2026-08-03T14:49:43.794637"
         },
         {
           "name": "BP",
           "address": {
-            "street": "43-15 Junction Blvd",
+            "street": "94-02 111th ",
             "city": "Queens",
             "state": "NY",
-            "zip": "11368",
+            "zip": "11419",
             "country": "US"
           },
           "geo": {
-            "lat": 40.745241157056,
-            "lng": -73.867735862732
+            "lat": 40.691779705778,
+            "lng": -73.834951221943
           },
           "rating": {
-            "value": 3.4,
-            "count": 90
+            "value": 3.2,
+            "count": 175
           },
-          "latest_review": "The cashier is rude ",
-          "price": "$5.79",
-          "price_type": "Credit",
-          "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:30.256153",
-          "reported_at": "2026-07-31T04:00:30.266078"
-        },
-        {
-          "name": "Mobil",
-          "address": {
-            "street": "10409 Atlantic Ave",
-            "city": "Queens",
-            "state": "NY",
-            "zip": "11418",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.690626,
-            "lng": -73.840896
-          },
-          "rating": {
-            "value": 3.4,
-            "count": 127
-          },
-          "latest_review": "Great ",
-          "price": "$5.79",
+          "latest_review": "Under new management and site looks great ",
+          "price": "$5.99",
           "price_type": "Cash",
-          "reported_by": "cmny",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:30.256159",
-          "reported_at": "2026-07-30T16:00:30.266565"
+          "reported_by": "ricojamm",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.785168",
+          "reported_at": "2026-08-03T22:49:43.795120"
         }
       ],
       "count": 10
@@ -1043,12 +1043,12 @@
             "count": 473
           },
           "latest_review": "CAR WASH NEEDS AN UPGRADE.",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:30.340140",
-          "reported_at": null
+          "price": "$2.49",
+          "price_type": "Cash",
+          "reported_by": "rosasz",
+          "reported_ago": "18 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:43.911065",
+          "reported_at": "2026-08-03T17:49:43.914474"
         }
       ],
       "count": 1

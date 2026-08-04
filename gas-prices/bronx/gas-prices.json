@@ -1,34 +1,34 @@
 {
   "borough": "bronx",
-  "extracted_at": "2026-07-31T16:00:27.678340",
+  "extracted_at": "2026-08-04T11:49:41.808720",
   "total_stations": 50,
   "fuel_types": {
     "Regular Fuel Prices": {
       "stations": [
         {
-          "name": "Petroleum",
+          "name": "Gulf",
           "address": {
-            "street": "1165 Ogden Ave",
+            "street": "1805 Webster Ave",
             "city": "Bronx",
             "state": "NY",
-            "zip": "10452",
+            "zip": "10457",
             "country": "US"
           },
           "geo": {
-            "lat": 40.837328,
-            "lng": -73.927092
+            "lat": 40.845905,
+            "lng": -73.90231
           },
           "rating": {
-            "value": 3.6,
-            "count": 123
+            "value": 2.3,
+            "count": 97
           },
-          "latest_review": "cheapest gas in the Bronx!",
+          "latest_review": "No one at night to take cash or debit card transactions. So jus credit cards",
           "price": "$3.99",
           "price_type": "Credit",
-          "reported_by": "dayberrr2",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:26.879623",
-          "reported_at": "2026-07-30T16:00:26.886521"
+          "reported_by": "DataFeed",
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.017028",
+          "reported_at": "2026-08-04T03:49:41.022962"
         },
         {
           "name": "CITGO",
@@ -50,10 +50,35 @@
           "latest_review": "pretty dirty station. when there's cars it can be annoying. usually empty for fast fill ups. but its empty because of the prices",
           "price": "$3.99",
           "price_type": "Credit",
+          "reported_by": "discodiva",
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.017063",
+          "reported_at": "2026-08-04T03:49:41.024439"
+        },
+        {
+          "name": "Amoco",
+          "address": {
+            "street": "4090 Boston Rd",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10475",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.885610891384,
+            "lng": -73.828260451555
+          },
+          "rating": {
+            "value": 4.7,
+            "count": 53
+          },
+          "latest_review": "Friendly staff, lot of merchandise and good prices on gas and diesel ",
+          "price": "$4.05",
+          "price_type": "Cash",
           "reported_by": "EDIESHEILA",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:26.879650",
-          "reported_at": "2026-07-30T16:00:26.886838"
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.017076",
+          "reported_at": "2026-08-04T00:49:41.025670"
         },
         {
           "name": "B&G Services",
@@ -75,60 +100,135 @@
           "latest_review": "Debit price same as credit..\n",
           "price": "$3.99",
           "price_type": "Cash",
-          "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:26.879660",
-          "reported_at": "2026-07-31T04:00:26.886200"
+          "reported_by": "maintainthe50",
+          "reported_ago": "1 Day Ago",
+          "scraped_at": "2026-08-04T11:49:41.017085",
+          "reported_at": "2026-08-03T11:49:41.025084"
         },
         {
-          "name": "Eagle",
+          "name": "BP",
           "address": {
-            "street": "1624 Boston Rd",
+            "street": "601 E Fordham Rd",
             "city": "Bronx",
             "state": "NY",
-            "zip": "10460",
+            "zip": "10458",
             "country": "US"
           },
           "geo": {
-            "lat": 40.835853358929,
-            "lng": -73.889997527003
+            "lat": 40.8586273,
+            "lng": -73.8849221
           },
           "rating": {
-            "value": 3,
-            "count": 98
+            "value": 3.3,
+            "count": 20
           },
-          "latest_review": "Charge if $1.00 for use of Credit or Debit Cards!!!! ",
-          "price": "$3.99",
+          "latest_review": "Very clean friendly nice station",
+          "price": "$4.07",
+          "price_type": "Cash",
+          "reported_by": "DataFeed",
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.017092",
+          "reported_at": "2026-08-04T03:49:41.028605"
+        },
+        {
+          "name": "BP",
+          "address": {
+            "street": "4643 3rd Ave",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10458",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.857252,
+            "lng": -73.891087
+          },
+          "rating": {
+            "value": 2,
+            "count": 63
+          },
+          "latest_review": "bad people there\nsmh they should tey to be nice\nand give price\nthat guy charge me 100 and only put oodhxhxzxbxbxbxbxbxx x\nd\n\nd\nd\nx\nx\nx\nd\ndid \nd",
+          "price": "$4.07",
+          "price_type": "Cash",
+          "reported_by": "DataFeed",
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.017099",
+          "reported_at": "2026-08-04T03:49:41.027824"
+        },
+        {
+          "name": "Amoco",
+          "address": {
+            "street": "164 WILLIS AVE",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10454",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.807307,
+            "lng": -73.924215
+          },
+          "rating": {
+            "value": 3.7,
+            "count": 44
+          },
+          "latest_review": "UPDATE: THIS STATION ACCEPTS GAS BUDDY👍",
+          "price": "$4.09",
           "price_type": "Credit",
-          "reported_by": "visitor",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:26.879726",
-          "reported_at": "2026-07-31T04:00:26.885053"
+          "reported_by": "glau13",
+          "reported_ago": "6 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.017105",
+          "reported_at": "2026-08-04T05:49:41.029576"
         },
         {
           "name": "Mobil",
           "address": {
-            "street": "126 Bruckner Blvd",
+            "street": "1730 Cross Bronx Expy",
             "city": "Bronx",
             "state": "NY",
-            "zip": "10454-4620",
+            "zip": "10472",
             "country": "US"
           },
           "geo": {
-            "lat": 40.803930532286,
-            "lng": -73.921142667532
+            "lat": 40.83561,
+            "lng": -73.87017
           },
           "rating": {
-            "value": 3.8,
-            "count": 60
+            "value": 3.4,
+            "count": 67
           },
-          "latest_review": "This is a big station with good prices, very well and clean, with air pump, vacuum cleaner and eve an Amazon locker, where",
-          "price": "$3.99",
+          "latest_review": "Awesome",
+          "price": "$4.09",
           "price_type": "Cash",
-          "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:26.879739",
-          "reported_at": "2026-07-31T04:00:26.885911"
+          "reported_by": "discodiva",
+          "reported_ago": "2 Days Ago",
+          "scraped_at": "2026-08-04T11:49:41.017112",
+          "reported_at": "2026-08-02T11:49:41.030164"
+        },
+        {
+          "name": "Gulf",
+          "address": {
+            "street": "1255 E Gun Hill Rd",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10469",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.87245932,
+            "lng": -73.85040477
+          },
+          "rating": {
+            "value": 4.2,
+            "count": 61
+          },
+          "latest_review": "They sell NYS Lottery tickets ",
+          "price": "$4.05",
+          "price_type": "Cash",
+          "reported_by": "EDIESHEILA",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.017118",
+          "reported_at": "2026-08-03T20:49:41.027017"
         },
         {
           "name": "Global",
@@ -151,109 +251,9 @@
           "price": "$4.05",
           "price_type": "Credit",
           "reported_by": "EDIESHEILA",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:26.879746",
-          "reported_at": "2026-07-31T05:00:26.887144"
-        },
-        {
-          "name": "Gulf",
-          "address": {
-            "street": "2947 Jerome Ave",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10468",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.87334442,
-            "lng": -73.88963318
-          },
-          "rating": {
-            "value": 4.2,
-            "count": 65
-          },
-          "latest_review": "One of the best gas station in my area ",
-          "price": "$4.05",
-          "price_type": "Credit",
-          "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:26.879753",
-          "reported_at": "2026-07-31T04:00:26.887449"
-        },
-        {
-          "name": "Shell",
-          "address": {
-            "street": "1845 Webster Ave",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10457",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.846746878112,
-            "lng": -73.901762366295
-          },
-          "rating": {
-            "value": 2.3,
-            "count": 108
-          },
-          "latest_review": "Slow service. ",
-          "price": "$4.05",
-          "price_type": "Cash",
-          "reported_by": "wespinosa",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:26.879759",
-          "reported_at": "2026-07-30T16:00:26.887709"
-        },
-        {
-          "name": "Shell",
-          "address": {
-            "street": "1500 Bruckner Blvd",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10473",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.823284577476,
-            "lng": -73.878531754017
-          },
-          "rating": {
-            "value": 4,
-            "count": 169
-          },
-          "latest_review": "I came short one day the teller told me come back next time an pay it back ever sence then he's been a great teller an gas buddy ",
-          "price": "$4.09",
-          "price_type": "Cash",
-          "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:26.879765",
-          "reported_at": "2026-07-31T04:00:26.887967"
-        },
-        {
-          "name": "CITGO",
-          "address": {
-            "street": "600 South Pelham Pkwy",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10462",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.856456,
-            "lng": -73.869032
-          },
-          "rating": {
-            "value": 3.5,
-            "count": 64
-          },
-          "latest_review": "Right off the highway. ",
-          "price": "$4.09",
-          "price_type": "Credit",
-          "reported_by": "Tonygold777",
-          "reported_ago": "21 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:26.879777",
-          "reported_at": "2026-07-30T19:00:26.888343"
+          "reported_ago": "5 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.017128",
+          "reported_at": "2026-08-04T06:49:41.026386"
         }
       ],
       "count": 10
@@ -261,104 +261,54 @@
     "Mid-Grade Fuel Prices": {
       "stations": [
         {
-          "name": "Petroleum",
+          "name": "BP",
           "address": {
-            "street": "1165 Ogden Ave",
+            "street": "91 WESTCHESTER SQ",
             "city": "Bronx",
             "state": "NY",
-            "zip": "10452",
+            "zip": "10461",
             "country": "US"
           },
           "geo": {
-            "lat": 40.837328,
-            "lng": -73.927092
+            "lat": 40.840778,
+            "lng": -73.842294
           },
           "rating": {
-            "value": 3.6,
-            "count": 123
+            "value": 4.1,
+            "count": 82
           },
-          "latest_review": "cheapest gas in the Bronx!",
-          "price": "$4.39",
-          "price_type": "Credit",
-          "reported_by": "dayberrr2",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:27.045739",
-          "reported_at": "2026-07-30T16:00:27.052006"
-        },
-        {
-          "name": "B&G Services",
-          "address": {
-            "street": "1243 East Tremont Ave",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10460",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.839946374745,
-            "lng": -73.87133538723
-          },
-          "rating": {
-            "value": 3.2,
-            "count": 80
-          },
-          "latest_review": "Debit price same as credit..\n",
-          "price": "$4.39",
+          "latest_review": "No problem",
+          "price": "$4.59",
           "price_type": "Cash",
-          "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.045752",
-          "reported_at": "2026-07-31T04:00:27.051379"
+          "reported_by": "discodiva",
+          "reported_ago": "9 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.222082",
+          "reported_at": "2026-08-04T02:49:41.233946"
         },
         {
-          "name": "Mobil",
+          "name": "BP",
           "address": {
-            "street": "126 Bruckner Blvd",
+            "street": "1500 Williamsbridge Rd",
             "city": "Bronx",
             "state": "NY",
-            "zip": "10454-4620",
+            "zip": "10461",
             "country": "US"
           },
           "geo": {
-            "lat": 40.803930532286,
-            "lng": -73.921142667532
+            "lat": 40.8448609066,
+            "lng": -73.846254050732
           },
           "rating": {
-            "value": 3.8,
-            "count": 60
+            "value": 4.5,
+            "count": 83
           },
-          "latest_review": "This is a big station with good prices, very well and clean, with air pump, vacuum cleaner and eve an Amazon locker, where",
-          "price": "$4.39",
-          "price_type": "Cash",
-          "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.045759",
-          "reported_at": "2026-07-31T04:00:27.050835"
-        },
-        {
-          "name": "Gulf",
-          "address": {
-            "street": "2947 Jerome Ave",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10468",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.87334442,
-            "lng": -73.88963318
-          },
-          "rating": {
-            "value": 4.2,
-            "count": 65
-          },
-          "latest_review": "One of the best gas station in my area ",
-          "price": "$4.45",
+          "latest_review": "Conviene and close to hospitals also station feels safe for me as a female having to pass a The station at midnight sometimes.",
+          "price": "$4.59",
           "price_type": "Credit",
-          "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.045765",
-          "reported_at": "2026-07-31T04:00:27.052599"
+          "reported_by": "discodiva",
+          "reported_ago": "17 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.222104",
+          "reported_at": "2026-08-03T18:49:41.234658"
         },
         {
           "name": "Gulf",
@@ -379,11 +329,11 @@
           },
           "latest_review": "They sell NYS Lottery tickets ",
           "price": "$4.45",
-          "price_type": "Credit",
+          "price_type": "Cash",
           "reported_by": "EDIESHEILA",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:27.045771",
-          "reported_at": "2026-07-30T16:00:27.052965"
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.222116",
+          "reported_at": "2026-08-03T20:49:41.230294"
         },
         {
           "name": "BP",
@@ -405,85 +355,10 @@
           "latest_review": "Great neighborhood station with good prices, nice convenient store and very friendly staff ",
           "price": "$4.57",
           "price_type": "Cash",
-          "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.045778",
-          "reported_at": "2026-07-31T04:00:27.053225"
-        },
-        {
-          "name": "BP",
-          "address": {
-            "street": "1500 Williamsbridge Rd",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10461",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.8448609066,
-            "lng": -73.846254050732
-          },
-          "rating": {
-            "value": 4.5,
-            "count": 83
-          },
-          "latest_review": "Conviene and close to hospitals also station feels safe for me as a female having to pass a The station at midnight sometimes.",
-          "price": "$4.59",
-          "price_type": "Credit",
-          "reported_by": "discodiva",
-          "reported_ago": "21 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.045783",
-          "reported_at": "2026-07-30T19:00:27.054129"
-        },
-        {
-          "name": "BP",
-          "address": {
-            "street": "91 WESTCHESTER SQ",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10461",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.840778,
-            "lng": -73.842294
-          },
-          "rating": {
-            "value": 4.1,
-            "count": 82
-          },
-          "latest_review": "No problem",
-          "price": "$4.59",
-          "price_type": "Cash",
-          "reported_by": "maintainthe50",
+          "reported_by": "EDIESHEILA",
           "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.045789",
-          "reported_at": "2026-07-31T05:00:27.053805"
-        },
-        {
-          "name": "BP",
-          "address": {
-            "street": "3055 WESTCHESTER AVE",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10461",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.848419,
-            "lng": -73.830974
-          },
-          "rating": {
-            "value": 4,
-            "count": 67
-          },
-          "latest_review": "Perfect gas spot",
-          "price": "$4.59",
-          "price_type": "Credit",
-          "reported_by": "maintainthe50",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.045796",
-          "reported_at": "2026-07-31T05:00:27.053534"
+          "scraped_at": "2026-08-04T11:49:41.222128",
+          "reported_at": "2026-08-04T00:49:41.233374"
         },
         {
           "name": "Shell",
@@ -505,10 +380,135 @@
           "latest_review": "I came short one day the teller told me come back next time an pay it back ever sence then he's been a great teller an gas buddy ",
           "price": "$4.59",
           "price_type": "Cash",
+          "reported_by": "glau13",
+          "reported_ago": "6 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.222139",
+          "reported_at": "2026-08-04T05:49:41.235080"
+        },
+        {
+          "name": "CITGO",
+          "address": {
+            "street": "1982 Bronxdale Ave",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10462",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.850062,
+            "lng": -73.864403
+          },
+          "rating": {
+            "value": 3.4,
+            "count": 63
+          },
+          "latest_review": "pretty dirty station. when there's cars it can be annoying. usually empty for fast fill ups. but its empty because of the prices",
+          "price": "$4.59",
+          "price_type": "Credit",
+          "reported_by": "discodiva",
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.222150",
+          "reported_at": "2026-08-04T03:49:41.235414"
+        },
+        {
+          "name": "Mobil",
+          "address": {
+            "street": "126 Bruckner Blvd",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10454-4620",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.803930532286,
+            "lng": -73.921142667532
+          },
+          "rating": {
+            "value": 3.8,
+            "count": 60
+          },
+          "latest_review": "This is a big station with good prices, very well and clean, with air pump, vacuum cleaner and eve an Amazon locker, where",
+          "price": "$4.49",
+          "price_type": "Cash",
+          "reported_by": "glau13",
+          "reported_ago": "6 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.222160",
+          "reported_at": "2026-08-04T05:49:41.231065"
+        },
+        {
+          "name": "Exxon",
+          "address": {
+            "street": "2400 E Tremont Ave",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10461",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.842336725186,
+            "lng": -73.852944821119
+          },
+          "rating": {
+            "value": 2.7,
+            "count": 110
+          },
+          "latest_review": "Great full service station . No need to leave you car ! Prices are always reasonable ",
+          "price": "$4.59",
+          "price_type": "Credit",
+          "reported_by": "discodiva",
+          "reported_ago": "17 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.222171",
+          "reported_at": "2026-08-03T18:49:41.236144"
+        },
+        {
+          "name": "Gulf",
+          "address": {
+            "street": "1805 Webster Ave",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10457",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.845905,
+            "lng": -73.90231
+          },
+          "rating": {
+            "value": 2.3,
+            "count": 97
+          },
+          "latest_review": "No one at night to take cash or debit card transactions. So jus credit cards",
+          "price": "$4.55",
+          "price_type": "Credit",
           "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.045802",
-          "reported_at": "2026-07-31T04:00:27.054387"
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.222473",
+          "reported_at": "2026-08-04T03:49:41.232099"
+        },
+        {
+          "name": "BP",
+          "address": {
+            "street": "1514 Bronxdale Ave",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10462",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.842805,
+            "lng": -73.854705
+          },
+          "rating": {
+            "value": 4.3,
+            "count": 66
+          },
+          "latest_review": "Very tight to get gas . No room to turn around .. Exxon across the street posting same price cash or credit and it full service .. Easier to get in and out  !\n\n",
+          "price": "$4.57",
+          "price_type": "Credit",
+          "reported_by": "discodiva",
+          "reported_ago": "9 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.222492",
+          "reported_at": "2026-08-04T02:49:41.233055"
         }
       ],
       "count": 10
@@ -516,79 +516,54 @@
     "Premium Fuel Prices": {
       "stations": [
         {
-          "name": "B&G Services",
+          "name": "BP",
           "address": {
-            "street": "1243 East Tremont Ave",
+            "street": "4643 3rd Ave",
             "city": "Bronx",
             "state": "NY",
-            "zip": "10460",
+            "zip": "10458",
             "country": "US"
           },
           "geo": {
-            "lat": 40.839946374745,
-            "lng": -73.87133538723
+            "lat": 40.857252,
+            "lng": -73.891087
           },
           "rating": {
-            "value": 3.2,
-            "count": 80
+            "value": 2,
+            "count": 63
           },
-          "latest_review": "Debit price same as credit..\n",
-          "price": "$4.79",
+          "latest_review": "bad people there\nsmh they should tey to be nice\nand give price\nthat guy charge me 100 and only put oodhxhxzxbxbxbxbxbxx x\nd\n\nd\nd\nx\nx\nx\nd\ndid \nd",
+          "price": "$5.65",
           "price_type": "Cash",
           "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.208375",
-          "reported_at": "2026-07-31T04:00:27.213566"
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.385970",
+          "reported_at": "2026-08-04T03:49:41.396206"
         },
         {
-          "name": "Petroleum",
+          "name": "Shell",
           "address": {
-            "street": "1165 Ogden Ave",
+            "street": "1500 Bruckner Blvd",
             "city": "Bronx",
             "state": "NY",
-            "zip": "10452",
+            "zip": "10473",
             "country": "US"
           },
           "geo": {
-            "lat": 40.837328,
-            "lng": -73.927092
+            "lat": 40.823284577476,
+            "lng": -73.878531754017
           },
           "rating": {
-            "value": 3.6,
-            "count": 123
+            "value": 4,
+            "count": 169
           },
-          "latest_review": "cheapest gas in the Bronx!",
-          "price": "$4.79",
-          "price_type": "Credit",
-          "reported_by": "dayberrr2",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:27.208388",
-          "reported_at": "2026-07-30T16:00:27.214148"
-        },
-        {
-          "name": "Gulf",
-          "address": {
-            "street": "2947 Jerome Ave",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10468",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.87334442,
-            "lng": -73.88963318
-          },
-          "rating": {
-            "value": 4.2,
-            "count": 65
-          },
-          "latest_review": "One of the best gas station in my area ",
-          "price": "$4.85",
-          "price_type": "Credit",
-          "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.208395",
-          "reported_at": "2026-07-31T04:00:27.214689"
+          "latest_review": "I came short one day the teller told me come back next time an pay it back ever sence then he's been a great teller an gas buddy ",
+          "price": "$4.89",
+          "price_type": "Cash",
+          "reported_by": "glau13",
+          "reported_ago": "6 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.385984",
+          "reported_at": "2026-08-04T05:49:41.393007"
         },
         {
           "name": "Gulf",
@@ -611,9 +586,109 @@
           "price": "$4.85",
           "price_type": "Cash",
           "reported_by": "EDIESHEILA",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:27.208404",
-          "reported_at": "2026-07-30T16:00:27.215150"
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.385992",
+          "reported_at": "2026-08-03T20:49:41.391519"
+        },
+        {
+          "name": "BP",
+          "address": {
+            "street": "2475 BOSTON RD",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10467",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.863022,
+            "lng": -73.865689
+          },
+          "rating": {
+            "value": 4.3,
+            "count": 30
+          },
+          "latest_review": "Great neighborhood station with good prices, nice convenient store and very friendly staff ",
+          "price": "$4.97",
+          "price_type": "Cash",
+          "reported_by": "EDIESHEILA",
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.386000",
+          "reported_at": "2026-08-04T00:49:41.393507"
+        },
+        {
+          "name": "Mobil",
+          "address": {
+            "street": "126 Bruckner Blvd",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10454-4620",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.803930532286,
+            "lng": -73.921142667532
+          },
+          "rating": {
+            "value": 3.8,
+            "count": 60
+          },
+          "latest_review": "This is a big station with good prices, very well and clean, with air pump, vacuum cleaner and eve an Amazon locker, where",
+          "price": "$4.89",
+          "price_type": "Cash",
+          "reported_by": "glau13",
+          "reported_ago": "6 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.386006",
+          "reported_at": "2026-08-04T05:49:41.392523"
+        },
+        {
+          "name": "Shell",
+          "address": {
+            "street": "119 Bruckner Blvd",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10461",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.804676,
+            "lng": -73.92166
+          },
+          "rating": {
+            "value": 4,
+            "count": 112
+          },
+          "latest_review": "My go to for fill ups. Great prices, good snacks, in a well populated area",
+          "price": "$4.89",
+          "price_type": "Cash",
+          "reported_by": "glau13",
+          "reported_ago": "6 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.386013",
+          "reported_at": "2026-08-04T05:49:41.392023"
+        },
+        {
+          "name": "BP",
+          "address": {
+            "street": "91 WESTCHESTER SQ",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10461",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.840778,
+            "lng": -73.842294
+          },
+          "rating": {
+            "value": 4.1,
+            "count": 82
+          },
+          "latest_review": "No problem",
+          "price": "$4.99",
+          "price_type": "Cash",
+          "reported_by": "discodiva",
+          "reported_ago": "9 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.386020",
+          "reported_at": "2026-08-04T02:49:41.394024"
         },
         {
           "name": "BP",
@@ -636,134 +711,59 @@
           "price": "$4.99",
           "price_type": "Credit",
           "reported_by": "discodiva",
-          "reported_ago": "21 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.208411",
-          "reported_at": "2026-07-30T19:00:27.217830"
-        },
-        {
-          "name": "BP",
-          "address": {
-            "street": "3055 WESTCHESTER AVE",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10461",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.848419,
-            "lng": -73.830974
-          },
-          "rating": {
-            "value": 4,
-            "count": 67
-          },
-          "latest_review": "Perfect gas spot",
-          "price": "$4.99",
-          "price_type": "Credit",
-          "reported_by": "ajblack16",
           "reported_ago": "17 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.208418",
-          "reported_at": "2026-07-30T23:00:27.217227"
+          "scraped_at": "2026-08-04T11:49:41.386029",
+          "reported_at": "2026-08-03T18:49:41.394662"
         },
         {
           "name": "Shell",
           "address": {
-            "street": "119 Bruckner Blvd",
+            "street": "2280 Tillotson Ave",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10475",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.88248,
+            "lng": -73.826515
+          },
+          "rating": {
+            "value": 4.5,
+            "count": 184
+          },
+          "latest_review": "offers gas @ .05 cent discount on Weds & Sat's.",
+          "price": "$4.99",
+          "price_type": "Cash",
+          "reported_by": "EDIESHEILA",
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.386036",
+          "reported_at": "2026-08-04T00:49:41.395637"
+        },
+        {
+          "name": "Shell",
+          "address": {
+            "street": "2100 Williamsbridge Rd",
             "city": "Bronx",
             "state": "NY",
             "zip": "10461",
             "country": "US"
           },
           "geo": {
-            "lat": 40.804676,
-            "lng": -73.92166
+            "lat": 40.855716935693,
+            "lng": -73.855186477304
           },
           "rating": {
-            "value": 4,
-            "count": 111
+            "value": 3.6,
+            "count": 45
           },
-          "latest_review": "My go to for fill ups. Great prices, good snacks, in a well populated area",
-          "price": "$4.89",
-          "price_type": "Cash",
-          "reported_by": "magalisj2006",
-          "reported_ago": "1 Hour Ago",
-          "scraped_at": "2026-07-31T16:00:27.208425",
-          "reported_at": "2026-07-31T15:00:27.215611"
-        },
-        {
-          "name": "BP",
-          "address": {
-            "street": "2475 BOSTON RD",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10467",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.863022,
-            "lng": -73.865689
-          },
-          "rating": {
-            "value": 4.3,
-            "count": 30
-          },
-          "latest_review": "Great neighborhood station with good prices, nice convenient store and very friendly staff ",
-          "price": "$4.97",
-          "price_type": "Cash",
-          "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.208433",
-          "reported_at": "2026-07-31T04:00:27.216091"
-        },
-        {
-          "name": "BP",
-          "address": {
-            "street": "3333 E Tremont Ave",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10461",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.835080182794,
-            "lng": -73.830128610134
-          },
-          "rating": {
-            "value": 4.3,
-            "count": 70
-          },
-          "latest_review": "Recommend good gas prices",
-          "price": "$4.99",
-          "price_type": "Credit",
-          "reported_by": "Buddy_de6zf71c",
-          "reported_ago": "14 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.208440",
-          "reported_at": "2026-07-31T02:00:27.216671"
-        },
-        {
-          "name": "Shell",
-          "address": {
-            "street": "1845 Webster Ave",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10457",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.846746878112,
-            "lng": -73.901762366295
-          },
-          "rating": {
-            "value": 2.3,
-            "count": 108
-          },
-          "latest_review": "Slow service. ",
+          "latest_review": "Great all around",
           "price": "$4.99",
           "price_type": "Cash",
-          "reported_by": "wespinosa",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:27.208446",
-          "reported_at": "2026-07-30T16:00:27.218293"
+          "reported_by": "discodiva",
+          "reported_ago": "9 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.386044",
+          "reported_at": "2026-08-04T02:49:41.395150"
         }
       ],
       "count": 10
@@ -771,54 +771,29 @@
     "Diesel Fuel Prices": {
       "stations": [
         {
-          "name": "Phillips 66",
+          "name": "Shell",
           "address": {
-            "street": "902 Soundview Ave",
+            "street": "2280 Tillotson Ave",
             "city": "Bronx",
             "state": "NY",
-            "zip": "10473",
+            "zip": "10475",
             "country": "US"
           },
           "geo": {
-            "lat": 40.823249,
-            "lng": -73.867712
+            "lat": 40.88248,
+            "lng": -73.826515
           },
           "rating": {
-            "value": 4.1,
-            "count": 61
+            "value": 4.5,
+            "count": 184
           },
-          "latest_review": "Great station overall, nice and clean.",
-          "price": "$5.39",
-          "price_type": "Credit",
-          "reported_by": "Bigtiosteve",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:27.409426",
-          "reported_at": "2026-07-30T16:00:27.413696"
-        },
-        {
-          "name": "B&G Services",
-          "address": {
-            "street": "1243 East Tremont Ave",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10460",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.839946374745,
-            "lng": -73.87133538723
-          },
-          "rating": {
-            "value": 3.2,
-            "count": 80
-          },
-          "latest_review": "Debit price same as credit..\n",
-          "price": "$5.49",
+          "latest_review": "offers gas @ .05 cent discount on Weds & Sat's.",
+          "price": "$5.38",
           "price_type": "Cash",
-          "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.409437",
-          "reported_at": "2026-07-31T04:00:27.414508"
+          "reported_by": "EDIESHEILA",
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.557015",
+          "reported_at": "2026-08-04T00:49:41.561631"
         },
         {
           "name": "Global",
@@ -841,59 +816,34 @@
           "price": "$5.55",
           "price_type": "Credit",
           "reported_by": "EDIESHEILA",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.409442",
-          "reported_at": "2026-07-31T05:00:27.415278"
+          "reported_ago": "5 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.557028",
+          "reported_at": "2026-08-04T06:49:41.564672"
         },
         {
-          "name": "Shell",
+          "name": "CITGO",
           "address": {
-            "street": "119 Bruckner Blvd",
+            "street": "1982 Bronxdale Ave",
             "city": "Bronx",
             "state": "NY",
-            "zip": "10461",
+            "zip": "10462",
             "country": "US"
           },
           "geo": {
-            "lat": 40.804676,
-            "lng": -73.92166
+            "lat": 40.850062,
+            "lng": -73.864403
           },
           "rating": {
-            "value": 4,
-            "count": 111
+            "value": 3.4,
+            "count": 63
           },
-          "latest_review": "My go to for fill ups. Great prices, good snacks, in a well populated area",
-          "price": "$5.49",
-          "price_type": "Cash",
-          "reported_by": "magalisj2006",
-          "reported_ago": "1 Hour Ago",
-          "scraped_at": "2026-07-31T16:00:27.409447",
-          "reported_at": "2026-07-31T15:00:27.414009"
-        },
-        {
-          "name": "76",
-          "address": {
-            "street": "2007 Williamsbridge Rd",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10461-1606",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.854312896728,
-            "lng": -73.854759216308
-          },
-          "rating": {
-            "value": 4.5,
-            "count": 278
-          },
-          "latest_review": "Very nice gas Station prices are always the lowest around ",
-          "price": "$5.49",
-          "price_type": "Cash",
-          "reported_by": "EDIESHEILA",
-          "reported_ago": "11 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.409452",
-          "reported_at": "2026-07-31T05:00:27.414260"
+          "latest_review": "pretty dirty station. when there's cars it can be annoying. usually empty for fast fill ups. but its empty because of the prices",
+          "price": "$5.59",
+          "price_type": "Credit",
+          "reported_by": "discodiva",
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.557034",
+          "reported_at": "2026-08-04T03:49:41.566948"
         },
         {
           "name": "Gulf",
@@ -916,84 +866,59 @@
           "price": "$5.49",
           "price_type": "Cash",
           "reported_by": "EDIESHEILA",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:27.409458",
-          "reported_at": "2026-07-30T16:00:27.414750"
-        },
-        {
-          "name": "CITGO",
-          "address": {
-            "street": "1982 Bronxdale Ave",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10462",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.850062,
-            "lng": -73.864403
-          },
-          "rating": {
-            "value": 3.4,
-            "count": 63
-          },
-          "latest_review": "pretty dirty station. when there's cars it can be annoying. usually empty for fast fill ups. but its empty because of the prices",
-          "price": "$5.59",
-          "price_type": "Credit",
-          "reported_by": "EDIESHEILA",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:27.409463",
-          "reported_at": "2026-07-30T16:00:27.416796"
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.557040",
+          "reported_at": "2026-08-03T20:49:41.563707"
         },
         {
           "name": "Shell",
           "address": {
-            "street": "1845 Webster Ave",
+            "street": "119 Bruckner Blvd",
             "city": "Bronx",
             "state": "NY",
-            "zip": "10457",
+            "zip": "10461",
             "country": "US"
           },
           "geo": {
-            "lat": 40.846746878112,
-            "lng": -73.901762366295
+            "lat": 40.804676,
+            "lng": -73.92166
           },
           "rating": {
-            "value": 2.3,
-            "count": 108
+            "value": 4,
+            "count": 112
           },
-          "latest_review": "Slow service. ",
-          "price": "$5.59",
+          "latest_review": "My go to for fill ups. Great prices, good snacks, in a well populated area",
+          "price": "$5.49",
           "price_type": "Cash",
-          "reported_by": "wespinosa",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:27.409470",
-          "reported_at": "2026-07-30T16:00:27.416253"
+          "reported_by": "DataFeed",
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.557045",
+          "reported_at": "2026-08-04T03:49:41.562140"
         },
         {
-          "name": "Speedway",
+          "name": "76",
           "address": {
-            "street": "610 Nereid Ave",
+            "street": "2007 Williamsbridge Rd",
             "city": "Bronx",
             "state": "NY",
-            "zip": "10470",
+            "zip": "10461-1606",
             "country": "US"
           },
           "geo": {
-            "lat": 40.899418754664,
-            "lng": -73.857480436563
+            "lat": 40.854312896728,
+            "lng": -73.854759216308
           },
           "rating": {
-            "value": 4.1,
-            "count": 40
+            "value": 4.5,
+            "count": 281
           },
-          "latest_review": "This gas station is the dirtiest speedway I have ever seen!",
-          "price": "$5.69",
-          "price_type": "Credit",
-          "reported_by": "DataFeed",
-          "reported_ago": "23 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.409475",
-          "reported_at": "2026-07-30T17:00:27.417350"
+          "latest_review": "Very nice gas Station prices are always the lowest around ",
+          "price": "$5.49",
+          "price_type": "Cash",
+          "reported_by": "discodiva",
+          "reported_ago": "9 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.557051",
+          "reported_at": "2026-08-04T02:49:41.562870"
         },
         {
           "name": "Gulf",
@@ -1016,9 +941,84 @@
           "price": "$5.59",
           "price_type": "Credit",
           "reported_by": "DataFeed",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.409479",
-          "reported_at": "2026-07-31T04:00:27.415803"
+          "reported_ago": "8 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.557056",
+          "reported_at": "2026-08-04T03:49:41.565966"
+        },
+        {
+          "name": "Amoco",
+          "address": {
+            "street": "4090 Boston Rd",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10475",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.885610891384,
+            "lng": -73.828260451555
+          },
+          "rating": {
+            "value": 4.7,
+            "count": 53
+          },
+          "latest_review": "Friendly staff, lot of merchandise and good prices on gas and diesel ",
+          "price": "$5.69",
+          "price_type": "Cash",
+          "reported_by": "EDIESHEILA",
+          "reported_ago": "11 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.557061",
+          "reported_at": "2026-08-04T00:49:41.567932"
+        },
+        {
+          "name": "Speedway",
+          "address": {
+            "street": "610 Nereid Ave",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10470",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.899418754664,
+            "lng": -73.857480436563
+          },
+          "rating": {
+            "value": 4.1,
+            "count": 40
+          },
+          "latest_review": "This gas station is the dirtiest speedway I have ever seen!",
+          "price": "$5.69",
+          "price_type": "Credit",
+          "reported_by": "DataFeed",
+          "reported_ago": "9 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.557066",
+          "reported_at": "2026-08-04T02:49:41.568869"
+        },
+        {
+          "name": "Shell",
+          "address": {
+            "street": "1610 Eastchester Rd",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10461",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.84452,
+            "lng": -73.845667
+          },
+          "rating": {
+            "value": 4.4,
+            "count": 39
+          },
+          "latest_review": "This gas station has a machine car wash, air pump, vacuum and a store",
+          "price": "$5.89",
+          "price_type": "Cash",
+          "reported_by": "discodiva",
+          "reported_ago": "17 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.557071",
+          "reported_at": "2026-08-03T18:49:41.569746"
         }
       ],
       "count": 10
@@ -1026,28 +1026,28 @@
     "E85 Fuel Prices": {
       "stations": [
         {
-          "name": "Shell",
+          "name": "Mobil",
           "address": {
-            "street": "3500 CONNER ST",
+            "street": "4201 Webster Ave",
             "city": "Bronx",
             "state": "NY",
-            "zip": "10475",
+            "zip": "10470",
             "country": "US"
           },
           "geo": {
-            "lat": 40.885005,
-            "lng": -73.82645
+            "lat": 40.89570362,
+            "lng": -73.86366561
           },
           "rating": {
-            "value": 4.7,
-            "count": 49
+            "value": 4.2,
+            "count": 39
           },
-          "latest_review": "new station it's a shell best prices in area",
+          "latest_review": "This gestation is no longer name BP it is now a Mobil Gestation.  ",
           "price": "- - -",
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:27.558593",
+          "scraped_at": "2026-08-04T11:49:41.710153",
           "reported_at": null
         },
         {
@@ -1072,57 +1072,32 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:27.558606",
-          "reported_at": null
-        },
-        {
-          "name": "Mobil",
-          "address": {
-            "street": "4201 Webster Ave",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10470",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.89570362,
-            "lng": -73.86366561
-          },
-          "rating": {
-            "value": 4.2,
-            "count": 39
-          },
-          "latest_review": "This gestation is no longer name BP it is now a Mobil Gestation.  ",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:27.558615",
+          "scraped_at": "2026-08-04T11:49:41.710171",
           "reported_at": null
         },
         {
           "name": "Shell",
           "address": {
-            "street": "1325 Hutchinson River Pkwy S",
+            "street": "3500 CONNER ST",
             "city": "Bronx",
             "state": "NY",
-            "zip": "10461",
+            "zip": "10475",
             "country": "US"
           },
           "geo": {
-            "lat": 40.83590409,
-            "lng": -73.83891955
+            "lat": 40.885005,
+            "lng": -73.82645
           },
           "rating": {
-            "value": 2.8,
-            "count": 69
+            "value": 4.7,
+            "count": 49
           },
-          "latest_review": "price trap. MOST EXPENSIVE GASOLINE in the entire northeast....",
+          "latest_review": "new station it's a shell best prices in area",
           "price": "- - -",
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:27.558621",
+          "scraped_at": "2026-08-04T11:49:41.710181",
           "reported_at": null
         },
         {
@@ -1147,112 +1122,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:27.558629",
-          "reported_at": null
-        },
-        {
-          "name": "Mobil",
-          "address": {
-            "street": "4147 Throggs Neck Expy",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10465-3458",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.81993345,
-            "lng": -73.80993962
-          },
-          "rating": {
-            "value": 4.2,
-            "count": 60
-          },
-          "latest_review": "Nice station close to Troggs neck bridge. Decent bathroom.",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:27.558636",
-          "reported_at": null
-        },
-        {
-          "name": "Shell",
-          "address": {
-            "street": "1930 BARTOW AVE",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10469",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.868119,
-            "lng": -73.833796
-          },
-          "rating": {
-            "value": 4.8,
-            "count": 184
-          },
-          "latest_review": "Excellent location adjacent to highway. Friendly with Dunkin' Donuts inside hot coffee.",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:27.558642",
-          "reported_at": null
-        },
-        {
-          "name": "Atlantis",
-          "address": {
-            "street": "3276 Jerome Ave",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10468",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.878489,
-            "lng": -73.886108
-          },
-          "rating": {
-            "value": 4.1,
-            "count": 20
-          },
-          "latest_review": "OK",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:27.558648",
-          "reported_at": null
-        }
-      ],
-      "count": 8
-    },
-    "UNL88 Fuel Prices": {
-      "stations": [
-        {
-          "name": "Shell",
-          "address": {
-            "street": "1320 Hutchinson River Pkwy N",
-            "city": "Bronx",
-            "state": "NY",
-            "zip": "10461",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.8366803,
-            "lng": -73.83837171
-          },
-          "rating": {
-            "value": 2.6,
-            "count": 60
-          },
-          "latest_review": "overpriced ",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:27.673925",
+          "scraped_at": "2026-08-04T11:49:41.710201",
           "reported_at": null
         },
         {
@@ -1277,7 +1147,137 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:27.673937",
+          "scraped_at": "2026-08-04T11:49:41.710208",
+          "reported_at": null
+        },
+        {
+          "name": "Mobil",
+          "address": {
+            "street": "4147 Throggs Neck Expy",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10465-3458",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.81993345,
+            "lng": -73.80993962
+          },
+          "rating": {
+            "value": 4.2,
+            "count": 60
+          },
+          "latest_review": "Nice station close to Troggs neck bridge. Decent bathroom.",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-08-04T11:49:41.710214",
+          "reported_at": null
+        },
+        {
+          "name": "Shell",
+          "address": {
+            "street": "1930 BARTOW AVE",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10469",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.868119,
+            "lng": -73.833796
+          },
+          "rating": {
+            "value": 4.8,
+            "count": 184
+          },
+          "latest_review": "Excellent location adjacent to highway. Friendly with Dunkin' Donuts inside hot coffee.",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-08-04T11:49:41.710220",
+          "reported_at": null
+        },
+        {
+          "name": "Atlantis",
+          "address": {
+            "street": "3276 Jerome Ave",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10468",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.878489,
+            "lng": -73.886108
+          },
+          "rating": {
+            "value": 4.1,
+            "count": 21
+          },
+          "latest_review": "OK",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-08-04T11:49:41.710229",
+          "reported_at": null
+        }
+      ],
+      "count": 8
+    },
+    "UNL88 Fuel Prices": {
+      "stations": [
+        {
+          "name": "Shell",
+          "address": {
+            "street": "1325 Hutchinson River Pkwy S",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10461",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.83590409,
+            "lng": -73.83891955
+          },
+          "rating": {
+            "value": 2.8,
+            "count": 69
+          },
+          "latest_review": "price trap. MOST EXPENSIVE GASOLINE in the entire northeast....",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-08-04T11:49:41.804257",
+          "reported_at": null
+        },
+        {
+          "name": "Shell",
+          "address": {
+            "street": "1320 Hutchinson River Pkwy N",
+            "city": "Bronx",
+            "state": "NY",
+            "zip": "10461",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.8366803,
+            "lng": -73.83837171
+          },
+          "rating": {
+            "value": 2.6,
+            "count": 60
+          },
+          "latest_review": "overpriced ",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-08-04T11:49:41.804271",
           "reported_at": null
         }
       ],

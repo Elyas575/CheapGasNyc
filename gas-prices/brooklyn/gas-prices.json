@@ -1,6 +1,6 @@
 {
   "borough": "brooklyn",
-  "extracted_at": "2026-07-31T16:00:28.648142",
+  "extracted_at": "2026-08-04T11:49:42.522696",
   "total_stations": 44,
   "fuel_types": {
     "Regular Fuel Prices": {
@@ -26,9 +26,34 @@
           "price": "$3.85",
           "price_type": "Credit",
           "reported_by": "COBRA_0139",
-          "reported_ago": "19 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.885386",
-          "reported_at": "2026-07-30T21:00:27.887800"
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.951654",
+          "reported_at": "2026-08-03T20:49:41.954443"
+        },
+        {
+          "name": "Mobil",
+          "address": {
+            "street": "463 N Conduit Blvd",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11208",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.677810613935,
+            "lng": -73.870806992054
+          },
+          "rating": {
+            "value": 3.7,
+            "count": 170
+          },
+          "latest_review": "Need new management. Not authentic Mobil gasoline. ",
+          "price": "$3.79",
+          "price_type": "Cash",
+          "reported_by": "ricojamm",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.951669",
+          "reported_at": "2026-08-03T22:49:41.954128"
         },
         {
           "name": "Xpress Lane",
@@ -48,12 +73,87 @@
             "count": 82
           },
           "latest_review": "Nice clean station with cheap gas",
-          "price": "$3.95",
+          "price": "$3.91",
           "price_type": "Credit",
-          "reported_by": "BigUmi",
-          "reported_ago": "5 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.885398",
-          "reported_at": "2026-07-31T11:00:27.888618"
+          "reported_by": "visitor",
+          "reported_ago": "7 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.951677",
+          "reported_at": "2026-08-04T04:49:41.955058"
+        },
+        {
+          "name": "76",
+          "address": {
+            "street": "3170 Atlantic Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11208-1949",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.67955589348,
+            "lng": -73.878099918365
+          },
+          "rating": {
+            "value": 4,
+            "count": 205
+          },
+          "latest_review": "Credit and cash same price!",
+          "price": "$3.89",
+          "price_type": "Credit",
+          "reported_by": "DataFeed",
+          "reported_ago": "10 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.951683",
+          "reported_at": "2026-08-04T01:49:41.954758"
+        },
+        {
+          "name": "Shell",
+          "address": {
+            "street": "1285 Bedford Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11216",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.678938,
+            "lng": -73.95273
+          },
+          "rating": {
+            "value": 4.3,
+            "count": 55
+          },
+          "latest_review": "I like it ",
+          "price": "$3.91",
+          "price_type": "Credit",
+          "reported_by": "Lakis300",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.951690",
+          "reported_at": "2026-08-03T20:49:41.955678"
+        },
+        {
+          "name": "Mobil",
+          "address": {
+            "street": "1143 Atlantic Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11216-2702",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.679222,
+            "lng": -73.953556
+          },
+          "rating": {
+            "value": 3.7,
+            "count": 227
+          },
+          "latest_review": "If you want to get attacked by homeless, get your credit cards scanned by scammers with scanners, and get treated by garbed by their numb and dumb employees, this is your place.\n\nOutside are scammers with electronic equipment in backpacks scanning credit cards. There is zero security and management doesn't care. Stay away! ",
+          "price": "$3.91",
+          "price_type": "Credit",
+          "reported_by": "COBRA_0139",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.951696",
+          "reported_at": "2026-08-03T20:49:41.955371"
         },
         {
           "name": "Mobil",
@@ -75,85 +175,10 @@
           "latest_review": "Good ",
           "price": "$3.95",
           "price_type": "Cash",
-          "reported_by": "VladLb",
+          "reported_by": "dial86",
           "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.885404",
-          "reported_at": "2026-07-31T14:00:27.888318"
-        },
-        {
-          "name": "Mobil",
-          "address": {
-            "street": "1935 Linden Blvd",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11207-6901",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.658703121184,
-            "lng": -73.891323208809
-          },
-          "rating": {
-            "value": 3.8,
-            "count": 45
-          },
-          "latest_review": "charge extra for credit",
-          "price": "$3.89",
-          "price_type": "Cash",
-          "reported_by": "5910DEE",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.885409",
-          "reported_at": "2026-07-31T14:00:27.888063"
-        },
-        {
-          "name": "National",
-          "address": {
-            "street": "1267 Flatbush Ave  ",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11226",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.6393283,
-            "lng": -73.9544822
-          },
-          "rating": {
-            "value": 3.4,
-            "count": 31
-          },
-          "latest_review": "The place is filthy ",
-          "price": "$3.97",
-          "price_type": "Cash",
-          "reported_by": "GMcarfan2008",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:27.885413",
-          "reported_at": "2026-07-30T16:00:27.888865"
-        },
-        {
-          "name": "Mobil",
-          "address": {
-            "street": "2816 Atlantic Ave",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11207-2621",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.676478994133,
-            "lng": -73.890040777623
-          },
-          "rating": {
-            "value": 4.1,
-            "count": 149
-          },
-          "latest_review": "Sometimes the prices are really good. ",
-          "price": "$3.99",
-          "price_type": "Credit",
-          "reported_by": "nicola13144",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.885418",
-          "reported_at": "2026-07-31T04:00:27.890081"
+          "scraped_at": "2026-08-04T11:49:41.951704",
+          "reported_at": "2026-08-04T09:49:41.955938"
         },
         {
           "name": "Gulf",
@@ -173,87 +198,62 @@
             "count": 305
           },
           "latest_review": "this is the one of the best stations in Brooklyn. ",
-          "price": "$3.99",
+          "price": "$3.95",
           "price_type": "Credit",
-          "reported_by": "Aviator_Rob",
+          "reported_by": "VZbereha",
+          "reported_ago": "10 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.951712",
+          "reported_at": "2026-08-04T01:49:41.956252"
+        },
+        {
+          "name": "King Plaza Tire And Auto Care ",
+          "address": {
+            "street": "3827 Kings Hwy",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11210",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.6224556,
+            "lng": -73.93716431
+          },
+          "rating": {
+            "value": 1.8,
+            "count": 406
+          },
+          "latest_review": "14 cents per gallon extra for credit card",
+          "price": "$3.97",
+          "price_type": "Cash",
+          "reported_by": "#12#_lenbar",
           "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.885423",
-          "reported_at": "2026-07-31T14:00:27.889769"
+          "scraped_at": "2026-08-04T11:49:41.951718",
+          "reported_at": "2026-08-04T09:49:41.956766"
         },
         {
           "name": "Mobil",
           "address": {
-            "street": "1127 Flushing Ave",
+            "street": "8401 Flatlands ",
             "city": "Brooklyn",
             "state": "NY",
-            "zip": "11237",
+            "zip": "11236-3507",
             "country": "US"
           },
           "geo": {
-            "lat": 40.70555067,
-            "lng": -73.92700464
+            "lat": 40.637790399974,
+            "lng": -73.910204619169
           },
           "rating": {
-            "value": 3.2,
-            "count": 100
+            "value": 4.3,
+            "count": 84
           },
-          "latest_review": "The lowest price is always in CASH \n",
-          "price": "$3.99",
+          "latest_review": "Attendants are condescending and slow to serve. ",
+          "price": "$3.95",
           "price_type": "Cash",
-          "reported_by": "cuca718",
-          "reported_ago": "4 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:27.885428",
-          "reported_at": "2026-07-31T12:00:27.889455"
-        },
-        {
-          "name": "BP",
-          "address": {
-            "street": "1130 PENNSYLVANIA AVE",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11207",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.652984,
-            "lng": -73.886534
-          },
-          "rating": {
-            "value": 3.7,
-            "count": 67
-          },
-          "latest_review": "The engine/undercarriage wash guy Carlos does great work. Convenience store is great.",
-          "price": "$3.99",
-          "price_type": "Credit",
-          "reported_by": "DataFeed",
-          "reported_ago": "1 Hour Ago",
-          "scraped_at": "2026-07-31T16:00:27.885432",
-          "reported_at": "2026-07-31T15:00:27.889186"
-        },
-        {
-          "name": "Bolla Market",
-          "address": {
-            "street": "1193 Myrtle Ave",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11221",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.69741695485,
-            "lng": -73.932846486568
-          },
-          "rating": {
-            "value": 3.8,
-            "count": 82
-          },
-          "latest_review": "Every time I go there's a guy there to come and ask me for change, and it's a different guy on different days ",
-          "price": "$3.99",
-          "price_type": "Cash",
-          "reported_by": "Buddy_axfca318",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:27.885437",
-          "reported_at": "2026-07-30T16:00:27.890332"
+          "reported_by": "zunovoa",
+          "reported_ago": "16 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:41.951724",
+          "reported_at": "2026-08-03T19:49:41.956509"
         }
       ],
       "count": 10
@@ -261,29 +261,79 @@
     "Mid-Grade Fuel Prices": {
       "stations": [
         {
-          "name": "Conoco",
+          "name": "Mobil",
           "address": {
-            "street": "451 Lorimer St",
+            "street": "8401 Flatlands ",
             "city": "Brooklyn",
             "state": "NY",
-            "zip": "11206-1039",
+            "zip": "11236-3507",
             "country": "US"
           },
           "geo": {
-            "lat": 40.710617476694,
-            "lng": -73.948990702629
+            "lat": 40.637790399974,
+            "lng": -73.910204619169
           },
           "rating": {
-            "value": 4,
-            "count": 219
+            "value": 4.3,
+            "count": 84
           },
-          "latest_review": "My go-to gas station as it is the cheapest for premium around me.",
-          "price": "$4.29",
+          "latest_review": "Attendants are condescending and slow to serve. ",
+          "price": "$4.05",
           "price_type": "Cash",
-          "reported_by": "visitor",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.027301",
-          "reported_at": "2026-07-30T22:00:28.032914"
+          "reported_by": "zunovoa",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.091361",
+          "reported_at": "2026-08-03T22:49:42.094971"
+        },
+        {
+          "name": "Bolla Market",
+          "address": {
+            "street": "497 Meeker Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11222-5001",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.720681,
+            "lng": -73.944314
+          },
+          "rating": {
+            "value": 3.6,
+            "count": 370
+          },
+          "latest_review": "using debit card gets cash price, which is not the case at other stations nearby",
+          "price": "$4.16",
+          "price_type": "Cash",
+          "reported_by": "Lakis300",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.091413",
+          "reported_at": "2026-08-03T20:49:42.095241"
+        },
+        {
+          "name": "Mobil",
+          "address": {
+            "street": "463 N Conduit Blvd",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11208",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.677810613935,
+            "lng": -73.870806992054
+          },
+          "rating": {
+            "value": 3.7,
+            "count": 170
+          },
+          "latest_review": "Need new management. Not authentic Mobil gasoline. ",
+          "price": "$4.19",
+          "price_type": "Cash",
+          "reported_by": "ricojamm",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.091589",
+          "reported_at": "2026-08-03T22:49:42.095498"
         },
         {
           "name": "Mobil",
@@ -305,10 +355,35 @@
           "latest_review": "Good ",
           "price": "$4.35",
           "price_type": "Cash",
-          "reported_by": "VladLb",
+          "reported_by": "dial86",
           "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.027314",
-          "reported_at": "2026-07-31T14:00:28.033961"
+          "scraped_at": "2026-08-04T11:49:42.091678",
+          "reported_at": "2026-08-04T09:49:42.096410"
+        },
+        {
+          "name": "Gulf",
+          "address": {
+            "street": "60565th St",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11220",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.63520813,
+            "lng": -74.01609039
+          },
+          "rating": {
+            "value": 3.9,
+            "count": 305
+          },
+          "latest_review": "this is the one of the best stations in Brooklyn. ",
+          "price": "$4.35",
+          "price_type": "Credit",
+          "reported_by": "VZbereha",
+          "reported_ago": "10 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.091732",
+          "reported_at": "2026-08-04T01:49:42.096738"
         },
         {
           "name": "Mobil",
@@ -330,85 +405,35 @@
           "latest_review": "charge extra for credit",
           "price": "$4.29",
           "price_type": "Cash",
-          "reported_by": "5910DEE",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.027321",
-          "reported_at": "2026-07-31T14:00:28.032444"
+          "reported_by": "AlfaRomero1049",
+          "reported_ago": "20 Minutes Ago",
+          "scraped_at": "2026-08-04T11:49:42.091754",
+          "reported_at": "2026-08-04T11:29:42.095748"
         },
         {
-          "name": "Gulf",
+          "name": "Hidden Gem",
           "address": {
-            "street": "60565th St",
+            "street": "321 Mcguinness Blvd",
             "city": "Brooklyn",
             "state": "NY",
-            "zip": "11220",
+            "zip": "11222",
             "country": "US"
           },
           "geo": {
-            "lat": 40.63520813,
-            "lng": -74.01609039
+            "lat": 40.733845049744,
+            "lng": -73.952454735581
           },
           "rating": {
-            "value": 3.9,
-            "count": 305
+            "value": 3,
+            "count": 174
           },
-          "latest_review": "this is the one of the best stations in Brooklyn. ",
+          "latest_review": "Very nice, they let me use the restroom and gave me paper towels to dry my hands. Very nice young ladies!! And the price is definitely right.\n",
           "price": "$4.39",
           "price_type": "Credit",
-          "reported_by": "Aviator_Rob",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.027327",
-          "reported_at": "2026-07-31T14:00:28.035105"
-        },
-        {
-          "name": "Bolla Market",
-          "address": {
-            "street": "1193 Myrtle Ave",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11221",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.69741695485,
-            "lng": -73.932846486568
-          },
-          "rating": {
-            "value": 3.8,
-            "count": 82
-          },
-          "latest_review": "Every time I go there's a guy there to come and ask me for change, and it's a different guy on different days ",
-          "price": "$4.39",
-          "price_type": "Cash",
-          "reported_by": "Buddy_axfca318",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:28.027334",
-          "reported_at": "2026-07-30T16:00:28.035559"
-        },
-        {
-          "name": "National",
-          "address": {
-            "street": "1267 Flatbush Ave  ",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11226",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.6393283,
-            "lng": -73.9544822
-          },
-          "rating": {
-            "value": 3.4,
-            "count": 31
-          },
-          "latest_review": "The place is filthy ",
-          "price": "$4.39",
-          "price_type": "Cash",
-          "reported_by": "GMcarfan2008",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:28.027340",
-          "reported_at": "2026-07-30T16:00:28.036018"
+          "reported_by": "jCVNY",
+          "reported_ago": "3 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.091778",
+          "reported_at": "2026-08-04T08:49:42.097082"
         },
         {
           "name": "Shell",
@@ -430,91 +455,91 @@
           "latest_review": "the best is that it is same price cash and credit ",
           "price": "$4.33",
           "price_type": "Credit",
-          "reported_by": "NYClady1",
-          "reported_ago": "14 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.027346",
-          "reported_at": "2026-07-31T02:00:28.033501"
-        },
-        {
-          "name": "Sunoco",
-          "address": {
-            "street": "2285 Flatbush Ave",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11234",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.614549,
-            "lng": -73.927948
-          },
-          "rating": {
-            "value": 3.6,
-            "count": 42
-          },
-          "latest_review": "We had a $100. Sunoco gift card and this gas station refused to take it. The person inside said to give him \"cash\".  This happened two days I a rw.",
-          "price": "$4.43",
-          "price_type": "Credit",
-          "reported_by": "productionsnyc",
-          "reported_ago": "6 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.027352",
-          "reported_at": "2026-07-31T10:00:28.037212"
-        },
-        {
-          "name": "Hidden Gem",
-          "address": {
-            "street": "321 Mcguinness Blvd",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11222",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.733845049744,
-            "lng": -73.952454735581
-          },
-          "rating": {
-            "value": 3,
-            "count": 174
-          },
-          "latest_review": "Very nice, they let me use the restroom and gave me paper towels to dry my hands. Very nice young ladies!! And the price is definitely right.\n",
-          "price": "$4.39",
-          "price_type": "Credit",
-          "reported_by": "rbt002",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:28.027359",
-          "reported_at": "2026-07-30T16:00:28.036617"
+          "reported_by": "Lakis300",
+          "reported_ago": "23 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.092484",
+          "reported_at": "2026-08-03T12:49:42.096112"
         },
         {
           "name": "Mobil",
           "address": {
-            "street": "1140 Utica Ave",
+            "street": "7023 Bay Pkwy",
             "city": "Brooklyn",
             "state": "NY",
-            "zip": "11203",
+            "zip": "11204-5523",
             "country": "US"
           },
           "geo": {
-            "lat": 40.645118,
-            "lng": -73.930022
+            "lat": 40.610375,
+            "lng": -73.9846
           },
           "rating": {
-            "value": 3.5,
-            "count": 72
+            "value": 4,
+            "count": 127
           },
-          "latest_review": "Brand new gas station with the best pricing on gas in the community, much less in Brooklyn NY. ",
-          "price": "$4.35",
+          "latest_review": "Be careful of the gas price you pay in cash. They charge you the credit price when you're filling the tank. The service agent denies the fact you paid in cash when confronted and changes the story saying you didn't pay first. If you didn't pay first, how you fill the tank? Please check before leaving. ",
+          "price": "$4.45",
           "price_type": "Credit",
-          "reported_by": "Mango1410",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.027365",
-          "reported_at": "2026-07-31T04:00:28.034522"
+          "reported_by": "productionsnyc",
+          "reported_ago": "19 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.092511",
+          "reported_at": "2026-08-03T16:49:42.097660"
+        },
+        {
+          "name": "BP",
+          "address": {
+            "street": "1676 Flatbush Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11210",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.62933,
+            "lng": -73.944285
+          },
+          "rating": {
+            "value": 2.1,
+            "count": 35
+          },
+          "latest_review": "Great small location to be at ",
+          "price": "$4.45",
+          "price_type": "Cash",
+          "reported_by": "#12#_lenbar",
+          "reported_ago": "3 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.092518",
+          "reported_at": "2026-08-04T08:49:42.097343"
         }
       ],
       "count": 10
     },
     "Premium Fuel Prices": {
       "stations": [
+        {
+          "name": "Bolla Market",
+          "address": {
+            "street": "497 Meeker Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11222-5001",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.720681,
+            "lng": -73.944314
+          },
+          "rating": {
+            "value": 3.6,
+            "count": 370
+          },
+          "latest_review": "using debit card gets cash price, which is not the case at other stations nearby",
+          "price": "$4.53",
+          "price_type": "Cash",
+          "reported_by": "Lakis300",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.230234",
+          "reported_at": "2026-08-03T20:49:42.235848"
+        },
         {
           "name": "Gulf",
           "address": {
@@ -533,37 +558,87 @@
             "count": 305
           },
           "latest_review": "this is the one of the best stations in Brooklyn. ",
-          "price": "$4.69",
+          "price": "$4.65",
           "price_type": "Credit",
-          "reported_by": "Aviator_Rob",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.194017",
-          "reported_at": "2026-07-31T14:00:28.199804"
+          "reported_by": "VZbereha",
+          "reported_ago": "10 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.230247",
+          "reported_at": "2026-08-04T01:49:42.236910"
         },
         {
-          "name": "Bolla Market",
+          "name": "Sonomax",
           "address": {
-            "street": "1193 Myrtle Ave",
+            "street": "278 Greenpoint Ave",
             "city": "Brooklyn",
             "state": "NY",
-            "zip": "11221",
+            "zip": "11222-1938",
             "country": "US"
           },
           "geo": {
-            "lat": 40.69741695485,
-            "lng": -73.932846486568
+            "lat": 40.7305637619,
+            "lng": -73.948228955269
           },
           "rating": {
-            "value": 3.8,
-            "count": 82
+            "value": 3.3,
+            "count": 517
           },
-          "latest_review": "Every time I go there's a guy there to come and ask me for change, and it's a different guy on different days ",
-          "price": "$4.69",
+          "latest_review": "They sell very cheap gas car give less miles I check three time miles on my car\nI buy shell gas lot more miles ",
+          "price": "$4.53",
           "price_type": "Cash",
-          "reported_by": "Buddy_axfca318",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:28.194030",
-          "reported_at": "2026-07-30T16:00:28.200260"
+          "reported_by": "Buddy_pbtcrf04",
+          "reported_ago": "10 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.230254",
+          "reported_at": "2026-08-04T01:49:42.235377"
+        },
+        {
+          "name": "Mobil",
+          "address": {
+            "street": "1935 Coney Island Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11230-6512",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.61033630371,
+            "lng": -73.962089538574
+          },
+          "rating": {
+            "value": 3.9,
+            "count": 424
+          },
+          "latest_review": "the station is new and it's pretty good but I actually got a tank of bad gas I have a brand new truck that has like 5,000 miles and the engine started knocking and pinging so I would be cautious filling up on the 87 over here",
+          "price": "$4.69",
+          "price_type": "Credit",
+          "reported_by": "dial86",
+          "reported_ago": "2 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.230261",
+          "reported_at": "2026-08-04T09:49:42.237515"
+        },
+        {
+          "name": "Mobil",
+          "address": {
+            "street": "463 N Conduit Blvd",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11208",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.677810613935,
+            "lng": -73.870806992054
+          },
+          "rating": {
+            "value": 3.7,
+            "count": 170
+          },
+          "latest_review": "Need new management. Not authentic Mobil gasoline. ",
+          "price": "$4.59",
+          "price_type": "Cash",
+          "reported_by": "ricojamm",
+          "reported_ago": "13 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.230267",
+          "reported_at": "2026-08-03T22:49:42.236327"
         },
         {
           "name": "Mobil",
@@ -585,185 +660,110 @@
           "latest_review": "Good ",
           "price": "$4.75",
           "price_type": "Cash",
-          "reported_by": "VladLb",
+          "reported_by": "dial86",
           "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.194037",
-          "reported_at": "2026-07-31T14:00:28.200709"
+          "scraped_at": "2026-08-04T11:49:42.230276",
+          "reported_at": "2026-08-04T09:49:42.239099"
+        },
+        {
+          "name": "Shell",
+          "address": {
+            "street": "1285 Bedford Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11216",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.678938,
+            "lng": -73.95273
+          },
+          "rating": {
+            "value": 4.3,
+            "count": 55
+          },
+          "latest_review": "I like it ",
+          "price": "$4.73",
+          "price_type": "Credit",
+          "reported_by": "Lakis300",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.230282",
+          "reported_at": "2026-08-03T20:49:42.238642"
         },
         {
           "name": "Mobil",
           "address": {
-            "street": "1935 Linden Blvd",
+            "street": "1143 Atlantic Ave",
             "city": "Brooklyn",
             "state": "NY",
-            "zip": "11207-6901",
+            "zip": "11216-2702",
             "country": "US"
           },
           "geo": {
-            "lat": 40.658703121184,
-            "lng": -73.891323208809
+            "lat": 40.679222,
+            "lng": -73.953556
           },
           "rating": {
-            "value": 3.8,
-            "count": 45
+            "value": 3.7,
+            "count": 227
           },
-          "latest_review": "charge extra for credit",
-          "price": "$4.69",
-          "price_type": "Cash",
-          "reported_by": "5910DEE",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.194043",
-          "reported_at": "2026-07-31T14:00:28.199226"
+          "latest_review": "If you want to get attacked by homeless, get your credit cards scanned by scammers with scanners, and get treated by garbed by their numb and dumb employees, this is your place.\n\nOutside are scammers with electronic equipment in backpacks scanning credit cards. There is zero security and management doesn't care. Stay away! ",
+          "price": "$4.73",
+          "price_type": "Credit",
+          "reported_by": "COBRA_0139",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.230288",
+          "reported_at": "2026-08-03T20:49:42.238084"
         },
         {
-          "name": "National",
+          "name": "BP",
           "address": {
-            "street": "1267 Flatbush Ave  ",
+            "street": "7702 FLATLANDS AVE",
             "city": "Brooklyn",
             "state": "NY",
-            "zip": "11226",
+            "zip": "11236",
             "country": "US"
           },
           "geo": {
-            "lat": 40.6393283,
-            "lng": -73.9544822
+            "lat": 40.634113,
+            "lng": -73.915427
           },
           "rating": {
-            "value": 3.4,
-            "count": 31
+            "value": 4.4,
+            "count": 60
           },
-          "latest_review": "The place is filthy ",
-          "price": "$4.79",
-          "price_type": "Cash",
-          "reported_by": "GMcarfan2008",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:28.194052",
-          "reported_at": "2026-07-30T16:00:28.201606"
-        },
-        {
-          "name": "Conoco",
-          "address": {
-            "street": "451 Lorimer St",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11206-1039",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.710617476694,
-            "lng": -73.948990702629
-          },
-          "rating": {
-            "value": 4,
-            "count": 219
-          },
-          "latest_review": "My go-to gas station as it is the cheapest for premium around me.",
-          "price": "$4.78",
-          "price_type": "Cash",
-          "reported_by": "visitor",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.194058",
-          "reported_at": "2026-07-30T22:00:28.201158"
+          "latest_review": "It's sad that after pumping 12 gallons of premium gas and paying with the BPme app, the attendant won't let one use the bathroom because he felt no gas was purchased! Ridiculous customer service. I will never buy gas from there again. I regretted buying from there and wished it was an item I could have returned for a refund!",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-08-04T11:49:42.230294",
+          "reported_at": null
         },
         {
           "name": "Sunoco",
           "address": {
-            "street": "2285 Flatbush Ave",
+            "street": "6102 4th Ave",
             "city": "Brooklyn",
             "state": "NY",
-            "zip": "11234",
+            "zip": "11220",
             "country": "US"
           },
           "geo": {
-            "lat": 40.614549,
-            "lng": -73.927948
+            "lat": 40.640294370179,
+            "lng": -74.01947915554
           },
           "rating": {
-            "value": 3.6,
-            "count": 42
+            "value": 3.1,
+            "count": 11
           },
-          "latest_review": "We had a $100. Sunoco gift card and this gas station refused to take it. The person inside said to give him \"cash\".  This happened two days I a rw.",
-          "price": "$4.83",
+          "latest_review": "Not bad. Prices are high.",
+          "price": "$4.76",
           "price_type": "Credit",
-          "reported_by": "productionsnyc",
-          "reported_ago": "6 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.194064",
-          "reported_at": "2026-07-31T10:00:28.202760"
-        },
-        {
-          "name": "Hidden Gem",
-          "address": {
-            "street": "321 Mcguinness Blvd",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11222",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.733845049744,
-            "lng": -73.952454735581
-          },
-          "rating": {
-            "value": 3,
-            "count": 174
-          },
-          "latest_review": "Very nice, they let me use the restroom and gave me paper towels to dry my hands. Very nice young ladies!! And the price is definitely right.\n",
-          "price": "$4.79",
-          "price_type": "Credit",
-          "reported_by": "rbt002",
-          "reported_ago": "1 Day Ago",
-          "scraped_at": "2026-07-31T16:00:28.194070",
-          "reported_at": "2026-07-30T16:00:28.202191"
-        },
-        {
-          "name": "Mobil",
-          "address": {
-            "street": "2816 Atlantic Ave",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11207-2621",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.676478994133,
-            "lng": -73.890040777623
-          },
-          "rating": {
-            "value": 4.1,
-            "count": 149
-          },
-          "latest_review": "Sometimes the prices are really good. ",
-          "price": "$4.89",
-          "price_type": "Credit",
-          "reported_by": "Mango1410",
-          "reported_ago": "14 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.194078",
-          "reported_at": "2026-07-31T02:00:28.203332"
-        },
-        {
-          "name": "Exxon",
-          "address": {
-            "street": "6201 Ave U",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11234",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.615758114413,
-            "lng": -73.913758546114
-          },
-          "rating": {
-            "value": 4.5,
-            "count": 129
-          },
-          "latest_review": "They aren't very nice behind the register ",
-          "price": "$4.89",
-          "price_type": "Credit",
-          "reported_by": "rmags75",
-          "reported_ago": "18 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.194084",
-          "reported_at": "2026-07-30T22:00:28.203891"
+          "reported_by": "prettyboy",
+          "reported_ago": "21 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.230300",
+          "reported_at": "2026-08-03T14:49:42.239641"
         }
       ],
       "count": 10
@@ -790,10 +790,10 @@
           "latest_review": "A decent gas station. Would’ve been better if the prices were $.10-$.20 lower.",
           "price": "$4.99",
           "price_type": "Cash",
-          "reported_by": "COBRA_0139",
-          "reported_ago": "19 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.346799",
-          "reported_at": "2026-07-30T21:00:28.349172"
+          "reported_by": "dubu8",
+          "reported_ago": "6 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.359992",
+          "reported_at": "2026-08-04T05:49:42.362298"
         },
         {
           "name": "Sonomax",
@@ -810,15 +810,15 @@
           },
           "rating": {
             "value": 3.3,
-            "count": 516
+            "count": 517
           },
           "latest_review": "They sell very cheap gas car give less miles I check three time miles on my car\nI buy shell gas lot more miles ",
           "price": "$5.07",
           "price_type": "Cash",
-          "reported_by": "allenkeynyc",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.346811",
-          "reported_at": "2026-07-31T04:00:28.349438"
+          "reported_by": "jCVNY",
+          "reported_ago": "3 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.360003",
+          "reported_at": "2026-08-04T08:49:42.362682"
         },
         {
           "name": "Bolla Market",
@@ -840,85 +840,35 @@
           "latest_review": "using debit card gets cash price, which is not the case at other stations nearby",
           "price": "$5.29",
           "price_type": "Cash",
-          "reported_by": "Riv21",
-          "reported_ago": "21 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.346819",
-          "reported_at": "2026-07-30T19:00:28.349698"
+          "reported_by": "Lakis300",
+          "reported_ago": "15 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.360009",
+          "reported_at": "2026-08-03T20:49:42.362979"
         },
         {
-          "name": "Conoco",
+          "name": "King Plaza Tire And Auto Care ",
           "address": {
-            "street": "451 Lorimer St",
+            "street": "3827 Kings Hwy",
             "city": "Brooklyn",
             "state": "NY",
-            "zip": "11206-1039",
+            "zip": "11210",
             "country": "US"
           },
           "geo": {
-            "lat": 40.710617476694,
-            "lng": -73.948990702629
+            "lat": 40.6224556,
+            "lng": -73.93716431
           },
           "rating": {
-            "value": 4,
-            "count": 219
+            "value": 1.8,
+            "count": 406
           },
-          "latest_review": "My go-to gas station as it is the cheapest for premium around me.",
+          "latest_review": "14 cents per gallon extra for credit card",
           "price": "$5.39",
           "price_type": "Cash",
-          "reported_by": "allenkeynyc",
-          "reported_ago": "12 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.346824",
-          "reported_at": "2026-07-31T04:00:28.349948"
-        },
-        {
-          "name": "Shell",
-          "address": {
-            "street": "538 3rd Ave",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11215",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.668996050783,
-            "lng": -73.993405401707
-          },
-          "rating": {
-            "value": 3.5,
-            "count": 24
-          },
-          "latest_review": "diesel price is a rip off and they charge you credit prices for using diesel.",
-          "price": "$5.49",
-          "price_type": "Cash",
-          "reported_by": "Buddy_xq61dv7v",
-          "reported_ago": "22 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.346829",
-          "reported_at": "2026-07-30T18:00:28.351084"
-        },
-        {
-          "name": "Shell",
-          "address": {
-            "street": "3072 Cropsey Ave",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11224",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.58031983856,
-            "lng": -73.985913991928
-          },
-          "rating": {
-            "value": 3.7,
-            "count": 86
-          },
-          "latest_review": "This station has cheap gas",
-          "price": "$5.49",
-          "price_type": "Credit",
-          "reported_by": "productionsnyc",
-          "reported_ago": "13 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.346833",
-          "reported_at": "2026-07-31T03:00:28.350831"
+          "reported_by": "#12#_lenbar",
+          "reported_ago": "3 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.360014",
+          "reported_at": "2026-08-04T08:49:42.363361"
         },
         {
           "name": "Gulf",
@@ -938,37 +888,37 @@
             "count": 305
           },
           "latest_review": "this is the one of the best stations in Brooklyn. ",
-          "price": "$5.59",
+          "price": "$5.49",
           "price_type": "Credit",
-          "reported_by": "Aviator_Rob",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.346838",
-          "reported_at": "2026-07-31T14:00:28.351393"
+          "reported_by": "VZbereha",
+          "reported_ago": "10 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.360019",
+          "reported_at": "2026-08-04T01:49:42.363671"
         },
         {
-          "name": "Sunoco",
+          "name": "Shell",
           "address": {
-            "street": "2285 Flatbush Ave",
+            "street": "6418 7th Ave",
             "city": "Brooklyn",
             "state": "NY",
-            "zip": "11234",
+            "zip": "11220-4732",
             "country": "US"
           },
           "geo": {
-            "lat": 40.614549,
-            "lng": -73.927948
+            "lat": 40.634377,
+            "lng": -74.014595
           },
           "rating": {
-            "value": 3.6,
-            "count": 42
+            "value": 3.8,
+            "count": 67
           },
-          "latest_review": "We had a $100. Sunoco gift card and this gas station refused to take it. The person inside said to give him \"cash\".  This happened two days I a rw.",
-          "price": "$5.59",
+          "latest_review": "good",
+          "price": "$5.49",
           "price_type": "Credit",
-          "reported_by": "productionsnyc",
-          "reported_ago": "6 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.346842",
-          "reported_at": "2026-07-31T10:00:28.351711"
+          "reported_by": "VZbereha",
+          "reported_ago": "10 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.360024",
+          "reported_at": "2026-08-04T01:49:42.363966"
         },
         {
           "name": "Speedway",
@@ -991,34 +941,84 @@
           "price": "$5.49",
           "price_type": "Credit",
           "reported_by": "COBRA_0139",
-          "reported_ago": "4 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.346850",
-          "reported_at": "2026-07-31T12:00:28.350533"
+          "reported_ago": "17 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.360028",
+          "reported_at": "2026-08-03T18:49:42.364492"
+        },
+        {
+          "name": "Amoco",
+          "address": {
+            "street": "1760 Flatbush Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11210-4203",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.627023615024,
+            "lng": -73.941843286156
+          },
+          "rating": {
+            "value": 2.5,
+            "count": 139
+          },
+          "latest_review": "operator not nice",
+          "price": "$5.59",
+          "price_type": "Cash",
+          "reported_by": "#12#_lenbar",
+          "reported_ago": "3 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.360032",
+          "reported_at": "2026-08-04T08:49:42.365040"
         },
         {
           "name": "Shell",
           "address": {
-            "street": "6418 7th Ave",
+            "street": "3072 Cropsey Ave",
             "city": "Brooklyn",
             "state": "NY",
-            "zip": "11220-4732",
+            "zip": "11224",
             "country": "US"
           },
           "geo": {
-            "lat": 40.634377,
-            "lng": -74.014595
+            "lat": 40.58031983856,
+            "lng": -73.985913991928
           },
           "rating": {
-            "value": 3.8,
-            "count": 67
+            "value": 3.7,
+            "count": 86
           },
-          "latest_review": "good",
+          "latest_review": "This station has cheap gas",
           "price": "$5.49",
           "price_type": "Credit",
-          "reported_by": "Aviator_Rob",
-          "reported_ago": "2 Hours Ago",
-          "scraped_at": "2026-07-31T16:00:28.346855",
-          "reported_at": "2026-07-31T14:00:28.350246"
+          "reported_by": "productionsnyc",
+          "reported_ago": "19 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.360040",
+          "reported_at": "2026-08-03T16:49:42.364787"
+        },
+        {
+          "name": "Shell",
+          "address": {
+            "street": "538 3rd Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11215",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.668996050783,
+            "lng": -73.993405401707
+          },
+          "rating": {
+            "value": 3.5,
+            "count": 24
+          },
+          "latest_review": "diesel price is a rip off and they charge you credit prices for using diesel.",
+          "price": "$5.49",
+          "price_type": "Cash",
+          "reported_by": "alanlab2",
+          "reported_ago": "12 Hours Ago",
+          "scraped_at": "2026-08-04T11:49:42.360044",
+          "reported_at": "2026-08-03T23:49:42.364211"
         }
       ],
       "count": 10
@@ -1047,7 +1047,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:28.477616",
+          "scraped_at": "2026-08-04T11:49:42.452068",
           "reported_at": null
         },
         {
@@ -1072,32 +1072,7 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:28.477637",
-          "reported_at": null
-        },
-        {
-          "name": "Conoco",
-          "address": {
-            "street": "1121 Pennsylvania Ave",
-            "city": "Brooklyn",
-            "state": "NY",
-            "zip": "11207",
-            "country": "US"
-          },
-          "geo": {
-            "lat": 40.653164,
-            "lng": -73.88617
-          },
-          "rating": {
-            "value": 3.6,
-            "count": 32
-          },
-          "latest_review": "it needs a little work I like this place because its the only gas station close to me that has E85 ",
-          "price": "- - -",
-          "price_type": "Credit",
-          "reported_by": null,
-          "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:28.477646",
+          "scraped_at": "2026-08-04T11:49:42.452083",
           "reported_at": null
         },
         {
@@ -1122,7 +1097,32 @@
           "price_type": "Credit",
           "reported_by": null,
           "reported_ago": null,
-          "scraped_at": "2026-07-31T16:00:28.477653",
+          "scraped_at": "2026-08-04T11:49:42.452092",
+          "reported_at": null
+        },
+        {
+          "name": "Conoco",
+          "address": {
+            "street": "1121 Pennsylvania Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11207",
+            "country": "US"
+          },
+          "geo": {
+            "lat": 40.653164,
+            "lng": -73.88617
+          },
+          "rating": {
+            "value": 3.6,
+            "count": 32
+          },
+          "latest_review": "it needs a little work I like this place because its the only gas station close to me that has E85 ",
+          "price": "- - -",
+          "price_type": "Credit",
+          "reported_by": null,
+          "reported_ago": null,
+          "scraped_at": "2026-08-04T11:49:42.452098",
           "reported_at": null
         }
       ],
