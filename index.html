@@ -138,28 +138,36 @@
   <!-- TopAppBar -->
   <header class="bg-surface docked full-width top-0 border-b border-outline-variant z-50 sticky">
     <div class="max-w-7xl mx-auto px-4 py-2">
-      <div class="flex items-center justify-between">
-        <div class="flex items-center gap-2">
+      <div class="flex flex-col sm:flex-row sm:items-center gap-3">
+        <!-- Logo and Mobile Menu -->
+        <div class="flex items-center justify-between sm:justify-start gap-2 flex-1">
           <button id="mobile-menu-btn" class="xl:hidden text-outline p-1 rounded hover:bg-gray-100">
             <span class="material-symbols-outlined">menu</span>
           </button>
           <a href="./" class="flex items-center shrink-0">
             <img src="logo/logo.jpeg" alt="Cheap Gas NYC" class="h-8 sm:h-10 w-auto"/>
           </a>
-        </div>
-        <!-- Mobile Borough Selector -->
-        <div class="xl:hidden relative">
-          <button id="borough-selector-btn" class="p-2 hover:bg-surface-container-high rounded-lg transition-all flex items-center">
-            <span class="material-symbols-outlined text-outline">location_on</span>
-          </button>
-          <div id="borough-dropdown" class="hidden absolute right-0 top-full mt-2 w-48 bg-surface-container-lowest border border-outline-variant rounded-lg shadow-lg z-50 overflow-hidden">
-            <div class="py-2">
-              <a href="gas-prices/manhattan/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Manhattan</a>
-              <a href="gas-prices/brooklyn/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Brooklyn</a>
-              <a href="gas-prices/queens/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Queens</a>
-              <a href="gas-prices/bronx/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Bronx</a>
-              <a href="gas-prices/staten-island/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Staten Island</a>
+          <!-- Mobile Borough Selector -->
+          <div class="xl:hidden relative">
+            <button id="borough-selector-btn" class="p-2 hover:bg-surface-container-high rounded-lg transition-all flex items-center">
+              <span class="material-symbols-outlined text-outline">location_on</span>
+            </button>
+            <div id="borough-dropdown" class="hidden absolute right-0 top-full mt-2 w-48 bg-surface-container-lowest border border-outline-variant rounded-lg shadow-lg z-50 overflow-hidden">
+              <div class="py-2">
+                <a href="gas-prices/manhattan/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Manhattan</a>
+                <a href="gas-prices/brooklyn/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Brooklyn</a>
+                <a href="gas-prices/queens/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Queens</a>
+                <a href="gas-prices/bronx/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Bronx</a>
+                <a href="gas-prices/staten-island/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Staten Island</a>
+              </div>
             </div>
+          </div>
+        </div>
+        <!-- Search Bar -->
+        <div class="flex-1 max-w-xl">
+          <div class="relative">
+            <input id="homepage-search" class="w-full pl-4 pr-10 py-2 bg-gray-100 border border-gray-200 rounded-full text-body-md focus:ring-2 focus:ring-secondary focus:border-secondary transition-all" placeholder="Search station, street, or zip..." type="text"/>
+            <span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-outline">search</span>
           </div>
         </div>
       </div>
@@ -205,26 +213,6 @@
 
   <!-- Main Content Wrapper (Shifted right on desktop to accommodate sidebar) -->
   <main class="flex-grow xl:ml-64 p-4 sm:p-6 max-w-6xl">
-
-    <!-- Hero Banner -->
-    <section class="mb-section-gap">
-      <div class="bg-[#121416] text-white rounded-2xl p-6 sm:p-8 shadow-lg relative overflow-hidden border border-gray-800">
-        <!-- Subtle gold background glow -->
-        <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-[#f2b705]/10 rounded-full blur-3xl pointer-events-none"></div>
-
-        <div class="relative z-10 space-y-4">
-          <!-- Live Status -->
-          <h1 class="text-2xl sm:text-3xl font-black tracking-tight text-white leading-tight">
-            Cheapest gas prices nyc
-          </h1>
-
-          <!-- Search Bar -->
-          <div class="relative max-w-md">
-            <input id="homepage-search" class="w-full pl-4 pr-4 py-3 bg-[#1c2024] border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:ring-2 focus:ring-secondary focus:border-secondary transition-all text-sm" placeholder="Search station, street, or zip..." type="text"/>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Utility Filters -->
     <section class="mb-6">
