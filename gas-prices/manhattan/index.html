@@ -58,50 +58,36 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 <link rel="stylesheet" href="../../assets/css/main.css"/>
 </head>
 <body class="font-body-md text-body-md">
-<header class="bg-surface docked full-width top-0 border-b border-outline-variant z-50 sticky">
-<div class="max-w-container-max mx-auto px-row-padding-x py-2">
-<div class="sm:flex sm:items-center sm:justify-between">
-<div class="flex items-center justify-between sm:gap-4">
-<div class="flex items-center gap-2">
-<button id="mobile-menu-btn" class="xl:hidden text-outline">menu</button>
-<a href="../../" class="flex items-center shrink-0">
-<img src="../../logo/logo.jpeg" alt="Cheap Gas NYC" class="h-8 sm:h-10 w-auto"/>
-</a>
-</div>
-<!-- Mobile Borough Selector -->
-<div class="xl:hidden relative">
-  <button id="borough-selector-btn" class="p-2 hover:bg-surface-container-high rounded-lg transition-all">
-    <span class="text-outline">location_on</span>
-  </button>
-  <div id="borough-dropdown" class="hidden absolute right-0 top-full mt-2 w-48 bg-surface-container-lowest border border-outline-variant rounded-lg shadow-lg z-50 overflow-hidden">
-    <div class="py-2">
-<a href="../../gas-prices/manhattan/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
-<span class="font-body-md">Manhattan</span>
-</a>
-<a href="../../gas-prices/brooklyn/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
-<span class="font-body-md">Brooklyn</span>
-</a>
-<a href="../../gas-prices/queens/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
-<span class="font-body-md">Queens</span>
-</a>
-<a href="../../gas-prices/bronx/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
-<span class="font-body-md">Bronx</span>
-</a>
-<a href="../../gas-prices/staten-island/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">
-<span class="font-body-md">Staten Island</span>
-</a>
+  <!-- TopAppBar -->
+  <header class="bg-surface docked full-width top-0 border-b border-outline-variant z-50 sticky">
+    <div class="max-w-7xl mx-auto px-4 py-2">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <button id="mobile-menu-btn" class="xl:hidden text-outline p-1 rounded hover:bg-gray-100">
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+          <a href="../../" class="flex items-center shrink-0">
+            <img src="../../logo/logo.jpeg" alt="Cheap Gas NYC" class="h-8 sm:h-10 w-auto"/>
+          </a>
+        </div>
+        <!-- Mobile Borough Selector -->
+        <div class="xl:hidden relative">
+          <button id="borough-selector-btn" class="p-2 hover:bg-surface-container-high rounded-lg transition-all flex items-center">
+            <span class="material-symbols-outlined text-outline">location_on</span>
+          </button>
+          <div id="borough-dropdown" class="hidden absolute right-0 top-full mt-2 w-48 bg-surface-container-lowest border border-outline-variant rounded-lg shadow-lg z-50 overflow-hidden">
+            <div class="py-2">
+              <a href="../../gas-prices/manhattan/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Manhattan</a>
+              <a href="../../gas-prices/brooklyn/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Brooklyn</a>
+              <a href="../../gas-prices/queens/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Queens</a>
+              <a href="../../gas-prices/bronx/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Bronx</a>
+              <a href="../../gas-prices/staten-island/" class="flex items-center gap-3 px-4 py-2 hover:bg-surface-container-high transition-all no-underline text-on-surface">Staten Island</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-</div>
-<div class="mt-2 sm:mt-0 sm:flex-1 sm:ml-6">
-<div class="relative group">
-<input id="homepage-search" class="w-full pl-4 pr-4 py-3 sm:py-1.5 bg-surface-container rounded-lg border-none focus:ring-2 focus:ring-secondary transition-all text-body-md text-base" placeholder="Station, street, or zip..." type="text"/>
-</div>
-</div>
-</div>
-</div>
-</header>
+  </header>
 <!-- Mobile SideNavBar -->
 <nav id="mobile-nav" class="fixed inset-0 bg-black/50 z-50 hidden">
 <div class="absolute left-0 top-0 h-full w-64 bg-surface-container-lowest border-r border-outline-variant py-6 px-4 transform -translate-x-full transition-transform" id="mobile-nav-panel">
@@ -153,6 +139,19 @@ body { background-color: #f8f9ff; color: #191c20; -webkit-font-smoothing: antial
 </div>
 </nav>
 <main class="flex-grow xl:ml-64 p-4 sm:p-6 max-w-6xl">
+    <!-- Breadcrumb -->
+    <div class="flex items-center gap-2 text-sm text-outline mb-4">
+      <a href="../../index.html" class="hover:text-primary no-underline flex items-center gap-1">
+        <span class="material-symbols-outlined text-base">home</span>
+        <span>Home</span>
+      </a>
+      <span class="material-symbols-outlined text-xs">chevron_right</span>
+      <a href="../../index.html" class="hover:text-primary no-underline">Gas Prices</a>
+      <span class="material-symbols-outlined text-xs">chevron_right</span>
+      <a href="../../index.html" class="hover:text-primary no-underline">New York</a>
+      <span class="material-symbols-outlined text-xs">chevron_right</span>
+      <span class="text-primary font-medium">Manhattan</span>
+    </div>
 
     <!-- Utility Filters -->
     <section class="mb-6">
